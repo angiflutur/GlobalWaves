@@ -1,0 +1,33 @@
+[ [ {
+  "name" : "The Unforgiven",
+  "artist" : "Metallica",
+  "album" : "Metallica",
+  "releaseYear" : 1991,
+  "genre" : "Rock",
+  "lyrics" : "What I've felt, what I've known, never shined through in what I've shown",
+  "duration" : 386
+}, {
+  "name" : "Sad But True",
+  "artist" : "Metallica",
+  "album" : "Metallica",
+  "releaseYear" : 1991,
+  "genre" : "Rock",
+  "lyrics" : "Hey, I'm your life, I'm the one who takes you there",
+  "duration" : 324
+}, {
+  "name" : "Nothing Else Matters",
+  "artist" : "Metallica",
+  "album" : "Metallica",
+  "releaseYear" : 1991,
+  "genre" : "Rock",
+  "lyrics" : "So close, no matter how far, couldn't be much more from the heart",
+  "duration" : 389
+}, {
+  "name" : "Enter Sandman",
+  "artist" : "Metallica",
+  "album" : "Metallica",
+  "releaseYear" : 1991,
+  "genre" : "Rock",
+  "lyrics" : "Say your prayers, little one, don't forget, my son",
+  "duration" : 329
+} ] ]
