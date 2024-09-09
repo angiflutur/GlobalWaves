@@ -1,33 +1,56 @@
-[ [ {
-  "name" : "The Unforgiven",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "What I've felt, what I've known, never shined through in what I've shown",
-  "duration" : 386
+[ {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 170,
+  "message" : "Search returned 1 results",
+  "results" : [ "Going Bad" ]
 }, {
-  "name" : "Sad But True",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Hey, I'm your life, I'm the one who takes you there",
-  "duration" : 324
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 190,
+  "message" : "Successfully selected Going Bad."
 }, {
-  "name" : "Nothing Else Matters",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "So close, no matter how far, couldn't be much more from the heart",
-  "duration" : 389
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 270,
+  "message" : "Search returned 1 results",
+  "results" : [ "Swimming Pools (Drank)" ]
 }, {
-  "name" : "Enter Sandman",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Say your prayers, little one, don't forget, my son",
-  "duration" : 329
-} ] ]
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 290,
+  "message" : "Successfully selected Swimming Pools (Drank)."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1000,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1190,
+  "message" : "Successfully selected Swimming Pools (Drank)."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2000,
+  "message" : "Search returned 2 results",
+  "results" : [ "The Daily", "The Daily Show With Trevor Noah" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2190,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 4200,
+  "message" : "Search returned 3 results",
+  "results" : [ "DNA.", "Championships", "99 Problems" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 4220,
+  "message" : "Successfully selected Championships."
+} ]

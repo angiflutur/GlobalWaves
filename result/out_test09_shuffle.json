@@ -1,33 +1,89 @@
-[ [ {
-  "name" : "The Unforgiven",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "What I've felt, what I've known, never shined through in what I've shown",
-  "duration" : 386
+[ {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 1 results",
+  "results" : [ "Nothing Else Matters" ]
 }, {
-  "name" : "Sad But True",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Hey, I'm your life, I'm the one who takes you there",
-  "duration" : 324
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Nothing Else Matters."
 }, {
-  "name" : "Nothing Else Matters",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "So close, no matter how far, couldn't be much more from the heart",
-  "duration" : 389
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 270,
+  "message" : "Search returned 1 results",
+  "results" : [ "Crazy" ]
 }, {
-  "name" : "Enter Sandman",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Say your prayers, little one, don't forget, my son",
-  "duration" : 329
-} ] ]
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 290,
+  "message" : "Successfully selected Crazy."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "Search returned 1 results",
+  "results" : [ "Elevate" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 390,
+  "message" : "Successfully selected Elevate."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 445,
+  "message" : "Search returned 1 results",
+  "results" : [ "I Don't Wanna Live Forever" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 450,
+  "message" : "Successfully selected I Don't Wanna Live Forever."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Search returned 1 results",
+  "results" : [ "Hustle Hard" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 510,
+  "message" : "Successfully selected Hustle Hard."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 590,
+  "message" : "Search returned 1 results",
+  "results" : [ "Begin Again" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 650,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 700,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 710,
+  "message" : "Successfully selected Begin Again."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 2351,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 2352,
+  "message" : "Successfully selected Begin Again."
+} ]

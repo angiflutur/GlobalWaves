@@ -1,33 +1,111 @@
-[ [ {
-  "name" : "The Unforgiven",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "What I've felt, what I've known, never shined through in what I've shown",
-  "duration" : 386
+[ {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 4 results",
+  "results" : [ "Stairway to Heaven", "Black Dog", "Whole Lotta Love", "Good Times Bad Times" ]
 }, {
-  "name" : "Sad But True",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Hey, I'm your life, I'm the one who takes you there",
-  "duration" : 324
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Stairway to Heaven."
 }, {
-  "name" : "Nothing Else Matters",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "So close, no matter how far, couldn't be much more from the heart",
-  "duration" : 389
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 470,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Money Trees", "Whatever You Need", "Maps" ]
 }, {
-  "name" : "Enter Sandman",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Say your prayers, little one, don't forget, my son",
-  "duration" : 329
-} ] ]
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 490,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 570,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "The Unforgiven", "Start Me Up" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 590,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 870,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Stairway to Heaven", "Money Trees", "Under Pressure" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 890,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1000,
+  "message" : "Search returned 1 results",
+  "results" : [ "The Michelle Obama Podcast" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1190,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1270,
+  "message" : "Search returned 1 results",
+  "results" : [ "The Man" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1290,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1400,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1410,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1680,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1710,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1800,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1810,
+  "message" : "Successfully selected The Man."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1865,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1870,
+  "message" : "Successfully selected The Man."
+} ]

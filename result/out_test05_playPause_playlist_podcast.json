@@ -1,33 +1,67 @@
-[ [ {
-  "name" : "The Unforgiven",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "What I've felt, what I've known, never shined through in what I've shown",
-  "duration" : 386
+[ {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 10,
+  "message" : "Search returned 1 results",
+  "results" : [ "TED Radio Hour" ]
 }, {
-  "name" : "Sad But True",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Hey, I'm your life, I'm the one who takes you there",
-  "duration" : 324
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 15,
+  "message" : "Please conduct a search before making a selection."
 }, {
-  "name" : "Nothing Else Matters",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "So close, no matter how far, couldn't be much more from the heart",
-  "duration" : 389
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 60,
+  "message" : "Search returned 1 results",
+  "results" : [ "Stairway to Heaven" ]
 }, {
-  "name" : "Enter Sandman",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Say your prayers, little one, don't forget, my son",
-  "duration" : 329
-} ] ]
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 65,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 75,
+  "message" : "Search returned 1 results",
+  "results" : [ "TED Radio Hour" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 80,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3215,
+  "message" : "Search returned 2 results",
+  "results" : [ "Freedom", "Freedom" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3220,
+  "message" : "Successfully selected Freedom."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3235,
+  "message" : "Search returned 1 results",
+  "results" : [ "Happier" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3240,
+  "message" : "Successfully selected Happier."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3255,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3260,
+  "message" : "Successfully selected Happier."
+} ]

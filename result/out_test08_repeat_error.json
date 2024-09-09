@@ -1,33 +1,40 @@
-[ [ {
-  "name" : "The Unforgiven",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "What I've felt, what I've known, never shined through in what I've shown",
-  "duration" : 386
+[ {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1000,
+  "message" : "Search returned 4 results",
+  "results" : [ "The Unforgiven", "Sad But True", "Nothing Else Matters", "Enter Sandman" ]
 }, {
-  "name" : "Sad But True",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Hey, I'm your life, I'm the one who takes you there",
-  "duration" : 324
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1100,
+  "message" : "Successfully selected The Unforgiven."
 }, {
-  "name" : "Nothing Else Matters",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "So close, no matter how far, couldn't be much more from the heart",
-  "duration" : 389
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2245,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
-  "name" : "Enter Sandman",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Say your prayers, little one, don't forget, my son",
-  "duration" : 329
-} ] ]
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3170,
+  "message" : "Search returned 1 results",
+  "results" : [ "99 Problems" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 3190,
+  "message" : "Successfully selected 99 Problems."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3260,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 3290,
+  "message" : "Successfully selected 99 Problems."
+} ]

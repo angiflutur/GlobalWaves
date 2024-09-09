@@ -1,33 +1,94 @@
-[ [ {
-  "name" : "The Unforgiven",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "What I've felt, what I've known, never shined through in what I've shown",
-  "duration" : 386
+[ {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
-  "name" : "Sad But True",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Hey, I'm your life, I'm the one who takes you there",
-  "duration" : 324
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Start Me Up."
 }, {
-  "name" : "Nothing Else Matters",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "So close, no matter how far, couldn't be much more from the heart",
-  "duration" : 389
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 290,
+  "message" : "Successfully selected Start Me Up."
 }, {
-  "name" : "Enter Sandman",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Say your prayers, little one, don't forget, my son",
-  "duration" : 329
-} ] ]
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 390,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 470,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 490,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 570,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 590,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 870,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 890,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1000,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1010,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1200,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1210,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1300,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1310,
+  "message" : "Successfully selected Start Me Up."
+} ]

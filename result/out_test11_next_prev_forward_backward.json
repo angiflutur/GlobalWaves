@@ -1,33 +1,78 @@
-[ [ {
-  "name" : "The Unforgiven",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "What I've felt, what I've known, never shined through in what I've shown",
-  "duration" : 386
+[ {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
-  "name" : "Sad But True",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Hey, I'm your life, I'm the one who takes you there",
-  "duration" : 324
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Start Me Up."
 }, {
-  "name" : "Nothing Else Matters",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "So close, no matter how far, couldn't be much more from the heart",
-  "duration" : 389
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 270,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Maps", "The Man", "Freedom" ]
 }, {
-  "name" : "Enter Sandman",
-  "artist" : "Metallica",
-  "album" : "Metallica",
-  "releaseYear" : 1991,
-  "genre" : "Rock",
-  "lyrics" : "Say your prayers, little one, don't forget, my son",
-  "duration" : 329
-} ] ]
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 290,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 390,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 440,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 445,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 510,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 800,
+  "message" : "Search returned 1 results",
+  "results" : [ "How I Built This" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 890,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1198,
+  "message" : "Search returned 1 results",
+  "results" : [ "How I Built This" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1199,
+  "message" : "Please conduct a search before making a selection."
+} ]
