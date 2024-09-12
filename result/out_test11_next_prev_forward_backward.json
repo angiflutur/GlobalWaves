@@ -10,6 +10,11 @@
   "timestamp" : 190,
   "message" : "Successfully selected Start Me Up."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 195,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 270,
@@ -20,6 +25,11 @@
   "user" : "bob35",
   "timestamp" : 290,
   "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 295,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -32,6 +42,11 @@
   "timestamp" : 390,
   "message" : "Successfully selected Stairway to Heaven."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 420,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 440,
@@ -43,6 +58,22 @@
   "timestamp" : 445,
   "message" : "Successfully selected Under Pressure."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 446,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 480,
+  "stats" : {
+    "name" : "Under Pressure",
+    "remainedTime" : 210,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 500,
@@ -52,7 +83,56 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 510,
-  "message" : "Successfully selected Stairway to Heaven."
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 650,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 655,
+  "stats" : {
+    "name" : "Under Pressure",
+    "remainedTime" : 239,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 690,
+  "stats" : {
+    "name" : "Under Pressure",
+    "remainedTime" : 204,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 711,
+  "stats" : {
+    "name" : "Under Pressure",
+    "remainedTime" : 183,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 713,
+  "stats" : {
+    "name" : "Under Pressure",
+    "remainedTime" : 181,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -63,7 +143,34 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 890,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected How I Built This."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 900,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1049,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1051,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -74,5 +181,32 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1199,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected How I Built This."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1200,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1389,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1391,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 } ]

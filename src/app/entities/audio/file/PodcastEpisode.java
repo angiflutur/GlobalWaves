@@ -1,28 +1,48 @@
-package app.audio.file;
+package app.entities.audio.file;
 
-public class PodcastEpisode extends AudioFile{
+/**
+ * JAVADOC
+ */
+public class PodcastEpisode extends AudioFile {
     private String description;
 
+    /**
+     * JAVADOC
+     */
     public PodcastEpisode() {
     }
 
-    public PodcastEpisode(String name, Integer duration, String description) {
+    /**
+     * JAVADOC
+     */
+    public PodcastEpisode(final String name,
+                          final Integer duration,
+                          final String description) {
         super(name, duration);
         this.description = description;
     }
 
+    /**
+     * JAVADOC
+     */
     public String getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    /**
+     * JAVADOC
+     */
+    public void setDescription(final String description) {
         this.description = description;
     }
 
+    /**
+     * JAVADOC
+     */
     @Override
     public String toString() {
-        return "PodcastEpisode{" +
-                "description='" + description + '\'' +
-                '}';
+        return "PodcastEpisode{"
+                + "description='" + description + '\''
+                + '}';
     }
 }

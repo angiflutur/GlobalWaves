@@ -10,6 +10,11 @@
   "timestamp" : 190,
   "message" : "Successfully selected Under Pressure."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 200,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 270,
@@ -20,6 +25,11 @@
   "user" : "carol19",
   "timestamp" : 290,
   "message" : "Successfully selected Freedom."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 300,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -32,6 +42,11 @@
   "timestamp" : 390,
   "message" : "Successfully selected Under Pressure."
 }, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 400,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 470,
@@ -42,6 +57,11 @@
   "user" : "carol19",
   "timestamp" : 490,
   "message" : "Successfully selected Angie."
+}, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 500,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -54,6 +74,11 @@
   "timestamp" : 790,
   "message" : "Successfully selected Freedom."
 }, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 800,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1170,
@@ -64,6 +89,11 @@
   "user" : "david27",
   "timestamp" : 1190,
   "message" : "Successfully selected Angie."
+}, {
+  "command" : "load",
+  "user" : "david27",
+  "timestamp" : 1200,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -76,6 +106,11 @@
   "timestamp" : 2190,
   "message" : "Successfully selected Under Pressure."
 }, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2295,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2460,
@@ -85,7 +120,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2490,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -96,7 +131,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 2580,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -107,5 +142,5 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2810,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Please conduct a search before making a selection."
 } ]

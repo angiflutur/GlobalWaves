@@ -1,7 +1,7 @@
 package main;
 
-import app.audio.collection.Library;
-import app.command.Command;
+import app.entities.audio.collection.Library;
+import app.entities.Command;
 import app.command.CommandParser;
 import checker.Checker;
 import checker.CheckerConstants;
@@ -71,11 +71,13 @@ public final class Main {
      * @param filePathOutput for output file
      * @throws IOException in case of exceptions to reading / writing
      */
-    public static void action(final String filePathInput, final String filePathOutput) throws IOException {
+    public static void action(final String filePathInput,
+                              final String filePathOutput) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
 
         // Citește librăria din fișier
-        LibraryInput libraryInput = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
+        LibraryInput libraryInput =
+                objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
         Library newLibrary = new Library();
         newLibrary.createLibrary(libraryInput);
 

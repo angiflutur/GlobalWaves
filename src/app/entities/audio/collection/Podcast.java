@@ -1,58 +1,94 @@
-package app.audio.collection;
+package app.entities.audio.collection;
 
-import app.audio.file.PodcastEpisode;
+import app.entities.audio.file.AudioFile;
+import app.entities.audio.file.PodcastEpisode;
 
 import java.util.ArrayList;
 
-public class Podcast {
+/**
+ * JAVADOC
+ */
+public class Podcast extends AudioFile {
     private String name;
     private String owner;
     private ArrayList<PodcastEpisode> episodes;
 
+    /**
+     * JAVADOC
+     */
     public Podcast() {
     }
 
-    public Podcast(String name, String owner) {
+    /**
+     * JAVADOC
+     */
+    public Podcast(final String name, final String owner) {
         this.name = name;
         this.owner = owner;
     }
 
-    public Podcast(String name, String owner, ArrayList<PodcastEpisode> episodes) {
+    /**
+     * JAVADOC
+     */
+    public Podcast(final String name,
+                   final String owner,
+                   final ArrayList<PodcastEpisode> episodes) {
         this.name = name;
         this.owner = owner;
         this.episodes = episodes;
     }
 
+    /**
+     * JAVADOC
+     */
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    /**
+     * JAVADOC
+     */
+    public void setName(final String name) {
         this.name = name;
     }
 
+    /**
+     * JAVADOC
+     */
     public String getOwner() {
         return owner;
     }
 
-    public void setOwner(String owner) {
+    /**
+     * JAVADOC
+     */
+    public void setOwner(final String owner) {
         this.owner = owner;
     }
 
+    /**
+     * JAVADOC
+     */
     public ArrayList<PodcastEpisode> getEpisodes() {
         return episodes;
     }
 
-    public void setEpisodes(ArrayList<PodcastEpisode> episodes) {
+    /**
+     * JAVADOC
+     */
+    public void setEpisodes(final ArrayList<PodcastEpisode> episodes) {
         this.episodes = episodes;
     }
 
+    /**
+     * JAVADOC
+     */
     @Override
     public String toString() {
-        return "Podcast{" +
-                "name='" + name + '\'' +
-                ", owner='" + owner + '\'' +
-                ", episodes=" + episodes +
-                '}';
+        return "Podcast{"
+                + "name='" + name + '\''
+                + ", owner='" + owner + '\''
+                + ", episodes=" + episodes
+                + '}';
     }
 }

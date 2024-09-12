@@ -1,22 +1,34 @@
-package app.command.searchBar;
+package app.entities;
 
-import app.audio.collection.Library;
-import app.audio.collection.Podcast;
-import app.audio.file.Song;
+import app.entities.audio.collection.Library;
+import app.entities.audio.collection.Podcast;
+import app.entities.audio.file.Song;
 
 import java.util.ArrayList;
 
+/**
+ * JAVADOC
+ */
 public class SearchBar {
     private Library library;
 
+    /**
+     * JAVADOC
+     */
     public SearchBar() {
     }
 
-    public SearchBar(Library library) {
+    /**
+     * JAVADOC
+     */
+    public SearchBar(final Library library) {
         this.library = library;
     }
 
-    public ArrayList<Song> searchSongsByName(String name) {
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Song> searchSongsByName(final String name) {
         ArrayList<Song> songs = new ArrayList<>();
         if (name == null) {
             return songs;
@@ -29,7 +41,11 @@ public class SearchBar {
         }
         return songs;
     }
-    public ArrayList<Song> searchSongsByAlbum(String album) {
+
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Song> searchSongsByAlbum(final String album) {
         ArrayList<Song> songs = new ArrayList<>();
         for (Song song : library.getSongs()) {
             if (song.getAlbum().toLowerCase().contains(album.toLowerCase())) {
@@ -39,7 +55,10 @@ public class SearchBar {
         return songs;
     }
 
-    public ArrayList<Song> searchSongsByTags(ArrayList<String> tags) {
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Song> searchSongsByTags(final ArrayList<String> tags) {
         ArrayList<Song> songs = new ArrayList<>();
 
         if (tags == null || tags.isEmpty()) {
@@ -55,8 +74,10 @@ public class SearchBar {
         return songs;
     }
 
-
-    public ArrayList<Song> searchSongsByLyrics(String lyrics) {
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Song> searchSongsByLyrics(final String lyrics) {
         ArrayList<Song> songs = new ArrayList<>();
         for (Song song : library.getSongs()) {
             if (song.getLyrics().toLowerCase().contains(lyrics.toLowerCase())) {
@@ -66,7 +87,10 @@ public class SearchBar {
         return songs;
     }
 
-    public ArrayList<Song> searchSongsByGenre(String genre) {
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Song> searchSongsByGenre(final String genre) {
         ArrayList<Song> songs = new ArrayList<>();
 
         for (Song song : library.getSongs()) {
@@ -78,7 +102,10 @@ public class SearchBar {
         return songs;
     }
 
-    public ArrayList<Song> searchSongsByReleaseYear(String filterReleaseYear) {
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Song> searchSongsByReleaseYear(final String filterReleaseYear) {
         ArrayList<Song> songs = new ArrayList<>();
 
         if (filterReleaseYear.startsWith("<")) {
@@ -107,8 +134,10 @@ public class SearchBar {
         return songs;
     }
 
-
-    public ArrayList<Song> searchSongsByArtist(String artist) {
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Song> searchSongsByArtist(final String artist) {
         ArrayList<Song> songs = new ArrayList<>();
         for (Song song : library.getSongs()) {
             if (song.getArtist().toLowerCase().contains(artist.toLowerCase())) {
@@ -118,7 +147,10 @@ public class SearchBar {
         return songs;
     }
 
-    public ArrayList<Podcast> searchPodcastsByName(String name) {
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Podcast> searchPodcastsByName(final String name) {
         ArrayList<Podcast> podcasts = new ArrayList<>();
         if (name == null) {
             return podcasts;
@@ -132,7 +164,10 @@ public class SearchBar {
         return podcasts;
     }
 
-    public ArrayList<Podcast> searchPodcastsByOwner(String owner) {
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Podcast> searchPodcastsByOwner(final String owner) {
         ArrayList<Podcast> podcasts = new ArrayList<>();
         if (owner == null) {
             return podcasts;

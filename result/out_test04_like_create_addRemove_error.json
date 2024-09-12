@@ -10,6 +10,11 @@
   "timestamp" : 10,
   "message" : "Successfully selected Big Pimpin'."
 }, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 15,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 25,
@@ -19,7 +24,12 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 30,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected The Joe Rogan Experience."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 31,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -38,6 +48,11 @@
   "timestamp" : 70,
   "message" : "Successfully selected Get Lucky."
 }, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 71,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 75,
@@ -47,5 +62,10 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 85,
-  "message" : "Successfully selected The Man."
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 86,
+  "message" : "Playback loaded successfully."
 } ]

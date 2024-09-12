@@ -10,6 +10,11 @@
   "timestamp" : 190,
   "message" : "Successfully selected Stairway to Heaven."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 200,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 470,
@@ -20,6 +25,11 @@
   "user" : "bob35",
   "timestamp" : 490,
   "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -32,6 +42,11 @@
   "timestamp" : 590,
   "message" : "Successfully selected Stairway to Heaven."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 600,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 870,
@@ -43,6 +58,11 @@
   "timestamp" : 890,
   "message" : "Successfully selected Shape of You."
 }, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 900,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1000,
@@ -52,7 +72,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 1190,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected The Michelle Obama Podcast."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -74,7 +94,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1410,
-  "message" : "Successfully selected The Man."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -85,7 +105,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1710,
-  "message" : "Successfully selected The Man."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -96,7 +116,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1810,
-  "message" : "Successfully selected The Man."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -107,5 +127,5 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 1870,
-  "message" : "Successfully selected The Man."
+  "message" : "Please conduct a search before making a selection."
 } ]

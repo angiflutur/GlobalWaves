@@ -8,7 +8,12 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 110,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected TED Talks Daily."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 115,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -21,6 +26,11 @@
   "timestamp" : 210,
   "message" : "Successfully selected Blank Space."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 213,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 250,
@@ -31,6 +41,11 @@
   "user" : "bob35",
   "timestamp" : 260,
   "message" : "Successfully selected Whole Lotta Love."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 263,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -43,6 +58,11 @@
   "timestamp" : 410,
   "message" : "Successfully selected I Don't Wanna Live Forever."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 415,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 500,
@@ -53,6 +73,11 @@
   "user" : "bob35",
   "timestamp" : 510,
   "message" : "Successfully selected Kings Dead."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 513,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -65,6 +90,22 @@
   "timestamp" : 560,
   "message" : "Successfully selected Thinking Out Loud."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 563,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3100,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 3110,
@@ -74,5 +115,98 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 3130,
-  "message" : "Successfully selected Thinking Out Loud."
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 3140,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3150,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 271,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3200,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 221,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3250,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 171,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3270,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 151,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3320,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 101,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3370,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 51,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3690,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3740,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
 } ]

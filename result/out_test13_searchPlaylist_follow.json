@@ -10,10 +10,20 @@
   "timestamp" : 190,
   "message" : "Successfully selected Start Me Up."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 200,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 290,
   "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 300,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -26,6 +36,11 @@
   "timestamp" : 390,
   "message" : "Successfully selected Start Me Up."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 400,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 470,
@@ -36,6 +51,11 @@
   "user" : "bob35",
   "timestamp" : 490,
   "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -48,6 +68,11 @@
   "timestamp" : 590,
   "message" : "Successfully selected Start Me Up."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 600,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 870,
@@ -59,6 +84,11 @@
   "timestamp" : 890,
   "message" : "Successfully selected Start Me Up."
 }, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 900,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1000,
@@ -68,7 +98,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1010,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -79,7 +109,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1210,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -90,5 +120,5 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 1310,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Please conduct a search before making a selection."
 } ]

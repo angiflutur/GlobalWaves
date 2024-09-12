@@ -1,60 +1,96 @@
-package app.audio.collection;
+package app.entities.audio.collection;
 
-import app.audio.file.PodcastEpisode;
-import app.audio.file.Song;
-import app.user.User;
-import fileio.input.*;
+import app.entities.audio.file.PodcastEpisode;
+import app.entities.audio.file.Song;
+import app.entities.User;
+import fileio.input.EpisodeInput;
+import fileio.input.LibraryInput;
+import fileio.input.PodcastInput;
+import fileio.input.SongInput;
+import fileio.input.UserInput;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * JAVADOC
+ */
 public class Library {
     private ArrayList<Song> songs;
     private ArrayList<Podcast> podcasts;
     private ArrayList<User> users;
-    private Map<String, Playlist> playlists; // Adăugăm un câmp pentru playlisturi
+    private Map<String, Playlist> playlists;
 
+    /**
+     * JAVADOC
+     */
     public Library() {
         playlists = new HashMap<>();
     }
 
-    public Library(ArrayList<Song> songs, ArrayList<Podcast> podcasts, ArrayList<User> users) {
+    /**
+     * JAVADOC
+     */
+    public Library(final ArrayList<Song> songs,
+                   final ArrayList<Podcast> podcasts,
+                   final ArrayList<User> users) {
         this.songs = songs;
         this.podcasts = podcasts;
         this.users = users;
         this.playlists = new HashMap<>();
     }
 
+    /**
+     * JAVADOC
+     */
     public ArrayList<Song> getSongs() {
         return songs;
     }
 
-    public void setSongs(ArrayList<Song> songs) {
+    /**
+     * JAVADOC
+     */
+    public void setSongs(final ArrayList<Song> songs) {
         this.songs = songs;
     }
 
+    /**
+     * JAVADOC
+     */
     public ArrayList<Podcast> getPodcasts() {
         return podcasts;
     }
 
-    public void setPodcasts(ArrayList<Podcast> podcasts) {
+    /**
+     * JAVADOC
+     */
+    public void setPodcasts(final ArrayList<Podcast> podcasts) {
         this.podcasts = podcasts;
     }
 
+    /**
+     * JAVADOC
+     */
     public ArrayList<User> getUsers() {
         return users;
     }
 
-    public void setUsers(ArrayList<User> users) {
+    /**
+     * JAVADOC
+     */
+    public void setUsers(final ArrayList<User> users) {
         this.users = users;
     }
 
+    /**
+     * JAVADOC
+     */
     public void createLibrary(final LibraryInput library) {
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();
         users = new ArrayList<>();
-        playlists = new HashMap<>(); // Inițializăm mapa pentru playlisturi
+        playlists = new HashMap<>();
 
         for (SongInput song : library.getSongs()) {
             Song newSong = new Song();
@@ -97,7 +133,10 @@ public class Library {
         }
     }
 
-    public void createPlaylist(String playlistName) {
+    /**
+     * JAVADOC
+     */
+    public void createPlaylist(final String playlistName) {
         if (!playlists.containsKey(playlistName)) {
             playlists.put(playlistName, new Playlist(playlistName));
         } else {
@@ -105,21 +144,30 @@ public class Library {
         }
     }
 
-    public Playlist getPlaylist(String playlistName) {
+    /**
+     * JAVADOC
+     */
+    public Playlist getPlaylist(final String playlistName) {
         return playlists.get(playlistName);
     }
 
+    /**
+     * JAVADOC
+     */
     public Map<String, Playlist> getPlaylists() {
         return playlists;
     }
 
+    /**
+     * JAVADOC
+     */
     @Override
     public String toString() {
-        return "Library{" +
-                "songs=" + songs +
-                ", podcasts=" + podcasts +
-                ", users=" + users +
-                ", playlists=" + playlists +
-                '}';
+        return "Library{"
+                + "songs=" + songs
+                + ", podcasts=" + podcasts
+                + ", users=" + users
+                + ", playlists=" + playlists
+                + '}';
     }
 }

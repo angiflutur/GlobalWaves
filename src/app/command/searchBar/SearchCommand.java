@@ -1,15 +1,19 @@
 package app.command.searchBar;
 
-import app.audio.collection.Library;
-import app.audio.collection.Podcast;
-import app.audio.file.Song;
-import app.command.Command;
+import app.entities.audio.collection.Library;
+import app.entities.audio.collection.Podcast;
+import app.entities.audio.file.AudioFile;
+import app.entities.audio.file.Song;
+import app.entities.Command;
+import app.entities.SearchBar;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import java.util.ArrayList;
-
+/**
+ * JAVADOC
+ */
 public class SearchCommand extends Command {
     private String type;
     private String filterName;
@@ -20,8 +24,22 @@ public class SearchCommand extends Command {
     private String filterArtist;
     private ArrayNode filterTags;
     private String filterOwner;
+    private static final int MAX_FILTER_LENGTH = 5;
 
-    public SearchCommand(String username, int timestamp, String type, String filterName, String filterAlbum, String filterLyrics, String filterGenre, String filterReleaseYear, String filterArtist, ArrayNode filterTags, String filterOwner) {
+    /**
+     * JAVADOC
+     */
+    public SearchCommand(final String username,
+                         final int timestamp,
+                         final String type,
+                         final String filterName,
+                         final String filterAlbum,
+                         final String filterLyrics,
+                         final String filterGenre,
+                         final String filterReleaseYear,
+                         final String filterArtist,
+                         final ArrayNode filterTags,
+                         final String filterOwner) {
         super(username, timestamp);
         this.type = type;
         this.filterName = filterName;
@@ -33,76 +51,77 @@ public class SearchCommand extends Command {
         this.filterTags = filterTags;
         this.filterOwner = filterOwner;
     }
-
+    /**
+     * JAVADOC
+     */
     @Override
-    public void execute(ArrayNode output, Library library) {
+    public void execute(final ArrayNode output, final Library library) {
         SearchBar searchBar = new SearchBar(library);
-        ArrayList<Song> searchResults = new ArrayList<>();
-        ArrayList<Podcast> searchPodcastResults = new ArrayList<>();
+        ArrayList<AudioFile> combinedResults = new ArrayList<>();
 
         if ("song".equals(type)) {
-            ArrayList<Song> filteredResults = new ArrayList<>(library.getSongs());
+            ArrayList<Song> filteredSongs = new ArrayList<>(library.getSongs());
 
             if (filterName != null) {
-                filteredResults.retainAll(searchBar.searchSongsByName(filterName));
+                filteredSongs.retainAll(searchBar.searchSongsByName(filterName));
             }
             if (filterAlbum != null) {
-                filteredResults.retainAll(searchBar.searchSongsByAlbum(filterAlbum));
+                filteredSongs.retainAll(searchBar.searchSongsByAlbum(filterAlbum));
             }
             if (filterTags != null) {
                 ArrayList<String> tagsList = convertArrayNodeToArrayList(filterTags);
-                filteredResults.retainAll(searchBar.searchSongsByTags(tagsList));
+                filteredSongs.retainAll(searchBar.searchSongsByTags(tagsList));
             }
             if (filterLyrics != null) {
-                filteredResults.retainAll(searchBar.searchSongsByLyrics(filterLyrics));
+                filteredSongs.retainAll(searchBar.searchSongsByLyrics(filterLyrics));
             }
             if (filterGenre != null) {
-                filteredResults.retainAll(searchBar.searchSongsByGenre(filterGenre));
+                filteredSongs.retainAll(searchBar.searchSongsByGenre(filterGenre));
             }
             if (filterReleaseYear != null) {
-                filteredResults.retainAll(searchBar.searchSongsByReleaseYear(filterReleaseYear));
+                filteredSongs.retainAll(searchBar.searchSongsByReleaseYear(filterReleaseYear));
             }
             if (filterArtist != null) {
-                filteredResults.retainAll(searchBar.searchSongsByArtist(filterArtist));
+                filteredSongs.retainAll(searchBar.searchSongsByArtist(filterArtist));
             }
 
-            searchResults = new ArrayList<>(filteredResults);
-            searchResults = new ArrayList<>(searchResults.subList(0, Math.min(5, searchResults.size())));
-        } else if ("podcast".equals(type)) {
+            combinedResults.addAll(filteredSongs);
+        }
+
+        if ("podcast".equals(type)) {
+            ArrayList<Podcast> filteredPodcasts = new ArrayList<>();
+
             if (filterName != null) {
-                searchPodcastResults.addAll(searchBar.searchPodcastsByName(filterName));
+                filteredPodcasts.addAll(searchBar.searchPodcastsByName(filterName));
             }
             if (filterOwner != null) {
-                searchPodcastResults.addAll(searchBar.searchPodcastsByOwner(filterOwner));
+                filteredPodcasts.addAll(searchBar.searchPodcastsByOwner(filterOwner));
             }
-            searchPodcastResults = new ArrayList<>(searchPodcastResults.subList(0, Math.min(5, searchPodcastResults.size())));
+
+            combinedResults.addAll(filteredPodcasts);
         }
 
-        if ("song".equals(type)) {
-            SelectCommand.updateLastSearchResults(searchResults);
-        } else if ("podcast".equals(type)) {
-            SelectCommand.updateLastSearchPodcastResults(searchResults);
-        }
+        combinedResults = new ArrayList<>(combinedResults.subList(0,
+                Math.min(MAX_FILTER_LENGTH, combinedResults.size())));
+
+        SelectCommand.updateLastSearchResults(combinedResults);
 
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "search");
         resultNode.put("user", getUsername());
         resultNode.put("timestamp", getTimestamp());
-        resultNode.put("message", "Search returned " + (searchResults.size() + searchPodcastResults.size()) + " results");
+        resultNode.put("message", "Search returned " + combinedResults.size() + " results");
 
         ArrayNode resultsArray = resultNode.putArray("results");
-        if ("song".equals(type)) {
-            for (Song song : searchResults) {
-                resultsArray.add(song.getName());
-            }
-        } else if ("podcast".equals(type)) {
-            for (Podcast podcast : searchPodcastResults) {
-                resultsArray.add(podcast.getName());
-            }
+        for (AudioFile audioFile : combinedResults) {
+            resultsArray.add(audioFile.getName());
         }
     }
 
-    private ArrayList<String> convertArrayNodeToArrayList(ArrayNode arrayNode) {
+    /**
+     * JAVADOC
+     */
+    private ArrayList<String> convertArrayNodeToArrayList(final ArrayNode arrayNode) {
         ArrayList<String> list = new ArrayList<>();
         if (arrayNode != null) {
             for (JsonNode node : arrayNode) {

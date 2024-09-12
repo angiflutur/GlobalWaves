@@ -1,24 +1,44 @@
 package app.command.searchBar;
 
-import app.audio.collection.Library;
-import app.audio.file.Song;
-import app.command.Command;
+import app.entities.audio.collection.Library;
+import app.entities.audio.file.AudioFile;
+import app.entities.Command;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import java.util.ArrayList;
-
+/**
+ * JAVADOC
+ */
 public class SelectCommand extends Command {
     private int itemNumber;
-    private static ArrayList<Song> lastSearchResults = new ArrayList<>();
-
-    public SelectCommand(String username, Integer timestamp, int itemNumber) {
+    private static ArrayList<AudioFile> lastSearchResults = new ArrayList<>();
+    private static AudioFile selectedAudio = null;
+    /**
+     * JAVADOC
+     */
+    public SelectCommand(final String username,
+                         final Integer timestamp, final int itemNumber) {
         super(username, timestamp);
         this.itemNumber = itemNumber;
     }
-
+    /**
+     * JAVADOC
+     */
+    public static AudioFile getSelectedAudio() {
+        return selectedAudio;
+    }
+    /**
+     * JAVADOC
+     */
+    public static void setSelectedAudio(final AudioFile selectedAudio) {
+        SelectCommand.selectedAudio = selectedAudio;
+    }
+    /**
+     * JAVADOC
+     */
     @Override
-    public void execute(ArrayNode output, Library library) {
+    public void execute(final ArrayNode output, final Library library) {
         if (lastSearchResults.isEmpty()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "select");
@@ -37,18 +57,17 @@ public class SelectCommand extends Command {
             return;
         }
 
-        Song selectedSong = lastSearchResults.get(itemNumber - 1);
+        selectedAudio = lastSearchResults.get(itemNumber - 1);
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "select");
         resultNode.put("user", getUsername());
         resultNode.put("timestamp", getTimestamp());
-        resultNode.put("message", "Successfully selected " + selectedSong.getName() + ".");
+        resultNode.put("message", "Successfully selected " + selectedAudio.getName() + ".");
     }
-
-    public static void updateLastSearchResults(ArrayList<Song> searchResults) {
-        lastSearchResults = searchResults;
-    }
-    public static void updateLastSearchPodcastResults(ArrayList<Song> searchResults) {
+    /**
+     * JAVADOC
+     */
+    public static void updateLastSearchResults(final ArrayList<AudioFile> searchResults) {
         lastSearchResults = searchResults;
     }
 }

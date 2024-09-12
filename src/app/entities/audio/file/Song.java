@@ -1,7 +1,10 @@
-package app.audio.file;
+package app.entities.audio.file;
 
 import java.util.ArrayList;
 
+/**
+ * JAVADOC
+ */
 public class Song extends AudioFile {
     private String album;
     private ArrayList<String> tags;
@@ -10,10 +13,23 @@ public class Song extends AudioFile {
     private int releaseYear;
     private String artist;
 
+    /**
+     * JAVADOC
+     */
     public Song() {
     }
 
-    public Song(String name, Integer duration, String album, ArrayList<String> tags, String lyrics, String genre, int releaseYear, String artist) {
+    /**
+     * JAVADOC
+     */
+    public Song(final String name,
+                final Integer duration,
+                final String album,
+                final ArrayList<String> tags,
+                final String lyrics,
+                final String genre,
+                final int releaseYear,
+                final String artist) {
         super(name, duration);
         this.album = album;
         this.tags = tags;
@@ -23,63 +39,102 @@ public class Song extends AudioFile {
         this.artist = artist;
     }
 
+    /**
+     * JAVADOC
+     */
     public String getAlbum() {
         return album;
     }
 
-    public void setAlbum(String album) {
+    /**
+     * JAVADOC
+     */
+    public void setAlbum(final String album) {
         this.album = album;
     }
 
+    /**
+     * JAVADOC
+     */
     public ArrayList<String> getTags() {
         return tags;
     }
 
-    public void setTags(ArrayList<String> tags) {
+    /**
+     * JAVADOC
+     */
+    public void setTags(final ArrayList<String> tags) {
         this.tags = tags;
     }
 
+    /**
+     * JAVADOC
+     */
     public String getLyrics() {
         return lyrics;
     }
 
-    public void setLyrics(String lyrics) {
+    /**
+     * JAVADOC
+     */
+    public void setLyrics(final String lyrics) {
         this.lyrics = lyrics;
     }
 
+    /**
+     * JAVADOC
+     */
     public String getGenre() {
         return genre;
     }
 
-    public void setGenre(String genre) {
+    /**
+     * JAVADOC
+     */
+    public void setGenre(final String genre) {
         this.genre = genre;
     }
 
+    /**
+     * JAVADOC
+     */
     public int getReleaseYear() {
         return releaseYear;
     }
 
-    public void setReleaseYear(int releaseYear) {
+    /**
+     * JAVADOC
+     */
+    public void setReleaseYear(final int releaseYear) {
         this.releaseYear = releaseYear;
     }
 
+    /**
+     * JAVADOC
+     */
     public String getArtist() {
         return artist;
     }
 
-    public void setArtist(String artist) {
+    /**
+     * JAVADOC
+     */
+    public void setArtist(final String artist) {
         this.artist = artist;
     }
 
+    /**
+     * JAVADOC
+     */
     @Override
     public String toString() {
-        return "Song{" +
-                "album='" + album + '\'' +
-                ", tags=" + tags +
-                ", lyrics='" + lyrics + '\'' +
-                ", genre='" + genre + '\'' +
-                ", releaseYear=" + releaseYear +
-                ", artist='" + artist + '\'' +
-                '}';
+        return "Song{"
+                + "album='" + album + '\''
+                + ", tags=" + tags
+                + ", lyrics='" + lyrics + '\''
+                + ", genre='" + genre + '\''
+                + ", releaseYear=" + releaseYear
+                + ", artist='" + artist + '\''
+                + '}';
     }
 }

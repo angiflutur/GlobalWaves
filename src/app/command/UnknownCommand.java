@@ -1,15 +1,25 @@
 package app.command;
 
+import app.entities.Command;
 import com.fasterxml.jackson.databind.node.ArrayNode;
-import app.audio.collection.Library;
+import app.entities.audio.collection.Library;
 
+/**
+ * JAVADOC
+ */
 public class UnknownCommand extends Command {
-
-    public UnknownCommand(String username, Integer timestamp) {
+    /**
+     * JAVADOC
+     */
+    public UnknownCommand(final String username,
+                          final Integer timestamp) {
         super(username, timestamp);
     }
 
+    /**
+     * JAVADOC
+     */
     @Override
-    public void execute(ArrayNode output, Library library) {
+    public void execute(final ArrayNode output, final Library library) {
     }
 }
