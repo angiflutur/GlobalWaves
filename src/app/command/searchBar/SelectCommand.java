@@ -1,45 +1,59 @@
 package app.command.searchBar;
 
 import app.entities.audio.collection.Library;
+import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.AudioFile;
 import app.entities.Command;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import java.util.ArrayList;
+
 /**
  * JAVADOC
  */
 public class SelectCommand extends Command {
-    private int itemNumber;
-    private static ArrayList<AudioFile> lastSearchResults = new ArrayList<>();
-    private static AudioFile selectedAudio = null;
+    private Integer itemNumber;
+    private static AudioFile selectedAudioFile = null;
+    private static Playlist selectedPlaylist = null;
+
     /**
      * JAVADOC
      */
     public SelectCommand(final String username,
-                         final Integer timestamp, final int itemNumber) {
+                         final Integer timestamp, final Integer itemNumber) {
         super(username, timestamp);
         this.itemNumber = itemNumber;
     }
+
     /**
      * JAVADOC
      */
-    public static AudioFile getSelectedAudio() {
-        return selectedAudio;
+    public static AudioFile getSelectedAudioFile() {
+        return selectedAudioFile;
     }
+
     /**
      * JAVADOC
      */
-    public static void setSelectedAudio(final AudioFile selectedAudio) {
-        SelectCommand.selectedAudio = selectedAudio;
+    public static Playlist getSelectedPlaylist() {
+        return selectedPlaylist;
     }
+
     /**
      * JAVADOC
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
-        if (lastSearchResults.isEmpty()) {
+        ArrayList<AudioFile> lastSearchResultsAudio = SearchCommand.getLastSearchResultsAudio();
+        ArrayList<Playlist> lastSearchResultsPlaylists =
+                SearchCommand.getLastSearchResultsPlaylists();
+
+        ArrayList<Object> combinedResults = new ArrayList<>();
+        combinedResults.addAll(lastSearchResultsAudio);
+        combinedResults.addAll(lastSearchResultsPlaylists);
+
+        if (combinedResults.isEmpty()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "select");
             resultNode.put("user", getUsername());
@@ -48,7 +62,7 @@ public class SelectCommand extends Command {
             return;
         }
 
-        if (itemNumber < 1 || itemNumber > lastSearchResults.size()) {
+        if (itemNumber < 1 || itemNumber > combinedResults.size()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "select");
             resultNode.put("user", getUsername());
@@ -57,17 +71,18 @@ public class SelectCommand extends Command {
             return;
         }
 
-        selectedAudio = lastSearchResults.get(itemNumber - 1);
+        Object selectedItem = combinedResults.get(itemNumber - 1);
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "select");
         resultNode.put("user", getUsername());
         resultNode.put("timestamp", getTimestamp());
-        resultNode.put("message", "Successfully selected " + selectedAudio.getName() + ".");
-    }
-    /**
-     * JAVADOC
-     */
-    public static void updateLastSearchResults(final ArrayList<AudioFile> searchResults) {
-        lastSearchResults = searchResults;
+
+        if (selectedItem instanceof AudioFile) {
+            selectedAudioFile = (AudioFile) selectedItem;
+            resultNode.put("message", "Successfully selected " + selectedAudioFile.getName() + ".");
+        } else if (selectedItem instanceof Playlist) {
+            selectedPlaylist = (Playlist) selectedItem;
+            resultNode.put("message", "Successfully selected " + selectedPlaylist.getName() + ".");
+        }
     }
 }

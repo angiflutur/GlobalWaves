@@ -75,7 +75,6 @@ public final class Main {
                               final String filePathOutput) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
 
-        // Citește librăria din fișier
         LibraryInput libraryInput =
                 objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
         Library newLibrary = new Library();

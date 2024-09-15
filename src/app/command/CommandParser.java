@@ -1,13 +1,19 @@
 package app.command;
 
+import app.command.player.LikeCommand;
 import app.command.player.LoadCommand;
 import app.command.player.PlayPauseCommand;
 import app.command.player.StatusCommand;
+import app.command.playlist.AddRemoveInPlaylistCommand;
+import app.command.playlist.CreatePlaylistCommand;
+import app.command.playlist.ShowPlaylistsCommand;
 import app.command.searchBar.SearchCommand;
 import app.command.searchBar.SelectCommand;
+import app.command.stats.ShowPreferredSongsCommand;
 import app.entities.Command;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+
 /**
  * JAVADOC
  */
@@ -17,6 +23,7 @@ public final class CommandParser {
      */
     private CommandParser() {
     }
+
     /**
      * JAVADOC
      */
@@ -50,12 +57,13 @@ public final class CommandParser {
                         ? (ArrayNode) filtersNode.get("tags") : null;
                 String filterOwner = filtersNode != null && filtersNode.has("owner")
                         ? filtersNode.get("owner").asText() : null;
+
                 return new SearchCommand(username, timestamp, type, filterName,
                         filterAlbum, filterLyrics, filterGenre, filterReleaseYear,
                         filterArtist, filterTags, filterOwner);
 
             case "select":
-                int itemNumber = jsonNode.has("itemNumber")
+                Integer itemNumber = jsonNode.has("itemNumber")
                         ? jsonNode.get("itemNumber").asInt() : -1;
                 return new SelectCommand(username, timestamp, itemNumber);
             case "load":
@@ -64,6 +72,20 @@ public final class CommandParser {
                 return new PlayPauseCommand(username, timestamp);
             case "status":
                 return new StatusCommand(username, timestamp);
+            case "createPlaylist":
+                String playlistName = jsonNode.has("playlistName")
+                        ? jsonNode.get("playlistName").asText() : null;
+                return new CreatePlaylistCommand(username, timestamp, playlistName);
+            case "addRemoveInPlaylist":
+                Integer playlistId = jsonNode.has("playlistId")
+                        ? jsonNode.get("playlistId").asInt() : null;
+                return new AddRemoveInPlaylistCommand(username, timestamp, playlistId);
+            case "like":
+                return new LikeCommand(username, timestamp);
+            case "showPlaylists":
+                return new ShowPlaylistsCommand(username, timestamp);
+            case "showPreferredSongs":
+                return new ShowPreferredSongsCommand(username, timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

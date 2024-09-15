@@ -79,6 +79,17 @@ public class Library {
     /**
      * JAVADOC
      */
+    public User getUser(final String username) {
+        for (User user : users) {
+            if (user.getUsername().equals(username)) {
+                return user;
+            }
+        }
+        return null;
+    }
+    /**
+     * JAVADOC
+     */
     public void setUsers(final ArrayList<User> users) {
         this.users = users;
     }
@@ -130,17 +141,6 @@ public class Library {
             newUser.setCity(user.getCity());
 
             users.add(newUser);
-        }
-    }
-
-    /**
-     * JAVADOC
-     */
-    public void createPlaylist(final String playlistName) {
-        if (!playlists.containsKey(playlistName)) {
-            playlists.put(playlistName, new Playlist(playlistName));
-        } else {
-            System.out.println("Playlist with this name already exists.");
         }
     }
 

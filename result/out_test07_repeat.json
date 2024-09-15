@@ -2,8 +2,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dream Chaser" ]
+  "results" : [ "Dream Chaser" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -59,11 +59,16 @@
     "paused" : true
   }
 }, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1005,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1006,
-  "message" : "Search returned 1 results",
-  "results" : [ "99 Problems" ]
+  "results" : [ "99 Problems" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -75,11 +80,16 @@
   "timestamp" : 1008,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1009,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1010,
-  "message" : "Search returned 1 results",
-  "results" : [ "Hustle Hard" ]
+  "results" : [ "Hustle Hard" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -91,11 +101,16 @@
   "timestamp" : 1012,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1013,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1014,
-  "message" : "Search returned 1 results",
-  "results" : [ "Butterfly Effect" ]
+  "results" : [ "Butterfly Effect" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -107,11 +122,16 @@
   "timestamp" : 1016,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1017,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1018,
-  "message" : "Search returned 1 results",
-  "results" : [ "Moves Like Jagger" ]
+  "results" : [ "Moves Like Jagger" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -123,11 +143,16 @@
   "timestamp" : 1020,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1021,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1022,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dream Chaser" ]
+  "results" : [ "Dream Chaser" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -139,16 +164,21 @@
   "timestamp" : 1024,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1025,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1026,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ "My favourite songs" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 1027,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My favourite songs."
 }, {
   "command" : "load",
   "user" : "alice22",

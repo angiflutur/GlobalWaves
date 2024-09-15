@@ -4,9 +4,11 @@ import app.command.searchBar.SelectCommand;
 import app.entities.Player;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
+import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.AudioFile;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+
 /**
  * JAVADOC
  */
@@ -17,14 +19,16 @@ public class LoadCommand extends Command {
     public LoadCommand(final String username, final Integer timestamp) {
         super(username, timestamp);
     }
+
     /**
      * JAVADOC
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
-        AudioFile selectedAudio = SelectCommand.getSelectedAudio();
+        AudioFile selectedAudioFile = SelectCommand.getSelectedAudioFile();
+        Playlist selectedPlaylist = SelectCommand.getSelectedPlaylist();
 
-        if (selectedAudio == null) {
+        if (selectedAudioFile == null && selectedPlaylist == null) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "load");
             resultNode.put("user", getUsername());
@@ -41,9 +45,10 @@ public class LoadCommand extends Command {
             resultNode.put("message", "You can't load an empty audio collection!");
             return;
         }
-        Player player = new Player();
 
-        player.getInstance().loadAudio(selectedAudio, getTimestamp());
+        if (selectedAudioFile != null) {
+            Player.getInstance().loadAudio(selectedAudioFile, getTimestamp());
+        }
 
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "load");

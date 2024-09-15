@@ -1,9 +1,14 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
-  "message" : "Search returned 1 results",
-  "results" : [ "Nothing Else Matters" ]
+  "results" : [ "Nothing Else Matters" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -15,11 +20,16 @@
   "timestamp" : 195,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 270,
-  "message" : "Search returned 1 results",
-  "results" : [ "Crazy" ]
+  "results" : [ "Crazy" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -31,11 +41,16 @@
   "timestamp" : 320,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 370,
-  "message" : "Search returned 1 results",
-  "results" : [ "Elevate" ]
+  "results" : [ "Elevate" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -47,11 +62,16 @@
   "timestamp" : 400,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 430,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 445,
-  "message" : "Search returned 1 results",
-  "results" : [ "I Don't Wanna Live Forever" ]
+  "results" : [ "I Don't Wanna Live Forever" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -63,11 +83,16 @@
   "timestamp" : 460,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 480,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 500,
-  "message" : "Search returned 1 results",
-  "results" : [ "Hustle Hard" ]
+  "results" : [ "Hustle Hard" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -79,11 +104,16 @@
   "timestamp" : 520,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 540,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 590,
-  "message" : "Search returned 1 results",
-  "results" : [ "Begin Again" ]
+  "results" : [ "Begin Again" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -95,16 +125,21 @@
   "timestamp" : 660,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 690,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 700,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ "My playlist" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 710,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My playlist."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -191,13 +226,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 2351,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ "My playlist" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 2352,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My playlist."
 }, {
   "command" : "load",
   "user" : "bob35",

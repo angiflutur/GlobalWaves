@@ -1,5 +1,10 @@
 package app.entities;
 
+import app.entities.audio.collection.Playlist;
+import app.entities.audio.file.Song;
+
+import java.util.ArrayList;
+
 /**
  * JAVADOC
  */
@@ -7,6 +12,8 @@ public class User {
     private String username;
     private Integer age;
     private String city;
+    private ArrayList<Playlist> playlists = new ArrayList<>();
+    private ArrayList<Song> likedSongs = new ArrayList<>();
 
     /**
      * JAVADOC
@@ -23,6 +30,7 @@ public class User {
         this.username = username;
         this.age = age;
         this.city = city;
+        this.likedSongs = new ArrayList<>();
     }
 
     /**
@@ -65,6 +73,41 @@ public class User {
      */
     public void setCity(final String city) {
         this.city = city;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public void addPlaylist(final Playlist playlist) {
+        playlists.add(playlist);
+    }
+
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Playlist> getPlaylists() {
+        return playlists;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public void likeSong(final Song song) {
+        likedSongs.add(song);
+    }
+
+    /**
+     * JAVADOC
+     */
+    public void unlikeSong(final Song song) {
+        likedSongs.remove(song);
+    }
+
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Song> getLikedSongs() {
+        return likedSongs;
     }
 
     /**

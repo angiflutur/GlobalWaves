@@ -1,9 +1,14 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 50,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 100,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Talks Daily" ]
+  "results" : [ "TED Talks Daily" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -18,8 +23,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 200,
-  "message" : "Search returned 1 results",
-  "results" : [ "Blank Space" ]
+  "results" : [ "Blank Space" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -31,11 +36,16 @@
   "timestamp" : 213,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 215,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 250,
-  "message" : "Search returned 1 results",
-  "results" : [ "Whole Lotta Love" ]
+  "results" : [ "Whole Lotta Love" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -47,11 +57,16 @@
   "timestamp" : 263,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 265,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 400,
-  "message" : "Search returned 1 results",
-  "results" : [ "I Don't Wanna Live Forever" ]
+  "results" : [ "I Don't Wanna Live Forever" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -66,8 +81,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 500,
-  "message" : "Search returned 1 results",
-  "results" : [ "Kings Dead" ]
+  "results" : [ "Kings Dead" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -79,11 +94,16 @@
   "timestamp" : 513,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 515,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 550,
-  "message" : "Search returned 1 results",
-  "results" : [ "Thinking Out Loud" ]
+  "results" : [ "Thinking Out Loud" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -94,6 +114,11 @@
   "user" : "bob35",
   "timestamp" : 563,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 565,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -109,13 +134,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 3110,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ "Colaj" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 3130,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected Colaj."
 }, {
   "command" : "load",
   "user" : "bob35",

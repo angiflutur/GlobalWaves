@@ -1,6 +1,7 @@
 package app.command.searchBar;
 
 import app.entities.audio.collection.Library;
+import app.entities.audio.collection.Playlist;
 import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.AudioFile;
 import app.entities.audio.file.Song;
@@ -11,6 +12,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import java.util.ArrayList;
+
 /**
  * JAVADOC
  */
@@ -25,6 +27,8 @@ public class SearchCommand extends Command {
     private ArrayNode filterTags;
     private String filterOwner;
     private static final int MAX_FILTER_LENGTH = 5;
+    private static ArrayList<AudioFile> lastSearchResultsAudio = new ArrayList<>();
+    private static ArrayList<Playlist> lastSearchResultsPlaylists = new ArrayList<>();
 
     /**
      * JAVADOC
@@ -51,13 +55,15 @@ public class SearchCommand extends Command {
         this.filterTags = filterTags;
         this.filterOwner = filterOwner;
     }
+
     /**
      * JAVADOC
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
         SearchBar searchBar = new SearchBar(library);
-        ArrayList<AudioFile> combinedResults = new ArrayList<>();
+        ArrayList<AudioFile> combinedResultsAudio = new ArrayList<>();
+        ArrayList<Playlist> combinedResultsPlaylists = new ArrayList<>();
 
         if ("song".equals(type)) {
             ArrayList<Song> filteredSongs = new ArrayList<>(library.getSongs());
@@ -69,8 +75,13 @@ public class SearchCommand extends Command {
                 filteredSongs.retainAll(searchBar.searchSongsByAlbum(filterAlbum));
             }
             if (filterTags != null) {
-                ArrayList<String> tagsList = convertArrayNodeToArrayList(filterTags);
-                filteredSongs.retainAll(searchBar.searchSongsByTags(tagsList));
+                ArrayList<Song> tagFilteredSongs = new ArrayList<>();
+                ArrayList<String> tagsList = new ArrayList<>();
+                for (JsonNode tagNode : filterTags) {
+                    tagsList.add(tagNode.asText());
+                }
+                tagFilteredSongs.addAll(searchBar.searchSongsByTags(tagsList));
+                filteredSongs.retainAll(tagFilteredSongs);
             }
             if (filterLyrics != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByLyrics(filterLyrics));
@@ -85,7 +96,7 @@ public class SearchCommand extends Command {
                 filteredSongs.retainAll(searchBar.searchSongsByArtist(filterArtist));
             }
 
-            combinedResults.addAll(filteredSongs);
+            combinedResultsAudio.addAll(filteredSongs);
         }
 
         if ("podcast".equals(type)) {
@@ -98,36 +109,71 @@ public class SearchCommand extends Command {
                 filteredPodcasts.addAll(searchBar.searchPodcastsByOwner(filterOwner));
             }
 
-            combinedResults.addAll(filteredPodcasts);
+            for (Podcast podcast : filteredPodcasts) {
+                combinedResultsAudio.add(podcast);
+            }
         }
 
-        combinedResults = new ArrayList<>(combinedResults.subList(0,
-                Math.min(MAX_FILTER_LENGTH, combinedResults.size())));
+        if ("playlist".equals(type)) {
+            ArrayList<Playlist> filteredPlaylists =
+                    new ArrayList<>(library.getPlaylists().values());
 
-        SelectCommand.updateLastSearchResults(combinedResults);
+            if (filterName != null) {
+                filteredPlaylists.retainAll(searchBar.searchPlaylistsByName(filterName));
+            }
+            if (filterOwner != null) {
+                filteredPlaylists.retainAll(searchBar.searchPlaylistsByOwner(filterOwner));
+            }
+
+            combinedResultsPlaylists.addAll(filteredPlaylists);
+        }
+
+        combinedResultsAudio = new ArrayList<>(combinedResultsAudio.subList(0,
+                Math.min(MAX_FILTER_LENGTH, combinedResultsAudio.size())));
+
+        updateLastSearchResults(combinedResultsAudio, combinedResultsPlaylists);
 
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "search");
         resultNode.put("user", getUsername());
         resultNode.put("timestamp", getTimestamp());
-        resultNode.put("message", "Search returned " + combinedResults.size() + " results");
 
         ArrayNode resultsArray = resultNode.putArray("results");
-        for (AudioFile audioFile : combinedResults) {
+
+        for (AudioFile audioFile : combinedResultsAudio) {
             resultsArray.add(audioFile.getName());
         }
+
+        if ("playlist".equals(type)) {
+            for (Playlist playlist : combinedResultsPlaylists) {
+                resultsArray.add(playlist.getName());
+            }
+        }
+
+        int totalResults = combinedResultsAudio.size() + combinedResultsPlaylists.size();
+        resultNode.put("message", "Search returned " + totalResults + " results");
     }
 
     /**
      * JAVADOC
      */
-    private ArrayList<String> convertArrayNodeToArrayList(final ArrayNode arrayNode) {
-        ArrayList<String> list = new ArrayList<>();
-        if (arrayNode != null) {
-            for (JsonNode node : arrayNode) {
-                list.add(node.asText());
-            }
-        }
-        return list;
+    public static void updateLastSearchResults(final ArrayList<AudioFile> searchResultsAudio,
+                                               final ArrayList<Playlist> searchResultsPlaylists) {
+        lastSearchResultsAudio = searchResultsAudio;
+        lastSearchResultsPlaylists = searchResultsPlaylists;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public static ArrayList<AudioFile> getLastSearchResultsAudio() {
+        return lastSearchResultsAudio;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public static ArrayList<Playlist> getLastSearchResultsPlaylists() {
+        return lastSearchResultsPlaylists;
     }
 }

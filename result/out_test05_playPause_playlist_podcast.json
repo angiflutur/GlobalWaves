@@ -2,8 +2,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
+  "results" : [ "TED Radio Hour" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -29,8 +29,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 60,
-  "message" : "Search returned 1 results",
-  "results" : [ "Stairway to Heaven" ]
+  "results" : [ "Stairway to Heaven" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -45,8 +45,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 75,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
+  "results" : [ "TED Radio Hour" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -85,11 +85,16 @@
     "paused" : true
   }
 }, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3215,
-  "message" : "Search returned 2 results",
-  "results" : [ "Freedom", "Freedom" ]
+  "results" : [ "Freedom", "Freedom" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -101,11 +106,16 @@
   "timestamp" : 3225,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3230,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3235,
-  "message" : "Search returned 1 results",
-  "results" : [ "Happier" ]
+  "results" : [ "Happier" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -117,16 +127,21 @@
   "timestamp" : 3245,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3250,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3255,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ "2010 hits" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 3260,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected 2010 hits."
 }, {
   "command" : "load",
   "user" : "alice22",

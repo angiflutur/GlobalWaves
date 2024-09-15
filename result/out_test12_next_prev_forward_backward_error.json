@@ -1,9 +1,14 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 170,
-  "message" : "Search returned 1 results",
-  "results" : [ "Going Bad" ]
+  "results" : [ "Going Bad" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -15,11 +20,16 @@
   "timestamp" : 195,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 270,
-  "message" : "Search returned 1 results",
-  "results" : [ "Swimming Pools (Drank)" ]
+  "results" : [ "Swimming Pools (Drank)" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -31,11 +41,16 @@
   "timestamp" : 300,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 340,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1000,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ "My favourite songs" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -51,7 +66,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 1190,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My favourite songs."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -94,8 +109,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2000,
-  "message" : "Search returned 2 results",
-  "results" : [ "The Daily", "The Daily Show With Trevor Noah" ]
+  "results" : [ "The Daily", "The Daily Show With Trevor Noah" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -132,8 +147,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 4200,
-  "message" : "Search returned 3 results",
-  "results" : [ "DNA.", "Championships", "99 Problems" ]
+  "results" : [ "DNA.", "Championships", "99 Problems" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "emily30",

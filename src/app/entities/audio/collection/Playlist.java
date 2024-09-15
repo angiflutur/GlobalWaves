@@ -13,6 +13,7 @@ public class Playlist {
     private boolean isPublic;
     private ArrayList<Song> songs;
     private String name;
+    private ArrayList<User> followers;
 
     /**
      * JAVADOC
@@ -21,6 +22,7 @@ public class Playlist {
         this.name = name;
         this.songs = new ArrayList<>();
         this.isPublic = true;
+        this.followers = new ArrayList<>();
     }
 
     /**
@@ -34,6 +36,13 @@ public class Playlist {
         this.isPublic = isPublic;
         this.songs = songs;
         this.name = name;
+        this.followers = new ArrayList<>();
+    }
+    /**
+     * JAVADOC
+     */
+    public int getFollowers() {
+        return followers.size();
     }
 
     /**
@@ -67,8 +76,8 @@ public class Playlist {
     /**
      * JAVADOC
      */
-    public boolean isPublic() {
-        return isPublic;
+    public String getVisibility() {
+        return isPublic ? "public" : "private";
     }
 
     /**

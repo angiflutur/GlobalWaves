@@ -1,6 +1,7 @@
 package app.entities;
 
 import app.entities.audio.collection.Library;
+import app.entities.audio.collection.Playlist;
 import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.Song;
 
@@ -180,5 +181,42 @@ public class SearchBar {
         }
         return podcasts;
     }
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Playlist> searchPlaylistsByName(final String name) {
+        ArrayList<Playlist> playlists = new ArrayList<>();
+        if (name == null) {
+            return playlists;
+        }
+        String lowerCaseName = name.toLowerCase();
+        for (Playlist playlist : library.getPlaylists().values()) {
+            String playlistName = playlist.getName();
+            if (playlistName != null && playlistName.toLowerCase().startsWith(lowerCaseName)) {
+                playlists.add(playlist);
+            }
+        }
+        return playlists;
+    }
 
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Playlist> searchPlaylistsByOwner(final String owner) {
+        ArrayList<Playlist> playlists = new ArrayList<>();
+        if (owner == null) {
+            return playlists;
+        }
+        String lowerCaseOwner = owner.toLowerCase();
+        for (Playlist playlist : library.getPlaylists().values()) {
+            User playlistOwner = playlist.getOwner();
+            if (playlistOwner != null) {
+                String lowerCasePlaylistOwner = playlistOwner.getUsername().toLowerCase();
+                if (lowerCasePlaylistOwner.equals(lowerCaseOwner)) {
+                    playlists.add(playlist);
+                }
+            }
+        }
+        return playlists;
+    }
 }
