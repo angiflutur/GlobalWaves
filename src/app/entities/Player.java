@@ -151,6 +151,13 @@ public class Player {
     /**
      * JAVADOC
      */
+    public void setLoaded(final boolean loaded) {
+        isLoaded = loaded;
+    }
+
+    /**
+     * JAVADOC
+     */
     public AudioFile getCurrentAudio() {
         return currentAudio;
     }

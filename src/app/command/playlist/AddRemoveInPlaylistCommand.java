@@ -1,6 +1,7 @@
 package app.command.playlist;
 
 import app.command.searchBar.SelectCommand;
+import app.entities.Player;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.Command;
@@ -30,9 +31,10 @@ public class AddRemoveInPlaylistCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+        Player player = Player.getInstance();
         AudioFile selectedAudio = SelectCommand.getSelectedAudioFile();
 
-        if (selectedAudio == null) {
+        if (!player.isLoaded() || selectedAudio == null) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "addRemoveInPlaylist");
             resultNode.put("user", getUsername());

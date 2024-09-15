@@ -27,21 +27,12 @@ public class LikeCommand extends Command {
         AudioFile currentAudio = player.getCurrentAudio();
         User user = library.getUser(getUsername());
 
-        if (currentAudio == null) {
+        if (!player.isLoaded() || !(currentAudio instanceof Song)) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "like");
             resultNode.put("user", getUsername());
             resultNode.put("timestamp", getTimestamp());
             resultNode.put("message", "Please load a source before liking or unliking.");
-            return;
-        }
-
-        if (!(currentAudio instanceof Song)) {
-            ObjectNode resultNode = output.addObject();
-            resultNode.put("command", "like");
-            resultNode.put("user", getUsername());
-            resultNode.put("timestamp", getTimestamp());
-            resultNode.put("message", "Loaded source is not a song.");
             return;
         }
 
@@ -57,19 +48,16 @@ public class LikeCommand extends Command {
         Song currentSong = (Song) currentAudio;
         boolean liked = user.getLikedSongs().contains(currentSong);
 
+        ObjectNode resultNode = output.addObject();
+        resultNode.put("command", "like");
+        resultNode.put("user", getUsername());
+        resultNode.put("timestamp", getTimestamp());
+
         if (liked) {
             user.unlikeSong(currentSong);
-            ObjectNode resultNode = output.addObject();
-            resultNode.put("command", "like");
-            resultNode.put("user", getUsername());
-            resultNode.put("timestamp", getTimestamp());
             resultNode.put("message", "Unlike registered successfully.");
         } else {
             user.likeSong(currentSong);
-            ObjectNode resultNode = output.addObject();
-            resultNode.put("command", "like");
-            resultNode.put("user", getUsername());
-            resultNode.put("timestamp", getTimestamp());
             resultNode.put("message", "Like registered successfully.");
         }
     }

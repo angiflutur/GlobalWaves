@@ -7,13 +7,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
-  "results" : [ "Under Pressure", "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
-  "message" : "Search returned 4 results"
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 190,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Successfully selected Bohemian Rhapsody."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -38,8 +38,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 270,
-  "results" : [ "Freedom", "Happy", "Freedom", "Get Lucky" ],
-  "message" : "Search returned 4 results"
+  "results" : [ "Freedom", "Happy", "Freedom" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -64,13 +64,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 370,
-  "results" : [ "Under Pressure", "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
-  "message" : "Search returned 4 results"
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 390,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Successfully selected Bohemian Rhapsody."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -106,8 +106,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 770,
-  "results" : [ "Freedom", "Happy", "Freedom", "Get Lucky" ],
-  "message" : "Search returned 4 results"
+  "results" : [ "Freedom", "Happy", "Freedom" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -127,7 +127,7 @@
   "command" : "showPreferredSongs",
   "user" : "carol19",
   "timestamp" : 1000,
-  "result" : [ "Under Pressure" ]
+  "result" : [ "Bohemian Rhapsody" ]
 }, {
   "command" : "createPlaylist",
   "user" : "david27",
@@ -168,13 +168,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2170,
-  "results" : [ "Under Pressure", "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
-  "message" : "Search returned 4 results"
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2190,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Successfully selected Bohemian Rhapsody."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -199,7 +199,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 2400,
-  "result" : [ "Under Pressure" ]
+  "result" : [ "Bohemian Rhapsody" ]
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -237,10 +237,10 @@
   "command" : "showPreferredSongs",
   "user" : "bob35",
   "timestamp" : 3100,
-  "result" : [ "Under Pressure" ]
+  "result" : [ "Bohemian Rhapsody" ]
 }, {
   "command" : "showPreferredSongs",
   "user" : "carol19",
   "timestamp" : 3200,
-  "result" : [ "Under Pressure" ]
+  "result" : [ "Bohemian Rhapsody" ]
 } ]

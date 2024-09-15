@@ -1,5 +1,6 @@
 package app.command.searchBar;
 
+import app.entities.Player;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.collection.Podcast;
@@ -61,6 +62,9 @@ public class SearchCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+
+        Player.getInstance().setLoaded(false);
+
         SearchBar searchBar = new SearchBar(library);
         ArrayList<AudioFile> combinedResultsAudio = new ArrayList<>();
         ArrayList<Playlist> combinedResultsPlaylists = new ArrayList<>();
@@ -93,7 +97,7 @@ public class SearchCommand extends Command {
                 filteredSongs.retainAll(searchBar.searchSongsByReleaseYear(filterReleaseYear));
             }
             if (filterArtist != null) {
-                filteredSongs.retainAll(searchBar.searchSongsByArtist(filterArtist));
+                filteredSongs.removeIf(song -> !song.getArtist().equals(filterArtist));
             }
 
             combinedResultsAudio.addAll(filteredSongs);

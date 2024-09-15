@@ -49,13 +49,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 45,
-  "results" : [ "Under Pressure", "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
-  "message" : "Search returned 4 results"
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 50,
-  "message" : "The loaded source is not a song."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "createPlaylist",
   "user" : "emily30",
@@ -92,7 +92,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 80,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -107,7 +107,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 90,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "showPlaylists",
   "user" : "emily30",
