@@ -189,8 +189,8 @@
   "user" : "alice22",
   "timestamp" : 1035,
   "stats" : {
-    "name" : "Dream Chaser",
-    "remainedTime" : 198,
+    "name" : "99 Problems",
+    "remainedTime" : 227,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -200,8 +200,8 @@
   "user" : "alice22",
   "timestamp" : 1037,
   "stats" : {
-    "name" : "Dream Chaser",
-    "remainedTime" : 196,
+    "name" : "99 Problems",
+    "remainedTime" : 225,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -215,7 +215,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
@@ -226,7 +226,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
@@ -237,7 +237,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
@@ -248,7 +248,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",

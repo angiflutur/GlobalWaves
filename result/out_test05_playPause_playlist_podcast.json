@@ -152,8 +152,8 @@
   "user" : "alice22",
   "timestamp" : 3270,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 202,
+    "name" : "Freedom",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -164,7 +164,7 @@
   "timestamp" : 3448,
   "stats" : {
     "name" : "Happier",
-    "remainedTime" : 24,
+    "remainedTime" : 202,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false

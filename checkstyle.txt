@@ -16,11 +16,13 @@ Starting audit...
 [ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\audio\collection\Podcast.java:71:5: Class 'Podcast' looks like designed for extension (can be subclassed), but the method 'setCurrentEpisodeRemainingTime' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Podcast' final or making the method 'setCurrentEpisodeRemainingTime' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\audio\collection\Podcast.java:71:48: Parameter time should be final. [FinalParameters]
 [ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\audio\collection\Podcast.java:75:5: Class 'Podcast' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Podcast' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:103: Line is longer than 100 characters (found 101). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:115: Line is longer than 100 characters (found 117). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:117: Line is longer than 100 characters (found 119). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:118: Line is longer than 100 characters (found 124). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:183:5: Class 'Player' looks like designed for extension (can be subclassed), but the method 'setPaused' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Player' final or making the method 'setPaused' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:183:27: Parameter paused should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:125: Line is longer than 100 characters (found 101). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:137: Line is longer than 100 characters (found 117). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:139: Line is longer than 100 characters (found 119). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:140: Line is longer than 100 characters (found 124). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:162:25: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:162:48: '3448' is a magic number. [MagicNumber]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:162:53: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:233:27: Parameter paused should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 23 errors.
+Checkstyle ends with 25 errors.

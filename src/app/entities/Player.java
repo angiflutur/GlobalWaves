@@ -4,6 +4,7 @@ import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.AudioFile;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.PodcastEpisode;
+import app.entities.audio.file.Song;
 
 import java.util.Iterator;
 
@@ -19,6 +20,7 @@ public class Player {
     private int remainingTime;
     private int lastUpdateTimestamp;
     private static Player instance = new Player();
+    private int currentIndex;
 
     /**
      * JAVADOC
@@ -47,25 +49,43 @@ public class Player {
             throw new IllegalArgumentException("AudioFile cannot be null");
         }
 
-        this.currentAudio = audio;
-        this.currentPlaylist = null;
-        this.isLoaded = true;
-        this.isPaused = false;
-        this.lastUpdateTimestamp = timestamp;
+        if (audio instanceof Playlist) {
+            Playlist playlist = (Playlist) audio;
+            this.currentPlaylist = playlist;
+            this.currentIndex = 0;
 
-        // Set the remaining time based on the type of audio file
-        if (audio instanceof Podcast) {
-            Podcast podcast = (Podcast) audio;
-            if (podcast.getCurrentEpisodeIndex() >= 0
-                    && podcast.getCurrentEpisodeIndex() < podcast.getEpisodes().size()) {
-                this.remainingTime = podcast.getCurrentEpisodeRemainingTime();
+            if (playlist.getSongs().size() > 0) {
+                this.currentAudio = playlist.getSongs().get(0);
+                this.remainingTime = this.currentAudio.getDuration();
             } else {
+                this.currentAudio = null;
                 this.remainingTime = 0;
             }
+
+            this.isLoaded = true;
+            this.isPaused = false;
+            this.lastUpdateTimestamp = timestamp;
         } else {
-            this.remainingTime = audio.getDuration();
+            this.currentAudio = audio;
+            this.currentPlaylist = null;
+            this.isLoaded = true;
+            this.isPaused = false;
+            this.lastUpdateTimestamp = timestamp;
+
+            if (audio instanceof Podcast) {
+                Podcast podcast = (Podcast) audio;
+                if (podcast.getCurrentEpisodeIndex() >= 0
+                        && podcast.getCurrentEpisodeIndex() < podcast.getEpisodes().size()) {
+                    this.remainingTime = podcast.getCurrentEpisodeRemainingTime();
+                } else {
+                    this.remainingTime = 0;
+                }
+            } else {
+                this.remainingTime = audio.getDuration();
+            }
         }
     }
+
 
     /**
      * JAVADOC
@@ -104,45 +124,59 @@ public class Player {
                     PodcastEpisode currentEpisode = podcast.getEpisodes().get(currentEpisodeIndex);
                     int currentEpisodeRemainingTime = podcast.getCurrentEpisodeRemainingTime();
 
-                    // Scade timpul care a trecut din timpul rămas al episodului curent
                     currentEpisodeRemainingTime -= timeElapsed;
 
-                    // Verifică dacă episodul curent s-a terminat
                     if (currentEpisodeRemainingTime <= 0) {
-                        // Dacă nu este ultimul episod, treci la episodul următor
                         if (currentEpisodeIndex < podcast.getEpisodes().size() - 1) {
                             podcast.setCurrentEpisodeIndex(currentEpisodeIndex + 1);
                             PodcastEpisode nextEpisode = podcast.getEpisodes().get(podcast.getCurrentEpisodeIndex());
 
-                            // Setează timpul rămas la durata episodului următor minus timpul rămas din episodul curent
                             podcast.setCurrentEpisodeRemainingTime(nextEpisode.getDuration() + currentEpisodeRemainingTime);
                         } else {
-                            // Dacă este ultimul episod, resetează
                             currentAudio = null;
                             isLoaded = false;
                             podcast.setCurrentEpisodeRemainingTime(0);
                         }
                     } else {
-                        // Dacă episodul curent nu s-a terminat, actualizează timpul rămas
                         podcast.setCurrentEpisodeRemainingTime(currentEpisodeRemainingTime);
                     }
 
                     this.remainingTime = podcast.getCurrentEpisodeRemainingTime();
                 }
-            } else {
+            } else if (currentAudio instanceof Song) {
                 remainingTime -= timeElapsed;
+
                 if (remainingTime <= 0) {
-                    if (currentPlaylist != null && playlistIterator != null) {
-                        if (playlistIterator.hasNext()) {
-                            currentAudio = playlistIterator.next();
-                            remainingTime = currentAudio.getDuration();
+                    if (currentPlaylist != null) {
+                        currentIndex++;
+                        if(currentTimestamp == 3448){
+                            System.out.println(remainingTime);
+                        }
+                        if (currentIndex < currentPlaylist.getSongs().size()) {
+                            currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                            remainingTime = currentAudio.getDuration() + remainingTime;
                         } else {
                             currentAudio = null;
-                            isLoaded = false;
                             remainingTime = 0;
+                            isLoaded = false;
+                            isPaused = true;
                         }
                     } else {
                         remainingTime = 0;
+                        isPaused = true;
+                    }
+                }
+            } else if (currentPlaylist != null) {
+                remainingTime -= timeElapsed;
+                if (remainingTime <= 0) {
+                    currentIndex++;
+                    if (currentIndex < currentPlaylist.getSongs().size()) {
+                        currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                        remainingTime = currentAudio.getDuration();
+                    } else {
+                        currentAudio = null;
+                        remainingTime = 0;
+                        isLoaded = false;
                         isPaused = true;
                     }
                 }
@@ -180,6 +214,9 @@ public class Player {
         isLoaded = loaded;
     }
 
+    /**
+     * JAVADOC
+     */
     public void setPaused(boolean paused) {
         isPaused = paused;
     }

@@ -64,10 +64,8 @@ public class SearchCommand extends Command {
     public void execute(final ArrayNode output, final Library library) {
         Player player = Player.getInstance();
 
-        // Oprim redarea curentă și resetăm player-ul
         if (player.isLoaded()) {
             if (player.getCurrentAudio() instanceof Podcast) {
-                // Actualizează timpul rămas pentru podcast
                 player.updateRemainingTime(getTimestamp());
             }
             player.setLoaded(false);
@@ -140,7 +138,6 @@ public class SearchCommand extends Command {
             combinedResultsPlaylists.addAll(filteredPlaylists);
         }
 
-        // Limităm numărul de rezultate la MAX_FILTER_LENGTH
         combinedResultsAudio = new ArrayList<>(combinedResultsAudio.subList(0,
                 Math.min(MAX_FILTER_LENGTH, combinedResultsAudio.size())));
 

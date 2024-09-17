@@ -151,8 +151,8 @@
   "user" : "bob35",
   "timestamp" : 3150,
   "stats" : {
-    "name" : "Thinking Out Loud",
-    "remainedTime" : 271,
+    "name" : "Blank Space",
+    "remainedTime" : 221,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -162,8 +162,8 @@
   "user" : "bob35",
   "timestamp" : 3200,
   "stats" : {
-    "name" : "Thinking Out Loud",
-    "remainedTime" : 221,
+    "name" : "Blank Space",
+    "remainedTime" : 171,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -173,8 +173,8 @@
   "user" : "bob35",
   "timestamp" : 3250,
   "stats" : {
-    "name" : "Thinking Out Loud",
-    "remainedTime" : 171,
+    "name" : "Blank Space",
+    "remainedTime" : 121,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -184,8 +184,8 @@
   "user" : "bob35",
   "timestamp" : 3270,
   "stats" : {
-    "name" : "Thinking Out Loud",
-    "remainedTime" : 151,
+    "name" : "Blank Space",
+    "remainedTime" : 101,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -195,8 +195,8 @@
   "user" : "bob35",
   "timestamp" : 3320,
   "stats" : {
-    "name" : "Thinking Out Loud",
-    "remainedTime" : 101,
+    "name" : "Blank Space",
+    "remainedTime" : 51,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -206,8 +206,8 @@
   "user" : "bob35",
   "timestamp" : 3370,
   "stats" : {
-    "name" : "Thinking Out Loud",
-    "remainedTime" : 51,
+    "name" : "Blank Space",
+    "remainedTime" : 1,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -217,21 +217,21 @@
   "user" : "bob35",
   "timestamp" : 3690,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Whole Lotta Love",
+    "remainedTime" : 15,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 3740,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Kings Dead",
+    "remainedTime" : 195,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 } ]

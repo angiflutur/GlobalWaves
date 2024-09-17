@@ -8,7 +8,7 @@ import java.util.ArrayList;
 /**
  * JAVADOC
  */
-public class Playlist {
+public class Playlist extends Song {
     private User owner;
     private boolean isPublic;
     private ArrayList<Song> songs;
