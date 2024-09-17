@@ -19,11 +19,11 @@
   "user" : "alice22",
   "timestamp" : 59,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Power of Design",
+    "remainedTime" : 3065,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "search",
@@ -62,24 +62,24 @@
   "user" : "alice22",
   "timestamp" : 86,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Power of Design",
+    "remainedTime" : 3103,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 3200,
-  "message" : "Playback resumed successfully."
+  "message" : "Playback paused successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 3201,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Science of Us",
+    "remainedTime" : 3132,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true

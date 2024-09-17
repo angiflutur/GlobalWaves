@@ -3,6 +3,8 @@ package app.command.player;
 import app.entities.Player;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
+import app.entities.audio.collection.Podcast;
+import app.entities.audio.file.PodcastEpisode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
@@ -26,7 +28,6 @@ public class StatusCommand extends Command {
         Player player = Player.getInstance();
 
         int currentTimestamp = getTimestamp();
-
         player.updateRemainingTime(currentTimestamp);
 
         ObjectNode resultNode = output.addObject();
@@ -36,16 +37,35 @@ public class StatusCommand extends Command {
 
         ObjectNode statsNode = resultNode.putObject("stats");
 
-        if (player.getRemainingTime(currentTimestamp) > 0) {
-            statsNode.put("name", player.getCurrentAudio() != null
-                    ? player.getCurrentAudio().getName() : "");
+        int remainingTime = player.getRemainingTime();
+
+        if (player.getCurrentAudio() != null) {
+            if (player.getCurrentAudio() instanceof Podcast) {
+                Podcast podcast = (Podcast) player.getCurrentAudio();
+
+                int currentEpisodeIndex = podcast.getCurrentEpisodeIndex();
+
+                if (currentEpisodeIndex >= 0
+                        && currentEpisodeIndex < podcast.getEpisodes().size()) {
+                    PodcastEpisode currentEpisode = podcast.getEpisodes().get(currentEpisodeIndex);
+                    statsNode.put("name", remainingTime > 0
+                            ? (currentEpisode.getName() != null
+                            ? currentEpisode.getName() : "") : "");
+                } else {
+                    statsNode.put("name", "");
+                }
+            } else {
+                statsNode.put("name", remainingTime > 0
+                        ? (player.getCurrentAudio().getName() != null
+                        ? player.getCurrentAudio().getName() : "") : "");
+            }
         } else {
             statsNode.put("name", "");
         }
-        statsNode.put("remainedTime", player.getRemainingTime(currentTimestamp));
+
+        statsNode.put("remainedTime", remainingTime > 0 ? remainingTime : 0);
         statsNode.put("repeat", "No Repeat");
         statsNode.put("shuffle", false);
         statsNode.put("paused", player.isPaused());
     }
-
 }

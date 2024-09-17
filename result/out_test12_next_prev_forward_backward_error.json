@@ -126,22 +126,22 @@
   "user" : "emily30",
   "timestamp" : 3220,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Capitol Riot, 1 Year Later",
+    "remainedTime" : 350,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3920,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Capitol Riot, 1 Year Later",
+    "remainedTime" : 670,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "search",
@@ -159,11 +159,11 @@
   "user" : "emily30",
   "timestamp" : 4330,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Capitol Riot, 1 Year Later",
+    "remainedTime" : 960,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "load",

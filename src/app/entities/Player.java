@@ -1,9 +1,10 @@
 package app.entities;
 
+import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.AudioFile;
 import app.entities.audio.collection.Playlist;
+import app.entities.audio.file.PodcastEpisode;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
@@ -57,30 +58,6 @@ public class Player {
     /**
      * JAVADOC
      */
-    public void loadPlaylist(final Playlist playlist, final int timestamp) {
-        if (playlist == null) {
-            throw new IllegalArgumentException("Playlist cannot be null");
-        }
-
-        this.currentPlaylist = playlist;
-        ArrayList<AudioFile> audioFiles = new ArrayList<>(playlist.getSongs());
-        this.playlistIterator = audioFiles.iterator();
-
-        if (playlistIterator.hasNext()) {
-            this.currentAudio = playlistIterator.next();
-            this.isLoaded = true;
-            this.isPaused = false;
-            this.remainingTime = currentAudio.getDuration();
-            this.lastUpdateTimestamp = timestamp;
-        } else {
-            this.currentAudio = null;
-            this.isLoaded = false;
-        }
-    }
-
-    /**
-     * JAVADOC
-     */
     public void play(final int currentTimestamp) {
         if (isPaused) {
             updateRemainingTime(currentTimestamp);
@@ -104,24 +81,54 @@ public class Player {
      * JAVADOC
      */
     public void updateRemainingTime(final int currentTimestamp) {
-        if (!isPaused) {
+        if (!isPaused && currentAudio != null) {
             int timeElapsed = currentTimestamp - lastUpdateTimestamp;
             remainingTime -= timeElapsed;
+
             if (remainingTime < 0) {
-                if (currentPlaylist != null && playlistIterator != null) {
-                    if (playlistIterator.hasNext()) {
-                        currentAudio = playlistIterator.next();
-                        remainingTime = currentAudio.getDuration();
-                    } else {
-                        currentAudio = null;
-                        isLoaded = false;
-                        remainingTime = 0;
+                remainingTime = 0;
+            }
+
+            if (currentAudio instanceof Podcast) {
+                Podcast podcast = (Podcast) currentAudio;
+                int currentEpisodeIndex = podcast.getCurrentEpisodeIndex();
+
+                if (currentEpisodeIndex >= 0
+                        && currentEpisodeIndex < podcast.getEpisodes().size()) {
+                    PodcastEpisode currentEpisode = podcast.getEpisodes().get(currentEpisodeIndex);
+                    remainingTime = Math.max(0, currentEpisode.getDuration() - timeElapsed);
+
+                    if (remainingTime <= 0) {
+                        if (currentEpisodeIndex < podcast.getEpisodes().size() - 1) {
+                            podcast.setCurrentEpisodeIndex(currentEpisodeIndex + 1);
+                            remainingTime =
+                                    podcast.getEpisodes().
+                                            get(currentEpisodeIndex + 1).getDuration();
+                        } else {
+                            currentAudio = null;
+                            isLoaded = false;
+                            remainingTime = 0;
+                        }
                     }
-                } else {
-                    remainingTime = 0;
-                    isPaused = true;
+                }
+            } else {
+                if (remainingTime <= 0) {
+                    if (currentPlaylist != null && playlistIterator != null) {
+                        if (playlistIterator.hasNext()) {
+                            currentAudio = playlistIterator.next();
+                            remainingTime = currentAudio.getDuration();
+                        } else {
+                            currentAudio = null;
+                            isLoaded = false;
+                            remainingTime = 0;
+                        }
+                    } else {
+                        remainingTime = 0;
+                        isPaused = true;
+                    }
                 }
             }
+
             lastUpdateTimestamp = currentTimestamp;
         }
     }
@@ -129,8 +136,7 @@ public class Player {
     /**
      * JAVADOC
      */
-    public int getRemainingTime(final int currentTimestamp) {
-        updateRemainingTime(currentTimestamp);
+    public int getRemainingTime() {
         return remainingTime;
     }
 
@@ -162,10 +168,4 @@ public class Player {
         return currentAudio;
     }
 
-    /**
-     * JAVADOC
-     */
-    public Playlist getCurrentPlaylist() {
-        return currentPlaylist;
-    }
 }

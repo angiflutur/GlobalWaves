@@ -12,11 +12,14 @@ public class Podcast extends AudioFile {
     private String name;
     private String owner;
     private ArrayList<PodcastEpisode> episodes;
-
+    private int currentEpisodeIndex;
+    private int currentEpisodeRemainingTime;
     /**
      * JAVADOC
      */
     public Podcast() {
+        this.currentEpisodeIndex = 0;
+        this.currentEpisodeRemainingTime = 0;
     }
 
     /**
@@ -25,6 +28,8 @@ public class Podcast extends AudioFile {
     public Podcast(final String name, final String owner) {
         this.name = name;
         this.owner = owner;
+        this.currentEpisodeIndex = 0;
+        this.currentEpisodeRemainingTime = 0;
     }
 
     /**
@@ -36,6 +41,7 @@ public class Podcast extends AudioFile {
         this.name = name;
         this.owner = owner;
         this.episodes = episodes;
+        this.currentEpisodeIndex = 0;
     }
 
     /**
@@ -83,12 +89,27 @@ public class Podcast extends AudioFile {
     /**
      * JAVADOC
      */
+    public int getCurrentEpisodeIndex() {
+        return currentEpisodeIndex;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public void setCurrentEpisodeIndex(final int index) {
+        this.currentEpisodeIndex = index;
+    }
+
+    /**
+     * JAVADOC
+     */
     @Override
     public String toString() {
         return "Podcast{"
                 + "name='" + name + '\''
                 + ", owner='" + owner + '\''
                 + ", episodes=" + episodes
+                + ", currentEpisodeIndex=" + currentEpisodeIndex
                 + '}';
     }
 }

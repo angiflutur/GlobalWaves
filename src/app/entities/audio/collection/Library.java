@@ -126,6 +126,7 @@ public class Library {
             for (EpisodeInput episodeInput : podcast.getEpisodes()) {
                 PodcastEpisode episode = new PodcastEpisode();
                 episode.setDuration(episodeInput.getDuration());
+                episode.setName(episodeInput.getName());
                 episode.setDescription(episodeInput.getDescription());
                 podcastEpisodes.add(episode);
             }
