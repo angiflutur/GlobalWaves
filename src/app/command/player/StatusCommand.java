@@ -24,9 +24,7 @@ public class StatusCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
-
         Player player = Player.getInstance();
-
         int currentTimestamp = getTimestamp();
         player.updateRemainingTime(currentTimestamp);
 
@@ -42,22 +40,18 @@ public class StatusCommand extends Command {
         if (player.getCurrentAudio() != null) {
             if (player.getCurrentAudio() instanceof Podcast) {
                 Podcast podcast = (Podcast) player.getCurrentAudio();
-
                 int currentEpisodeIndex = podcast.getCurrentEpisodeIndex();
 
-                if (currentEpisodeIndex >= 0
-                        && currentEpisodeIndex < podcast.getEpisodes().size()) {
+                if (currentEpisodeIndex >= 0 && currentEpisodeIndex < podcast.getEpisodes().size()) {
                     PodcastEpisode currentEpisode = podcast.getEpisodes().get(currentEpisodeIndex);
                     statsNode.put("name", remainingTime > 0
-                            ? (currentEpisode.getName() != null
-                            ? currentEpisode.getName() : "") : "");
+                            ? (currentEpisode.getName() != null ? currentEpisode.getName() : "") : "");
                 } else {
                     statsNode.put("name", "");
                 }
             } else {
                 statsNode.put("name", remainingTime > 0
-                        ? (player.getCurrentAudio().getName() != null
-                        ? player.getCurrentAudio().getName() : "") : "");
+                        ? (player.getCurrentAudio().getName() != null ? player.getCurrentAudio().getName() : "") : "");
             }
         } else {
             statsNode.put("name", "");

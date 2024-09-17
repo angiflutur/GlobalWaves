@@ -62,8 +62,17 @@ public class SearchCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+        Player player = Player.getInstance();
 
-        Player.getInstance().setLoaded(false);
+        // Oprim redarea curentă și resetăm player-ul
+        if (player.isLoaded()) {
+            if (player.getCurrentAudio() instanceof Podcast) {
+                // Actualizează timpul rămas pentru podcast
+                player.updateRemainingTime(getTimestamp());
+            }
+            player.setLoaded(false);
+            player.setPaused(true);
+        }
 
         SearchBar searchBar = new SearchBar(library);
         ArrayList<AudioFile> combinedResultsAudio = new ArrayList<>();
@@ -119,8 +128,7 @@ public class SearchCommand extends Command {
         }
 
         if ("playlist".equals(type)) {
-            ArrayList<Playlist> filteredPlaylists =
-                    new ArrayList<>(library.getPlaylists().values());
+            ArrayList<Playlist> filteredPlaylists = new ArrayList<>(library.getPlaylists().values());
 
             if (filterName != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByName(filterName));
@@ -132,6 +140,7 @@ public class SearchCommand extends Command {
             combinedResultsPlaylists.addAll(filteredPlaylists);
         }
 
+        // Limităm numărul de rezultate la MAX_FILTER_LENGTH
         combinedResultsAudio = new ArrayList<>(combinedResultsAudio.subList(0,
                 Math.min(MAX_FILTER_LENGTH, combinedResultsAudio.size())));
 

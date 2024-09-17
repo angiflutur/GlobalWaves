@@ -56,8 +56,8 @@
   "user" : "emily30",
   "timestamp" : 1140,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Swimming Pools (Drank)",
+    "remainedTime" : 247,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -137,8 +137,8 @@
   "user" : "emily30",
   "timestamp" : 3920,
   "stats" : {
-    "name" : "The Capitol Riot, 1 Year Later",
-    "remainedTime" : 670,
+    "name" : "Inside the Vaccine Mandate Showdown",
+    "remainedTime" : 1061,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -159,11 +159,11 @@
   "user" : "emily30",
   "timestamp" : 4330,
   "stats" : {
-    "name" : "The Capitol Riot, 1 Year Later",
-    "remainedTime" : 960,
+    "name" : "Inside the Vaccine Mandate Showdown",
+    "remainedTime" : 781,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "load",

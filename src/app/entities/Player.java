@@ -51,8 +51,20 @@ public class Player {
         this.currentPlaylist = null;
         this.isLoaded = true;
         this.isPaused = false;
-        this.remainingTime = audio.getDuration();
         this.lastUpdateTimestamp = timestamp;
+
+        // Set the remaining time based on the type of audio file
+        if (audio instanceof Podcast) {
+            Podcast podcast = (Podcast) audio;
+            if (podcast.getCurrentEpisodeIndex() >= 0
+                    && podcast.getCurrentEpisodeIndex() < podcast.getEpisodes().size()) {
+                this.remainingTime = podcast.getCurrentEpisodeRemainingTime();
+            } else {
+                this.remainingTime = 0;
+            }
+        } else {
+            this.remainingTime = audio.getDuration();
+        }
     }
 
     /**
@@ -83,35 +95,42 @@ public class Player {
     public void updateRemainingTime(final int currentTimestamp) {
         if (!isPaused && currentAudio != null) {
             int timeElapsed = currentTimestamp - lastUpdateTimestamp;
-            remainingTime -= timeElapsed;
-
-            if (remainingTime < 0) {
-                remainingTime = 0;
-            }
 
             if (currentAudio instanceof Podcast) {
                 Podcast podcast = (Podcast) currentAudio;
                 int currentEpisodeIndex = podcast.getCurrentEpisodeIndex();
 
-                if (currentEpisodeIndex >= 0
-                        && currentEpisodeIndex < podcast.getEpisodes().size()) {
+                if (currentEpisodeIndex >= 0 && currentEpisodeIndex < podcast.getEpisodes().size()) {
                     PodcastEpisode currentEpisode = podcast.getEpisodes().get(currentEpisodeIndex);
-                    remainingTime = Math.max(0, currentEpisode.getDuration() - timeElapsed);
+                    int currentEpisodeRemainingTime = podcast.getCurrentEpisodeRemainingTime();
 
-                    if (remainingTime <= 0) {
+                    // Scade timpul care a trecut din timpul rămas al episodului curent
+                    currentEpisodeRemainingTime -= timeElapsed;
+
+                    // Verifică dacă episodul curent s-a terminat
+                    if (currentEpisodeRemainingTime <= 0) {
+                        // Dacă nu este ultimul episod, treci la episodul următor
                         if (currentEpisodeIndex < podcast.getEpisodes().size() - 1) {
                             podcast.setCurrentEpisodeIndex(currentEpisodeIndex + 1);
-                            remainingTime =
-                                    podcast.getEpisodes().
-                                            get(currentEpisodeIndex + 1).getDuration();
+                            PodcastEpisode nextEpisode = podcast.getEpisodes().get(podcast.getCurrentEpisodeIndex());
+
+                            // Setează timpul rămas la durata episodului următor minus timpul rămas din episodul curent
+                            podcast.setCurrentEpisodeRemainingTime(nextEpisode.getDuration() + currentEpisodeRemainingTime);
                         } else {
+                            // Dacă este ultimul episod, resetează
                             currentAudio = null;
                             isLoaded = false;
-                            remainingTime = 0;
+                            podcast.setCurrentEpisodeRemainingTime(0);
                         }
+                    } else {
+                        // Dacă episodul curent nu s-a terminat, actualizează timpul rămas
+                        podcast.setCurrentEpisodeRemainingTime(currentEpisodeRemainingTime);
                     }
+
+                    this.remainingTime = podcast.getCurrentEpisodeRemainingTime();
                 }
             } else {
+                remainingTime -= timeElapsed;
                 if (remainingTime <= 0) {
                     if (currentPlaylist != null && playlistIterator != null) {
                         if (playlistIterator.hasNext()) {
@@ -161,11 +180,14 @@ public class Player {
         isLoaded = loaded;
     }
 
+    public void setPaused(boolean paused) {
+        isPaused = paused;
+    }
+
     /**
      * JAVADOC
      */
     public AudioFile getCurrentAudio() {
         return currentAudio;
     }
-
 }

@@ -123,10 +123,10 @@
   "timestamp" : 3310,
   "stats" : {
     "name" : "99 Problems",
-    "remainedTime" : 119,
+    "remainedTime" : 209,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
@@ -134,10 +134,10 @@
   "timestamp" : 3400,
   "stats" : {
     "name" : "99 Problems",
-    "remainedTime" : 29,
+    "remainedTime" : 209,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "createPlaylist",
@@ -149,8 +149,8 @@
   "user" : "emily30",
   "timestamp" : 3450,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "99 Problems",
+    "remainedTime" : 209,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true

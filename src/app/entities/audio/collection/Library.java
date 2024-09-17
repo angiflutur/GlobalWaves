@@ -87,6 +87,7 @@ public class Library {
         }
         return null;
     }
+
     /**
      * JAVADOC
      */
@@ -132,6 +133,11 @@ public class Library {
             }
 
             newPodcast.setEpisodes(podcastEpisodes);
+
+            if (!podcastEpisodes.isEmpty()) {
+                newPodcast.setCurrentEpisodeRemainingTime(podcastEpisodes.get(0).getDuration());
+            }
+
             podcasts.add(newPodcast);
         }
 
