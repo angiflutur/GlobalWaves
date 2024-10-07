@@ -28,14 +28,14 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3285,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3290,
   "stats" : {
     "name" : "Shape of You",
-    "remainedTime" : 228,
+    "remainedTime" : 208,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -50,7 +50,7 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3345,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -61,7 +61,7 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3385,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -72,7 +72,7 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3545,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -152,7 +152,7 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 4245,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -163,16 +163,16 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 4325,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 4370,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 188,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 } ]

@@ -85,4 +85,11 @@ public class SelectCommand extends Command {
             resultNode.put("message", "Successfully selected " + selectedPlaylist.getName() + ".");
         }
     }
+    public static void setSelectedAudioFile(final AudioFile audioFile) {
+        selectedAudioFile = audioFile;
+    }
+
+    public static void setSelectedPlaylist(final Playlist playlist) {
+        selectedPlaylist = playlist;
+    }
 }

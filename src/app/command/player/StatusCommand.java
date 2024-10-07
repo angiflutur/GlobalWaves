@@ -37,29 +37,43 @@ public class StatusCommand extends Command {
 
         int remainingTime = player.getRemainingTime();
 
-        if (player.getCurrentAudio() != null) {
-            if (player.getCurrentAudio() instanceof Podcast) {
-                Podcast podcast = (Podcast) player.getCurrentAudio();
-                int currentEpisodeIndex = podcast.getCurrentEpisodeIndex();
+        if (player.isLoaded()) {
 
-                if (currentEpisodeIndex >= 0 && currentEpisodeIndex < podcast.getEpisodes().size()) {
-                    PodcastEpisode currentEpisode = podcast.getEpisodes().get(currentEpisodeIndex);
-                    statsNode.put("name", remainingTime > 0
-                            ? (currentEpisode.getName() != null ? currentEpisode.getName() : "") : "");
+            if (player.getCurrentAudio() != null) {
+                String name = "";
+                if (player.getCurrentAudio() instanceof Podcast) {
+                    Podcast podcast = (Podcast) player.getCurrentAudio();
+                    int currentEpisodeIndex = podcast.getCurrentEpisodeIndex();
+
+                    if (currentEpisodeIndex >= 0
+                            && currentEpisodeIndex < podcast.getEpisodes().size()) {
+                        PodcastEpisode currentEpisode
+                                = podcast.getEpisodes().get(currentEpisodeIndex);
+                        name = (remainingTime > 0
+                                && currentEpisode.getName() != null)
+                                ? currentEpisode.getName() : "";
+                    }
                 } else {
-                    statsNode.put("name", "");
+                    name = (remainingTime > 0
+                            && player.getCurrentAudio().getName() != null)
+                            ? player.getCurrentAudio().getName() : "";
                 }
+                statsNode.put("name", name);
             } else {
-                statsNode.put("name", remainingTime > 0
-                        ? (player.getCurrentAudio().getName() != null ? player.getCurrentAudio().getName() : "") : "");
+                statsNode.put("name", "");
             }
+            statsNode.put("remainedTime", remainingTime > 0 ? remainingTime : 0);
+            statsNode.put("repeat", "No Repeat");
+            statsNode.put("shuffle", false);
+            statsNode.put("paused", player.isPaused());
+
         } else {
             statsNode.put("name", "");
+            statsNode.put("remainedTime", 0);
+            statsNode.put("repeat", "No Repeat");
+            statsNode.put("shuffle", false);
+            statsNode.put("paused", player.isPaused());
         }
-
-        statsNode.put("remainedTime", remainingTime > 0 ? remainingTime : 0);
-        statsNode.put("repeat", "No Repeat");
-        statsNode.put("shuffle", false);
-        statsNode.put("paused", player.isPaused());
     }
+
 }

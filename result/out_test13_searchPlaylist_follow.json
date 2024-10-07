@@ -33,7 +33,7 @@
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 300,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",

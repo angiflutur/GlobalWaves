@@ -120,7 +120,8 @@ public class Player {
                 Podcast podcast = (Podcast) currentAudio;
                 int currentEpisodeIndex = podcast.getCurrentEpisodeIndex();
 
-                if (currentEpisodeIndex >= 0 && currentEpisodeIndex < podcast.getEpisodes().size()) {
+                if (currentEpisodeIndex >= 0
+                        && currentEpisodeIndex < podcast.getEpisodes().size()) {
                     PodcastEpisode currentEpisode = podcast.getEpisodes().get(currentEpisodeIndex);
                     int currentEpisodeRemainingTime = podcast.getCurrentEpisodeRemainingTime();
 
@@ -129,9 +130,11 @@ public class Player {
                     if (currentEpisodeRemainingTime <= 0) {
                         if (currentEpisodeIndex < podcast.getEpisodes().size() - 1) {
                             podcast.setCurrentEpisodeIndex(currentEpisodeIndex + 1);
-                            PodcastEpisode nextEpisode = podcast.getEpisodes().get(podcast.getCurrentEpisodeIndex());
+                            PodcastEpisode nextEpisode
+                                    = podcast.getEpisodes().get(podcast.getCurrentEpisodeIndex());
 
-                            podcast.setCurrentEpisodeRemainingTime(nextEpisode.getDuration() + currentEpisodeRemainingTime);
+                            podcast.setCurrentEpisodeRemainingTime(nextEpisode.getDuration()
+                                    + currentEpisodeRemainingTime);
                         } else {
                             currentAudio = null;
                             isLoaded = false;
@@ -149,9 +152,6 @@ public class Player {
                 if (remainingTime <= 0) {
                     if (currentPlaylist != null) {
                         currentIndex++;
-                        if(currentTimestamp == 3448){
-                            System.out.println(remainingTime);
-                        }
                         if (currentIndex < currentPlaylist.getSongs().size()) {
                             currentAudio = currentPlaylist.getSongs().get(currentIndex);
                             remainingTime = currentAudio.getDuration() + remainingTime;
@@ -217,7 +217,7 @@ public class Player {
     /**
      * JAVADOC
      */
-    public void setPaused(boolean paused) {
+    public void setPaused(final boolean paused) {
         isPaused = paused;
     }
 

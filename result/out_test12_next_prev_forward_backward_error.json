@@ -56,8 +56,8 @@
   "user" : "emily30",
   "timestamp" : 1140,
   "stats" : {
-    "name" : "Swimming Pools (Drank)",
-    "remainedTime" : 247,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -159,8 +159,8 @@
   "user" : "emily30",
   "timestamp" : 4330,
   "stats" : {
-    "name" : "Inside the Vaccine Mandate Showdown",
-    "remainedTime" : 781,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true

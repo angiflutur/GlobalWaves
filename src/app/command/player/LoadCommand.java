@@ -46,6 +46,15 @@ public class LoadCommand extends Command {
             return;
         }
 
+        if (Player.getInstance().isLoaded()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "load");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", "Please select a source before attempting to load.");
+            return;
+        }
+
         if (selectedAudioFile != null) {
             Player.getInstance().loadAudio(selectedAudioFile, getTimestamp());
         }

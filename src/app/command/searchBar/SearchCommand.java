@@ -72,6 +72,9 @@ public class SearchCommand extends Command {
             player.setPaused(true);
         }
 
+        SelectCommand.setSelectedAudioFile(null);
+        SelectCommand.setSelectedPlaylist(null);
+
         SearchBar searchBar = new SearchBar(library);
         ArrayList<AudioFile> combinedResultsAudio = new ArrayList<>();
         ArrayList<Playlist> combinedResultsPlaylists = new ArrayList<>();
@@ -126,7 +129,8 @@ public class SearchCommand extends Command {
         }
 
         if ("playlist".equals(type)) {
-            ArrayList<Playlist> filteredPlaylists = new ArrayList<>(library.getPlaylists().values());
+            ArrayList<Playlist> filteredPlaylists
+                    = new ArrayList<>(library.getPlaylists().values());
 
             if (filterName != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByName(filterName));
