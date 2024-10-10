@@ -126,7 +126,7 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -153,7 +153,7 @@
   "stats" : {
     "name" : "Blank Space",
     "remainedTime" : 221,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -164,7 +164,7 @@
   "stats" : {
     "name" : "Blank Space",
     "remainedTime" : 171,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -175,7 +175,7 @@
   "stats" : {
     "name" : "Blank Space",
     "remainedTime" : 121,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -186,7 +186,7 @@
   "stats" : {
     "name" : "Blank Space",
     "remainedTime" : 101,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -197,7 +197,7 @@
   "stats" : {
     "name" : "Blank Space",
     "remainedTime" : 51,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -208,7 +208,7 @@
   "stats" : {
     "name" : "Blank Space",
     "remainedTime" : 1,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -219,7 +219,7 @@
   "stats" : {
     "name" : "Whole Lotta Love",
     "remainedTime" : 15,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -230,7 +230,7 @@
   "stats" : {
     "name" : "Kings Dead",
     "remainedTime" : 195,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }

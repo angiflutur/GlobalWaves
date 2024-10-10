@@ -5,6 +5,8 @@
   "results" : [ "The Unforgiven", "Sad But True", "Nothing Else Matters", "Enter Sandman" ],
   "message" : "Search returned 4 results"
 }, {
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 1100,
@@ -26,6 +28,21 @@
     "paused" : false
   }
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 1191,
+  "message" : "Repeat mode changed to repeat once."
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 1192,
+  "message" : "Repeat mode changed to repeat infinite."
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 2000,
+  "message" : "Repeat mode changed to no repeat."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 2100,
@@ -37,13 +54,18 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 2135,
+  "message" : "Repeat mode changed to repeat once."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 2200,
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -53,6 +75,8 @@
   "timestamp" : 2245,
   "results" : [ ],
   "message" : "Search returned 0 results"
+}, {
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -91,13 +115,18 @@
   "timestamp" : 3195,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 3200,
+  "message" : "Repeat mode changed to repeat infinite."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3220,
   "stats" : {
     "name" : "99 Problems",
     "remainedTime" : 209,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -113,10 +142,14 @@
   "results" : [ "My favourite songs" ],
   "message" : "Search returned 1 results"
 }, {
+  "message" : "Please load a source before setting the repeat status."
+}, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 3290,
   "message" : "Successfully selected My favourite songs."
+}, {
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -128,6 +161,8 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -144,6 +179,8 @@
   "user" : "emily30",
   "timestamp" : 3405,
   "message" : "A playlist with the same name already exists."
+}, {
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",

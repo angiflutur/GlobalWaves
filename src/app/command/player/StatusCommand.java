@@ -63,14 +63,18 @@ public class StatusCommand extends Command {
                 statsNode.put("name", "");
             }
             statsNode.put("remainedTime", remainingTime > 0 ? remainingTime : 0);
-            statsNode.put("repeat", "No Repeat");
+
+            statsNode.put("repeat", player.getRepeatStatus());
+
             statsNode.put("shuffle", false);
             statsNode.put("paused", player.isPaused());
 
         } else {
             statsNode.put("name", "");
             statsNode.put("remainedTime", 0);
+
             statsNode.put("repeat", "No Repeat");
+
             statsNode.put("shuffle", false);
             statsNode.put("paused", player.isPaused());
         }

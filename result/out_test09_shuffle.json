@@ -152,7 +152,7 @@
   "stats" : {
     "name" : "Nothing Else Matters",
     "remainedTime" : 329,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -163,7 +163,7 @@
   "stats" : {
     "name" : "Nothing Else Matters",
     "remainedTime" : 229,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -174,7 +174,7 @@
   "stats" : {
     "name" : "Crazy",
     "remainedTime" : 193,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -185,7 +185,7 @@
   "stats" : {
     "name" : "Elevate",
     "remainedTime" : 68,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -196,7 +196,7 @@
   "stats" : {
     "name" : "Elevate",
     "remainedTime" : 8,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -207,7 +207,7 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -218,7 +218,7 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -245,7 +245,7 @@
   "stats" : {
     "name" : "Nothing Else Matters",
     "remainedTime" : 332,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -256,7 +256,7 @@
   "stats" : {
     "name" : "Crazy",
     "remainedTime" : 306,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -267,7 +267,7 @@
   "stats" : {
     "name" : "Elevate",
     "remainedTime" : 181,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }

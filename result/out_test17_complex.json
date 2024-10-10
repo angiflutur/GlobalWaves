@@ -5509,13 +5509,18 @@
   "timestamp" : 5492,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 5500,
+  "message" : "Repeat mode changed to repeat infinite."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5500,
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 211,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -5526,7 +5531,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 201,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -5542,7 +5547,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 191,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -5553,7 +5558,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 191,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -5564,10 +5569,15 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 191,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 5540,
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -5733,13 +5743,18 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 5650,
+  "message" : "Repeat mode changed to repeat once."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 5650,
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 191,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -5750,10 +5765,15 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 191,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "henry26",
+  "timestamp" : 5670,
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -5761,10 +5781,15 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 191,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "irene33",
+  "timestamp" : 5680,
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -5869,13 +5894,18 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 5750,
+  "message" : "Repeat mode changed to repeat once."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 5750,
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 181,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -5886,7 +5916,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 181,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -5897,7 +5927,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 181,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -5908,7 +5938,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 181,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -5924,10 +5954,15 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 181,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "repeat",
+  "user" : "jack29",
+  "timestamp" : 5790,
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -5935,7 +5970,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 171,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -5946,7 +5981,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 161,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -5962,7 +5997,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 151,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -5973,7 +6008,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 141,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -5984,7 +6019,7 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 131,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -5995,10 +6030,15 @@
   "stats" : {
     "name" : "Don't",
     "remainedTime" : 131,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 5840,
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6224,13 +6264,18 @@
     "paused" : false
   }
 }, {
+  "command" : "repeat",
+  "user" : "bob35",
+  "timestamp" : 6010,
+  "message" : "Repeat mode changed to repeat once."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6010,
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 163,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6246,7 +6291,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 153,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6257,7 +6302,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 143,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6273,7 +6318,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 133,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6284,7 +6329,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 123,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6295,7 +6340,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 123,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6306,7 +6351,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 113,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6317,7 +6362,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 103,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6328,7 +6373,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 103,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6344,7 +6389,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 93,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -6360,7 +6405,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 93,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6376,7 +6421,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 83,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -6387,7 +6432,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 83,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -6398,10 +6443,15 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 83,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "david27",
+  "timestamp" : 6130,
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6409,7 +6459,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 83,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -6420,7 +6470,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 83,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -6436,7 +6486,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 83,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -6452,7 +6502,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 83,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -6463,7 +6513,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 83,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -6474,7 +6524,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 83,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -6490,7 +6540,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 83,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -6501,7 +6551,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 73,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -6517,10 +6567,15 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 63,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 6220,
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -6576,13 +6631,18 @@
     "paused" : false
   }
 }, {
+  "command" : "repeat",
+  "user" : "grace25",
+  "timestamp" : 6260,
+  "message" : "Repeat mode changed to repeat once."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6260,
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 13,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6593,7 +6653,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 3,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6604,7 +6664,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 475,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -6615,10 +6675,15 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 465,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 6300,
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -6626,7 +6691,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 455,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -6637,7 +6702,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 445,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -6648,7 +6713,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 435,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -6659,7 +6724,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 425,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -6670,7 +6735,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 425,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -6681,10 +6746,15 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 415,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 6350,
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -6887,13 +6957,18 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 6500,
+  "message" : "Repeat mode changed to repeat once."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6500,
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -6909,7 +6984,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
@@ -6920,10 +6995,15 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "david27",
+  "timestamp" : 6530,
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6931,10 +7011,15 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 6540,
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6980,16 +7065,26 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "henry26",
+  "timestamp" : 6570,
+  "message" : "Repeat mode changed to repeat once."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6570,
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "irene33",
+  "timestamp" : 6580,
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -6997,7 +7092,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -7008,7 +7103,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -7024,7 +7119,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -7040,7 +7135,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -7051,7 +7146,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -7062,10 +7157,15 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 385,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "david27",
+  "timestamp" : 6630,
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -7340,13 +7440,18 @@
     "paused" : false
   }
 }, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 6850,
+  "message" : "Repeat mode changed to repeat once."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6850,
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 215,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -7357,7 +7462,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 205,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -7368,7 +7473,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 205,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -7384,10 +7489,15 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 195,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "repeat",
+  "user" : "irene33",
+  "timestamp" : 6880,
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -7395,7 +7505,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 185,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -7411,7 +7521,7 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 175,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
@@ -7422,10 +7532,15 @@
   "stats" : {
     "name" : "Stairway to Heaven",
     "remainedTime" : 175,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "bob35",
+  "timestamp" : 6910,
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "bob35",

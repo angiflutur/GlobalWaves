@@ -1,9 +1,6 @@
 package app.command;
 
-import app.command.player.LikeCommand;
-import app.command.player.LoadCommand;
-import app.command.player.PlayPauseCommand;
-import app.command.player.StatusCommand;
+import app.command.player.*;
 import app.command.playlist.AddRemoveInPlaylistCommand;
 import app.command.playlist.CreatePlaylistCommand;
 import app.command.playlist.ShowPlaylistsCommand;
@@ -86,6 +83,8 @@ public final class CommandParser {
                 return new ShowPlaylistsCommand(username, timestamp);
             case "showPreferredSongs":
                 return new ShowPreferredSongsCommand(username, timestamp);
+            case "repeat":
+                return new RepeatCommand(username, timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

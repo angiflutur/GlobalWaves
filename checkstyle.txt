@@ -1,2 +1,19 @@
 Starting audit...
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\CommandParser.java:3:26: Using the '.*' form of import should be avoided - app.command.player.*. [AvoidStarImport]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\JSONComparator.java:58:42: Parameter json2 should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\JSONComparator.java:58:58: Parameter timestamp should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\player\RepeatCommand.java:16:5: Class 'RepeatCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RepeatCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\player\RepeatCommand.java:30:13: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\player\RepeatCommand.java:45:13: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:133:45: Parameter timeElapsed should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:146: Line is longer than 100 characters (found 109). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:148: Line is longer than 100 characters (found 116). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:165:42: Parameter timeElapsed should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:190:46: Parameter timeElapsed should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:249:5: Class 'Player' looks like designed for extension (can be subclassed), but the method 'getRepeatStatus' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Player' final or making the method 'getRepeatStatus' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:249:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:271:5: Class 'Player' looks like designed for extension (can be subclassed), but the method 'getRepeatState' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Player' final or making the method 'getRepeatState' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:275:5: Class 'Player' looks like designed for extension (can be subclassed), but the method 'setRepeatState' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Player' final or making the method 'setRepeatState' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:275:32: Parameter repeatState should be final. [FinalParameters]
 Audit done.
+Checkstyle ends with 16 errors.

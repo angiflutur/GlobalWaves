@@ -26,13 +26,18 @@
     "paused" : false
   }
 }, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 31,
+  "message" : "Repeat mode changed to repeat once."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 32,
   "stats" : {
     "name" : "Dream Chaser",
     "remainedTime" : 193,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -43,10 +48,20 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 258,
+  "message" : "Repeat mode changed to repeat infinite."
+}, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 258,
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -196,13 +211,18 @@
     "paused" : false
   }
 }, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 1036,
+  "message" : "Repeat mode changed to repeat once."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 1037,
   "stats" : {
     "name" : "99 Problems",
     "remainedTime" : 225,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -213,10 +233,15 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 2100,
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -224,7 +249,7 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -235,10 +260,15 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 2335,
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -248,7 +278,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",

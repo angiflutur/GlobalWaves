@@ -79,7 +79,7 @@
   "stats" : {
     "name" : "Going Bad",
     "remainedTime" : 155,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -90,7 +90,7 @@
   "stats" : {
     "name" : "Going Bad",
     "remainedTime" : 125,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -101,7 +101,7 @@
   "stats" : {
     "name" : "Going Bad",
     "remainedTime" : 55,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -128,7 +128,7 @@
   "stats" : {
     "name" : "The Capitol Riot, 1 Year Later",
     "remainedTime" : 350,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -139,7 +139,7 @@
   "stats" : {
     "name" : "Inside the Vaccine Mandate Showdown",
     "remainedTime" : 1061,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
