@@ -2,6 +2,7 @@ package app.command;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import main.Main;
 
 import java.io.File;
 import java.io.IOException;
@@ -55,7 +56,8 @@ public class JSONComparator {
     /**
      * Finds a node in json2 by timestamp.
      */
-    private JsonNode findNodeByTimestamp(JsonNode json2, int timestamp) {
+    private JsonNode findNodeByTimestamp(final JsonNode json2,
+                                         final int timestamp) {
         if (json2.isArray()) {
             for (JsonNode node : json2) {
                 if (node.has("timestamp") && node.get("timestamp").asInt() == timestamp) {
@@ -83,7 +85,33 @@ public class JSONComparator {
      * Main method to execute the comparator.
      */
     public static void main(final String[] args) {
+        try {
+            Main.main(args);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println();
         JSONComparator comparator = new JSONComparator();
-        comparator.compareJsonFiles("ref/ref_test07_repeat.json", "result/out_test07_repeat.json");
+        comparator.compareJsonFiles("ref/ref_test08_repeat_error.json",
+                "result/out_test08_repeat_error.json");
     }
+    //    test01_searchBar_songs_podcasts.json  DONE
+    //    test02_playPause_song.json  DONE
+    //    test03_like_create_addRemove.json  DONE
+    //    test04_like_create_addRemove_error.json  DONE
+    //    test05_playPause_playlist_podcast.json  DONE
+    //    test06_playPause_error.json  DONE
+    //    test07_repeat.json  DONE
+    //    test08_repeat_error.json  DONE
+
+    //    test09_shuffle.json
+    //    test10_shuffle_error.json
+    //    test11_next_prev_forward_backward.json
+    //    test12_next_prev_forward_backward_error.json
+    //    test13_searchPlaylist_follow.json
+    //    test14_searchPlaylist_follow_error.json
+    //    test15_statistics.json
+    //    test16_complex.json
+    //    test17_complex.json
 }

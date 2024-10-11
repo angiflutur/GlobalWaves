@@ -6,15 +6,12 @@ import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.PodcastEpisode;
 import app.entities.audio.file.Song;
 
-import java.util.Iterator;
-
 /**
  * Player class to manage audio playback and state.
  */
 public class Player {
     private AudioFile currentAudio;
     private Playlist currentPlaylist;
-    private Iterator<AudioFile> playlistIterator;
     private boolean isPaused;
     private boolean isLoaded;
     private int remainingTime;
@@ -32,8 +29,8 @@ public class Player {
         this.remainingTime = 0;
         this.lastUpdateTimestamp = 0;
         this.currentPlaylist = null;
-        this.playlistIterator = null;
         this.repeatState = 0;
+        this.currentIndex = 0;
     }
 
     /**
@@ -56,7 +53,8 @@ public class Player {
         this.currentIndex = 0;
 
         if (currentPlaylist != null) {
-            if (currentPlaylist.getSongs().size() > 0) {
+            if (currentPlaylist.getSongs().size() > 0
+                    && currentIndex < currentPlaylist.getSongs().size()) {
                 this.currentAudio = currentPlaylist.getSongs().get(currentIndex);
                 this.remainingTime = this.currentAudio.getDuration();
             } else {
@@ -82,6 +80,7 @@ public class Player {
         this.lastUpdateTimestamp = timestamp;
     }
 
+
     /**
      * Play the audio.
      */
@@ -90,7 +89,6 @@ public class Player {
             updateRemainingTime(currentTimestamp);
             isPaused = false;
             lastUpdateTimestamp = currentTimestamp;
-
         }
     }
 
@@ -108,19 +106,17 @@ public class Player {
     /**
      * Update the remaining time based on the current timestamp.
      */
-    /**
-     * Update the remaining time based on the current timestamp.
-     */
     public void updateRemainingTime(final int currentTimestamp) {
         if (!isPaused && currentAudio != null) {
+
             int timeElapsed = currentTimestamp - lastUpdateTimestamp;
 
-            if (currentAudio instanceof Podcast) {
+            if (currentPlaylist != null) {
+                updatePlaylistRemainingTime(timeElapsed);
+            } else if (currentAudio instanceof Podcast) {
                 updatePodcastRemainingTime(timeElapsed);
             } else if (currentAudio instanceof Song) {
                 updateSongRemainingTime(timeElapsed);
-            } else if (currentPlaylist != null) {
-                updatePlaylistRemainingTime(timeElapsed);
             }
 
             lastUpdateTimestamp = currentTimestamp;
@@ -130,7 +126,7 @@ public class Player {
     /**
      * Update remaining time for the current Podcast.
      */
-    private void updatePodcastRemainingTime(int timeElapsed) {
+    private void updatePodcastRemainingTime(final int timeElapsed) {
         Podcast podcast = (Podcast) currentAudio;
         int currentEpisodeIndex = podcast.getCurrentEpisodeIndex();
 
@@ -143,9 +139,11 @@ public class Player {
             if (currentEpisodeRemainingTime <= 0) {
                 if (currentEpisodeIndex < podcast.getEpisodes().size() - 1) {
                     podcast.setCurrentEpisodeIndex(currentEpisodeIndex + 1);
-                    PodcastEpisode nextEpisode = podcast.getEpisodes().get(podcast.getCurrentEpisodeIndex());
+                    PodcastEpisode nextEpisode
+                            = podcast.getEpisodes().get(podcast.getCurrentEpisodeIndex());
 
-                    podcast.setCurrentEpisodeRemainingTime(nextEpisode.getDuration() + currentEpisodeRemainingTime);
+                    podcast.setCurrentEpisodeRemainingTime(nextEpisode.getDuration()
+                            + currentEpisodeRemainingTime);
                 } else {
                     currentAudio = null;
                     isLoaded = false;
@@ -162,24 +160,32 @@ public class Player {
     /**
      * Update remaining time for the current Song.
      */
-    private void updateSongRemainingTime(int timeElapsed) {
+    private void updateSongRemainingTime(final int timeElapsed) {
         remainingTime -= timeElapsed;
 
         if (remainingTime <= 0) {
-            if (currentPlaylist != null) {
-                currentIndex++;
-                if (currentIndex < currentPlaylist.getSongs().size()) {
-                    currentAudio = currentPlaylist.getSongs().get(currentIndex);
-                    remainingTime = currentAudio.getDuration() + remainingTime;
+            if (repeatState == 1) {
+                remainingTime = currentAudio.getDuration() + remainingTime;
+                repeatState = 0;
+            } else if (repeatState == 2) {
+                remainingTime = currentAudio.getDuration()
+                        - (-remainingTime % currentAudio.getDuration());
+            } else {
+                if (currentPlaylist != null) {
+                    currentIndex++;
+                    if (currentIndex < currentPlaylist.getSongs().size()) {
+                        currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                        remainingTime = currentAudio.getDuration() + remainingTime;
+                    } else {
+                        currentAudio = null;
+                        remainingTime = 0;
+                        isLoaded = false;
+                        isPaused = true;
+                    }
                 } else {
-                    currentAudio = null;
                     remainingTime = 0;
-                    isLoaded = false;
                     isPaused = true;
                 }
-            } else {
-                remainingTime = 0;
-                isPaused = true;
             }
         }
     }
@@ -187,19 +193,31 @@ public class Player {
     /**
      * Update remaining time for the current Playlist.
      */
-    private void updatePlaylistRemainingTime(int timeElapsed) {
+    /**
+     * Update remaining time for the current Playlist.
+     */
+    private void updatePlaylistRemainingTime(final int timeElapsed) {
         remainingTime -= timeElapsed;
 
         if (remainingTime <= 0) {
-            currentIndex++;
-            if (currentIndex < currentPlaylist.getSongs().size()) {
+            if (repeatState == 1) {
                 currentAudio = currentPlaylist.getSongs().get(currentIndex);
-                remainingTime = currentAudio.getDuration();
+                remainingTime += timeElapsed;
+            } else if (repeatState == 2) {
+                remainingTime = currentAudio.getDuration() + remainingTime;
             } else {
-                currentAudio = null;
-                remainingTime = 0;
-                isLoaded = false;
-                isPaused = true;
+                if (currentPlaylist != null) {
+                    currentIndex++;
+                    if (currentIndex < currentPlaylist.getSongs().size()) {
+                        currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                        remainingTime = currentAudio.getDuration() + remainingTime;
+                    } else {
+                        currentAudio = null;
+                        remainingTime = 0;
+                        isLoaded = false;
+                        isPaused = true;
+                    }
+                }
             }
         }
     }
@@ -246,8 +264,40 @@ public class Player {
         return currentAudio;
     }
 
+    /**
+     * Get the current playlist being played.
+     */
+    public Playlist getCurrentPlaylist() {
+        return currentPlaylist;
+    }
+
+    /**
+     * Skip to the previous track in the current playlist.
+     */
+    public void previous() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            currentAudio = currentPlaylist.getSongs().get(currentIndex);
+            remainingTime = currentAudio.getDuration();
+        }
+    }
+
+    /**
+     * Skip to the next track in the current playlist.
+     */
+    public void next() {
+        if (currentPlaylist != null && currentIndex < currentPlaylist.getSongs().size() - 1) {
+            currentIndex++;
+            currentAudio = currentPlaylist.getSongs().get(currentIndex);
+            remainingTime = currentAudio.getDuration();
+        }
+    }
+
+    /**
+     * JAVADOC
+     */
     public String getRepeatStatus() {
-        if (currentAudio instanceof Playlist) {
+        if (currentPlaylist instanceof Playlist) {
             switch (repeatState) {
                 case 1:
                     return "Repeat All";
@@ -268,11 +318,17 @@ public class Player {
         }
     }
 
+    /**
+     * JAVADOC
+     */
     public int getRepeatState() {
         return repeatState;
     }
 
-    public void setRepeatState(int repeatState) {
+    /**
+     * JAVADOC
+     */
+    public void setRepeatState(final int repeatState) {
         this.repeatState = repeatState;
     }
 }

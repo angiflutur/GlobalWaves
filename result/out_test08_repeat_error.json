@@ -5,6 +5,9 @@
   "results" : [ "The Unforgiven", "Sad But True", "Nothing Else Matters", "Enter Sandman" ],
   "message" : "Search returned 4 results"
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 1035,
   "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "select",
@@ -47,11 +50,11 @@
   "user" : "emily30",
   "timestamp" : 2100,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Unforgiven",
+    "remainedTime" : 178,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -63,11 +66,11 @@
   "user" : "emily30",
   "timestamp" : 2200,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Unforgiven",
+    "remainedTime" : 78,
     "repeat" : "Repeat Once",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "search",
@@ -76,6 +79,9 @@
   "results" : [ ],
   "message" : "Search returned 0 results"
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 2290,
   "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "load",
@@ -118,7 +124,7 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 3200,
-  "message" : "Repeat mode changed to repeat infinite."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -126,7 +132,7 @@
   "stats" : {
     "name" : "99 Problems",
     "remainedTime" : 209,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -142,6 +148,9 @@
   "results" : [ "My favourite songs" ],
   "message" : "Search returned 1 results"
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 3270,
   "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "select",
@@ -149,6 +158,9 @@
   "timestamp" : 3290,
   "message" : "Successfully selected My favourite songs."
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 3295,
   "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
@@ -162,6 +174,9 @@
     "paused" : true
   }
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 3335,
   "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
@@ -180,6 +195,9 @@
   "timestamp" : 3405,
   "message" : "A playlist with the same name already exists."
 }, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 3435,
   "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",

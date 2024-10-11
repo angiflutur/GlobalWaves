@@ -5520,7 +5520,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 276,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5531,7 +5531,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 266,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5542,7 +5542,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 256,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5558,7 +5558,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 246,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5566,7 +5566,7 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 5540,
-  "message" : "Repeat mode changed to no repeat."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -5574,7 +5574,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 246,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -5590,7 +5590,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 246,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -5606,7 +5606,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 236,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -5622,7 +5622,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 236,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -5633,7 +5633,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 226,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -5644,7 +5644,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 216,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -5655,7 +5655,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 216,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -5663,7 +5663,7 @@
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 5600,
-  "message" : "Repeat mode changed to repeat once."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -5671,7 +5671,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 206,
-    "repeat" : "Repeat Once",
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -5682,7 +5682,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 196,
-    "repeat" : "Repeat Once",
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -5693,7 +5693,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 186,
-    "repeat" : "Repeat Once",
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -5704,7 +5704,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 186,
-    "repeat" : "Repeat Once",
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -5720,7 +5720,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 176,
-    "repeat" : "Repeat Once",
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -5731,7 +5731,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 176,
-    "repeat" : "Repeat Once",
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -5742,7 +5742,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 176,
-    "repeat" : "Repeat Once",
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -5753,7 +5753,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 176,
-    "repeat" : "Repeat Once",
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -5761,7 +5761,7 @@
   "command" : "repeat",
   "user" : "henry26",
   "timestamp" : 5670,
-  "message" : "Repeat mode changed to repeat infinite."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -5769,7 +5769,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 176,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5785,7 +5785,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 176,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5796,7 +5796,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 166,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5807,7 +5807,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 166,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5823,7 +5823,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 156,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5834,7 +5834,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 146,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5845,7 +5845,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 136,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5856,7 +5856,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 126,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5872,7 +5872,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 116,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5883,7 +5883,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 116,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5894,7 +5894,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 116,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5905,7 +5905,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 116,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5916,7 +5916,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 116,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5927,7 +5927,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 116,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5943,7 +5943,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 116,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5959,7 +5959,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 116,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5970,7 +5970,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 106,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -5986,7 +5986,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5997,7 +5997,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6013,7 +6013,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6024,7 +6024,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6035,7 +6035,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6046,7 +6046,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6057,7 +6057,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6068,7 +6068,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6079,7 +6079,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6090,7 +6090,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6101,7 +6101,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6117,7 +6117,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -6133,7 +6133,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 86,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -6149,7 +6149,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 76,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -6160,7 +6160,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 66,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -6168,7 +6168,7 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 5940,
-  "message" : "Repeat mode changed to no repeat."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6176,7 +6176,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 56,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6187,7 +6187,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 46,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6198,7 +6198,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6214,7 +6214,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6230,7 +6230,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6241,7 +6241,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6252,7 +6252,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6263,7 +6263,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6274,7 +6274,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6290,7 +6290,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6301,7 +6301,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6312,7 +6312,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6323,7 +6323,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6334,7 +6334,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6350,7 +6350,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6361,7 +6361,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 16,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6372,7 +6372,7 @@
   "stats" : {
     "name" : "Big Pimpin'",
     "remainedTime" : 6,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6386,9 +6386,9 @@
   "user" : "alice22",
   "timestamp" : 6100,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 186,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 6,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6397,9 +6397,9 @@
   "user" : "bob35",
   "timestamp" : 6110,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 176,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 6,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6413,9 +6413,9 @@
   "user" : "carol19",
   "timestamp" : 6120,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 166,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 6,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6429,9 +6429,9 @@
   "user" : "david27",
   "timestamp" : 6130,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 166,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 6,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6440,41 +6440,41 @@
   "user" : "emily30",
   "timestamp" : 6140,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 156,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 6,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 6150,
+  "message" : "Repeat mode changed to repeat current song."
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 6150,
+  "stats" : {
+    "name" : "Big Pimpin'",
+    "remainedTime" : 6,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "grace25",
+  "timestamp" : 6160,
+  "message" : "Repeat mode changed to no repeat."
+}, {
+  "command" : "status",
+  "user" : "grace25",
+  "timestamp" : 6160,
+  "stats" : {
+    "name" : "Big Pimpin'",
+    "remainedTime" : 280,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "frank21",
-  "timestamp" : 6150,
-  "message" : "Repeat mode changed to repeat once."
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 6150,
-  "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 146,
-    "repeat" : "Repeat Once",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "grace25",
-  "timestamp" : 6160,
-  "message" : "Repeat mode changed to repeat infinite."
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 6160,
-  "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 136,
-    "repeat" : "Repeat Infinite",
     "shuffle" : false,
     "paused" : false
   }
@@ -6483,9 +6483,9 @@
   "user" : "henry26",
   "timestamp" : 6170,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 126,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 270,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -6494,9 +6494,9 @@
   "user" : "irene33",
   "timestamp" : 6180,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 116,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 260,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -6505,9 +6505,9 @@
   "user" : "irene33",
   "timestamp" : 6180,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 116,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 260,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -6515,15 +6515,15 @@
   "command" : "repeat",
   "user" : "jack29",
   "timestamp" : 6190,
-  "message" : "Repeat mode changed to no repeat."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6190,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 106,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 250,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6537,9 +6537,9 @@
   "user" : "alice22",
   "timestamp" : 6200,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 96,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 240,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6547,15 +6547,15 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6210,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6210,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 96,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 240,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6569,9 +6569,9 @@
   "user" : "carol19",
   "timestamp" : 6220,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 96,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 240,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6580,9 +6580,9 @@
   "user" : "david27",
   "timestamp" : 6230,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 86,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 230,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6591,9 +6591,9 @@
   "user" : "emily30",
   "timestamp" : 6240,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 76,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 220,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6602,9 +6602,9 @@
   "user" : "frank21",
   "timestamp" : 6250,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 66,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 210,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6613,9 +6613,9 @@
   "user" : "grace25",
   "timestamp" : 6260,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 56,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 200,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6624,9 +6624,9 @@
   "user" : "henry26",
   "timestamp" : 6270,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 46,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 190,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6640,9 +6640,9 @@
   "user" : "irene33",
   "timestamp" : 6280,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 180,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6651,9 +6651,9 @@
   "user" : "jack29",
   "timestamp" : 6290,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 180,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6662,9 +6662,9 @@
   "user" : "jack29",
   "timestamp" : 6290,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 180,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6673,9 +6673,9 @@
   "user" : "alice22",
   "timestamp" : 6300,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 180,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6684,9 +6684,9 @@
   "user" : "alice22",
   "timestamp" : 6300,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 180,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6694,15 +6694,15 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6310,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6310,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 180,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6716,9 +6716,9 @@
   "user" : "carol19",
   "timestamp" : 6320,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 180,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6732,9 +6732,9 @@
   "user" : "david27",
   "timestamp" : 6330,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 36,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 180,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6743,9 +6743,9 @@
   "user" : "emily30",
   "timestamp" : 6340,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 26,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 170,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6754,9 +6754,9 @@
   "user" : "frank21",
   "timestamp" : 6350,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 16,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 160,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6765,9 +6765,9 @@
   "user" : "grace25",
   "timestamp" : 6360,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 6,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 150,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6776,9 +6776,9 @@
   "user" : "henry26",
   "timestamp" : 6370,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 383,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 140,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6787,9 +6787,9 @@
   "user" : "henry26",
   "timestamp" : 6370,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 383,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 140,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6797,15 +6797,15 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 6380,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6380,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 373,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 130,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6814,9 +6814,9 @@
   "user" : "jack29",
   "timestamp" : 6390,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 363,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 120,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6824,15 +6824,15 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6400,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6400,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 353,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 110,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6841,9 +6841,9 @@
   "user" : "bob35",
   "timestamp" : 6410,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 343,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 100,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6852,9 +6852,9 @@
   "user" : "bob35",
   "timestamp" : 6410,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 343,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 100,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6863,9 +6863,9 @@
   "user" : "carol19",
   "timestamp" : 6420,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 333,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 90,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6874,9 +6874,9 @@
   "user" : "david27",
   "timestamp" : 6430,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 323,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 80,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6885,9 +6885,9 @@
   "user" : "emily30",
   "timestamp" : 6440,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 313,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 70,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6901,9 +6901,9 @@
   "user" : "frank21",
   "timestamp" : 6450,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 303,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 60,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6912,9 +6912,9 @@
   "user" : "grace25",
   "timestamp" : 6460,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 293,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 50,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6923,9 +6923,9 @@
   "user" : "henry26",
   "timestamp" : 6470,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 283,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 40,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6934,9 +6934,9 @@
   "user" : "irene33",
   "timestamp" : 6480,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 273,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 30,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6944,15 +6944,15 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 6490,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6490,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 263,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 20,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -6966,9 +6966,9 @@
   "user" : "alice22",
   "timestamp" : 6500,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 253,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6977,9 +6977,9 @@
   "user" : "bob35",
   "timestamp" : 6510,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 253,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -6993,9 +6993,9 @@
   "user" : "carol19",
   "timestamp" : 6520,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 253,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -7009,9 +7009,9 @@
   "user" : "david27",
   "timestamp" : 6530,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -7020,9 +7020,9 @@
   "user" : "emily30",
   "timestamp" : 6540,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -7036,9 +7036,9 @@
   "user" : "frank21",
   "timestamp" : 6550,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -7047,9 +7047,9 @@
   "user" : "grace25",
   "timestamp" : 6560,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -7057,15 +7057,15 @@
   "command" : "repeat",
   "user" : "henry26",
   "timestamp" : 6570,
-  "message" : "Repeat mode changed to repeat once."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6570,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7074,9 +7074,9 @@
   "user" : "irene33",
   "timestamp" : 6580,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7085,9 +7085,9 @@
   "user" : "jack29",
   "timestamp" : 6590,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7096,9 +7096,9 @@
   "user" : "jack29",
   "timestamp" : 6590,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7106,15 +7106,15 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6600,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6600,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7123,9 +7123,9 @@
   "user" : "bob35",
   "timestamp" : 6610,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7134,9 +7134,9 @@
   "user" : "carol19",
   "timestamp" : 6620,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7150,9 +7150,9 @@
   "user" : "david27",
   "timestamp" : 6630,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7161,9 +7161,9 @@
   "user" : "emily30",
   "timestamp" : 6640,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7177,9 +7177,9 @@
   "user" : "frank21",
   "timestamp" : 6650,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7193,9 +7193,9 @@
   "user" : "grace25",
   "timestamp" : 6660,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 243,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 10,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7209,9 +7209,9 @@
   "user" : "henry26",
   "timestamp" : 6670,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 233,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 284,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7220,9 +7220,9 @@
   "user" : "irene33",
   "timestamp" : 6680,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 233,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 284,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7236,9 +7236,9 @@
   "user" : "jack29",
   "timestamp" : 6690,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 233,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 284,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7246,15 +7246,15 @@
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 6700,
-  "message" : "Repeat mode changed to repeat infinite."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6700,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 223,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 274,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -7262,15 +7262,15 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6710,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6710,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 213,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 264,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -7279,9 +7279,9 @@
   "user" : "carol19",
   "timestamp" : 6720,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 203,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 254,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -7290,9 +7290,9 @@
   "user" : "david27",
   "timestamp" : 6730,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 193,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 244,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -7301,41 +7301,41 @@
   "user" : "david27",
   "timestamp" : 6730,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 193,
-    "repeat" : "Repeat Infinite",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "emily30",
-  "timestamp" : 6740,
-  "message" : "Repeat mode changed to no repeat."
-}, {
-  "command" : "status",
-  "user" : "emily30",
-  "timestamp" : 6740,
-  "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 183,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 244,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
 }, {
   "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 6740,
+  "message" : "Repeat mode changed to repeat all."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 6740,
+  "stats" : {
+    "name" : "Big Pimpin'",
+    "remainedTime" : 234,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
   "user" : "frank21",
   "timestamp" : 6750,
-  "message" : "Repeat mode changed to repeat once."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6750,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 173,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 224,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7344,9 +7344,9 @@
   "user" : "grace25",
   "timestamp" : 6760,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 163,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 214,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7355,9 +7355,9 @@
   "user" : "henry26",
   "timestamp" : 6770,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 153,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 204,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7365,15 +7365,15 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 6780,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6780,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 143,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 194,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7381,15 +7381,15 @@
   "command" : "repeat",
   "user" : "jack29",
   "timestamp" : 6790,
-  "message" : "Repeat mode changed to repeat infinite."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6790,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 133,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 184,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -7398,9 +7398,9 @@
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 123,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 174,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -7409,9 +7409,9 @@
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 123,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 174,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -7420,9 +7420,9 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 113,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 164,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -7430,15 +7430,15 @@
   "command" : "repeat",
   "user" : "carol19",
   "timestamp" : 6820,
-  "message" : "Repeat mode changed to no repeat."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6820,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 103,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 154,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -7452,9 +7452,9 @@
   "user" : "david27",
   "timestamp" : 6830,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 93,
-    "repeat" : "No Repeat",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 144,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -7462,15 +7462,15 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 6840,
-  "message" : "Repeat mode changed to repeat once."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6840,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 83,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 134,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7479,9 +7479,9 @@
   "user" : "frank21",
   "timestamp" : 6850,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 73,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 124,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7490,9 +7490,9 @@
   "user" : "frank21",
   "timestamp" : 6850,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 73,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 124,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7501,9 +7501,9 @@
   "user" : "grace25",
   "timestamp" : 6860,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 63,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 114,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7517,9 +7517,9 @@
   "user" : "henry26",
   "timestamp" : 6870,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 53,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 104,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7527,31 +7527,31 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 6880,
-  "message" : "Like registered successfully."
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 6880,
-  "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 43,
-    "repeat" : "Repeat Once",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "like",
-  "user" : "jack29",
-  "timestamp" : 6890,
   "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 6880,
+  "stats" : {
+    "name" : "Big Pimpin'",
+    "remainedTime" : 94,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "jack29",
+  "timestamp" : 6890,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
   "user" : "jack29",
   "timestamp" : 6890,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 33,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 84,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7560,9 +7560,9 @@
   "user" : "alice22",
   "timestamp" : 6900,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 23,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 74,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7576,9 +7576,9 @@
   "user" : "bob35",
   "timestamp" : 6910,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 13,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 64,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7586,15 +7586,15 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 6920,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6920,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 13,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 64,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7603,9 +7603,9 @@
   "user" : "david27",
   "timestamp" : 6930,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 13,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 64,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7614,9 +7614,9 @@
   "user" : "david27",
   "timestamp" : 6930,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 13,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 64,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -7630,9 +7630,9 @@
   "user" : "emily30",
   "timestamp" : 6940,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 13,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 64,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -7640,15 +7640,15 @@
   "command" : "repeat",
   "user" : "frank21",
   "timestamp" : 6950,
-  "message" : "Repeat mode changed to repeat infinite."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6950,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 3,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 54,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -7657,9 +7657,9 @@
   "user" : "grace25",
   "timestamp" : 6960,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 264,
-    "repeat" : "Repeat Infinite",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 44,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -7673,41 +7673,41 @@
   "user" : "henry26",
   "timestamp" : 6970,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 254,
-    "repeat" : "Repeat Infinite",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "repeat",
-  "user" : "irene33",
-  "timestamp" : 6980,
-  "message" : "Repeat mode changed to no repeat."
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 6980,
-  "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 254,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 34,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "repeat",
+  "user" : "irene33",
+  "timestamp" : 6980,
+  "message" : "Repeat mode changed to repeat all."
+}, {
+  "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 6980,
+  "stats" : {
+    "name" : "Big Pimpin'",
+    "remainedTime" : 34,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
   "user" : "jack29",
   "timestamp" : 6990,
-  "message" : "Repeat mode changed to repeat once."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6990,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 254,
-    "repeat" : "Repeat Once",
+    "name" : "Big Pimpin'",
+    "remainedTime" : 34,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -9580,7 +9580,7 @@
   "command" : "showPreferredSongs",
   "user" : "bob35",
   "timestamp" : 8500,
-  "result" : [ "Big Pimpin'", "Money Trees" ]
+  "result" : [ ]
 }, {
   "command" : "showPlaylists",
   "user" : "carol19",
@@ -9690,7 +9690,7 @@
   "command" : "showPreferredSongs",
   "user" : "carol19",
   "timestamp" : 8510,
-  "result" : [ "Maps", "Money Trees" ]
+  "result" : [ ]
 }, {
   "command" : "showPlaylists",
   "user" : "david27",
@@ -10020,7 +10020,7 @@
   "command" : "showPreferredSongs",
   "user" : "frank21",
   "timestamp" : 8540,
-  "result" : [ "Money Trees" ]
+  "result" : [ "Big Pimpin'" ]
 }, {
   "command" : "showPlaylists",
   "user" : "grace25",
@@ -10240,7 +10240,7 @@
   "command" : "showPreferredSongs",
   "user" : "henry26",
   "timestamp" : 8560,
-  "result" : [ "Money Trees" ]
+  "result" : [ "Big Pimpin'" ]
 }, {
   "command" : "showPlaylists",
   "user" : "irene33",
@@ -10350,7 +10350,7 @@
   "command" : "showPreferredSongs",
   "user" : "irene33",
   "timestamp" : 8570,
-  "result" : [ "Big Pimpin'", "Money Trees" ]
+  "result" : [ ]
 }, {
   "command" : "showPlaylists",
   "user" : "jack29",

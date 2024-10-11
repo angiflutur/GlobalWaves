@@ -46,32 +46,32 @@
   "user" : "alice22",
   "timestamp" : 257,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "Repeat Once",
+    "name" : "Dream Chaser",
+    "remainedTime" : 173,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 258,
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 258,
   "message" : "Repeat mode changed to repeat infinite."
 }, {
-  "command" : "repeat",
-  "user" : "alice22",
-  "timestamp" : 258,
-  "message" : "Repeat mode changed to no repeat."
-}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 1000,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Dream Chaser",
+    "remainedTime" : 45,
+    "repeat" : "Repeat Infinite",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "createPlaylist",
@@ -214,7 +214,7 @@
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 1036,
-  "message" : "Repeat mode changed to repeat once."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -222,7 +222,7 @@
   "stats" : {
     "name" : "99 Problems",
     "remainedTime" : 225,
-    "repeat" : "Repeat Once",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -231,9 +231,9 @@
   "user" : "alice22",
   "timestamp" : 2099,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "Repeat Once",
+    "name" : "99 Problems",
+    "remainedTime" : 225,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -241,15 +241,15 @@
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 2100,
-  "message" : "Repeat mode changed to repeat infinite."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 2101,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "Repeat Infinite",
+    "name" : "99 Problems",
+    "remainedTime" : 223,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -258,9 +258,9 @@
   "user" : "alice22",
   "timestamp" : 2334,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "Repeat Infinite",
+    "name" : "99 Problems",
+    "remainedTime" : 224,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -274,11 +274,11 @@
   "user" : "alice22",
   "timestamp" : 2336,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "99 Problems",
+    "remainedTime" : 222,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",

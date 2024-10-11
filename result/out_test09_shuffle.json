@@ -152,7 +152,7 @@
   "stats" : {
     "name" : "Nothing Else Matters",
     "remainedTime" : 329,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -163,7 +163,7 @@
   "stats" : {
     "name" : "Nothing Else Matters",
     "remainedTime" : 229,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -174,7 +174,7 @@
   "stats" : {
     "name" : "Crazy",
     "remainedTime" : 193,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -185,7 +185,7 @@
   "stats" : {
     "name" : "Elevate",
     "remainedTime" : 68,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -196,7 +196,7 @@
   "stats" : {
     "name" : "Elevate",
     "remainedTime" : 8,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -207,9 +207,9 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
@@ -218,9 +218,9 @@
   "stats" : {
     "name" : "",
     "remainedTime" : 0,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "search",
@@ -245,7 +245,7 @@
   "stats" : {
     "name" : "Nothing Else Matters",
     "remainedTime" : 332,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -256,7 +256,7 @@
   "stats" : {
     "name" : "Crazy",
     "remainedTime" : 306,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -267,7 +267,7 @@
   "stats" : {
     "name" : "Elevate",
     "remainedTime" : 181,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }

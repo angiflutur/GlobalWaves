@@ -1,5 +1,6 @@
 package app.command.searchBar;
 
+import app.entities.Player;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.AudioFile;
@@ -52,6 +53,9 @@ public class SelectCommand extends Command {
         ArrayList<Object> combinedResults = new ArrayList<>();
         combinedResults.addAll(lastSearchResultsAudio);
         combinedResults.addAll(lastSearchResultsPlaylists);
+
+        Player player = Player.getInstance();
+        player.setRepeatState(0);
 
         if (combinedResults.isEmpty()) {
             ObjectNode resultNode = output.addObject();

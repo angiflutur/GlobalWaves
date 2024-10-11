@@ -94,7 +94,7 @@
   "stats" : {
     "name" : "Under Pressure",
     "remainedTime" : 210,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -121,7 +121,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 207,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -132,7 +132,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 172,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -143,7 +143,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 151,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -154,7 +154,7 @@
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 149,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -181,7 +181,7 @@
   "stats" : {
     "name" : "Airbnb: Joe Gebbia",
     "remainedTime" : 2817,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -192,7 +192,7 @@
   "stats" : {
     "name" : "Airbnb: Joe Gebbia",
     "remainedTime" : 2815,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -219,7 +219,7 @@
   "stats" : {
     "name" : "Airbnb: Joe Gebbia",
     "remainedTime" : 2479,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
@@ -230,7 +230,7 @@
   "stats" : {
     "name" : "Airbnb: Joe Gebbia",
     "remainedTime" : 2477,
-    "repeat" : "Repeat Infinite",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }

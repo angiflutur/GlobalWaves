@@ -28,6 +28,10 @@ public class StatusCommand extends Command {
         int currentTimestamp = getTimestamp();
         player.updateRemainingTime(currentTimestamp);
 
+        if (player.getRemainingTime() <= 0) {
+            player.setPaused(true);
+        }
+
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "status");
         resultNode.put("user", getUsername());
@@ -38,7 +42,6 @@ public class StatusCommand extends Command {
         int remainingTime = player.getRemainingTime();
 
         if (player.isLoaded()) {
-
             if (player.getCurrentAudio() != null) {
                 String name = "";
                 if (player.getCurrentAudio() instanceof Podcast) {
@@ -49,8 +52,7 @@ public class StatusCommand extends Command {
                             && currentEpisodeIndex < podcast.getEpisodes().size()) {
                         PodcastEpisode currentEpisode
                                 = podcast.getEpisodes().get(currentEpisodeIndex);
-                        name = (remainingTime > 0
-                                && currentEpisode.getName() != null)
+                        name = (remainingTime > 0 && currentEpisode.getName() != null)
                                 ? currentEpisode.getName() : "";
                     }
                 } else {
@@ -62,22 +64,18 @@ public class StatusCommand extends Command {
             } else {
                 statsNode.put("name", "");
             }
+
             statsNode.put("remainedTime", remainingTime > 0 ? remainingTime : 0);
-
             statsNode.put("repeat", player.getRepeatStatus());
-
             statsNode.put("shuffle", false);
             statsNode.put("paused", player.isPaused());
 
         } else {
             statsNode.put("name", "");
             statsNode.put("remainedTime", 0);
-
             statsNode.put("repeat", "No Repeat");
-
             statsNode.put("shuffle", false);
             statsNode.put("paused", player.isPaused());
         }
     }
-
 }
