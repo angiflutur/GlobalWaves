@@ -5637,12 +5637,17 @@
     "paused" : false
   }
 }, {
+  "command" : "next",
+  "user" : "irene33",
+  "timestamp" : 5580,
+  "message" : "Skipped to next track successfully. The current track is Maps."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 5580,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 226,
+    "name" : "Maps",
+    "remainedTime" : 190,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -5652,8 +5657,8 @@
   "user" : "jack29",
   "timestamp" : 5590,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 216,
+    "name" : "Maps",
+    "remainedTime" : 180,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -5663,8 +5668,8 @@
   "user" : "jack29",
   "timestamp" : 5590,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 216,
+    "name" : "Maps",
+    "remainedTime" : 180,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -5679,19 +5684,24 @@
   "user" : "alice22",
   "timestamp" : 5600,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 206,
+    "name" : "Maps",
+    "remainedTime" : 170,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 5610,
+  "message" : "Skipped to next track successfully. The current track is Money Trees."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5610,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 196,
+    "name" : "Money Trees",
+    "remainedTime" : 387,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -5701,8 +5711,8 @@
   "user" : "carol19",
   "timestamp" : 5620,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 186,
+    "name" : "Money Trees",
+    "remainedTime" : 377,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -5712,8 +5722,8 @@
   "user" : "carol19",
   "timestamp" : 5620,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 186,
+    "name" : "Money Trees",
+    "remainedTime" : 377,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -5728,33 +5738,48 @@
   "user" : "david27",
   "timestamp" : 5630,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 176,
+    "name" : "Money Trees",
+    "remainedTime" : 367,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 5640,
+  "message" : "Returned to previous track successfully. The current track is Money Trees."
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 5640,
+  "message" : "Returned to previous track successfully. The current track is Money Trees."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 5640,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 176,
+    "name" : "Money Trees",
+    "remainedTime" : 387,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "frank21",
+  "timestamp" : 5650,
+  "message" : "Skipped to next track successfully. The current track is Gimme Shelter."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 5650,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 176,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 271,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -5766,11 +5791,11 @@
   "user" : "grace25",
   "timestamp" : 5660,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 176,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 261,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -5782,73 +5807,78 @@
   "user" : "henry26",
   "timestamp" : 5670,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 176,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 251,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "playPause",
   "user" : "irene33",
   "timestamp" : 5680,
-  "message" : "Playback resumed successfully."
+  "message" : "Playback paused successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 5680,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 176,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 241,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 5690,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 166,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 241,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 5690,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 166,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 241,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 5700,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5700,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 156,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 241,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 5710,
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5710,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 146,
+    "name" : "Start Me Up",
+    "remainedTime" : 182,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5863,35 +5893,40 @@
   "user" : "carol19",
   "timestamp" : 5720,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 136,
+    "name" : "Start Me Up",
+    "remainedTime" : 172,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "david27",
+  "timestamp" : 5730,
+  "message" : "Reached the end of the playlist. The player is paused."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 5730,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 126,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "emily30",
   "timestamp" : 5740,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 5740,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 116,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -5901,8 +5936,8 @@
   "user" : "frank21",
   "timestamp" : 5750,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 116,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -5912,41 +5947,61 @@
   "user" : "frank21",
   "timestamp" : 5750,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 116,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 5760,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 5760,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 5760,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 116,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 5770,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5770,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 116,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "irene33",
+  "timestamp" : 5780,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 5780,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 116,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -5955,14 +6010,14 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 5790,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 5790,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 116,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -5971,52 +6026,62 @@
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 5800,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5800,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 116,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 5810,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5810,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 106,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "carol19",
   "timestamp" : 5820,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 5820,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "david27",
+  "timestamp" : 5830,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 5830,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6025,14 +6090,14 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 5840,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 5840,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6042,8 +6107,8 @@
   "user" : "frank21",
   "timestamp" : 5850,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6053,8 +6118,8 @@
   "user" : "frank21",
   "timestamp" : 5850,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6064,8 +6129,8 @@
   "user" : "grace25",
   "timestamp" : 5860,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6075,8 +6140,8 @@
   "user" : "grace25",
   "timestamp" : 5860,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6086,8 +6151,8 @@
   "user" : "henry26",
   "timestamp" : 5870,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6097,19 +6162,24 @@
   "user" : "henry26",
   "timestamp" : 5870,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "irene33",
+  "timestamp" : 5880,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 5880,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6118,155 +6188,160 @@
   "command" : "shuffle",
   "user" : "jack29",
   "timestamp" : 5890,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 5890,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
-    "shuffle" : true,
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 5900,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5900,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 96,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 5910,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5910,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 86,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 5920,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 5920,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 76,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 5930,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 5930,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 66,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 5940,
-  "message" : "Repeat mode changed to repeat all."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 5940,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 56,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "frank21",
+  "timestamp" : 5950,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 5950,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 46,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "grace25",
   "timestamp" : 5960,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 5960,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 36,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 5970,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5970,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 5980,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 5980,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
@@ -6274,10 +6349,10 @@
   "user" : "jack29",
   "timestamp" : 5990,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
@@ -6285,36 +6360,41 @@
   "user" : "jack29",
   "timestamp" : 5990,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 6000,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6000,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 6010,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6010,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6322,37 +6402,47 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 6020,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6020,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "david27",
+  "timestamp" : 6030,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6030,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6040,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6040,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6360,246 +6450,261 @@
   "command" : "shuffle",
   "user" : "frank21",
   "timestamp" : 6050,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6050,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "grace25",
+  "timestamp" : 6060,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6060,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 6070,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6070,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 26,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "irene33",
   "timestamp" : 6080,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6080,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 16,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "jack29",
+  "timestamp" : 6090,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6090,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 6,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6100,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6100,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 6,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 6110,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6110,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 6,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "carol19",
   "timestamp" : 6120,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6120,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 6,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 6130,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6130,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 6,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "emily30",
   "timestamp" : 6140,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6140,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 6,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "frank21",
-  "timestamp" : 6150,
-  "message" : "Repeat mode changed to repeat current song."
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 6150,
-  "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 6,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "grace25",
-  "timestamp" : 6160,
-  "message" : "Repeat mode changed to no repeat."
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 6160,
-  "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 280,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 6150,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 6150,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
+  "user" : "grace25",
+  "timestamp" : 6160,
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "status",
+  "user" : "grace25",
+  "timestamp" : 6160,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 6170,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6170,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 270,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6180,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 260,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6180,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 260,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "jack29",
   "timestamp" : 6190,
-  "message" : "Repeat mode changed to repeat all."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6190,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 250,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 6200,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6200,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 240,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6607,15 +6712,15 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6210,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6210,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 240,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -6623,102 +6728,117 @@
   "command" : "playPause",
   "user" : "carol19",
   "timestamp" : 6220,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6220,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 240,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 6230,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6230,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 230,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6240,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6240,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 220,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "frank21",
   "timestamp" : 6250,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6250,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 210,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6260,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6260,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6260,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 200,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "henry26",
   "timestamp" : 6270,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6270,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 190,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "irene33",
   "timestamp" : 6280,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6280,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 180,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
@@ -6726,10 +6846,10 @@
   "user" : "jack29",
   "timestamp" : 6290,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 180,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
@@ -6737,10 +6857,10 @@
   "user" : "jack29",
   "timestamp" : 6290,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 180,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
@@ -6748,10 +6868,10 @@
   "user" : "alice22",
   "timestamp" : 6300,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 180,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
@@ -6759,410 +6879,480 @@
   "user" : "alice22",
   "timestamp" : 6300,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 180,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6310,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6310,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 180,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 6320,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6320,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 180,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 6330,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6330,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 180,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6340,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6340,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 170,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "frank21",
+  "timestamp" : 6350,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6350,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 160,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6360,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6360,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6360,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 150,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6370,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 140,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6370,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 140,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 6380,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6380,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 130,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 6390,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6390,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 120,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6400,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6400,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 110,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6410,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 100,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6410,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 100,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "carol19",
+  "timestamp" : 6420,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6420,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 90,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 6430,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6430,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 80,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6440,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6440,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 70,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 6450,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6450,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 60,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "grace25",
   "timestamp" : 6460,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6460,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 50,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "henry26",
+  "timestamp" : 6470,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6470,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 40,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "irene33",
   "timestamp" : 6480,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6480,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 30,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 6490,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6490,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 20,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 6500,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6500,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 6510,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6510,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "carol19",
   "timestamp" : 6520,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6520,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "david27",
   "timestamp" : 6530,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6530,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6540,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6540,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 6550,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6550,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6560,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6560,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6560,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "henry26",
   "timestamp" : 6570,
-  "message" : "Repeat mode changed to repeat current song."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6570,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "irene33",
+  "timestamp" : 6580,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6580,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
@@ -7170,10 +7360,10 @@
   "user" : "jack29",
   "timestamp" : 6590,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
@@ -7181,79 +7371,89 @@
   "user" : "jack29",
   "timestamp" : 6590,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6600,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6600,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 6610,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6610,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "carol19",
+  "timestamp" : 6620,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6620,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 6630,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6630,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
     "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "emily30",
   "timestamp" : 6640,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6640,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -7261,15 +7461,15 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 6650,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6650,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -7277,42 +7477,47 @@
   "command" : "playPause",
   "user" : "grace25",
   "timestamp" : 6660,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6660,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 10,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 6670,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6670,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 284,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "irene33",
+  "timestamp" : 6680,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6680,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 284,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -7320,355 +7525,395 @@
   "command" : "playPause",
   "user" : "jack29",
   "timestamp" : 6690,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6690,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 284,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 6700,
-  "message" : "Repeat mode changed to no repeat."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6700,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 274,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6710,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6710,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 264,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6720,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6720,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6720,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 254,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6730,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 244,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6730,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 244,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 6740,
-  "message" : "Repeat mode changed to repeat all."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6740,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 234,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "frank21",
   "timestamp" : 6750,
-  "message" : "Repeat mode changed to repeat current song."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6750,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 224,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "grace25",
+  "timestamp" : 6760,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6760,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 214,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 6770,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6770,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 204,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 6780,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6780,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 194,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "jack29",
   "timestamp" : 6790,
-  "message" : "Repeat mode changed to no repeat."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6790,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 174,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 174,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 6810,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 6810,
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 164,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "carol19",
   "timestamp" : 6820,
-  "message" : "Repeat mode changed to repeat all."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6820,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 154,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 6830,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6830,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 144,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 6840,
-  "message" : "Repeat mode changed to repeat current song."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6840,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 134,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6850,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 124,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6850,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 124,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "grace25",
+  "timestamp" : 6860,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6860,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 114,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 6870,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6870,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 104,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 6880,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6880,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 94,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 6890,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6890,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 84,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 6900,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6900,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 74,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "bob35",
   "timestamp" : 6910,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6910,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 64,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -7676,15 +7921,15 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 6920,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6920,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 64,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -7693,9 +7938,9 @@
   "user" : "david27",
   "timestamp" : 6930,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 64,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -7704,9 +7949,9 @@
   "user" : "david27",
   "timestamp" : 6930,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 64,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -7714,57 +7959,62 @@
   "command" : "playPause",
   "user" : "emily30",
   "timestamp" : 6940,
-  "message" : "Playback resumed successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6940,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 64,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "frank21",
   "timestamp" : 6950,
-  "message" : "Repeat mode changed to no repeat."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6950,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 54,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "next",
+  "user" : "grace25",
+  "timestamp" : 6960,
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6960,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 44,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 6970,
-  "message" : "Playback paused successfully."
+  "message" : "Please load a source before attempting to pause or resume playback."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6970,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 34,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -7773,15 +8023,15 @@
   "command" : "repeat",
   "user" : "irene33",
   "timestamp" : 6980,
-  "message" : "Repeat mode changed to repeat all."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6980,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 34,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -7789,15 +8039,15 @@
   "command" : "repeat",
   "user" : "jack29",
   "timestamp" : 6990,
-  "message" : "Repeat mode changed to repeat current song."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6990,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 34,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -9560,7 +9810,7 @@
   "command" : "showPreferredSongs",
   "user" : "alice22",
   "timestamp" : 8490,
-  "result" : [ "Big Pimpin'" ]
+  "result" : [ "Big Pimpin'", "Gimme Shelter" ]
 }, {
   "command" : "showPlaylists",
   "user" : "bob35",
@@ -10000,7 +10250,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 8530,
-  "result" : [ "Big Pimpin'" ]
+  "result" : [ ]
 }, {
   "command" : "showPlaylists",
   "user" : "frank21",
@@ -10110,7 +10360,7 @@
   "command" : "showPreferredSongs",
   "user" : "frank21",
   "timestamp" : 8540,
-  "result" : [ "Big Pimpin'" ]
+  "result" : [ ]
 }, {
   "command" : "showPlaylists",
   "user" : "grace25",
@@ -10330,7 +10580,7 @@
   "command" : "showPreferredSongs",
   "user" : "henry26",
   "timestamp" : 8560,
-  "result" : [ "Big Pimpin'" ]
+  "result" : [ ]
 }, {
   "command" : "showPlaylists",
   "user" : "irene33",
@@ -10550,5 +10800,5 @@
   "command" : "showPreferredSongs",
   "user" : "jack29",
   "timestamp" : 8580,
-  "result" : [ "Big Pimpin'" ]
+  "result" : [ ]
 } ]

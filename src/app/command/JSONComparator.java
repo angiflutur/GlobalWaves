@@ -93,8 +93,8 @@ public class JSONComparator {
 
         System.out.println();
         JSONComparator comparator = new JSONComparator();
-        comparator.compareJsonFiles("ref/ref_test11_next_prev_forward_backward.json",
-                "result/out_test11_next_prev_forward_backward.json");
+        comparator.compareJsonFiles("ref/ref_test13_searchPlaylist_follow.json",
+                "result/out_test13_searchPlaylist_follow.json");
     }
     //    test01_searchBar_songs_podcasts.json DONE
     //    test02_playPause_song.json DONE
@@ -106,9 +106,9 @@ public class JSONComparator {
     //    test08_repeat_error.json DONE
     //    test09_shuffle.json DONE
     //    test10_shuffle_error.json DONE
+    //    test11_next_prev_forward_backward.json DONE
+    //    test12_next_prev_forward_backward_error.json DONE
 
-    //    test11_next_prev_forward_backward.json
-    //    test12_next_prev_forward_backward_error.json
     //    test13_searchPlaylist_follow.json
     //    test14_searchPlaylist_follow_error.json
     //    test15_statistics.json

@@ -49,6 +49,17 @@ public class Player {
     /**
      * JAVADOC
      */
+    public void nextPrevPlaylistLoad(final int index) {
+        if (currentPlaylist != null && index >= 0 && index < currentPlaylist.getSongs().size()) {
+            currentIndex = index;
+            currentAudio = currentPlaylist.getSongs().get(index);
+            remainingTime = currentAudio.getDuration();
+        }
+    }
+
+    /**
+     * JAVADOC
+     */
     public void loadAudio(final AudioFile audio, final int timestamp) {
         if (audio == null) {
             throw new IllegalArgumentException("AudioFile cannot be null");
@@ -350,5 +361,12 @@ public class Player {
      */
     public void setRepeatState(final int repeatState) {
         this.repeatState = repeatState;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public int getCurrentIndex() {
+        return currentIndex;
     }
 }

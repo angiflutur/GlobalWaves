@@ -5633,1187 +5633,47 @@
     "paused" : true
   }
 }, {
+  "command" : "next",
+  "user" : "henry26",
+  "timestamp" : 5570,
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5570,
   "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
+    "name" : "Start Me Up",
+    "remainedTime" : 162,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 5580,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 5580,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 5590,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 5590,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 5600,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 5610,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "like",
-  "user" : "carol19",
-  "timestamp" : 5620,
-  "message" : "Like registered successfully."
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 5620,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "david27",
-  "timestamp" : 5630,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "emily30",
-  "timestamp" : 5640,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "repeat",
-  "user" : "frank21",
-  "timestamp" : 5650,
-  "message" : "Repeat mode changed to no repeat."
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 5650,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 5660,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "repeat",
-  "user" : "henry26",
-  "timestamp" : 5670,
-  "message" : "Repeat mode changed to repeat all."
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 5670,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "repeat",
-  "user" : "irene33",
-  "timestamp" : 5680,
-  "message" : "Repeat mode changed to repeat current song."
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 5680,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 5690,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 5690,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "playPause",
-  "user" : "alice22",
-  "timestamp" : 5700,
-  "message" : "Playback resumed successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 5700,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 191,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "playPause",
-  "user" : "bob35",
-  "timestamp" : 5710,
-  "message" : "Playback paused successfully."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 5710,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 181,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 5720,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 181,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "like",
-  "user" : "david27",
-  "timestamp" : 5730,
-  "message" : "Like registered successfully."
-}, {
-  "command" : "status",
-  "user" : "david27",
-  "timestamp" : 5730,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 181,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "emily30",
-  "timestamp" : 5740,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 181,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "repeat",
-  "user" : "frank21",
-  "timestamp" : 5750,
-  "message" : "Repeat mode changed to no repeat."
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 5750,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 181,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 5760,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 181,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 5760,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 181,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 5770,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 181,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "playPause",
-  "user" : "irene33",
-  "timestamp" : 5780,
-  "message" : "Playback resumed successfully."
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 5780,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 181,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "jack29",
-  "timestamp" : 5790,
-  "message" : "Repeat mode changed to repeat all."
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 5790,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 171,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 5800,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 161,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "like",
-  "user" : "bob35",
-  "timestamp" : 5810,
-  "message" : "Like registered successfully."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 5810,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 151,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 5820,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 141,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "david27",
-  "timestamp" : 5830,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 131,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "david27",
-  "timestamp" : 5830,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 131,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "emily30",
-  "timestamp" : 5840,
-  "message" : "Repeat mode changed to repeat current song."
-}, {
-  "command" : "status",
-  "user" : "emily30",
-  "timestamp" : 5840,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 121,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "like",
-  "user" : "frank21",
-  "timestamp" : 5850,
-  "message" : "Like registered successfully."
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 5850,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 111,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 5860,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 101,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "henry26",
-  "timestamp" : 5870,
-  "message" : "Shuffle function deactivated successfully."
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 5870,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 91,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "like",
-  "user" : "irene33",
-  "timestamp" : 5880,
-  "message" : "Like registered successfully."
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 5880,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 81,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 5890,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 71,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "alice22",
-  "timestamp" : 5900,
-  "message" : "Shuffle function activated successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 5900,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 61,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 5910,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 51,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 5920,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 41,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 5920,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 41,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "david27",
-  "timestamp" : 5930,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 31,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "emily30",
-  "timestamp" : 5940,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 21,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 5950,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 11,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 5950,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 11,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "like",
-  "user" : "grace25",
-  "timestamp" : 5960,
-  "message" : "Unlike registered successfully."
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 5960,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 1,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "henry26",
-  "timestamp" : 5970,
-  "message" : "Shuffle function deactivated successfully."
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 5970,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 210,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "irene33",
-  "timestamp" : 5980,
-  "message" : "Shuffle function activated successfully."
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 5980,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 200,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "jack29",
-  "timestamp" : 5990,
-  "message" : "Shuffle function deactivated successfully."
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 5990,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 190,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "alice22",
-  "timestamp" : 6000,
-  "message" : "Shuffle function activated successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 6000,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 180,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "bob35",
-  "timestamp" : 6010,
-  "message" : "Repeat mode changed to no repeat."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 6010,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 170,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "like",
-  "user" : "carol19",
-  "timestamp" : 6020,
-  "message" : "Unlike registered successfully."
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 6020,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 160,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "david27",
-  "timestamp" : 6030,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 150,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "like",
-  "user" : "emily30",
-  "timestamp" : 6040,
-  "message" : "Like registered successfully."
-}, {
-  "command" : "status",
-  "user" : "emily30",
-  "timestamp" : 6040,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 140,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 6050,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 130,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 6050,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 130,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "grace25",
-  "timestamp" : 6060,
-  "message" : "Shuffle function deactivated successfully."
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 6060,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 120,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 6070,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 110,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 6070,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 110,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "playPause",
-  "user" : "irene33",
-  "timestamp" : 6080,
-  "message" : "Playback paused successfully."
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 6080,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 100,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "playPause",
-  "user" : "jack29",
-  "timestamp" : 6090,
-  "message" : "Playback resumed successfully."
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 6090,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 100,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "playPause",
-  "user" : "alice22",
-  "timestamp" : 6100,
-  "message" : "Playback paused successfully."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 6100,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 90,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "bob35",
-  "timestamp" : 6110,
-  "message" : "Shuffle function activated successfully."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 6110,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 90,
-    "repeat" : "No Repeat",
-    "shuffle" : true,
-    "paused" : true
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "carol19",
-  "timestamp" : 6120,
-  "message" : "Shuffle function deactivated successfully."
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 6120,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 90,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "repeat",
-  "user" : "david27",
-  "timestamp" : 6130,
-  "message" : "Repeat mode changed to repeat all."
-}, {
-  "command" : "status",
-  "user" : "david27",
-  "timestamp" : 6130,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 90,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "emily30",
-  "timestamp" : 6140,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 90,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "like",
-  "user" : "frank21",
-  "timestamp" : 6150,
-  "message" : "Unlike registered successfully."
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 6150,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 90,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "like",
-  "user" : "grace25",
-  "timestamp" : 6160,
-  "message" : "Like registered successfully."
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 6160,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 90,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 6170,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 90,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 6180,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 90,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "playPause",
-  "user" : "jack29",
-  "timestamp" : 6190,
-  "message" : "Playback resumed successfully."
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 6190,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 90,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 6200,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 80,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "like",
-  "user" : "bob35",
-  "timestamp" : 6210,
-  "message" : "Unlike registered successfully."
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 6210,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 70,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "carol19",
-  "timestamp" : 6220,
-  "message" : "Repeat mode changed to repeat current song."
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 6220,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 60,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "like",
-  "user" : "david27",
-  "timestamp" : 6230,
-  "message" : "Unlike registered successfully."
-}, {
-  "command" : "status",
-  "user" : "david27",
-  "timestamp" : 6230,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 50,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "emily30",
-  "timestamp" : 6240,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 40,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "like",
-  "user" : "frank21",
-  "timestamp" : 6250,
-  "message" : "Like registered successfully."
-}, {
-  "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 6250,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 30,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "grace25",
-  "timestamp" : 6260,
-  "message" : "Repeat mode changed to no repeat."
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 6260,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 20,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 6270,
-  "stats" : {
-    "name" : "Don't",
-    "remainedTime" : 10,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 6280,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 212,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 6290,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 202,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "repeat",
-  "user" : "alice22",
-  "timestamp" : 6300,
-  "message" : "Repeat mode changed to repeat all."
-}, {
-  "command" : "status",
-  "user" : "alice22",
-  "timestamp" : 6300,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 192,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "bob35",
-  "timestamp" : 6310,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 182,
-    "repeat" : "Repeat All",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "carol19",
-  "timestamp" : 6320,
-  "message" : "Shuffle function activated successfully."
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 6320,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 172,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "david27",
-  "timestamp" : 6330,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 162,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "david27",
-  "timestamp" : 6330,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 162,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "emily30",
-  "timestamp" : 6340,
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 152,
-    "repeat" : "Repeat All",
+    "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
   }
 }, {
-  "command" : "repeat",
-  "user" : "frank21",
-  "timestamp" : 6350,
-  "message" : "Repeat mode changed to repeat current song."
+  "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 5580,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 152,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
 }, {
   "command" : "status",
-  "user" : "frank21",
-  "timestamp" : 6350,
+  "user" : "jack29",
+  "timestamp" : 5590,
   "stats" : {
     "name" : "Start Me Up",
     "remainedTime" : 142,
@@ -6822,6 +5682,1306 @@
     "paused" : false
   }
 }, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 5590,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 142,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 5600,
+  "message" : "Skipped to next track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 5600,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 482,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 5610,
+  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 5610,
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 5610,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 5620,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 5620,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 202,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 5630,
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+}, {
+  "command" : "status",
+  "user" : "david27",
+  "timestamp" : 5630,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 5640,
+  "message" : "Skipped to next track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 5640,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 482,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 5650,
+  "message" : "Repeat mode changed to no repeat."
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 5650,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 472,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 5660,
+  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "status",
+  "user" : "grace25",
+  "timestamp" : 5660,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 482,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "henry26",
+  "timestamp" : 5670,
+  "message" : "Repeat mode changed to repeat all."
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 5670,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 472,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "irene33",
+  "timestamp" : 5680,
+  "message" : "Repeat mode changed to repeat current song."
+}, {
+  "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 5680,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 462,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 5690,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 452,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 5690,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 452,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "playPause",
+  "user" : "alice22",
+  "timestamp" : 5700,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 5700,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 442,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : true
+  }
+}, {
+  "command" : "playPause",
+  "user" : "bob35",
+  "timestamp" : 5710,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 5710,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 442,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 5720,
+  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 5720,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 482,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "david27",
+  "timestamp" : 5730,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "david27",
+  "timestamp" : 5730,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 472,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 5740,
+  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 5740,
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 5740,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 5750,
+  "message" : "Repeat mode changed to no repeat."
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 5750,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 202,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "grace25",
+  "timestamp" : 5760,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 192,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "grace25",
+  "timestamp" : 5760,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 192,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "henry26",
+  "timestamp" : 5770,
+  "message" : "Skipped to next track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 5770,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 482,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "playPause",
+  "user" : "irene33",
+  "timestamp" : 5780,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 5780,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 472,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
+  "user" : "jack29",
+  "timestamp" : 5790,
+  "message" : "Repeat mode changed to repeat all."
+}, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 5790,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 472,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : true
+  }
+}, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 5800,
+  "message" : "Skipped to next track successfully. The current track is Thinking Out Loud."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 5800,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 261,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 5810,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 5810,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 251,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "carol19",
+  "timestamp" : 5820,
+  "message" : "Skipped to next track successfully. The current track is Black Dog."
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 5820,
+  "stats" : {
+    "name" : "Black Dog",
+    "remainedTime" : 294,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "david27",
+  "timestamp" : 5830,
+  "stats" : {
+    "name" : "Black Dog",
+    "remainedTime" : 284,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "david27",
+  "timestamp" : 5830,
+  "stats" : {
+    "name" : "Black Dog",
+    "remainedTime" : 284,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "emily30",
+  "timestamp" : 5840,
+  "message" : "Repeat mode changed to repeat current song."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 5840,
+  "stats" : {
+    "name" : "Black Dog",
+    "remainedTime" : 274,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 5850,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 5850,
+  "stats" : {
+    "name" : "Black Dog",
+    "remainedTime" : 264,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "grace25",
+  "timestamp" : 5860,
+  "message" : "Skipped to next track successfully. The current track is The Man."
+}, {
+  "command" : "status",
+  "user" : "grace25",
+  "timestamp" : 5860,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 190,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "henry26",
+  "timestamp" : 5870,
+  "message" : "Shuffle function deactivated successfully."
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 5870,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 180,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "irene33",
+  "timestamp" : 5880,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 5880,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 170,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 5890,
+  "message" : "Returned to previous track successfully. The current track is The Man."
+}, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 5890,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 190,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "alice22",
+  "timestamp" : 5900,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 5900,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 180,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 5910,
+  "message" : "Returned to previous track successfully. The current track is The Man."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 5910,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 190,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 5920,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 180,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 5920,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 180,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 5930,
+  "message" : "Returned to previous track successfully. The current track is The Man."
+}, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 5930,
+  "message" : "Returned to previous track successfully. The current track is Black Dog."
+}, {
+  "command" : "status",
+  "user" : "david27",
+  "timestamp" : 5930,
+  "stats" : {
+    "name" : "Black Dog",
+    "remainedTime" : 294,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 5940,
+  "message" : "Skipped to next track successfully. The current track is The Man."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 5940,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 190,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 5950,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 180,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 5950,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 180,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "grace25",
+  "timestamp" : 5960,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "grace25",
+  "timestamp" : 5960,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 170,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "henry26",
+  "timestamp" : 5970,
+  "message" : "Shuffle function deactivated successfully."
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 5970,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 160,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "irene33",
+  "timestamp" : 5980,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 5980,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 150,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "jack29",
+  "timestamp" : 5990,
+  "message" : "Shuffle function deactivated successfully."
+}, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 5990,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 140,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "alice22",
+  "timestamp" : 6000,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 6000,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 130,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "bob35",
+  "timestamp" : 6010,
+  "message" : "Repeat mode changed to no repeat."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 6010,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 120,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 6020,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 6020,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 110,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 6030,
+  "message" : "Returned to previous track successfully. The current track is The Man."
+}, {
+  "command" : "status",
+  "user" : "david27",
+  "timestamp" : 6030,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 190,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "emily30",
+  "timestamp" : 6040,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 6040,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 180,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 6050,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 170,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 6050,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 170,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "grace25",
+  "timestamp" : 6060,
+  "message" : "Shuffle function deactivated successfully."
+}, {
+  "command" : "status",
+  "user" : "grace25",
+  "timestamp" : 6060,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 160,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 6070,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 150,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 6070,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 150,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "playPause",
+  "user" : "irene33",
+  "timestamp" : 6080,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 6080,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 140,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "playPause",
+  "user" : "jack29",
+  "timestamp" : 6090,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 6090,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 140,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "playPause",
+  "user" : "alice22",
+  "timestamp" : 6100,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 6100,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 130,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 6110,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 6110,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 130,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
+    "paused" : true
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "carol19",
+  "timestamp" : 6120,
+  "message" : "Shuffle function deactivated successfully."
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 6120,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 130,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
+  "user" : "david27",
+  "timestamp" : 6130,
+  "message" : "Repeat mode changed to repeat all."
+}, {
+  "command" : "status",
+  "user" : "david27",
+  "timestamp" : 6130,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 130,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6140,
+  "message" : "Returned to previous track successfully. The current track is The Man."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 6140,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 150,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 6150,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 6150,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 140,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "grace25",
+  "timestamp" : 6160,
+  "message" : "Unlike registered successfully."
+}, {
+  "command" : "status",
+  "user" : "grace25",
+  "timestamp" : 6160,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 130,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 6170,
+  "message" : "Returned to previous track successfully. The current track is The Man."
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 6170,
+  "stats" : {
+    "name" : "The Man",
+    "remainedTime" : 190,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "irene33",
+  "timestamp" : 6180,
+  "message" : "Skipped to next track successfully. The current track is Don't."
+}, {
+  "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 6180,
+  "stats" : {
+    "name" : "Don't",
+    "remainedTime" : 219,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "playPause",
+  "user" : "jack29",
+  "timestamp" : 6190,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 6190,
+  "stats" : {
+    "name" : "Don't",
+    "remainedTime" : 209,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 6200,
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 6200,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 202,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 6210,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 6210,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 192,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "carol19",
+  "timestamp" : 6220,
+  "message" : "Repeat mode changed to repeat current song."
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 6220,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 182,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "david27",
+  "timestamp" : 6230,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "david27",
+  "timestamp" : 6230,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 172,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6240,
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 6240,
+  "message" : "Returned to previous track successfully. The current track is Don't."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 6240,
+  "stats" : {
+    "name" : "Don't",
+    "remainedTime" : 219,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 6250,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 6250,
+  "stats" : {
+    "name" : "Don't",
+    "remainedTime" : 209,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "grace25",
+  "timestamp" : 6260,
+  "message" : "Repeat mode changed to no repeat."
+}, {
+  "command" : "status",
+  "user" : "grace25",
+  "timestamp" : 6260,
+  "stats" : {
+    "name" : "Don't",
+    "remainedTime" : 199,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "henry26",
+  "timestamp" : 6270,
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 6270,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "irene33",
+  "timestamp" : 6280,
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+}, {
+  "command" : "prev",
+  "user" : "irene33",
+  "timestamp" : 6280,
+  "message" : "Returned to previous track successfully. The current track is Don't."
+}, {
+  "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 6280,
+  "stats" : {
+    "name" : "Don't",
+    "remainedTime" : 219,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "jack29",
+  "timestamp" : 6290,
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
+}, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 6290,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "alice22",
+  "timestamp" : 6300,
+  "message" : "Repeat mode changed to repeat all."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 6300,
+  "stats" : {
+    "name" : "Start Me Up",
+    "remainedTime" : 202,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "bob35",
+  "timestamp" : 6310,
+  "message" : "Skipped to next track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 6310,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 482,
+    "repeat" : "Repeat All",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "carol19",
+  "timestamp" : 6320,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 6320,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 472,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "david27",
+  "timestamp" : 6330,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 462,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "david27",
+  "timestamp" : 6330,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 462,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6340,
+  "message" : "Skipped to next track successfully. The current track is Thinking Out Loud."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 6340,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 281,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
+  "command" : "repeat",
+  "user" : "frank21",
+  "timestamp" : 6350,
+  "message" : "Repeat mode changed to repeat current song."
+}, {
+  "command" : "status",
+  "user" : "frank21",
+  "timestamp" : 6350,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 271,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
+  }
+}, {
   "command" : "playPause",
   "user" : "grace25",
   "timestamp" : 6360,
@@ -6831,8 +6991,8 @@
   "user" : "grace25",
   "timestamp" : 6360,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 132,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 261,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -6842,8 +7002,8 @@
   "user" : "henry26",
   "timestamp" : 6370,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 132,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 261,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -6853,8 +7013,8 @@
   "user" : "henry26",
   "timestamp" : 6370,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 132,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 261,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -6869,22 +7029,32 @@
   "user" : "irene33",
   "timestamp" : 6380,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 132,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 261,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 6390,
+  "message" : "Returned to previous track successfully. The current track is Thinking Out Loud."
+}, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 6390,
+  "message" : "Returned to previous track successfully. The current track is Thinking Out Loud."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6390,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 132,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 281,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -6896,92 +7066,107 @@
   "user" : "alice22",
   "timestamp" : 6400,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 132,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 271,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 6410,
+  "message" : "Returned to previous track successfully. The current track is Thinking Out Loud."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6410,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 132,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "playPause",
-  "user" : "carol19",
-  "timestamp" : 6420,
-  "message" : "Playback resumed successfully."
-}, {
-  "command" : "status",
-  "user" : "carol19",
-  "timestamp" : 6420,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 132,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 281,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
 }, {
   "command" : "playPause",
+  "user" : "carol19",
+  "timestamp" : 6420,
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "status",
+  "user" : "carol19",
+  "timestamp" : 6420,
+  "stats" : {
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 271,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "playPause",
   "user" : "david27",
   "timestamp" : 6430,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6430,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 271,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6440,
+  "message" : "Skipped to next track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6440,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 6450,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6450,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Black Dog",
+    "remainedTime" : 284,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6460,
+  "message" : "Returned to previous track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6460,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -6993,22 +7178,27 @@
   "user" : "henry26",
   "timestamp" : 6470,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Black Dog",
+    "remainedTime" : 284,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "irene33",
+  "timestamp" : 6480,
+  "message" : "Skipped to next track successfully. The current track is The Man."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6480,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "The Man",
+    "remainedTime" : 190,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -7020,11 +7210,11 @@
   "user" : "jack29",
   "timestamp" : 6490,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "The Man",
+    "remainedTime" : 180,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7036,11 +7226,11 @@
   "user" : "alice22",
   "timestamp" : 6500,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "The Man",
+    "remainedTime" : 170,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
@@ -7052,22 +7242,32 @@
   "user" : "bob35",
   "timestamp" : 6510,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "The Man",
+    "remainedTime" : 160,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6520,
+  "message" : "Returned to previous track successfully. The current track is The Man."
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6520,
+  "message" : "Returned to previous track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6520,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7079,11 +7279,11 @@
   "user" : "david27",
   "timestamp" : 6530,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Black Dog",
+    "remainedTime" : 284,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7095,44 +7295,49 @@
   "user" : "emily30",
   "timestamp" : 6540,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Black Dog",
+    "remainedTime" : 274,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "frank21",
+  "timestamp" : 6550,
+  "message" : "Skipped to next track successfully. The current track is The Man."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6550,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "The Man",
+    "remainedTime" : 190,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6560,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "The Man",
+    "remainedTime" : 180,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6560,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "The Man",
+    "remainedTime" : 180,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7144,11 +7349,11 @@
   "user" : "henry26",
   "timestamp" : 6570,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "The Man",
+    "remainedTime" : 170,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7160,22 +7365,27 @@
   "user" : "irene33",
   "timestamp" : 6580,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "The Man",
+    "remainedTime" : 160,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "jack29",
+  "timestamp" : 6590,
+  "message" : "Skipped to next track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6590,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
@@ -7187,49 +7397,49 @@
   "user" : "alice22",
   "timestamp" : 6600,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Don't",
+    "remainedTime" : 209,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6610,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6610,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Don't",
+    "remainedTime" : 199,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6620,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Don't",
+    "remainedTime" : 189,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6620,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Don't",
+    "remainedTime" : 189,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7241,11 +7451,11 @@
   "user" : "david27",
   "timestamp" : 6630,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Don't",
+    "remainedTime" : 179,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -7257,11 +7467,11 @@
   "user" : "emily30",
   "timestamp" : 6640,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
+    "name" : "Don't",
+    "remainedTime" : 169,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -7273,75 +7483,75 @@
   "user" : "frank21",
   "timestamp" : 6650,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "playPause",
-  "user" : "grace25",
-  "timestamp" : 6660,
-  "message" : "Playback resumed successfully."
-}, {
-  "command" : "status",
-  "user" : "grace25",
-  "timestamp" : 6660,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 122,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : false,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "henry26",
-  "timestamp" : 6670,
-  "message" : "Shuffle function activated successfully."
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 6670,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 112,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "shuffle",
-  "user" : "irene33",
-  "timestamp" : 6680,
-  "message" : "Shuffle function deactivated successfully."
-}, {
-  "command" : "status",
-  "user" : "irene33",
-  "timestamp" : 6680,
-  "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 102,
+    "name" : "Don't",
+    "remainedTime" : 159,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
 }, {
   "command" : "playPause",
-  "user" : "jack29",
-  "timestamp" : 6690,
+  "user" : "grace25",
+  "timestamp" : 6660,
   "message" : "Playback paused successfully."
 }, {
   "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 6690,
+  "user" : "grace25",
+  "timestamp" : 6660,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 92,
+    "name" : "Don't",
+    "remainedTime" : 149,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "henry26",
+  "timestamp" : 6670,
+  "message" : "Shuffle function activated successfully."
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 6670,
+  "stats" : {
+    "name" : "Don't",
+    "remainedTime" : 149,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : true
+  }
+}, {
+  "command" : "shuffle",
+  "user" : "irene33",
+  "timestamp" : 6680,
+  "message" : "Shuffle function deactivated successfully."
+}, {
+  "command" : "status",
+  "user" : "irene33",
+  "timestamp" : 6680,
+  "stats" : {
+    "name" : "Don't",
+    "remainedTime" : 149,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "playPause",
+  "user" : "jack29",
+  "timestamp" : 6690,
+  "message" : "Playback resumed successfully."
+}, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 6690,
+  "stats" : {
+    "name" : "Don't",
+    "remainedTime" : 149,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : false,
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -7353,35 +7563,45 @@
   "user" : "alice22",
   "timestamp" : 6700,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 92,
+    "name" : "Don't",
+    "remainedTime" : 139,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "playPause",
   "user" : "bob35",
   "timestamp" : 6710,
-  "message" : "Playback resumed successfully."
+  "message" : "Playback paused successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6710,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 92,
+    "name" : "Don't",
+    "remainedTime" : 129,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6720,
+  "message" : "Returned to previous track successfully. The current track is Don't."
+}, {
+  "command" : "prev",
+  "user" : "carol19",
+  "timestamp" : 6720,
+  "message" : "Returned to previous track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6720,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 82,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -7396,85 +7616,135 @@
   "user" : "david27",
   "timestamp" : 6730,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 72,
+    "name" : "Don't",
+    "remainedTime" : 209,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6740,
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6740,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 62,
+    "remainedTime" : 212,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "frank21",
+  "timestamp" : 6750,
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6750,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 52,
+    "remainedTime" : 212,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "grace25",
+  "timestamp" : 6760,
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6760,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 42,
+    "remainedTime" : 212,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 6770,
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+}, {
+  "command" : "prev",
+  "user" : "henry26",
+  "timestamp" : 6770,
+  "message" : "Returned to previous track successfully. The current track is Don't."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6770,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 32,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "irene33",
+  "timestamp" : 6780,
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6780,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 22,
+    "remainedTime" : 212,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 6790,
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+}, {
+  "command" : "prev",
+  "user" : "jack29",
+  "timestamp" : 6790,
+  "message" : "Returned to previous track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6790,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 12,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "prev",
+  "user" : "alice22",
+  "timestamp" : 6800,
+  "message" : "Returned to previous track successfully. The current track is Don't."
+}, {
+  "command" : "prev",
+  "user" : "alice22",
+  "timestamp" : 6800,
+  "message" : "Returned to previous track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6800,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 2,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -7484,8 +7754,8 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 204,
+    "name" : "Don't",
+    "remainedTime" : 209,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -7495,8 +7765,8 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 204,
+    "name" : "Don't",
+    "remainedTime" : 209,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -7511,30 +7781,45 @@
   "user" : "carol19",
   "timestamp" : 6820,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 194,
+    "name" : "Don't",
+    "remainedTime" : 199,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
 }, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 6830,
+  "message" : "Returned to previous track successfully. The current track is Don't."
+}, {
+  "command" : "prev",
+  "user" : "david27",
+  "timestamp" : 6830,
+  "message" : "Returned to previous track successfully. The current track is Don't."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6830,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 184,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "emily30",
+  "timestamp" : 6840,
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6840,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 174,
+    "remainedTime" : 212,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7550,7 +7835,7 @@
   "timestamp" : 6850,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 164,
+    "remainedTime" : 202,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7561,7 +7846,7 @@
   "timestamp" : 6860,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 154,
+    "remainedTime" : 192,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7572,7 +7857,7 @@
   "timestamp" : 6860,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 154,
+    "remainedTime" : 192,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7588,7 +7873,7 @@
   "timestamp" : 6870,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 144,
+    "remainedTime" : 182,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7604,7 +7889,7 @@
   "timestamp" : 6880,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 134,
+    "remainedTime" : 172,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7620,21 +7905,26 @@
   "timestamp" : 6890,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "remainedTime" : 162,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
 }, {
+  "command" : "next",
+  "user" : "alice22",
+  "timestamp" : 6900,
+  "message" : "Skipped to next track successfully. The current track is Stairway to Heaven."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6900,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 472,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7646,44 +7936,49 @@
   "user" : "bob35",
   "timestamp" : 6910,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 462,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6920,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 452,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6920,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 452,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "next",
+  "user" : "david27",
+  "timestamp" : 6930,
+  "message" : "Skipped to next track successfully. The current track is Thinking Out Loud."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6930,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 281,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
@@ -7695,33 +7990,33 @@
   "user" : "emily30",
   "timestamp" : 6940,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 271,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6950,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 261,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6950,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 261,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -7733,27 +8028,27 @@
   "user" : "grace25",
   "timestamp" : 6960,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 251,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 6970,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6970,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 241,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -7765,11 +8060,11 @@
   "user" : "irene33",
   "timestamp" : 6980,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 231,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -7781,11 +8076,11 @@
   "user" : "jack29",
   "timestamp" : 6990,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 221,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "search",
@@ -9546,7 +9841,7 @@
   "command" : "showPreferredSongs",
   "user" : "alice22",
   "timestamp" : 8490,
-  "result" : [ "Start Me Up" ]
+  "result" : [ "Don't" ]
 }, {
   "command" : "showPlaylists",
   "user" : "bob35",
@@ -9656,7 +9951,7 @@
   "command" : "showPreferredSongs",
   "user" : "bob35",
   "timestamp" : 8500,
-  "result" : [ ]
+  "result" : [ "Thinking Out Loud", "Start Me Up", "The Man", "Don't" ]
 }, {
   "command" : "showPlaylists",
   "user" : "carol19",
@@ -9766,7 +10061,7 @@
   "command" : "showPreferredSongs",
   "user" : "carol19",
   "timestamp" : 8510,
-  "result" : [ ]
+  "result" : [ "Start Me Up", "The Man" ]
 }, {
   "command" : "showPlaylists",
   "user" : "david27",
@@ -9876,7 +10171,7 @@
   "command" : "showPreferredSongs",
   "user" : "david27",
   "timestamp" : 8520,
-  "result" : [ "Start Me Up" ]
+  "result" : [ "Stairway to Heaven", "Start Me Up", "Don't" ]
 }, {
   "command" : "showPlaylists",
   "user" : "emily30",
@@ -9986,7 +10281,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 8530,
-  "result" : [ "Don't", "Start Me Up" ]
+  "result" : [ "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "showPlaylists",
   "user" : "frank21",
@@ -10096,7 +10391,7 @@
   "command" : "showPreferredSongs",
   "user" : "frank21",
   "timestamp" : 8540,
-  "result" : [ "Don't", "Start Me Up" ]
+  "result" : [ "The Man", "Don't" ]
 }, {
   "command" : "showPlaylists",
   "user" : "grace25",
@@ -10316,7 +10611,7 @@
   "command" : "showPreferredSongs",
   "user" : "henry26",
   "timestamp" : 8560,
-  "result" : [ ]
+  "result" : [ "Start Me Up", "Thinking Out Loud" ]
 }, {
   "command" : "showPlaylists",
   "user" : "irene33",
@@ -10426,7 +10721,7 @@
   "command" : "showPreferredSongs",
   "user" : "irene33",
   "timestamp" : 8570,
-  "result" : [ "Don't", "Start Me Up" ]
+  "result" : [ "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "showPlaylists",
   "user" : "jack29",

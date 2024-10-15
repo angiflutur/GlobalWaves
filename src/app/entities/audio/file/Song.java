@@ -129,6 +129,7 @@ public class Song extends AudioFile {
     @Override
     public String toString() {
         return "Song{"
+                + "name='" + super.getName() + '\''
                 + "album='" + album + '\''
                 + ", tags=" + tags
                 + ", lyrics='" + lyrics + '\''
