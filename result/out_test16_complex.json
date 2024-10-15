@@ -5525,6 +5525,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 5510,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5510,
@@ -5532,9 +5537,14 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 266,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "carol19",
+  "timestamp" : 5520,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -5747,6 +5757,11 @@
     "paused" : true
   }
 }, {
+  "command" : "shuffle",
+  "user" : "grace25",
+  "timestamp" : 5660,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 5660,
@@ -5754,7 +5769,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 176,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5770,7 +5785,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 176,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5786,7 +5801,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 176,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5797,7 +5812,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 166,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5808,7 +5823,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 166,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5824,7 +5839,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 156,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5835,9 +5850,14 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 146,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "carol19",
+  "timestamp" : 5720,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -6095,6 +6115,11 @@
     "paused" : true
   }
 }, {
+  "command" : "shuffle",
+  "user" : "jack29",
+  "timestamp" : 5890,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 5890,
@@ -6102,7 +6127,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6118,7 +6143,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 96,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6134,7 +6159,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 86,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6150,9 +6175,14 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 76,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "david27",
+  "timestamp" : 5930,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6192,6 +6222,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "grace25",
+  "timestamp" : 5960,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 5960,
@@ -6199,7 +6234,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 36,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6215,7 +6250,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6231,7 +6266,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6242,7 +6277,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6253,7 +6288,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6264,9 +6299,14 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
+}, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 6010,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -6317,6 +6357,11 @@
     "paused" : true
   }
 }, {
+  "command" : "shuffle",
+  "user" : "frank21",
+  "timestamp" : 6050,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6050,
@@ -6324,7 +6369,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6335,7 +6380,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6351,9 +6396,14 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 26,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "irene33",
+  "timestamp" : 6080,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -6393,6 +6443,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 6110,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6110,
@@ -6400,7 +6455,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 6,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6416,7 +6471,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 6,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6432,9 +6487,14 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 6,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "emily30",
+  "timestamp" : 6140,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -6576,6 +6636,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "david27",
+  "timestamp" : 6230,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6230,
@@ -6583,7 +6648,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 230,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6594,9 +6659,14 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 220,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "frank21",
+  "timestamp" : 6250,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -6620,6 +6690,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "henry26",
+  "timestamp" : 6270,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6270,
@@ -6627,7 +6702,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 190,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6643,7 +6718,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 180,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6654,7 +6729,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 180,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6665,7 +6740,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 180,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6676,7 +6751,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 180,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6687,7 +6762,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 180,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6703,7 +6778,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 180,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6719,7 +6794,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 180,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6735,7 +6810,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 180,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6746,7 +6821,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 170,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6757,7 +6832,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 160,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6768,7 +6843,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 150,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6779,7 +6854,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 140,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6790,7 +6865,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 140,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6806,7 +6881,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 130,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6817,7 +6892,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 120,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6833,7 +6908,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 110,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6844,7 +6919,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 100,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6855,7 +6930,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 100,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6866,7 +6941,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 90,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6877,7 +6952,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 80,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6888,7 +6963,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 70,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6904,9 +6979,14 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 60,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "grace25",
+  "timestamp" : 6460,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -6930,6 +7010,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "irene33",
+  "timestamp" : 6480,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6480,
@@ -6937,7 +7022,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 30,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6953,7 +7038,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 20,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6969,7 +7054,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6980,7 +7065,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6996,7 +7081,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7012,7 +7097,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7023,7 +7108,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7039,7 +7124,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7050,7 +7135,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7066,7 +7151,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7077,7 +7162,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7088,7 +7173,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7099,7 +7184,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7115,7 +7200,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7126,7 +7211,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7137,7 +7222,7 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7153,9 +7238,14 @@
     "name" : "Big Pimpin'",
     "remainedTime" : 10,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
+}, {
+  "command" : "shuffle",
+  "user" : "emily30",
+  "timestamp" : 6640,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "emily30",

@@ -93,20 +93,20 @@ public class JSONComparator {
 
         System.out.println();
         JSONComparator comparator = new JSONComparator();
-        comparator.compareJsonFiles("ref/ref_test08_repeat_error.json",
-                "result/out_test08_repeat_error.json");
+        comparator.compareJsonFiles("ref/ref_test11_next_prev_forward_backward.json",
+                "result/out_test11_next_prev_forward_backward.json");
     }
-    //    test01_searchBar_songs_podcasts.json  DONE
-    //    test02_playPause_song.json  DONE
-    //    test03_like_create_addRemove.json  DONE
-    //    test04_like_create_addRemove_error.json  DONE
-    //    test05_playPause_playlist_podcast.json  DONE
-    //    test06_playPause_error.json  DONE
-    //    test07_repeat.json  DONE
-    //    test08_repeat_error.json  DONE
+    //    test01_searchBar_songs_podcasts.json DONE
+    //    test02_playPause_song.json DONE
+    //    test03_like_create_addRemove.json DONE
+    //    test04_like_create_addRemove_error.json DONE
+    //    test05_playPause_playlist_podcast.json DONE
+    //    test06_playPause_error.json DONE
+    //    test07_repeat.json DONE
+    //    test08_repeat_error.json DONE
+    //    test09_shuffle.json DONE
+    //    test10_shuffle_error.json DONE
 
-    //    test09_shuffle.json
-    //    test10_shuffle_error.json
     //    test11_next_prev_forward_backward.json
     //    test12_next_prev_forward_backward_error.json
     //    test13_searchPlaylist_follow.json

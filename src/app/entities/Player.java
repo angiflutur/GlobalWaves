@@ -6,8 +6,10 @@ import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.PodcastEpisode;
 import app.entities.audio.file.Song;
 
+import java.util.ArrayList;
+
 /**
- * Player class to manage audio playback and state.
+ * JAVADOC
  */
 public class Player {
     private AudioFile currentAudio;
@@ -19,9 +21,11 @@ public class Player {
     private static Player instance = new Player();
     private int currentIndex;
     private int repeatState;
+    private boolean isShuffleActive;
+    private ArrayList<Integer> shuffleIndices;
 
     /**
-     * Constructor for Player class.
+     * JAVADOC
      */
     public Player() {
         this.isPaused = false;
@@ -31,17 +35,19 @@ public class Player {
         this.currentPlaylist = null;
         this.repeatState = 0;
         this.currentIndex = 0;
+        this.isShuffleActive = false;
+        this.shuffleIndices = new ArrayList<>();
     }
 
     /**
-     * Singleton instance retrieval.
+     * JAVADOC
      */
     public static Player getInstance() {
         return instance;
     }
 
     /**
-     * Load audio file or playlist into the player.
+     * JAVADOC
      */
     public void loadAudio(final AudioFile audio, final int timestamp) {
         if (audio == null) {
@@ -80,9 +86,8 @@ public class Player {
         this.lastUpdateTimestamp = timestamp;
     }
 
-
     /**
-     * Play the audio.
+     * JAVADOC
      */
     public void play(final int currentTimestamp) {
         if (isPaused) {
@@ -93,7 +98,7 @@ public class Player {
     }
 
     /**
-     * Pause the audio.
+     * JAVADOC
      */
     public void pause(final int currentTimestamp) {
         if (!isPaused) {
@@ -104,7 +109,7 @@ public class Player {
     }
 
     /**
-     * Update the remaining time based on the current timestamp.
+     * JAVADOC
      */
     public void updateRemainingTime(final int currentTimestamp) {
         if (!isPaused && currentAudio != null) {
@@ -124,7 +129,7 @@ public class Player {
     }
 
     /**
-     * Update remaining time for the current Podcast.
+     * JAVADOC
      */
     private void updatePodcastRemainingTime(final int timeElapsed) {
         Podcast podcast = (Podcast) currentAudio;
@@ -158,7 +163,7 @@ public class Player {
     }
 
     /**
-     * Update remaining time for the current Song.
+     * JAVADOC
      */
     private void updateSongRemainingTime(final int timeElapsed) {
         remainingTime -= timeElapsed;
@@ -191,10 +196,7 @@ public class Player {
     }
 
     /**
-     * Update remaining time for the current Playlist.
-     */
-    /**
-     * Update remaining time for the current Playlist.
+     * JAVADOC
      */
     private void updatePlaylistRemainingTime(final int timeElapsed) {
         remainingTime -= timeElapsed;
@@ -206,7 +208,26 @@ public class Player {
             } else if (repeatState == 2) {
                 remainingTime = currentAudio.getDuration() + remainingTime;
             } else {
-                if (currentPlaylist != null) {
+                if (isShuffleActive && shuffleIndices.size() > 0) {
+                    int shuffledIndex = shuffleIndices.indexOf(currentIndex);
+
+                    if (shuffledIndex < shuffleIndices.size() - 1) {
+                        currentIndex = shuffleIndices.get(shuffledIndex + 1);
+                        currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                        remainingTime = currentAudio.getDuration() + remainingTime;
+
+                        if (remainingTime < 0) {
+                            currentIndex = shuffleIndices.get(shuffledIndex + 2);
+                            currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                            remainingTime = currentAudio.getDuration() + remainingTime;
+                        }
+                    } else {
+                        currentAudio = null;
+                        remainingTime = 0;
+                        isLoaded = false;
+                        isPaused = false;
+                    }
+                } else {
                     currentIndex++;
                     if (currentIndex < currentPlaylist.getSongs().size()) {
                         currentAudio = currentPlaylist.getSongs().get(currentIndex);
@@ -215,7 +236,7 @@ public class Player {
                         currentAudio = null;
                         remainingTime = 0;
                         isLoaded = false;
-                        isPaused = true;
+                        isPaused = false;
                     }
                 }
             }
@@ -223,74 +244,73 @@ public class Player {
     }
 
     /**
-     * Get the remaining time.
+     * JAVADOC
      */
     public int getRemainingTime() {
         return remainingTime;
     }
 
     /**
-     * Check if the player is paused.
+     * JAVADOC
      */
     public boolean isPaused() {
         return isPaused;
     }
 
     /**
-     * Check if the player is loaded with audio.
+     * JAVADOC
      */
     public boolean isLoaded() {
         return isLoaded;
     }
 
     /**
-     * Set the loaded state.
+     * JAVADOC
      */
     public void setLoaded(final boolean loaded) {
         isLoaded = loaded;
     }
 
     /**
-     * Set the paused state.
+     * JAVADOC
      */
     public void setPaused(final boolean paused) {
         isPaused = paused;
     }
 
     /**
-     * Get the current audio being played.
+     * JAVADOC
      */
     public AudioFile getCurrentAudio() {
         return currentAudio;
     }
 
     /**
-     * Get the current playlist being played.
+     * JAVADOC
      */
     public Playlist getCurrentPlaylist() {
         return currentPlaylist;
     }
 
     /**
-     * Skip to the previous track in the current playlist.
+     * JAVADOC
      */
-    public void previous() {
-        if (currentIndex > 0) {
-            currentIndex--;
-            currentAudio = currentPlaylist.getSongs().get(currentIndex);
-            remainingTime = currentAudio.getDuration();
-        }
+    public void setShuffleIndices(final ArrayList<Integer> shuffleIndices) {
+        this.shuffleIndices = shuffleIndices;
     }
 
     /**
-     * Skip to the next track in the current playlist.
+     * JAVADOC
      */
-    public void next() {
-        if (currentPlaylist != null && currentIndex < currentPlaylist.getSongs().size() - 1) {
-            currentIndex++;
-            currentAudio = currentPlaylist.getSongs().get(currentIndex);
-            remainingTime = currentAudio.getDuration();
-        }
+    public void setShuffleActive(final boolean shuffleActive) {
+        this.isShuffleActive = shuffleActive;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public boolean isShuffleActive() {
+        return isShuffleActive;
     }
 
     /**

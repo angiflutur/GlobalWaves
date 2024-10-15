@@ -5525,6 +5525,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 5510,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5510,
@@ -5532,7 +5537,7 @@
     "name" : "Don't",
     "remainedTime" : 201,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5548,7 +5553,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5559,7 +5564,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5570,7 +5575,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5586,7 +5591,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5597,7 +5602,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5608,7 +5613,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5624,7 +5629,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5635,7 +5640,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5646,7 +5651,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5657,7 +5662,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5668,7 +5673,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5679,7 +5684,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5690,7 +5695,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5701,7 +5706,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5717,7 +5722,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5728,7 +5733,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5739,7 +5744,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5755,7 +5760,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5766,7 +5771,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5782,7 +5787,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5798,7 +5803,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5809,7 +5814,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5820,7 +5825,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5836,7 +5841,7 @@
     "name" : "Don't",
     "remainedTime" : 191,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5852,7 +5857,7 @@
     "name" : "Don't",
     "remainedTime" : 181,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5863,7 +5868,7 @@
     "name" : "Don't",
     "remainedTime" : 181,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5879,7 +5884,7 @@
     "name" : "Don't",
     "remainedTime" : 181,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5890,7 +5895,7 @@
     "name" : "Don't",
     "remainedTime" : 181,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5906,7 +5911,7 @@
     "name" : "Don't",
     "remainedTime" : 181,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5917,7 +5922,7 @@
     "name" : "Don't",
     "remainedTime" : 181,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5928,7 +5933,7 @@
     "name" : "Don't",
     "remainedTime" : 181,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5939,7 +5944,7 @@
     "name" : "Don't",
     "remainedTime" : 181,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5955,7 +5960,7 @@
     "name" : "Don't",
     "remainedTime" : 181,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5971,7 +5976,7 @@
     "name" : "Don't",
     "remainedTime" : 171,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5982,7 +5987,7 @@
     "name" : "Don't",
     "remainedTime" : 161,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5998,7 +6003,7 @@
     "name" : "Don't",
     "remainedTime" : 151,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6009,7 +6014,7 @@
     "name" : "Don't",
     "remainedTime" : 141,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6020,7 +6025,7 @@
     "name" : "Don't",
     "remainedTime" : 131,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6031,7 +6036,7 @@
     "name" : "Don't",
     "remainedTime" : 131,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6047,7 +6052,7 @@
     "name" : "Don't",
     "remainedTime" : 121,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6063,7 +6068,7 @@
     "name" : "Don't",
     "remainedTime" : 111,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6074,9 +6079,14 @@
     "name" : "Don't",
     "remainedTime" : 101,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "henry26",
+  "timestamp" : 5870,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -6116,6 +6126,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "alice22",
+  "timestamp" : 5900,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5900,
@@ -6123,7 +6138,7 @@
     "name" : "Don't",
     "remainedTime" : 61,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6134,7 +6149,7 @@
     "name" : "Don't",
     "remainedTime" : 51,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6145,7 +6160,7 @@
     "name" : "Don't",
     "remainedTime" : 41,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6156,7 +6171,7 @@
     "name" : "Don't",
     "remainedTime" : 41,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6167,7 +6182,7 @@
     "name" : "Don't",
     "remainedTime" : 31,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6178,7 +6193,7 @@
     "name" : "Don't",
     "remainedTime" : 21,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6189,7 +6204,7 @@
     "name" : "Don't",
     "remainedTime" : 11,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6200,7 +6215,7 @@
     "name" : "Don't",
     "remainedTime" : 11,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6216,9 +6231,14 @@
     "name" : "Don't",
     "remainedTime" : 1,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "henry26",
+  "timestamp" : 5970,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -6231,6 +6251,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "irene33",
+  "timestamp" : 5980,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 5980,
@@ -6238,9 +6263,14 @@
     "name" : "Don't",
     "remainedTime" : 200,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "jack29",
+  "timestamp" : 5990,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -6253,6 +6283,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "alice22",
+  "timestamp" : 6000,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6000,
@@ -6260,7 +6295,7 @@
     "name" : "Don't",
     "remainedTime" : 180,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6276,7 +6311,7 @@
     "name" : "Don't",
     "remainedTime" : 170,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6292,7 +6327,7 @@
     "name" : "Don't",
     "remainedTime" : 160,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6303,7 +6338,7 @@
     "name" : "Don't",
     "remainedTime" : 150,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6319,7 +6354,7 @@
     "name" : "Don't",
     "remainedTime" : 140,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6330,7 +6365,7 @@
     "name" : "Don't",
     "remainedTime" : 130,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6341,9 +6376,14 @@
     "name" : "Don't",
     "remainedTime" : 130,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "grace25",
+  "timestamp" : 6060,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -6426,6 +6466,11 @@
     "paused" : true
   }
 }, {
+  "command" : "shuffle",
+  "user" : "bob35",
+  "timestamp" : 6110,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6110,
@@ -6433,9 +6478,14 @@
     "name" : "Don't",
     "remainedTime" : 90,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
+}, {
+  "command" : "shuffle",
+  "user" : "carol19",
+  "timestamp" : 6120,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -6707,6 +6757,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "carol19",
+  "timestamp" : 6320,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6320,
@@ -6714,7 +6769,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 172,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6725,7 +6780,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 162,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6736,7 +6791,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 162,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6747,7 +6802,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 152,
     "repeat" : "Repeat All",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6763,7 +6818,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 142,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -6779,7 +6834,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 132,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6790,7 +6845,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 132,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6801,7 +6856,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 132,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6817,7 +6872,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 132,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6828,9 +6883,14 @@
     "name" : "Start Me Up",
     "remainedTime" : 132,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
+}, {
+  "command" : "shuffle",
+  "user" : "alice22",
+  "timestamp" : 6400,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -6924,6 +6984,11 @@
     "paused" : true
   }
 }, {
+  "command" : "shuffle",
+  "user" : "henry26",
+  "timestamp" : 6470,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6470,
@@ -6931,7 +6996,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 122,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6942,9 +7007,14 @@
     "name" : "Start Me Up",
     "remainedTime" : 122,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
+}, {
+  "command" : "shuffle",
+  "user" : "jack29",
+  "timestamp" : 6490,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -7178,6 +7248,11 @@
     "paused" : true
   }
 }, {
+  "command" : "shuffle",
+  "user" : "emily30",
+  "timestamp" : 6640,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6640,
@@ -7185,9 +7260,14 @@
     "name" : "Start Me Up",
     "remainedTime" : 122,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
+}, {
+  "command" : "shuffle",
+  "user" : "frank21",
+  "timestamp" : 6650,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -7216,6 +7296,11 @@
     "paused" : false
   }
 }, {
+  "command" : "shuffle",
+  "user" : "henry26",
+  "timestamp" : 6670,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6670,
@@ -7223,9 +7308,14 @@
     "name" : "Start Me Up",
     "remainedTime" : 112,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "irene33",
+  "timestamp" : 6680,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -7254,6 +7344,11 @@
     "paused" : true
   }
 }, {
+  "command" : "shuffle",
+  "user" : "alice22",
+  "timestamp" : 6700,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6700,
@@ -7261,7 +7356,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 92,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7277,7 +7372,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 92,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7288,7 +7383,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 82,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7304,7 +7399,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 72,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7315,7 +7410,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 62,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7326,7 +7421,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 52,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7337,7 +7432,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 42,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7348,7 +7443,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 32,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7359,7 +7454,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 22,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7370,7 +7465,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 12,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7381,7 +7476,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 2,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7392,7 +7487,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 204,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -7403,9 +7498,14 @@
     "name" : "Start Me Up",
     "remainedTime" : 204,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "shuffle",
+  "user" : "carol19",
+  "timestamp" : 6820,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -7624,6 +7724,11 @@
     "paused" : true
   }
 }, {
+  "command" : "shuffle",
+  "user" : "grace25",
+  "timestamp" : 6960,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 6960,
@@ -7631,7 +7736,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 124,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -7647,9 +7752,14 @@
     "name" : "Start Me Up",
     "remainedTime" : 124,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
+}, {
+  "command" : "shuffle",
+  "user" : "irene33",
+  "timestamp" : 6980,
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -7662,6 +7772,11 @@
     "paused" : true
   }
 }, {
+  "command" : "shuffle",
+  "user" : "jack29",
+  "timestamp" : 6990,
+  "message" : "Shuffle function activated successfully."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 6990,
@@ -7669,7 +7784,7 @@
     "name" : "Start Me Up",
     "remainedTime" : 124,
     "repeat" : "Repeat Current Song",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {

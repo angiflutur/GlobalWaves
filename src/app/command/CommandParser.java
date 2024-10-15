@@ -1,11 +1,15 @@
 package app.command;
 
-
+import app.command.player.BackwardCommand;
+import app.command.player.ForwardCommand;
 import app.command.player.LikeCommand;
 import app.command.player.LoadCommand;
+import app.command.player.NextCommand;
 import app.command.player.PlayPauseCommand;
-import app.command.player.StatusCommand;
+import app.command.player.PrevCommand;
 import app.command.player.RepeatCommand;
+import app.command.player.ShuffleCommand;
+import app.command.player.StatusCommand;
 import app.command.playlist.AddRemoveInPlaylistCommand;
 import app.command.playlist.CreatePlaylistCommand;
 import app.command.playlist.ShowPlaylistsCommand;
@@ -63,7 +67,6 @@ public final class CommandParser {
                 return new SearchCommand(username, timestamp, type, filterName,
                         filterAlbum, filterLyrics, filterGenre, filterReleaseYear,
                         filterArtist, filterTags, filterOwner);
-
             case "select":
                 Integer itemNumber = jsonNode.has("itemNumber")
                         ? jsonNode.get("itemNumber").asInt() : -1;
@@ -90,6 +93,17 @@ public final class CommandParser {
                 return new ShowPreferredSongsCommand(username, timestamp);
             case "repeat":
                 return new RepeatCommand(username, timestamp);
+            case "shuffle":
+                Integer seed = jsonNode.has("seed") ? jsonNode.get("seed").asInt() : -1;
+                return new ShuffleCommand(username, timestamp, seed);
+            case "forward":
+                return new ForwardCommand(username, timestamp);
+            case "backward":
+                return new BackwardCommand(username, timestamp);
+            case "next":
+                return new NextCommand(username, timestamp);
+            case "prev":
+                return new PrevCommand(username, timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

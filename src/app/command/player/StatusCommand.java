@@ -30,6 +30,7 @@ public class StatusCommand extends Command {
 
         if (player.getRemainingTime() <= 0) {
             player.setPaused(true);
+            player.setLoaded(false);
         }
 
         ObjectNode resultNode = output.addObject();
@@ -67,7 +68,7 @@ public class StatusCommand extends Command {
 
             statsNode.put("remainedTime", remainingTime > 0 ? remainingTime : 0);
             statsNode.put("repeat", player.getRepeatStatus());
-            statsNode.put("shuffle", false);
+            statsNode.put("shuffle", player.isShuffleActive());
             statsNode.put("paused", player.isPaused());
 
         } else {
