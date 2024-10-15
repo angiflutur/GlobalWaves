@@ -68,6 +68,7 @@ public class CreatePlaylistCommand extends Command {
             successResponse.put("user", getUsername());
             successResponse.put("timestamp", getTimestamp());
             successResponse.put("message", "Playlist created successfully.");
+            newPlaylist.setCreationTime(getTimestamp());
             output.add(successResponse);
         }
     }

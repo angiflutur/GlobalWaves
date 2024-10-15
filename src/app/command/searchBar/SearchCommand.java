@@ -130,7 +130,8 @@ public class SearchCommand extends Command {
         }
 
         if ("playlist".equals(type)) {
-            ArrayList<Playlist> filteredPlaylists = new ArrayList<>(library.getPlaylists().values());
+            ArrayList<Playlist> filteredPlaylists =
+                    new ArrayList<>(library.getPlaylists().values());
 
             if (filterName != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByName(filterName));
@@ -202,11 +203,16 @@ public class SearchCommand extends Command {
         lastSearchResultsPlaylists.clear();
     }
 
+    /**
+     * JAVADOC
+     */
     public static boolean getIsSearching() {
         return isSearching;
     }
-
-    public static void setIsSearching(boolean isSearching) {
+    /**
+     * JAVADOC
+     */
+    public static void setIsSearching(final boolean isSearching) {
         SearchCommand.isSearching = isSearching;
     }
 }

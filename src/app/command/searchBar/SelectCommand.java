@@ -32,7 +32,8 @@ public class SelectCommand extends Command {
     @Override
     public void execute(final ArrayNode output, final Library library) {
         ArrayList<AudioFile> lastSearchResultsAudio = SearchCommand.getLastSearchResultsAudio();
-        ArrayList<Playlist> lastSearchResultsPlaylists = SearchCommand.getLastSearchResultsPlaylists();
+        ArrayList<Playlist> lastSearchResultsPlaylists =
+                SearchCommand.getLastSearchResultsPlaylists();
 
         ArrayList<Object> combinedResults = new ArrayList<>();
         combinedResults.addAll(lastSearchResultsAudio);
@@ -73,16 +74,17 @@ public class SelectCommand extends Command {
             resultNode.put("message", "Successfully selected " + selectedPlaylist.getName() + ".");
         }
 
-        player.setCurrentPlaylist(selectedItem instanceof Playlist ? (Playlist) selectedItem : null);
+        player.setCurrentPlaylist(selectedItem instanceof Playlist
+                ? (Playlist) selectedItem : null);
         SearchCommand.clearLastSearchResults();
         SearchCommand.setIsSearching(false);
     }
 
-    public static void setSelectedAudioFile(AudioFile audioFile) {
+    public static void setSelectedAudioFile(final AudioFile audioFile) {
         selectedAudioFile = audioFile;
     }
 
-    public static void setSelectedPlaylist(Playlist playlist) {
+    public static void setSelectedPlaylist(final Playlist playlist) {
         selectedPlaylist = playlist;
     }
 

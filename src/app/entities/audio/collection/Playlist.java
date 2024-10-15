@@ -14,6 +14,7 @@ public class Playlist extends Song {
     private ArrayList<Song> songs;
     private String name;
     private ArrayList<User> followers;
+    private long creationTime;
 
     /**
      * JAVADOC
@@ -123,6 +124,20 @@ public class Playlist extends Song {
      */
     public void removeFollower(final User user) {
         followers.remove(user);
+    }
+
+    /**
+     * JAVADOC
+     */
+    public long getCreationTime() {
+        return creationTime;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public void setCreationTime(final long creationTime) {
+        this.creationTime = creationTime;
     }
 
     /**

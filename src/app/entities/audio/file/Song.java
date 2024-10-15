@@ -12,6 +12,7 @@ public class Song extends AudioFile {
     private String genre;
     private int releaseYear;
     private String artist;
+    private int likeCount;
 
     /**
      * JAVADOC
@@ -37,6 +38,7 @@ public class Song extends AudioFile {
         this.genre = genre;
         this.releaseYear = releaseYear;
         this.artist = artist;
+        this.likeCount = 0;
     }
 
     /**
@@ -121,6 +123,29 @@ public class Song extends AudioFile {
      */
     public void setArtist(final String artist) {
         this.artist = artist;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public int getLikeCount() {
+        return likeCount;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public void incrementLikeCount() {
+        this.likeCount++;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public void decrementLikeCount() {
+        if (this.likeCount > 0) {
+            this.likeCount--;
+        }
     }
 
     /**

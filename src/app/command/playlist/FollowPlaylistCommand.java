@@ -5,15 +5,18 @@ import app.entities.audio.collection.Playlist;
 import app.entities.Command;
 import app.entities.User;
 import app.entities.Player;
-import app.entities.audio.file.Song;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-
+/**
+ * JAVADOC
+ */
 public class FollowPlaylistCommand extends Command {
     public FollowPlaylistCommand(final String username, final Integer timestamp) {
         super(username, timestamp);
     }
-
+    /**
+     * JAVADOC
+     */
     @Override
     public void execute(final ArrayNode output, final Library library) {
         Player player = Player.getInstance();

@@ -9926,4 +9926,12 @@
   "user" : "jack29",
   "timestamp" : 8580,
   "result" : [ ]
+}, {
+  "command" : "getTop5Playlists",
+  "timestamp" : 8580,
+  "result" : [ "Classic Harmonies Quest #1", "Groovy Beats Quest #1", "Electric Beats Escape #2", "Dynamic Tracks Trek #2", "Electric Bangers Dream #1" ]
+}, {
+  "command" : "getTop5Songs",
+  "timestamp" : 8580,
+  "result" : [ "Big Pimpin'", "Gimme Shelter", "Shape of You", "Don't", "Stairway to Heaven" ]
 } ]

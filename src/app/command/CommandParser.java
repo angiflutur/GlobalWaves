@@ -17,6 +17,8 @@ import app.command.playlist.ShowPlaylistsCommand;
 import app.command.playlist.SwitchVisibilityCommand;
 import app.command.searchBar.SearchCommand;
 import app.command.searchBar.SelectCommand;
+import app.command.stats.GetTop5PlaylistsCommand;
+import app.command.stats.GetTop5SongsCommand;
 import app.command.stats.ShowPreferredSongsCommand;
 import app.entities.Command;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -39,10 +41,6 @@ public final class CommandParser {
         String commandType = jsonNode.has("command") ? jsonNode.get("command").asText() : null;
         String username = jsonNode.has("username") ? jsonNode.get("username").asText() : null;
         Integer timestamp = jsonNode.has("timestamp") ? jsonNode.get("timestamp").asInt() : null;
-
-        if (commandType == null || username == null || timestamp == null) {
-            return new UnknownCommand(username, timestamp);
-        }
 
         switch (commandType) {
             case "search":
@@ -111,6 +109,10 @@ public final class CommandParser {
             case "switchVisibility":
                 playlistId = jsonNode.has("playlistId") ? jsonNode.get("playlistId").asInt() : -1;
                 return new SwitchVisibilityCommand(username, timestamp, playlistId);
+            case "getTop5Songs":
+                return new GetTop5SongsCommand(timestamp);
+            case "getTop5Playlists":
+                return new GetTop5PlaylistsCommand(timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

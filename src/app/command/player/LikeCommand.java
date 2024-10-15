@@ -8,16 +8,16 @@ import app.entities.audio.file.Song;
 import app.entities.Command;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-
+/**
+ * JAVADOC
+ */
 public class LikeCommand extends Command {
-
     /**
      * JAVADOC
      */
     public LikeCommand(final String username, final Integer timestamp) {
         super(username, timestamp);
     }
-
     /**
      * JAVADOC
      */
@@ -55,9 +55,11 @@ public class LikeCommand extends Command {
 
         if (liked) {
             user.unlikeSong(currentSong);
+            currentSong.decrementLikeCount();
             resultNode.put("message", "Unlike registered successfully.");
         } else {
             user.likeSong(currentSong);
+            currentSong.incrementLikeCount();
             resultNode.put("message", "Like registered successfully.");
         }
     }

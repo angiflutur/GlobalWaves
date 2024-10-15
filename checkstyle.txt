@@ -1,12 +1,2 @@
 Starting audit...
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\playlist\FollowPlaylistCommand.java:8:8: Unused import - app.entities.audio.file.Song. [UnusedImports]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\playlist\FollowPlaylistCommand.java:17:5: Class 'FollowPlaylistCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'FollowPlaylistCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:133: Line is longer than 100 characters (found 101). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:209:39: Parameter isSearching should be final. [FinalParameters]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SelectCommand.java:35: Line is longer than 100 characters (found 103). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SelectCommand.java:76: Line is longer than 100 characters (found 101). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SelectCommand.java:81:45: Parameter audioFile should be final. [FinalParameters]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SelectCommand.java:85:44: Parameter playlist should be final. [FinalParameters]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:382:33: Parameter currentAudio should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 9 errors.

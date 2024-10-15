@@ -379,7 +379,7 @@ public class Player {
     /**
      * JAVADOC
      */
-    public void setCurrentAudio(AudioFile currentAudio) {
+    public void setCurrentAudio(final AudioFile currentAudio) {
         this.currentAudio = currentAudio;
     }
 }

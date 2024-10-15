@@ -9932,4 +9932,12 @@
   "user" : "jack29",
   "timestamp" : 8580,
   "result" : [ ]
+}, {
+  "command" : "getTop5Playlists",
+  "timestamp" : 8580,
+  "result" : [ "Electric Harmonies Odyssey #2", "Chill Sounds Voyage #1", "Vibey Bangers Safari #1", "Classic Grooves Trek #2", "Breezy Rhythms Trek #1" ]
+}, {
+  "command" : "getTop5Songs",
+  "timestamp" : 8580,
+  "result" : [ "Don't", "The Man", "Start Me Up", "Thinking Out Loud", "Stairway to Heaven" ]
 } ]
