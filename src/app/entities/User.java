@@ -13,6 +13,7 @@ public class User {
     private Integer age;
     private String city;
     private ArrayList<Playlist> playlists = new ArrayList<>();
+    private ArrayList<Playlist> followedPlaylists = new ArrayList<>();
     private ArrayList<Song> likedSongs = new ArrayList<>();
 
     /**
@@ -24,9 +25,7 @@ public class User {
     /**
      * JAVADOC
      */
-    public User(final String username,
-                final Integer age,
-                final String city) {
+    public User(final String username, final Integer age, final String city) {
         this.username = username;
         this.age = age;
         this.city = city;
@@ -50,22 +49,8 @@ public class User {
     /**
      * JAVADOC
      */
-    public Integer getAge() {
-        return age;
-    }
-
-    /**
-     * JAVADOC
-     */
     public void setAge(final Integer age) {
         this.age = age;
-    }
-
-    /**
-     * JAVADOC
-     */
-    public String getCity() {
-        return city;
     }
 
     /**
@@ -113,12 +98,40 @@ public class User {
     /**
      * JAVADOC
      */
+    public void followPlaylist(final Playlist playlist) {
+        if (!followedPlaylists.contains(playlist)) {
+            followedPlaylists.add(playlist);
+        }
+    }
+
+    /**
+     * JAVADOC
+     */
+    public void unfollowPlaylist(final Playlist playlist) {
+        followedPlaylists.remove(playlist);
+    }
+
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Playlist> getFollowedPlaylists() {
+        return followedPlaylists;
+    }
+
+    /**
+     * JAVADOC
+     */
     @Override
     public String toString() {
         return "User{"
-                + "username='" + username + '\''
-                + ", age=" + age
-                + ", city='" + city + '\''
+                + "username='"
+                + username
+                + '\''
+                + ", age="
+                + age
+                + ", city='"
+                + city
+                + '\''
                 + '}';
     }
 }

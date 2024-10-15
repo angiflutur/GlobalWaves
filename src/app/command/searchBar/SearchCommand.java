@@ -30,6 +30,7 @@ public class SearchCommand extends Command {
     private static final int MAX_FILTER_LENGTH = 5;
     private static ArrayList<AudioFile> lastSearchResultsAudio = new ArrayList<>();
     private static ArrayList<Playlist> lastSearchResultsPlaylists = new ArrayList<>();
+    private static boolean isSearching = false;
 
     /**
      * JAVADOC
@@ -62,6 +63,8 @@ public class SearchCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+        isSearching = true;
+
         Player player = Player.getInstance();
 
         if (player.isLoaded()) {
@@ -123,14 +126,11 @@ public class SearchCommand extends Command {
                 filteredPodcasts.addAll(searchBar.searchPodcastsByOwner(filterOwner));
             }
 
-            for (Podcast podcast : filteredPodcasts) {
-                combinedResultsAudio.add(podcast);
-            }
+            combinedResultsAudio.addAll(filteredPodcasts);
         }
 
         if ("playlist".equals(type)) {
-            ArrayList<Playlist> filteredPlaylists
-                    = new ArrayList<>(library.getPlaylists().values());
+            ArrayList<Playlist> filteredPlaylists = new ArrayList<>(library.getPlaylists().values());
 
             if (filterName != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByName(filterName));
@@ -138,6 +138,8 @@ public class SearchCommand extends Command {
             if (filterOwner != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByOwner(filterOwner));
             }
+
+            filteredPlaylists.removeIf(playlist -> !playlist.isPublic());
 
             combinedResultsPlaylists.addAll(filteredPlaylists);
         }
@@ -166,6 +168,7 @@ public class SearchCommand extends Command {
 
         int totalResults = combinedResultsAudio.size() + combinedResultsPlaylists.size();
         resultNode.put("message", "Search returned " + totalResults + " results");
+
     }
 
     /**
@@ -189,5 +192,21 @@ public class SearchCommand extends Command {
      */
     public static ArrayList<Playlist> getLastSearchResultsPlaylists() {
         return lastSearchResultsPlaylists;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public static void clearLastSearchResults() {
+        lastSearchResultsAudio.clear();
+        lastSearchResultsPlaylists.clear();
+    }
+
+    public static boolean getIsSearching() {
+        return isSearching;
+    }
+
+    public static void setIsSearching(boolean isSearching) {
+        SearchCommand.isSearching = isSearching;
     }
 }

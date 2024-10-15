@@ -21,24 +21,9 @@ public class SelectCommand extends Command {
     /**
      * JAVADOC
      */
-    public SelectCommand(final String username,
-                         final Integer timestamp, final Integer itemNumber) {
+    public SelectCommand(final String username, final Integer timestamp, final Integer itemNumber) {
         super(username, timestamp);
         this.itemNumber = itemNumber;
-    }
-
-    /**
-     * JAVADOC
-     */
-    public static AudioFile getSelectedAudioFile() {
-        return selectedAudioFile;
-    }
-
-    /**
-     * JAVADOC
-     */
-    public static Playlist getSelectedPlaylist() {
-        return selectedPlaylist;
     }
 
     /**
@@ -47,8 +32,7 @@ public class SelectCommand extends Command {
     @Override
     public void execute(final ArrayNode output, final Library library) {
         ArrayList<AudioFile> lastSearchResultsAudio = SearchCommand.getLastSearchResultsAudio();
-        ArrayList<Playlist> lastSearchResultsPlaylists =
-                SearchCommand.getLastSearchResultsPlaylists();
+        ArrayList<Playlist> lastSearchResultsPlaylists = SearchCommand.getLastSearchResultsPlaylists();
 
         ArrayList<Object> combinedResults = new ArrayList<>();
         combinedResults.addAll(lastSearchResultsAudio);
@@ -57,7 +41,7 @@ public class SelectCommand extends Command {
         Player player = Player.getInstance();
         player.setRepeatState(0);
 
-        if (combinedResults.isEmpty()) {
+        if (!SearchCommand.getIsSearching()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "select");
             resultNode.put("user", getUsername());
@@ -88,12 +72,25 @@ public class SelectCommand extends Command {
             selectedPlaylist = (Playlist) selectedItem;
             resultNode.put("message", "Successfully selected " + selectedPlaylist.getName() + ".");
         }
+
+        player.setCurrentPlaylist(selectedItem instanceof Playlist ? (Playlist) selectedItem : null);
+        SearchCommand.clearLastSearchResults();
+        SearchCommand.setIsSearching(false);
     }
-    public static void setSelectedAudioFile(final AudioFile audioFile) {
+
+    public static void setSelectedAudioFile(AudioFile audioFile) {
         selectedAudioFile = audioFile;
     }
 
-    public static void setSelectedPlaylist(final Playlist playlist) {
+    public static void setSelectedPlaylist(Playlist playlist) {
         selectedPlaylist = playlist;
+    }
+
+    public static AudioFile getSelectedAudioFile() {
+        return selectedAudioFile;
+    }
+
+    public static Playlist getSelectedPlaylist() {
+        return selectedPlaylist;
     }
 }

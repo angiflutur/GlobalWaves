@@ -12,7 +12,9 @@ import app.command.player.ShuffleCommand;
 import app.command.player.StatusCommand;
 import app.command.playlist.AddRemoveInPlaylistCommand;
 import app.command.playlist.CreatePlaylistCommand;
+import app.command.playlist.FollowPlaylistCommand;
 import app.command.playlist.ShowPlaylistsCommand;
+import app.command.playlist.SwitchVisibilityCommand;
 import app.command.searchBar.SearchCommand;
 import app.command.searchBar.SelectCommand;
 import app.command.stats.ShowPreferredSongsCommand;
@@ -104,6 +106,11 @@ public final class CommandParser {
                 return new NextCommand(username, timestamp);
             case "prev":
                 return new PrevCommand(username, timestamp);
+            case "follow":
+                return new FollowPlaylistCommand(username, timestamp);
+            case "switchVisibility":
+                playlistId = jsonNode.has("playlistId") ? jsonNode.get("playlistId").asInt() : -1;
+                return new SwitchVisibilityCommand(username, timestamp, playlistId);
             default:
                 return new UnknownCommand(username, timestamp);
         }

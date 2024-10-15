@@ -38,6 +38,7 @@ public class Playlist extends Song {
         this.name = name;
         this.followers = new ArrayList<>();
     }
+
     /**
      * JAVADOC
      */
@@ -83,6 +84,13 @@ public class Playlist extends Song {
     /**
      * JAVADOC
      */
+    public boolean isPublic() {
+        return isPublic;
+    }
+
+    /**
+     * JAVADOC
+     */
     public void setPublic(final boolean aPublic) {
         isPublic = aPublic;
     }
@@ -104,15 +112,17 @@ public class Playlist extends Song {
     /**
      * JAVADOC
      */
-    public void addSong(final Song song) {
-        songs.add(song);
+    public void addFollower(final User user) {
+        if (!followers.contains(user)) {
+            followers.add(user);
+        }
     }
 
     /**
      * JAVADOC
      */
-    public void removeSong(final Song song) {
-        songs.remove(song);
+    public void removeFollower(final User user) {
+        followers.remove(user);
     }
 
     /**
@@ -122,9 +132,13 @@ public class Playlist extends Song {
     public String toString() {
         return "Playlist{"
                 + "owner=" + owner
-                + ", isPublic=" + isPublic
-                + ", songs=" + songs
-                + ", name='" + name + '\''
+                + ", isPublic="
+                + isPublic
+                + ", songs="
+                + songs
+                + ", name='"
+                + name
+                + '\''
                 + '}';
     }
 }

@@ -102,9 +102,9 @@
   "timestamp" : 65,
   "result" : [ {
     "name" : "Playlist bengos",
+    "songs" : [ "The Unforgiven" ],
     "visibility" : "public",
-    "followers" : 0,
-    "songs" : [ "The Unforgiven" ]
+    "followers" : 0
   } ]
 }, {
   "command" : "showPreferredSongs",

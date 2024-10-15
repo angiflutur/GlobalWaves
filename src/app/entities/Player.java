@@ -369,4 +369,17 @@ public class Player {
     public int getCurrentIndex() {
         return currentIndex;
     }
+
+    /**
+     * JAVADOC
+     */
+    public void setCurrentPlaylist(final Playlist currentPlaylist) {
+        this.currentPlaylist = currentPlaylist;
+    }
+    /**
+     * JAVADOC
+     */
+    public void setCurrentAudio(AudioFile currentAudio) {
+        this.currentAudio = currentAudio;
+    }
 }
