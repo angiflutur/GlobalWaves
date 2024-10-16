@@ -1,6 +1,7 @@
 package app.command.searchBar;
 
 import app.entities.Player;
+import app.entities.PlayerManager;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.collection.Podcast;
@@ -65,8 +66,7 @@ public class SearchCommand extends Command {
     public void execute(final ArrayNode output, final Library library) {
         isSearching = true;
 
-        Player player = Player.getInstance();
-
+        Player player = PlayerManager.getPlayer(getUsername());
         if (player.isLoaded()) {
             if (player.getCurrentAudio() instanceof Podcast) {
                 player.updateRemainingTime(getTimestamp());
@@ -131,7 +131,7 @@ public class SearchCommand extends Command {
 
         if ("playlist".equals(type)) {
             ArrayList<Playlist> filteredPlaylists =
-                    new ArrayList<>(library.getPlaylists().values());
+            new ArrayList<>(library.getPlaylists().values());
 
             if (filterName != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByName(filterName));
@@ -140,10 +140,17 @@ public class SearchCommand extends Command {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByOwner(filterOwner));
             }
 
-            filteredPlaylists.removeIf(playlist -> !playlist.isPublic());
+            filteredPlaylists.removeIf(playlist -> {
+                return !playlist.isPublic() && !playlist.getOwner().
+                        getUsername().equals(getUsername());
+            });
+
+            filteredPlaylists.sort((p1, p2) -> Long.compare(p1.getCreationTime(),
+                    p2.getCreationTime()));
 
             combinedResultsPlaylists.addAll(filteredPlaylists);
         }
+
 
         combinedResultsAudio = new ArrayList<>(combinedResultsAudio.subList(0,
                 Math.min(MAX_FILTER_LENGTH, combinedResultsAudio.size())));

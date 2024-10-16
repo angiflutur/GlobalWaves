@@ -1,9 +1,9 @@
 package app.command.player;
 
 import app.entities.Player;
+import app.entities.PlayerManager;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
-
 import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.PodcastEpisode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -23,7 +23,7 @@ public class PrevCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
-        Player player = Player.getInstance();
+        Player player = PlayerManager.getPlayer(getUsername());
 
         if (!player.isLoaded()) {
             addMessage(output, "Please load a source before returning to the previous track.");
@@ -48,18 +48,77 @@ public class PrevCommand extends Command {
     private void handlePrevTrackInPlaylist(final ArrayNode output, final Player player) {
         int currentIndex = player.getCurrentIndex();
         int remainingTime = player.getRemainingTime();
+        int currentAudioDuration = player.getCurrentAudio().getDuration();
 
-        if (remainingTime < player.getCurrentAudio().getDuration() - 1) {
-            player.nextPrevPlaylistLoad(currentIndex);
+        if (remainingTime != player.getCurrentAudio().getDuration()) {
+            player.setRemainingTime(player.getCurrentAudio().getDuration());
+            player.setLastUpdateTimestamp(getTimestamp());
             addMessage(output, "Returned to previous track successfully. The current track is "
                     + player.getCurrentAudio().getName() + ".");
-        } else if (remainingTime >= player.getCurrentAudio().getDuration() - 1
-                && currentIndex > 0) {
-            player.nextPrevPlaylistLoad(currentIndex - 1);
+            return;
+        }
+
+        if (remainingTime == currentAudioDuration && !player.isShuffleActive()) {
+            if (currentIndex > 0) {
+                player.nextPrevPlaylistLoad(currentIndex - 1);
+                player.setRemainingTime(player.getCurrentAudio().getDuration());
+                player.setLastUpdateTimestamp(getTimestamp());
+                addMessage(output, "Returned to previous track successfully. The current track is "
+                        + player.getCurrentAudio().getName() + ".");
+                return;
+            } else {
+                addMessage(output, "Returned to previous track successfully. The current track is "
+                        + player.getCurrentAudio().getName() + ".");
+                return;
+            }
+        } else if (remainingTime == currentAudioDuration && player.isShuffleActive()) {
+            int currentShuffleIndex = player.getShuffleIndices().indexOf(currentIndex);
+            if (currentShuffleIndex > 0) {
+                int prevIndex = player.getShuffleIndices().get(currentShuffleIndex - 1);
+                player.nextPrevPlaylistLoad(prevIndex);
+            } else {
+                player.nextPrevPlaylistLoad(currentIndex);
+            }
+            player.setRemainingTime(player.getCurrentAudio().getDuration());
+            player.setLastUpdateTimestamp(getTimestamp());
+            addMessage(output, "Returned to previous track successfully. The current track is "
+                    + player.getCurrentAudio().getName() + ".");
+            return;
+        }
+
+        if (player.isShuffleActive() && player.getRepeatState() == 1) {
+            player.nextPrevPlaylistLoad(currentIndex);
+            player.setRemainingTime(currentAudioDuration);
+            player.setLastUpdateTimestamp(getTimestamp());
+            addMessage(output, "Returned to previous track successfully. The current track is "
+                    + player.getCurrentAudio().getName() + ".");
+        } else if (player.isShuffleActive() && player.getRepeatState() == 2) {
+            player.nextPrevPlaylistLoad(currentIndex);
+            player.setRemainingTime(currentAudioDuration);
+            player.setLastUpdateTimestamp(getTimestamp());
+            addMessage(output, "Returned to previous track successfully. The current track is "
+                    + player.getCurrentAudio().getName() + ".");
+        } else if (player.isShuffleActive()) {
+            int currentShuffleIndex = player.getShuffleIndices().indexOf(currentIndex);
+            if (currentShuffleIndex > 0) {
+                int prevIndex = player.getShuffleIndices().get(currentShuffleIndex - 1);
+                player.nextPrevPlaylistLoad(prevIndex);
+            } else {
+                player.nextPrevPlaylistLoad(currentIndex);
+            }
+            player.setRemainingTime(currentAudioDuration);
+            player.setLastUpdateTimestamp(getTimestamp());
             addMessage(output, "Returned to previous track successfully. The current track is "
                     + player.getCurrentAudio().getName() + ".");
         } else {
-            player.nextPrevPlaylistLoad(0);
+            if (remainingTime < currentAudioDuration - 1) {
+                player.nextPrevPlaylistLoad(currentIndex);
+            } else if (currentIndex > 0) {
+                player.nextPrevPlaylistLoad(currentIndex - 1);
+            } else {
+                player.nextPrevPlaylistLoad(0);
+            }
+            player.setLastUpdateTimestamp(getTimestamp());
             addMessage(output, "Returned to previous track successfully. The current track is "
                     + player.getCurrentAudio().getName() + ".");
         }

@@ -1,6 +1,8 @@
 package app.command.playlist;
 
+import app.command.searchBar.SelectCommand;
 import app.entities.Player;
+import app.entities.PlayerManager;
 import app.entities.User;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
@@ -48,8 +50,10 @@ public class ShowPlaylistsCommand extends Command {
                 playlistNode.put("followers", playlist.getFollowers());
             }
         }
-        Player player = Player.getInstance();
+        Player player = PlayerManager.getPlayer(getUsername());
         player.setCurrentPlaylist(null);
         player.setCurrentAudio(null);
+        SelectCommand.setSelectedAudioFile(null);
+        SelectCommand.setSelectedPlaylist(null);
     }
 }

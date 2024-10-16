@@ -1,6 +1,7 @@
 package app.command.searchBar;
 
 import app.entities.Player;
+import app.entities.PlayerManager;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.AudioFile;
@@ -39,7 +40,7 @@ public class SelectCommand extends Command {
         combinedResults.addAll(lastSearchResultsAudio);
         combinedResults.addAll(lastSearchResultsPlaylists);
 
-        Player player = Player.getInstance();
+        Player player = PlayerManager.getPlayer(getUsername());
         player.setRepeatState(0);
 
         if (!SearchCommand.getIsSearching()) {
@@ -76,22 +77,31 @@ public class SelectCommand extends Command {
 
         player.setCurrentPlaylist(selectedItem instanceof Playlist
                 ? (Playlist) selectedItem : null);
+
         SearchCommand.clearLastSearchResults();
         SearchCommand.setIsSearching(false);
     }
-
+    /**
+     * JAVADOC
+     */
     public static void setSelectedAudioFile(final AudioFile audioFile) {
         selectedAudioFile = audioFile;
     }
-
+    /**
+     * JAVADOC
+     */
     public static void setSelectedPlaylist(final Playlist playlist) {
         selectedPlaylist = playlist;
     }
-
+    /**
+     * JAVADOC
+     */
     public static AudioFile getSelectedAudioFile() {
         return selectedAudioFile;
     }
-
+    /**
+     * JAVADOC
+     */
     public static Playlist getSelectedPlaylist() {
         return selectedPlaylist;
     }

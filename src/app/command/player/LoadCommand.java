@@ -2,6 +2,7 @@ package app.command.player;
 
 import app.command.searchBar.SelectCommand;
 import app.entities.Player;
+import app.entities.PlayerManager;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
 import app.entities.audio.collection.Playlist;
@@ -25,6 +26,7 @@ public class LoadCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+        Player player = PlayerManager.getPlayer(getUsername());
         AudioFile selectedAudioFile = SelectCommand.getSelectedAudioFile();
         Playlist selectedPlaylist = SelectCommand.getSelectedPlaylist();
 
@@ -46,7 +48,7 @@ public class LoadCommand extends Command {
             return;
         }
 
-        if (Player.getInstance().isLoaded()) {
+        if (player.isLoaded()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "load");
             resultNode.put("user", getUsername());
@@ -56,7 +58,11 @@ public class LoadCommand extends Command {
         }
 
         if (selectedAudioFile != null) {
-            Player.getInstance().loadAudio(selectedAudioFile, getTimestamp());
+            player.loadAudio(selectedAudioFile, getTimestamp());
+        }
+
+        if (selectedPlaylist != null) {
+            player.loadPlaylist(selectedPlaylist, getTimestamp());
         }
 
         ObjectNode resultNode = output.addObject();
@@ -65,4 +71,5 @@ public class LoadCommand extends Command {
         resultNode.put("timestamp", getTimestamp());
         resultNode.put("message", "Playback loaded successfully.");
     }
+
 }

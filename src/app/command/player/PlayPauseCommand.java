@@ -1,6 +1,7 @@
 package app.command.player;
 
 import app.entities.Player;
+import app.entities.PlayerManager;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -23,7 +24,7 @@ public class PlayPauseCommand extends Command {
     @Override
     public void execute(final ArrayNode output, final Library library) {
 
-        Player player = Player.getInstance();
+        Player player = PlayerManager.getPlayer(getUsername());
 
         if (!player.isLoaded()) {
             ObjectNode resultNode = output.addObject();

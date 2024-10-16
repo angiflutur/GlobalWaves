@@ -28,13 +28,14 @@ public class Player {
      * JAVADOC
      */
     public Player() {
+        this.currentAudio = null;
+        this.currentPlaylist = null;
         this.isPaused = false;
         this.isLoaded = false;
         this.remainingTime = 0;
         this.lastUpdateTimestamp = 0;
-        this.currentPlaylist = null;
-        this.repeatState = 0;
         this.currentIndex = 0;
+        this.repeatState = 0;
         this.isShuffleActive = false;
         this.shuffleIndices = new ArrayList<>();
     }
@@ -54,7 +55,33 @@ public class Player {
             currentIndex = index;
             currentAudio = currentPlaylist.getSongs().get(index);
             remainingTime = currentAudio.getDuration();
+
         }
+    }
+
+    /**
+     * JAVADOC
+     */
+    public void loadPlaylist(final Playlist playlist, final int timestamp) {
+        if (playlist == null) {
+            throw new IllegalArgumentException("Playlist cannot be null");
+        }
+
+        this.currentPlaylist = playlist;
+        this.currentIndex = 0;
+
+        if (currentPlaylist.getSongs().size() > 0
+                && currentIndex < currentPlaylist.getSongs().size()) {
+            this.currentAudio = currentPlaylist.getSongs().get(currentIndex);
+            this.remainingTime = this.currentAudio.getDuration();
+        } else {
+            this.currentAudio = null;
+            this.remainingTime = 0;
+        }
+
+        this.isLoaded = true;
+        this.isPaused = false;
+        this.lastUpdateTimestamp = timestamp;
     }
 
     /**
@@ -66,30 +93,20 @@ public class Player {
         }
 
         this.currentAudio = audio;
-        this.currentPlaylist = (audio instanceof Playlist) ? (Playlist) audio : null;
-        this.currentIndex = 0;
+        this.currentPlaylist = null;
 
-        if (currentPlaylist != null) {
-            if (currentPlaylist.getSongs().size() > 0
-                    && currentIndex < currentPlaylist.getSongs().size()) {
-                this.currentAudio = currentPlaylist.getSongs().get(currentIndex);
-                this.remainingTime = this.currentAudio.getDuration();
+        if (audio instanceof Podcast) {
+            Podcast podcast = (Podcast) audio;
+            if (podcast.getCurrentEpisodeIndex() >= 0
+                    && podcast.getCurrentEpisodeIndex() < podcast.getEpisodes().size()) {
+                this.remainingTime = podcast.getCurrentEpisodeRemainingTime();
             } else {
-                this.currentAudio = null;
                 this.remainingTime = 0;
             }
+        } else if (audio instanceof Song) {
+            this.remainingTime = audio.getDuration();
         } else {
-            if (audio instanceof Podcast) {
-                Podcast podcast = (Podcast) audio;
-                if (podcast.getCurrentEpisodeIndex() >= 0
-                        && podcast.getCurrentEpisodeIndex() < podcast.getEpisodes().size()) {
-                    this.remainingTime = podcast.getCurrentEpisodeRemainingTime();
-                } else {
-                    this.remainingTime = 0;
-                }
-            } else {
-                this.remainingTime = audio.getDuration();
-            }
+            this.remainingTime = audio.getDuration();
         }
 
         this.isLoaded = true;
@@ -123,8 +140,7 @@ public class Player {
      * JAVADOC
      */
     public void updateRemainingTime(final int currentTimestamp) {
-        if (!isPaused && currentAudio != null) {
-
+        if (!isPaused && currentAudio != null && currentTimestamp != lastUpdateTimestamp) {
             int timeElapsed = currentTimestamp - lastUpdateTimestamp;
 
             if (currentPlaylist != null) {
@@ -136,6 +152,66 @@ public class Player {
             }
 
             lastUpdateTimestamp = currentTimestamp;
+        }
+    }
+
+    /**
+     * JAVADOC
+     */
+    private void updatePlaylistRemainingTime(final int timeElapsed) {
+        remainingTime -= timeElapsed;
+
+        while (remainingTime <= 0) {
+            if (repeatState == 1) {
+                if (isShuffleActive && shuffleIndices.size() > 0) {
+                    int shuffledIndex = shuffleIndices.indexOf(currentIndex);
+                    if (shuffledIndex < shuffleIndices.size() - 1) {
+                        currentIndex = shuffleIndices.get(shuffledIndex + 1);
+                    } else {
+                        currentIndex = shuffleIndices.get(0);
+                    }
+                } else {
+                    currentIndex = (currentIndex + 1) % currentPlaylist.getSongs().size();
+                }
+                currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                remainingTime += currentAudio.getDuration();
+
+            } else if (repeatState == 2) {
+                remainingTime += currentAudio.getDuration();
+            } else {
+                if (isShuffleActive && shuffleIndices.size() > 0) {
+                    int shuffledIndex = shuffleIndices.indexOf(currentIndex);
+
+                    if (shuffledIndex < shuffleIndices.size() - 1) {
+                        currentIndex = shuffleIndices.get(shuffledIndex + 1);
+                    } else {
+                        currentAudio = null;
+                        remainingTime = 0;
+                        isLoaded = false;
+                        isPaused = false;
+                        return;
+                    }
+                } else {
+                    currentIndex++;
+                    if (currentIndex >= currentPlaylist.getSongs().size()) {
+                        currentAudio = null;
+                        remainingTime = 0;
+                        isLoaded = false;
+                        isPaused = false;
+                        return;
+                    }
+                }
+                if (currentIndex >= 0 && currentIndex < currentPlaylist.getSongs().size()) {
+                    currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                    remainingTime += currentAudio.getDuration();
+                } else {
+                    currentAudio = null;
+                    remainingTime = 0;
+                    isLoaded = false;
+                    isPaused = false;
+                    return;
+                }
+            }
         }
     }
 
@@ -188,67 +264,33 @@ public class Player {
                         - (-remainingTime % currentAudio.getDuration());
             } else {
                 if (currentPlaylist != null) {
-                    currentIndex++;
-                    if (currentIndex < currentPlaylist.getSongs().size()) {
-                        currentAudio = currentPlaylist.getSongs().get(currentIndex);
-                        remainingTime = currentAudio.getDuration() + remainingTime;
+                    if (isShuffleActive) {
+                        int shuffledIndex = shuffleIndices.indexOf(currentIndex);
+                        if (shuffledIndex < shuffleIndices.size() - 1) {
+                            currentIndex = shuffleIndices.get(shuffledIndex + 1);
+                            currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                            remainingTime = currentAudio.getDuration();
+                        } else {
+                            currentAudio = null;
+                            remainingTime = 0;
+                            isLoaded = false;
+                            isPaused = true;
+                        }
                     } else {
-                        currentAudio = null;
-                        remainingTime = 0;
-                        isLoaded = false;
-                        isPaused = true;
+                        currentIndex++;
+                        if (currentIndex < currentPlaylist.getSongs().size()) {
+                            currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                            remainingTime = currentAudio.getDuration();
+                        } else {
+                            currentAudio = null;
+                            remainingTime = 0;
+                            isLoaded = false;
+                            isPaused = true;
+                        }
                     }
                 } else {
                     remainingTime = 0;
                     isPaused = true;
-                }
-            }
-        }
-    }
-
-    /**
-     * JAVADOC
-     */
-    private void updatePlaylistRemainingTime(final int timeElapsed) {
-        remainingTime -= timeElapsed;
-
-        if (remainingTime <= 0) {
-            if (repeatState == 1) {
-                currentAudio = currentPlaylist.getSongs().get(currentIndex);
-                remainingTime += timeElapsed;
-            } else if (repeatState == 2) {
-                remainingTime = currentAudio.getDuration() + remainingTime;
-            } else {
-                if (isShuffleActive && shuffleIndices.size() > 0) {
-                    int shuffledIndex = shuffleIndices.indexOf(currentIndex);
-
-                    if (shuffledIndex < shuffleIndices.size() - 1) {
-                        currentIndex = shuffleIndices.get(shuffledIndex + 1);
-                        currentAudio = currentPlaylist.getSongs().get(currentIndex);
-                        remainingTime = currentAudio.getDuration() + remainingTime;
-
-                        if (remainingTime < 0) {
-                            currentIndex = shuffleIndices.get(shuffledIndex + 2);
-                            currentAudio = currentPlaylist.getSongs().get(currentIndex);
-                            remainingTime = currentAudio.getDuration() + remainingTime;
-                        }
-                    } else {
-                        currentAudio = null;
-                        remainingTime = 0;
-                        isLoaded = false;
-                        isPaused = false;
-                    }
-                } else {
-                    currentIndex++;
-                    if (currentIndex < currentPlaylist.getSongs().size()) {
-                        currentAudio = currentPlaylist.getSongs().get(currentIndex);
-                        remainingTime = currentAudio.getDuration() + remainingTime;
-                    } else {
-                        currentAudio = null;
-                        remainingTime = 0;
-                        isLoaded = false;
-                        isPaused = false;
-                    }
                 }
             }
         }
@@ -313,9 +355,41 @@ public class Player {
     /**
      * JAVADOC
      */
-    public void setShuffleActive(final boolean shuffleActive) {
-        this.isShuffleActive = shuffleActive;
+    public void setRemainingTime(final int remainingTime) {
+        this.remainingTime = remainingTime;
     }
+
+    /**
+     * JAVADOC
+     */
+    public void setLastUpdateTimestamp(final int lastUpdateTimestamp) {
+        this.lastUpdateTimestamp = lastUpdateTimestamp;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Integer> getShuffleIndices() {
+        return shuffleIndices;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public void setShuffleActive(final boolean newShuffleActive) {
+        this.isShuffleActive = newShuffleActive;
+        if (!newShuffleActive) {
+            clearShuffleIndices();
+        }
+    }
+
+    /**
+     * JAVADOC
+     */
+    private void clearShuffleIndices() {
+        this.shuffleIndices.clear();
+    }
+
 
     /**
      * JAVADOC
@@ -376,6 +450,7 @@ public class Player {
     public void setCurrentPlaylist(final Playlist currentPlaylist) {
         this.currentPlaylist = currentPlaylist;
     }
+
     /**
      * JAVADOC
      */

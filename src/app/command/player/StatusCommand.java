@@ -1,6 +1,7 @@
 package app.command.player;
 
 import app.entities.Player;
+import app.entities.PlayerManager;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
 import app.entities.audio.collection.Podcast;
@@ -24,8 +25,9 @@ public class StatusCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
-        Player player = Player.getInstance();
+        Player player = PlayerManager.getPlayer(getUsername());
         int currentTimestamp = getTimestamp();
+
         player.updateRemainingTime(currentTimestamp);
 
         if (player.getRemainingTime() <= 0) {

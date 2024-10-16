@@ -15,11 +15,13 @@ public class User {
     private ArrayList<Playlist> playlists = new ArrayList<>();
     private ArrayList<Playlist> followedPlaylists = new ArrayList<>();
     private ArrayList<Song> likedSongs = new ArrayList<>();
+    private Player player;
 
     /**
      * JAVADOC
      */
     public User() {
+        this.player = Player.getInstance();
     }
 
     /**
@@ -30,6 +32,7 @@ public class User {
         this.age = age;
         this.city = city;
         this.likedSongs = new ArrayList<>();
+        this.player = Player.getInstance();
     }
 
     /**
@@ -38,63 +41,54 @@ public class User {
     public String getUsername() {
         return username;
     }
-
     /**
      * JAVADOC
      */
     public void setUsername(final String username) {
         this.username = username;
     }
-
     /**
      * JAVADOC
      */
     public void setAge(final Integer age) {
         this.age = age;
     }
-
     /**
      * JAVADOC
      */
     public void setCity(final String city) {
         this.city = city;
     }
-
     /**
      * JAVADOC
      */
     public void addPlaylist(final Playlist playlist) {
         playlists.add(playlist);
     }
-
     /**
      * JAVADOC
      */
     public ArrayList<Playlist> getPlaylists() {
         return playlists;
     }
-
     /**
      * JAVADOC
      */
     public void likeSong(final Song song) {
         likedSongs.add(song);
     }
-
     /**
      * JAVADOC
      */
     public void unlikeSong(final Song song) {
         likedSongs.remove(song);
     }
-
     /**
      * JAVADOC
      */
     public ArrayList<Song> getLikedSongs() {
         return likedSongs;
     }
-
     /**
      * JAVADOC
      */
@@ -103,21 +97,24 @@ public class User {
             followedPlaylists.add(playlist);
         }
     }
-
     /**
      * JAVADOC
      */
     public void unfollowPlaylist(final Playlist playlist) {
         followedPlaylists.remove(playlist);
     }
-
     /**
      * JAVADOC
      */
     public ArrayList<Playlist> getFollowedPlaylists() {
         return followedPlaylists;
     }
-
+    /**
+     * JAVADOC
+     */
+    public Player getPlayer() {
+        return player;
+    }
     /**
      * JAVADOC
      */
@@ -126,12 +123,7 @@ public class User {
         return "User{"
                 + "username='"
                 + username
-                + '\''
-                + ", age="
-                + age
-                + ", city='"
-                + city
-                + '\''
-                + '}';
+                + '\'' + ", age=" + age
+                + ", city='" + city + '\'' + '}';
     }
 }

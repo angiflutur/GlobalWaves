@@ -1,5 +1,6 @@
 package main;
 
+import app.entities.PlayerManager;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
 import app.command.CommandParser;
@@ -75,6 +76,7 @@ public final class Main {
                               final String filePathOutput) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
 
+        PlayerManager.resetPlayers();
         LibraryInput libraryInput =
                 objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
         Library newLibrary = new Library();

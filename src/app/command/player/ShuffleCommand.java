@@ -2,6 +2,7 @@ package app.command.player;
 
 import app.entities.Command;
 import app.entities.Player;
+import app.entities.PlayerManager;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.Song;
@@ -32,17 +33,16 @@ public class ShuffleCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
-        Player player = Player.getInstance();
+        Player player = PlayerManager.getPlayer(getUsername());
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "shuffle");
         resultNode.put("user", getUsername());
         resultNode.put("timestamp", getTimestamp());
 
         int currentTimestamp = getTimestamp();
+
         player.updateRemainingTime(currentTimestamp);
-
         if (player.getRemainingTime() <= 0 || !player.isLoaded()) {
-
             player.setLoaded(false);
             player.setShuffleActive(false);
             resultNode.put("message", "Please load a source before using the shuffle function.");
@@ -61,6 +61,7 @@ public class ShuffleCommand extends Command {
 
         if (player.isShuffleActive()) {
             player.setShuffleActive(false);
+
             resultNode.put("message", "Shuffle function deactivated successfully.");
         } else {
             ArrayList<Integer> indices = new ArrayList<>();
@@ -75,4 +76,5 @@ public class ShuffleCommand extends Command {
             resultNode.put("message", "Shuffle function activated successfully.");
         }
     }
+
 }

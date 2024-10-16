@@ -8,7 +8,7 @@ import java.util.ArrayList;
 /**
  * JAVADOC
  */
-public class Playlist extends Song {
+public class Playlist {
     private User owner;
     private boolean isPublic;
     private ArrayList<Song> songs;
@@ -147,13 +147,9 @@ public class Playlist extends Song {
     public String toString() {
         return "Playlist{"
                 + "owner=" + owner
-                + ", isPublic="
-                + isPublic
-                + ", songs="
-                + songs
-                + ", name='"
-                + name
-                + '\''
+                + ", isPublic=" + isPublic
+                + ", songs=" + songs
+                + ", name='" + name + '\''
                 + '}';
     }
 }

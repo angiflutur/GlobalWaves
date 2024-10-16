@@ -6,8 +6,8 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
  * JAVADOC
  */
 public abstract class Command {
-    private String username;
-    private Integer timestamp;
+    private static String username;
+    private static Integer timestamp;
     /**
      * JAVADOC
      */
@@ -19,13 +19,13 @@ public abstract class Command {
     /**
      * JAVADOC
      */
-    public String getUsername() {
+    public static String getUsername() {
         return username;
     }
     /**
      * JAVADOC
      */
-    public Integer getTimestamp() {
+    public static Integer getTimestamp() {
         return timestamp;
     }
     /**

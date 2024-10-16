@@ -1,6 +1,7 @@
 package app.command.player;
 
 import app.entities.Player;
+import app.entities.PlayerManager;
 import app.entities.User;
 import app.entities.audio.collection.Library;
 import app.entities.audio.file.AudioFile;
@@ -8,22 +9,25 @@ import app.entities.audio.file.Song;
 import app.entities.Command;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+
 /**
  * JAVADOC
  */
 public class LikeCommand extends Command {
     /**
-     * JAVADOC
+     * Constructor pentru LikeCommand.
      */
     public LikeCommand(final String username, final Integer timestamp) {
         super(username, timestamp);
     }
+
     /**
-     * JAVADOC
+     * Metodă pentru executarea comenzii like/unlike.
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
-        Player player = Player.getInstance();
+        Player player = PlayerManager.getPlayer(getUsername());
+        player.updateRemainingTime(getTimestamp());
         AudioFile currentAudio = player.getCurrentAudio();
         User user = library.getUser(getUsername());
 
