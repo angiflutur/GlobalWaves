@@ -41,54 +41,63 @@ public class User {
     public String getUsername() {
         return username;
     }
+
     /**
      * JAVADOC
      */
     public void setUsername(final String username) {
         this.username = username;
     }
+
     /**
      * JAVADOC
      */
     public void setAge(final Integer age) {
         this.age = age;
     }
+
     /**
      * JAVADOC
      */
     public void setCity(final String city) {
         this.city = city;
     }
+
     /**
      * JAVADOC
      */
     public void addPlaylist(final Playlist playlist) {
         playlists.add(playlist);
     }
+
     /**
      * JAVADOC
      */
     public ArrayList<Playlist> getPlaylists() {
         return playlists;
     }
+
     /**
      * JAVADOC
      */
     public void likeSong(final Song song) {
         likedSongs.add(song);
     }
+
     /**
      * JAVADOC
      */
     public void unlikeSong(final Song song) {
         likedSongs.remove(song);
     }
+
     /**
      * JAVADOC
      */
     public ArrayList<Song> getLikedSongs() {
         return likedSongs;
     }
+
     /**
      * JAVADOC
      */
@@ -97,24 +106,28 @@ public class User {
             followedPlaylists.add(playlist);
         }
     }
+
     /**
      * JAVADOC
      */
     public void unfollowPlaylist(final Playlist playlist) {
         followedPlaylists.remove(playlist);
     }
+
     /**
      * JAVADOC
      */
     public ArrayList<Playlist> getFollowedPlaylists() {
         return followedPlaylists;
     }
+
     /**
      * JAVADOC
      */
     public Player getPlayer() {
         return player;
     }
+
     /**
      * JAVADOC
      */

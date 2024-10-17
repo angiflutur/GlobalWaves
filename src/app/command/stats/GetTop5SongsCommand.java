@@ -15,6 +15,7 @@ import java.util.stream.Collectors;
  */
 public class GetTop5SongsCommand extends Command {
     private static final int MAX_FILTER_LENGTH = 5;
+
     /**
      * JAVADOC
      */

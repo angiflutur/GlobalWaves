@@ -37,7 +37,7 @@ public class RepeatCommand extends Command {
     }
 
     /**
-     * Update the repeat state and return the corresponding mode string.
+     * JAVADOC
      */
     private String updateRepeatState(final Player player) {
         String newRepeatMode;
@@ -80,7 +80,7 @@ public class RepeatCommand extends Command {
     }
 
     /**
-     * Create and return a result node for the output.
+     * JAVADOC
      */
     private ObjectNode createResultNode(final ArrayNode output,
                                         final int currentTimestamp,

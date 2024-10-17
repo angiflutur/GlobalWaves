@@ -390,7 +390,6 @@ public class Player {
         this.shuffleIndices.clear();
     }
 
-
     /**
      * JAVADOC
      */

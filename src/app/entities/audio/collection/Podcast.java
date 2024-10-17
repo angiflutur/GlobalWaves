@@ -13,6 +13,7 @@ public class Podcast extends AudioFile {
     private ArrayList<PodcastEpisode> episodes;
     private int currentEpisodeIndex;
     private int currentEpisodeRemainingTime;
+
     /**
      * JAVADOC
      */
@@ -20,6 +21,7 @@ public class Podcast extends AudioFile {
         this.currentEpisodeIndex = 0;
         this.currentEpisodeRemainingTime = 0;
     }
+
     /**
      * JAVADOC
      */
@@ -29,6 +31,7 @@ public class Podcast extends AudioFile {
         this.currentEpisodeIndex = 0;
         this.currentEpisodeRemainingTime = 0;
     }
+
     /**
      * JAVADOC
      */
@@ -41,66 +44,77 @@ public class Podcast extends AudioFile {
         this.currentEpisodeIndex = 0;
         this.currentEpisodeRemainingTime = 0;
     }
+
     /**
      * JAVADOC
      */
     public String getName() {
         return name;
     }
+
     /**
      * JAVADOC
      */
     public void setName(final String name) {
         this.name = name;
     }
+
     /**
      * JAVADOC
      */
     public String getOwner() {
         return owner;
     }
+
     /**
      * JAVADOC
      */
     public void setOwner(final String owner) {
         this.owner = owner;
     }
+
     /**
      * JAVADOC
      */
     public ArrayList<PodcastEpisode> getEpisodes() {
         return episodes;
     }
+
     /**
      * JAVADOC
      */
     public void setEpisodes(final ArrayList<PodcastEpisode> episodes) {
         this.episodes = episodes;
     }
+
     /**
      * JAVADOC
      */
     public int getCurrentEpisodeIndex() {
         return currentEpisodeIndex;
     }
+
     /**
      * JAVADOC
      */
     public void setCurrentEpisodeIndex(final int index) {
         this.currentEpisodeIndex = index;
     }
+
     /**
      * JAVADOC
      */
     public int getCurrentEpisodeRemainingTime() {
         return currentEpisodeRemainingTime;
     }
+
     /**
      * JAVADOC
      */
     public void setCurrentEpisodeRemainingTime(final int time) {
         this.currentEpisodeRemainingTime = time;
     }
+
     /**
      * JAVADOC
      */

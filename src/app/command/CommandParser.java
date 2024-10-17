@@ -28,6 +28,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
  * JAVADOC
  */
 public final class CommandParser {
+
     /**
      * JAVADOC
      */

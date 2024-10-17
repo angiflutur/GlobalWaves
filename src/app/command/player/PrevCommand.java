@@ -14,6 +14,9 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  */
 public class PrevCommand extends Command {
 
+    /**
+     * JAVADOC
+     */
     public PrevCommand(final String username, final Integer timestamp) {
         super(username, timestamp);
     }

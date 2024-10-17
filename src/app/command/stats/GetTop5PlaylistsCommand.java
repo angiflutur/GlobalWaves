@@ -9,14 +9,20 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+
 /**
  * JAVADOC
  */
 public class GetTop5PlaylistsCommand extends Command {
     private static final int MAX_FILTER_LENGTH = 5;
+
+    /**
+     * JAVADOC
+     */
     public GetTop5PlaylistsCommand(final Integer timestamp) {
         super(null, timestamp);
     }
+
     /**
      * JAVADOC
      */

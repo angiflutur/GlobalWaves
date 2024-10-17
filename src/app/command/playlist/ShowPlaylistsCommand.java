@@ -12,19 +12,19 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * ShowPlaylistsCommand class for showing user playlists.
+ * JAVADOC
  */
 public class ShowPlaylistsCommand extends Command {
 
     /**
-     * Constructor for ShowPlaylistsCommand.
+     * JAVADOC
      */
     public ShowPlaylistsCommand(final String username, final Integer timestamp) {
         super(username, timestamp);
     }
 
     /**
-     * Executes the command to show playlists.
+     * JAVADOC
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {

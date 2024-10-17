@@ -8,6 +8,7 @@ import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.PodcastEpisode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+
 /**
  * JAVADOC
  */
@@ -17,6 +18,7 @@ public class ForwardCommand extends Command {
     public ForwardCommand(final String username, final Integer timestamp) {
         super(username, timestamp);
     }
+
     /**
      * JAVADOC
      */
@@ -53,6 +55,7 @@ public class ForwardCommand extends Command {
             addMessage(output, "Skipped forward successfully.");
         }
     }
+
     /**
      * JAVADOC
      */

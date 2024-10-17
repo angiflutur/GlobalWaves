@@ -216,6 +216,7 @@ public class SearchCommand extends Command {
     public static boolean getIsSearching() {
         return isSearching;
     }
+
     /**
      * JAVADOC
      */

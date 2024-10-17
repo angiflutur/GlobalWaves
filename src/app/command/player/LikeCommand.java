@@ -14,15 +14,16 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  * JAVADOC
  */
 public class LikeCommand extends Command {
+
     /**
-     * Constructor pentru LikeCommand.
+     * JAVADOC
      */
     public LikeCommand(final String username, final Integer timestamp) {
         super(username, timestamp);
     }
 
     /**
-     * Metodă pentru executarea comenzii like/unlike.
+     * JAVADOC
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {

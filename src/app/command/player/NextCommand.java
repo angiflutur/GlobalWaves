@@ -13,6 +13,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  * JAVADOC
  */
 public class NextCommand extends Command {
+
     /**
      * JAVADOC
      */

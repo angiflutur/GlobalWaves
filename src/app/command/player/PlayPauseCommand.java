@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  * JAVADOC
  */
 public class PlayPauseCommand extends Command {
+
     /**
      * JAVADOC
      */

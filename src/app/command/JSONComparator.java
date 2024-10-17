@@ -10,21 +10,21 @@ import java.io.IOException;
 
 
 /**
- * Constructor.
+ * JAVADOC
  */
 public class JSONComparator {
 
     private final ObjectMapper objectMapper;
 
     /**
-     * Constructor.
+     * JAVADOC
      */
     public JSONComparator() {
         this.objectMapper = new ObjectMapper();
     }
 
     /**
-     * Compares two JSON files for identity in content and order, outputting results to a file.
+     * JAVADOC
      */
     public void compareJsonFiles(final String filePath1,
                                  final String filePath2,
@@ -78,7 +78,7 @@ public class JSONComparator {
     }
 
     /**
-     * Main method to execute the comparator.
+     * JAVADOC
      */
     public static void main(final String[] args) {
         try {
@@ -87,28 +87,30 @@ public class JSONComparator {
             e.printStackTrace();
         }
         JSONComparator comparator = new JSONComparator();
-        String file1 = "test01_searchBar_songs_podcasts.json";
-        String file2 = "test02_playPause_song.json";
-        String file3 = "test03_like_create_addRemove.json";
-        String file4 = "test04_like_create_addRemove_error.json";
-        String file5 = "test05_playPause_playlist_podcast.json";
-        String file6 = "test06_playPause_error.json";
-        String file7 = "test07_repeat.json";
-        String file8 = "test08_repeat_error.json";
-        String file9 = "test09_shuffle.json";
-        String file10 = "test10_shuffle_error.json";
-        String file11 = "test11_next_prev_forward_backward.json";
-        String file12 = "test12_next_prev_forward_backward_error.json";
-        String file13 = "test13_searchPlaylist_follow.json";
-        String file14 = "test14_searchPlaylist_follow_error.json";
-        String file15 = "test15_statistics.json";
-        String file16 = "test16_complex.json";
-        String file17 = "test17_complex.json";
+
+        String file0 = "test00_etapa2.json";
+        String file1 = "test01_etapa2.json";
+        String file2 = "test02_etapa2.json";
+        String file3 = "test03_etapa2.json";
+        String file4 = "test04_etapa2.json";
+        String file5 = "test05_etapa2_playPause_playlist_podcast.json";
+        String file6 = "test06_etapa2_repeat.json";
+        String file7 = "test07_etapa2_repeat_error.json";
+        String file8 = "test08_etapa2_searchHost_printCurrentPage.json";
+        String file9 = "test09_etapa2_shuffle_album.json";
+        String file10 = "test10_etapa2_next_prev_forward_backward.json";
+        String file11 = "test11_etapa2_shuffle_error.json";
+        String file12 = "test12_etapa2_next_prev_forward_backward_error.json";
+        String file13 = "test13_statistics.json";
+        String file14 = "test14_etapa2_delete_cases.json";
+        String file15 = "test15_etapa2_complex.json";
+        String file16 = "test16_etapa2_complex.json";
+
         String outputFile = "comparison_output.txt";
 
         comparator.clearOutputFile(outputFile);
 
         System.out.println("\nFile 16");
-        comparator.compareJsonFiles("ref/ref_" + file16, "result/out_" + file16, outputFile);
+        comparator.compareJsonFiles("ref/ref_" + file1, "result/out_" + file1, outputFile);
     }
 }

@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
  */
 public class SwitchVisibilityCommand extends Command {
     private Integer itemNumber;
+
     /**
      * JAVADOC
      */
@@ -20,6 +21,7 @@ public class SwitchVisibilityCommand extends Command {
         super(username, timestamp);
         this.itemNumber = itemNumber - 1;
     }
+
     /**
      * JAVADOC
      */

@@ -14,6 +14,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  * JAVADOC
  */
 public class LoadCommand extends Command {
+
     /**
      * JAVADOC
      */

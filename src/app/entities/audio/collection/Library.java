@@ -91,13 +91,6 @@ public class Library {
     /**
      * JAVADOC
      */
-    public void setUsers(final ArrayList<User> users) {
-        this.users = users;
-    }
-
-    /**
-     * JAVADOC
-     */
     public void createLibrary(final LibraryInput library) {
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();

@@ -81,24 +81,28 @@ public class SelectCommand extends Command {
         SearchCommand.clearLastSearchResults();
         SearchCommand.setIsSearching(false);
     }
+
     /**
      * JAVADOC
      */
     public static void setSelectedAudioFile(final AudioFile audioFile) {
         selectedAudioFile = audioFile;
     }
+
     /**
      * JAVADOC
      */
     public static void setSelectedPlaylist(final Playlist playlist) {
         selectedPlaylist = playlist;
     }
+
     /**
      * JAVADOC
      */
     public static AudioFile getSelectedAudioFile() {
         return selectedAudioFile;
     }
+
     /**
      * JAVADOC
      */

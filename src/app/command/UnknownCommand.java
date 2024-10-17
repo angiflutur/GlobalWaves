@@ -8,6 +8,7 @@ import app.entities.audio.collection.Library;
  * JAVADOC
  */
 public class UnknownCommand extends Command {
+
     /**
      * JAVADOC
      */

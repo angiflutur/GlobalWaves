@@ -9,6 +9,9 @@ import java.util.Map;
 public final class PlayerManager {
     private static Map<String, Player> players = new HashMap<>();
 
+    /**
+     * JAVADOC
+     */
     private PlayerManager() {
         throw new UnsupportedOperationException("Utility class");
     }
