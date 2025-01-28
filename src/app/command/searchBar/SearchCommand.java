@@ -5,6 +5,7 @@ import app.entities.Player;
 import app.entities.PlayerManager;
 import app.entities.SearchBar;
 import app.entities.User;
+import app.entities.audio.collection.Album;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.collection.Podcast;
@@ -100,6 +101,18 @@ public class SearchCommand extends Command {
 
             if (filterName != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByName(filterName));
+
+                for (User albumOwner : library.getUsers()) {
+                    for (Album album : albumOwner.getAlbums()) {
+                        for (Song song : album.getSongs()) {
+                            if (song.getName().toLowerCase().startsWith(filterName.toLowerCase())) {
+                                if (!filteredSongs.contains(song)) {
+                                    filteredSongs.add(song);
+                                }
+                            }
+                        }
+                    }
+                }
             }
             if (filterAlbum != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByAlbum(filterAlbum));

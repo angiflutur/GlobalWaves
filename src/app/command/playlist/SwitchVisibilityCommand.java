@@ -5,6 +5,7 @@ import app.entities.Command;
 import app.entities.audio.collection.Playlist;
 import app.entities.User;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
  * JAVADOC
@@ -38,6 +39,14 @@ public class SwitchVisibilityCommand extends Command {
             return;
         }
 
+        if (!user.isConnectionStatus()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "select");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            return;
+        }
         if (itemNumber < 0 || itemNumber >= user.getPlaylists().size()) {
             output.addObject()
                     .put("command", "switchVisibility")

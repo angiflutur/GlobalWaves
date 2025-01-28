@@ -71,6 +71,14 @@ public class AddRemoveInPlaylistCommand extends Command {
             return;
         }
 
+        if (user == null || !user.isConnectionStatus()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "select");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            return;
+        }
         if (playlistId == null || playlistId <= 0 || playlistId > user.getPlaylists().size()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "addRemoveInPlaylist");

@@ -3,6 +3,7 @@ package app.command.player;
 import app.command.searchBar.SelectCommand;
 import app.entities.Player;
 import app.entities.PlayerManager;
+import app.entities.User;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
 import app.entities.audio.collection.Playlist;
@@ -30,7 +31,16 @@ public class LoadCommand extends Command {
         Player player = PlayerManager.getPlayer(getUsername());
         AudioFile selectedAudioFile = SelectCommand.getSelectedAudioFile();
         Playlist selectedPlaylist = SelectCommand.getSelectedPlaylist();
+        User user = library.getUser(getUsername());
 
+        if (user == null || !user.isConnectionStatus()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "select");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            return;
+        }
         if (selectedAudioFile == null && selectedPlaylist == null) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "load");

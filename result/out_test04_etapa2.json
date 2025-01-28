@@ -1,31 +1,81 @@
 [ {
+  "command" : "addUser",
+  "user" : "melodymaster",
+  "timestamp" : 5,
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "rhythmrider",
+  "timestamp" : 10,
+  "message" : "The username rhythmrider has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "beatblazer",
+  "timestamp" : 15,
+  "message" : "The username beatblazer has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "harmonichero",
+  "timestamp" : 20,
+  "message" : "The username harmonichero has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "melodicmind42",
+  "timestamp" : 25,
+  "message" : "The username melodicmind42 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "rhythmicrider58",
+  "timestamp" : 30,
+  "message" : "The username rhythmicrider58 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "harmonyhunter73",
+  "timestamp" : 35,
+  "message" : "The username harmonyhunter73 has been added successfully."
+}, {
+  "command" : "addUser",
+  "user" : "irene33",
+  "timestamp" : 40,
+  "message" : "The username irene33 is already taken."
+}, {
+  "command" : "addAlbum",
+  "user" : "rhythmrider",
+  "timestamp" : 50,
+  "message" : "rhythmrider has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "beatblazer",
+  "timestamp" : 55,
+  "message" : "beatblazer has added new album successfully."
+}, {
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 60,
-  "message" : "melodicmind42 is offline.",
-  "results" : [ ]
+  "results" : [ "Radio Ga Ga" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 65,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Radio Ga Ga."
 }, {
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 70,
-  "message" : "The selected ID is too high."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 75,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "melodicmind42",
   "timestamp" : 90,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Radio Ga Ga",
+    "remainedTime" : 329,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -34,7 +84,12 @@
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 120,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
+}, {
+  "command" : "printCurrentPage",
+  "user" : "melodicmind42",
+  "timestamp" : 135,
+  "message" : "Liked songs:\n\t[Radio Ga Ga]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -60,21 +115,26 @@
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 1385,
-  "message" : "melodicmind42 is offline.",
-  "results" : [ ]
+  "results" : [ "Rapid Rhythms", "Rapid Fire" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 1390,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Rapid Rhythms."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 1440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 1455,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
+}, {
+  "command" : "printCurrentPage",
+  "user" : "melodicmind42",
+  "timestamp" : 1480,
+  "message" : "Liked songs:\n\t[Radio Ga Ga, Rapid Rhythms]\n\nFollowed playlists:\n\t[]"
 } ]

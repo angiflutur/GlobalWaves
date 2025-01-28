@@ -1,9 +1,11 @@
 package app.entities;
 
+import app.entities.audio.collection.Album;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.Song;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * JAVADOC
@@ -18,6 +20,8 @@ public class User {
     private ArrayList<Song> likedSongs = new ArrayList<>();
     private Player player;
 
+    private List<Album> albums = new ArrayList<>();
+    private boolean isArtist;
     /**
      * JAVADOC
      */
@@ -28,12 +32,57 @@ public class User {
     /**
      * JAVADOC
      */
-    public User(final String username, final Integer age, final String city) {
+    public User(final String username, final Integer age,
+                final String city, final boolean isArtist) {
         this.username = username;
         this.age = age;
         this.city = city;
-        this.likedSongs = new ArrayList<>();
-        this.player = Player.getInstance();
+        this.isArtist = isArtist;
+    }
+    /**
+     * JAVADOC
+     */
+    public List<Album> getAlbums() {
+        return albums;
+    }
+    /**
+     * JAVADOC
+     */
+    public void setAlbums(final List<Album> albums) {
+        this.albums = albums;
+    }
+    /**
+     * JAVADOC
+     */
+    public void addAlbum(final String name, final Integer releaseYear,
+                         final String description, final List<Song> songs) {
+        Album newAlbum = new Album(name, releaseYear, description, songs);
+        albums.add(newAlbum);
+    }
+
+    /**
+     * Verifică dacă utilizatorul are deja un album cu un anumit nume.
+     */
+    public boolean hasAlbum(final String albumName) {
+        for (Album album : albums) {
+            if (album.getName().equalsIgnoreCase(albumName)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Verifică dacă utilizatorul este un artist.
+     */
+    public boolean isArtist() {
+        return isArtist;
+    }
+    /**
+     * JAVADOC
+     */
+    public void setArtist(final boolean artistStatus) {
+        this.isArtist = artistStatus;
     }
 
     /**
@@ -150,6 +199,7 @@ public class User {
                 + "username='"
                 + username
                 + '\'' + ", age=" + age
-                + ", city='" + city + '\'' + '}';
+                + ", city='" + city + '\''
+                + ", isArtist=" + isArtist + '}';
     }
 }

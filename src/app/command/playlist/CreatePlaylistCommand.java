@@ -47,6 +47,14 @@ public class CreatePlaylistCommand extends Command {
             return;
         }
 
+        if (!user.isConnectionStatus()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "select");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            return;
+        }
         if (library.getPlaylist(playlistName) != null) {
             ObjectNode errorResponse = JsonNodeFactory.instance.objectNode();
             errorResponse.put("command", "createPlaylist");

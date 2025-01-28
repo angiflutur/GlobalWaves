@@ -26,11 +26,21 @@
     "paused" : false
   }
 }, {
+  "command" : "addUser",
+  "user" : "soundseeker",
+  "timestamp" : 50,
+  "message" : "The username soundseeker has been added successfully."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 50,
   "results" : [ ],
   "message" : "Search returned 0 results"
+}, {
+  "command" : "printCurrentPage",
+  "user" : "jack29",
+  "timestamp" : 53,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -90,6 +100,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "printCurrentPage",
+  "user" : "jack29",
+  "timestamp" : 90,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "playPause",
   "user" : "alice22",
@@ -155,10 +170,20 @@
   "timestamp" : 3245,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addUser",
+  "user" : "magichost",
+  "timestamp" : 3247,
+  "message" : "The username magichost has been added successfully."
+}, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 3247,
   "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "addUser",
+  "user" : "magichost",
+  "timestamp" : 3247,
+  "message" : "The username magichost is already taken."
 }, {
   "command" : "follow",
   "user" : "david27",
