@@ -2,30 +2,30 @@
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 60,
-  "results" : [ "Radio Ga Ga" ],
-  "message" : "Search returned 1 results"
+  "message" : "melodicmind42 is offline.",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 65,
-  "message" : "Successfully selected Radio Ga Ga."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 70,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 75,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "status",
   "user" : "melodicmind42",
   "timestamp" : 90,
   "stats" : {
-    "name" : "Radio Ga Ga",
-    "remainedTime" : 329,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -34,7 +34,7 @@
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 120,
-  "message" : "User not found."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -60,8 +60,8 @@
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 1385,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "message" : "melodicmind42 is offline.",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "melodicmind42",

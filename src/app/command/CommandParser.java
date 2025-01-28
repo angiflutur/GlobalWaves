@@ -17,9 +17,11 @@ import app.command.playlist.ShowPlaylistsCommand;
 import app.command.playlist.SwitchVisibilityCommand;
 import app.command.searchBar.SearchCommand;
 import app.command.searchBar.SelectCommand;
+import app.command.stats.GetOnlineUsersCommand;
 import app.command.stats.GetTop5PlaylistsCommand;
 import app.command.stats.GetTop5SongsCommand;
 import app.command.stats.ShowPreferredSongsCommand;
+import app.command.user.SwitchConnectionStatusCommand;
 import app.entities.Command;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -114,6 +116,10 @@ public final class CommandParser {
                 return new GetTop5SongsCommand(timestamp);
             case "getTop5Playlists":
                 return new GetTop5PlaylistsCommand(timestamp);
+            case "switchConnectionStatus":
+                return new SwitchConnectionStatusCommand(username, timestamp);
+            case "getOnlineUsers":
+                return new GetOnlineUsersCommand(timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

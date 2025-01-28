@@ -1,14 +1,15 @@
 package app.command.searchBar;
 
+import app.entities.Command;
 import app.entities.Player;
 import app.entities.PlayerManager;
+import app.entities.SearchBar;
+import app.entities.User;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.AudioFile;
 import app.entities.audio.file.Song;
-import app.entities.Command;
-import app.entities.SearchBar;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -67,6 +68,18 @@ public class SearchCommand extends Command {
         isSearching = true;
 
         Player player = PlayerManager.getPlayer(getUsername());
+        User user = library.getUser(getUsername());
+
+        if (user == null || !user.isConnectionStatus()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "search");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            ArrayNode resultsArray = resultNode.putArray("results");
+            return;
+        }
+
         if (player.isLoaded()) {
             if (player.getCurrentAudio() instanceof Podcast) {
                 player.updateRemainingTime(getTimestamp());

@@ -153,6 +153,7 @@ public class Player {
 
             lastUpdateTimestamp = currentTimestamp;
         }
+
     }
 
     /**

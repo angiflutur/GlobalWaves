@@ -12,6 +12,7 @@ public class User {
     private String username;
     private Integer age;
     private String city;
+    private boolean connectionStatus = true;
     private ArrayList<Playlist> playlists = new ArrayList<>();
     private ArrayList<Playlist> followedPlaylists = new ArrayList<>();
     private ArrayList<Song> likedSongs = new ArrayList<>();
@@ -126,6 +127,18 @@ public class User {
      */
     public Player getPlayer() {
         return player;
+    }
+    /**
+     * JAVADOC
+     */
+    public boolean isConnectionStatus() {
+        return connectionStatus;
+    }
+    /**
+     * JAVADOC
+     */
+    public void setConnectionStatus(final boolean connectionStatus) {
+        this.connectionStatus = connectionStatus;
     }
 
     /**
