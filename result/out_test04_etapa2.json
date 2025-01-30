@@ -89,7 +89,7 @@
   "command" : "printCurrentPage",
   "user" : "melodicmind42",
   "timestamp" : 135,
-  "message" : "Liked songs:\n\t[Radio Ga Ga]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -100,7 +100,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 280,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected melodymaster's page."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -136,5 +136,5 @@
   "command" : "printCurrentPage",
   "user" : "melodicmind42",
   "timestamp" : 1480,
-  "message" : "Liked songs:\n\t[Radio Ga Ga, Rapid Rhythms]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 } ]

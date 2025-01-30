@@ -1,4 +1,4 @@
-package app.command.player;
+package app.command.user.admin;
 
 import app.entities.Command;
 import app.entities.User;
@@ -48,7 +48,7 @@ public class AddUserCommand extends Command {
 
         boolean isArtist = "artist".equals(userType);
 
-        User newUser = new User(username, age, city, isArtist);
+        User newUser = new User(username, age, city, isArtist, userType);
         library.addUser(newUser);
 
         resultNode.put("message", "The username " + username + " has been added successfully.");

@@ -70,7 +70,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 2050,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected melodymaster's page."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -228,7 +228,7 @@
   "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
   "timestamp" : 3300,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -307,5 +307,5 @@
   "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
   "timestamp" : 7000,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 } ]

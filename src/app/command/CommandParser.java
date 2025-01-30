@@ -1,7 +1,7 @@
 package app.command;
 
-import app.command.player.AddAlbumCommand;
-import app.command.player.AddUserCommand;
+import app.command.user.artist.AddAlbumCommand;
+import app.command.user.admin.AddUserCommand;
 import app.command.player.BackwardCommand;
 import app.command.player.ForwardCommand;
 import app.command.player.LikeCommand;
@@ -9,9 +9,9 @@ import app.command.player.LoadCommand;
 import app.command.player.NextCommand;
 import app.command.player.PlayPauseCommand;
 import app.command.player.PrevCommand;
-import app.command.player.PrintCurrentPageCommand;
+import app.command.page.PrintCurrentPageCommand;
 import app.command.player.RepeatCommand;
-import app.command.player.ShowAlbumsCommand;
+import app.command.user.admin.ShowAlbumsCommand;
 import app.command.player.ShuffleCommand;
 import app.command.player.StatusCommand;
 import app.command.playlist.AddRemoveInPlaylistCommand;
@@ -25,7 +25,9 @@ import app.command.stats.GetOnlineUsersCommand;
 import app.command.stats.GetTop5PlaylistsCommand;
 import app.command.stats.GetTop5SongsCommand;
 import app.command.stats.ShowPreferredSongsCommand;
-import app.command.user.SwitchConnectionStatusCommand;
+import app.command.user.artist.AddEventCommand;
+import app.command.user.artist.AddMerchCommand;
+import app.command.user.normal.SwitchConnectionStatusCommand;
 import app.entities.Command;
 import app.entities.audio.file.Song;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -176,6 +178,19 @@ public final class CommandParser {
                 return new ShowAlbumsCommand(username, timestamp);
             case "printCurrentPage":
                 return new PrintCurrentPageCommand(username, timestamp);
+            case "addEvent":
+                String eventName = jsonNode.has("name") ? jsonNode.get("name").asText() : null;
+                String eventDescription = jsonNode.has("description")
+                        ? jsonNode.get("description").asText() : null;
+                String eventDate = jsonNode.has("date") ? jsonNode.get("date").asText() : null;
+                return new AddEventCommand(username, timestamp,
+                        eventName, eventDescription, eventDate);
+            case "addMerch":
+                String merchName = jsonNode.has("name") ? jsonNode.get("name").asText() : null;
+                description = jsonNode.has("description")
+                        ? jsonNode.get("description").asText() : null;
+                int price = jsonNode.has("price") ? jsonNode.get("price").asInt() : 0;
+                return new AddMerchCommand(username, timestamp, merchName, description, price);
 
             default:
                 return new UnknownCommand(username, timestamp);

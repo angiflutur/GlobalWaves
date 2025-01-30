@@ -1,4 +1,4 @@
-package app.command.player;
+package app.command.user.artist;
 
 import app.entities.Command;
 import app.entities.User;

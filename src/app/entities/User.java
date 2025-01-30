@@ -22,6 +22,9 @@ public class User {
 
     private List<Album> albums = new ArrayList<>();
     private boolean isArtist;
+    private String userType;
+    private List<List<String>> events = new ArrayList<>();
+    private List<List<String>> merch = new ArrayList<>();
     /**
      * JAVADOC
      */
@@ -33,11 +36,34 @@ public class User {
      * JAVADOC
      */
     public User(final String username, final Integer age,
-                final String city, final boolean isArtist) {
+                final String city, final boolean isArtist, final String userType) {
         this.username = username;
         this.age = age;
         this.city = city;
         this.isArtist = isArtist;
+        this.userType = userType;
+    }
+    /**
+     * JAVADOC
+     */
+    public String getUserType() {
+        return userType;
+    }
+    /**
+     * JAVADOC
+     */
+    public void setUserType(final String userType) {
+        this.userType = userType;
+    }
+    /**
+     * JAVADOC
+     */
+    public List<String> getEvents() {
+        List<String> formattedEvents = new ArrayList<>();
+        for (List<String> event : events) {
+            formattedEvents.add(event.get(0) + " - " + event.get(1) + " - " + event.get(2));
+        }
+        return formattedEvents;
     }
     /**
      * JAVADOC
@@ -59,9 +85,8 @@ public class User {
         Album newAlbum = new Album(name, releaseYear, description, songs);
         albums.add(newAlbum);
     }
-
     /**
-     * Verifică dacă utilizatorul are deja un album cu un anumit nume.
+     * JAVADOC
      */
     public boolean hasAlbum(final String albumName) {
         for (Album album : albums) {
@@ -71,9 +96,41 @@ public class User {
         }
         return false;
     }
-
     /**
-     * Verifică dacă utilizatorul este un artist.
+     * JAVADOC
+     */
+    public List<String> getMerch() {
+        List<String> formattedMerch = new ArrayList<>();
+        for (List<String> merchItem : merch) {
+            formattedMerch.add(merchItem.get(0) + " - "
+                    + merchItem.get(1) + " - " + merchItem.get(2));
+        }
+        return formattedMerch;
+    }
+    /**
+     * JAVADOC
+     */
+    public boolean hasMerch(final String merchName) {
+        for (List<String> merchItem : merch) {
+            if (merchItem.get(0).equals(merchName)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    /**
+     * JAVADOC
+     */
+    public void addMerch(final String name, final String description,
+                         final int price) {
+        List<String> merchDetails = new ArrayList<>();
+        merchDetails.add(name);
+        merchDetails.add(description);
+        merchDetails.add(String.valueOf(price));
+        merch.add(merchDetails);
+    }
+    /**
+     * JAVADOC
      */
     public boolean isArtist() {
         return isArtist;
@@ -84,70 +141,60 @@ public class User {
     public void setArtist(final boolean artistStatus) {
         this.isArtist = artistStatus;
     }
-
     /**
      * JAVADOC
      */
     public String getUsername() {
         return username;
     }
-
     /**
      * JAVADOC
      */
     public void setUsername(final String username) {
         this.username = username;
     }
-
     /**
      * JAVADOC
      */
     public void setAge(final Integer age) {
         this.age = age;
     }
-
     /**
      * JAVADOC
      */
     public void setCity(final String city) {
         this.city = city;
     }
-
     /**
      * JAVADOC
      */
     public void addPlaylist(final Playlist playlist) {
         playlists.add(playlist);
     }
-
     /**
      * JAVADOC
      */
     public ArrayList<Playlist> getPlaylists() {
         return playlists;
     }
-
     /**
      * JAVADOC
      */
     public void likeSong(final Song song) {
         likedSongs.add(song);
     }
-
     /**
      * JAVADOC
      */
     public void unlikeSong(final Song song) {
         likedSongs.remove(song);
     }
-
     /**
      * JAVADOC
      */
     public ArrayList<Song> getLikedSongs() {
         return likedSongs;
     }
-
     /**
      * JAVADOC
      */
@@ -156,21 +203,18 @@ public class User {
             followedPlaylists.add(playlist);
         }
     }
-
     /**
      * JAVADOC
      */
     public void unfollowPlaylist(final Playlist playlist) {
         followedPlaylists.remove(playlist);
     }
-
     /**
      * JAVADOC
      */
     public ArrayList<Playlist> getFollowedPlaylists() {
         return followedPlaylists;
     }
-
     /**
      * JAVADOC
      */
@@ -188,6 +232,28 @@ public class User {
      */
     public void setConnectionStatus(final boolean connectionStatus) {
         this.connectionStatus = connectionStatus;
+    }
+    /**
+     * JAVADOC
+     */
+    public boolean hasEvent(final String eventName) {
+        for (List<String> event : events) {
+            if (event.get(0).equals(eventName)) { // Compară doar numele evenimentului
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     *
+     */
+    public void addEvent(final String eventName, final String description, final String date) {
+        List<String> eventDetails = new ArrayList<>();
+        eventDetails.add(eventName);
+        eventDetails.add(description);
+        eventDetails.add(date);
+        events.add(eventDetails); // Adaugă lista de string-uri în lista principală
     }
 
     /**

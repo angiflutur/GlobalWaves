@@ -1,4 +1,4 @@
-package app.command.user;
+package app.command.user.normal;
 
 import app.entities.Command;
 import app.entities.Player;

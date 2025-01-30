@@ -3,8 +3,8 @@ package app.command.searchBar;
 import app.entities.Command;
 import app.entities.Player;
 import app.entities.PlayerManager;
-import app.entities.SearchBar;
 import app.entities.User;
+import app.entities.SearchBar;
 import app.entities.audio.collection.Album;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
@@ -18,7 +18,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import java.util.ArrayList;
 
 /**
- * JAVADOC
+ * Handle the search command.
  */
 public class SearchCommand extends Command {
     private String type;
@@ -33,10 +33,11 @@ public class SearchCommand extends Command {
     private static final int MAX_FILTER_LENGTH = 5;
     private static ArrayList<AudioFile> lastSearchResultsAudio = new ArrayList<>();
     private static ArrayList<Playlist> lastSearchResultsPlaylists = new ArrayList<>();
+    private static ArrayList<String> lastSearchResultsArtists = new ArrayList<>();
     private static boolean isSearching = false;
 
     /**
-     * JAVADOC
+     * Constructor for the search command.
      */
     public SearchCommand(final String username,
                          final int timestamp,
@@ -62,7 +63,7 @@ public class SearchCommand extends Command {
     }
 
     /**
-     * JAVADOC
+     * Execute the search command and update the output.
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
@@ -95,13 +96,13 @@ public class SearchCommand extends Command {
         SearchBar searchBar = new SearchBar(library);
         ArrayList<AudioFile> combinedResultsAudio = new ArrayList<>();
         ArrayList<Playlist> combinedResultsPlaylists = new ArrayList<>();
+        ArrayList<String> filteredArtists = new ArrayList<>();
 
         if ("song".equals(type)) {
             ArrayList<Song> filteredSongs = new ArrayList<>(library.getSongs());
 
             if (filterName != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByName(filterName));
-
                 for (User albumOwner : library.getUsers()) {
                     for (Album album : albumOwner.getAlbums()) {
                         for (Song song : album.getSongs()) {
@@ -114,6 +115,7 @@ public class SearchCommand extends Command {
                     }
                 }
             }
+
             if (filterAlbum != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByAlbum(filterAlbum));
             }
@@ -144,20 +146,18 @@ public class SearchCommand extends Command {
 
         if ("podcast".equals(type)) {
             ArrayList<Podcast> filteredPodcasts = new ArrayList<>();
-
             if (filterName != null) {
                 filteredPodcasts.addAll(searchBar.searchPodcastsByName(filterName));
             }
             if (filterOwner != null) {
                 filteredPodcasts.addAll(searchBar.searchPodcastsByOwner(filterOwner));
             }
-
             combinedResultsAudio.addAll(filteredPodcasts);
         }
 
         if ("playlist".equals(type)) {
-            ArrayList<Playlist> filteredPlaylists =
-            new ArrayList<>(library.getPlaylists().values());
+            ArrayList<Playlist> filteredPlaylists
+                    = new ArrayList<>(library.getPlaylists().values());
 
             if (filterName != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByName(filterName));
@@ -166,17 +166,10 @@ public class SearchCommand extends Command {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByOwner(filterOwner));
             }
 
-            filteredPlaylists.removeIf(playlist -> {
-                return !playlist.isPublic() && !playlist.getOwner().
-                        getUsername().equals(getUsername());
-            });
-
-            filteredPlaylists.sort((p1, p2) -> Long.compare(p1.getCreationTime(),
-                    p2.getCreationTime()));
-
+            filteredPlaylists.removeIf(playlist -> !playlist.isPublic()
+                    && !playlist.getOwner().getUsername().equals(getUsername()));
             combinedResultsPlaylists.addAll(filteredPlaylists);
         }
-
 
         combinedResultsAudio = new ArrayList<>(combinedResultsAudio.subList(0,
                 Math.min(MAX_FILTER_LENGTH, combinedResultsAudio.size())));
@@ -199,14 +192,33 @@ public class SearchCommand extends Command {
                 resultsArray.add(playlist.getName());
             }
         }
+        if ("artist".equals(type)) {
+            if (filterName != null && !filterName.isEmpty()) {
+                for (User artist : library.getUsers()) {
+                    if (artist.isArtist() && artist.getUsername() != null
+                            && artist.getUsername().toLowerCase().
+                            startsWith(filterName.toLowerCase())) {
+                        filteredArtists.add(artist.getUsername());
+                    }
+                }
+                ArrayList<String> combinedResultsArtists = new ArrayList<>();
+                combinedResultsArtists.addAll(filteredArtists);
 
-        int totalResults = combinedResultsAudio.size() + combinedResultsPlaylists.size();
+                for (String artist : combinedResultsArtists) {
+                    resultsArray.add(artist);
+                }
+
+                lastSearchResultsArtists = new ArrayList<>(filteredArtists);
+            }
+        }
+
+        int totalResults = combinedResultsAudio.size() + combinedResultsPlaylists.size()
+                + filteredArtists.size();
         resultNode.put("message", "Search returned " + totalResults + " results");
-
     }
 
     /**
-     * JAVADOC
+     * Update the last search results.
      */
     public static void updateLastSearchResults(final ArrayList<AudioFile> searchResultsAudio,
                                                final ArrayList<Playlist> searchResultsPlaylists) {
@@ -215,21 +227,24 @@ public class SearchCommand extends Command {
     }
 
     /**
-     * JAVADOC
+     * Get the last search results for audio files.
      */
     public static ArrayList<AudioFile> getLastSearchResultsAudio() {
         return lastSearchResultsAudio;
     }
 
     /**
-     * JAVADOC
+     * Get the last search results for playlists.
      */
     public static ArrayList<Playlist> getLastSearchResultsPlaylists() {
         return lastSearchResultsPlaylists;
     }
+    public static ArrayList<String> getLastSearchResultsArtists() {
+        return lastSearchResultsArtists;
+    }
 
     /**
-     * JAVADOC
+     * Clear the last search results.
      */
     public static void clearLastSearchResults() {
         lastSearchResultsAudio.clear();
@@ -237,14 +252,14 @@ public class SearchCommand extends Command {
     }
 
     /**
-     * JAVADOC
+     * Get the current search status.
      */
     public static boolean getIsSearching() {
         return isSearching;
     }
 
     /**
-     * JAVADOC
+     * Set the search status.
      */
     public static void setIsSearching(final boolean isSearching) {
         SearchCommand.isSearching = isSearching;

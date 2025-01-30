@@ -40,12 +40,12 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 53,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : ""
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 57,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected melodymaster's page."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -83,7 +83,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 80,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected melodymaster's page."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -104,7 +104,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 90,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : ""
 }, {
   "command" : "playPause",
   "user" : "alice22",
@@ -241,7 +241,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 3300,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected melodymaster's page."
 }, {
   "command" : "status",
   "user" : "alice22",

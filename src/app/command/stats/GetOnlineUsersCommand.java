@@ -27,7 +27,7 @@ public class GetOnlineUsersCommand extends Command {
     @Override
     public void execute(final ArrayNode output, final Library library) {
         List<String> onlineUsers = library.getUsers().stream()
-                .filter(User::isConnectionStatus)
+                .filter(user -> user.isConnectionStatus() && !"artist".equals(user.getUserType()))
                 .map(User::getUsername)
                 .collect(Collectors.toList());
 

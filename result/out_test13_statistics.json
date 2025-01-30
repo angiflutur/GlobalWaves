@@ -38,7 +38,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected melodymaster's page."
 }, {
   "command" : "load",
   "user" : "bob35",
