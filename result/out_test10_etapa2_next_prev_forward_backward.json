@@ -23,7 +23,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 190,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -203,7 +203,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 890,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -246,7 +246,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1199,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "bob35",

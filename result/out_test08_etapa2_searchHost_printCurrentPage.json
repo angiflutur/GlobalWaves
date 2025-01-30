@@ -37,15 +37,15 @@
   "results" : [ ],
   "message" : "Search returned 0 results"
 }, {
-  "command" : "printCurrentPage",
   "user" : "jack29",
+  "command" : "printCurrentPage",
   "timestamp" : 53,
   "message" : ""
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 57,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -83,7 +83,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 80,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -101,8 +101,8 @@
     "paused" : true
   }
 }, {
-  "command" : "printCurrentPage",
   "user" : "jack29",
+  "command" : "printCurrentPage",
   "timestamp" : 90,
   "message" : ""
 }, {
@@ -178,7 +178,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 3247,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected 2010 hits."
 }, {
   "command" : "addUser",
   "user" : "magichost",
@@ -188,7 +188,7 @@
   "command" : "follow",
   "user" : "david27",
   "timestamp" : 3250,
-  "message" : "The selected source is not a playlist."
+  "message" : "Playlist followed successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
@@ -202,7 +202,7 @@
     "name" : "2010 hits",
     "songs" : [ "Happier" ],
     "visibility" : "public",
-    "followers" : 0
+    "followers" : 1
   } ]
 }, {
   "command" : "search",
@@ -241,7 +241,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 3300,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -277,7 +277,7 @@
     "name" : "2010 hits",
     "songs" : [ "Happier" ],
     "visibility" : "public",
-    "followers" : 0
+    "followers" : 1
   } ]
 }, {
   "command" : "status",

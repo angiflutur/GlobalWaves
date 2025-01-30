@@ -1,2 +1,19 @@
 Starting audit...
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\CommandParser.java:3:25: Using the '.*' form of import should be avoided - app.command.stats.*. [AvoidStarImport]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:65:5: Method length is 157 lines (max allowed is 150). [MethodLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:136: Line is longer than 100 characters (found 114). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SelectCommand.java:88: Line is longer than 100 characters (found 128). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SelectCommand.java:92: Line is longer than 100 characters (found 127). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:3:8: Unused import - app.command.searchBar.SearchCommand. [UnusedImports]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:469:43: Parameter lastSearchResultsAudio should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:487:47: Parameter lastSearchResultsPlaylists should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:499:45: Parameter lastSearchResultsArtists should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:505: Line is longer than 100 characters (found 105). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:505:41: Parameter audioFiles should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:505:74: Parameter playlists should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:512:41: Parameter artists should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:532:32: Parameter isSearching should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\User.java:138:5: Class 'User' looks like designed for extension (can be subclassed), but the method 'isHost' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'User' final or making the method 'isHost' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\User.java:259: Line has trailing spaces. [RegexpSingleline]
 Audit done.
+Checkstyle ends with 16 errors.

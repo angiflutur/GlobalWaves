@@ -160,7 +160,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2190,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "emily30",

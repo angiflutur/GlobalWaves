@@ -1,5 +1,6 @@
 package app.command;
 
+import app.command.stats.*;
 import app.command.user.artist.AddAlbumCommand;
 import app.command.user.admin.AddUserCommand;
 import app.command.player.BackwardCommand;
@@ -21,10 +22,6 @@ import app.command.playlist.ShowPlaylistsCommand;
 import app.command.playlist.SwitchVisibilityCommand;
 import app.command.searchBar.SearchCommand;
 import app.command.searchBar.SelectCommand;
-import app.command.stats.GetOnlineUsersCommand;
-import app.command.stats.GetTop5PlaylistsCommand;
-import app.command.stats.GetTop5SongsCommand;
-import app.command.stats.ShowPreferredSongsCommand;
 import app.command.user.artist.AddEventCommand;
 import app.command.user.artist.AddMerchCommand;
 import app.command.user.normal.SwitchConnectionStatusCommand;
@@ -191,7 +188,8 @@ public final class CommandParser {
                         ? jsonNode.get("description").asText() : null;
                 int price = jsonNode.has("price") ? jsonNode.get("price").asInt() : 0;
                 return new AddMerchCommand(username, timestamp, merchName, description, price);
-
+            case "getAllUsers":
+                return new GetAllUsersCommand(username, timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

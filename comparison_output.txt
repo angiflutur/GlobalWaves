@@ -1,0 +1,52 @@
+Diferență la timestampul 135:
+  File 1: {"user":"melodicmind42","command":"printCurrentPage","timestamp":135,"message":"Liked songs:\n\t[Rhythmic Revolution]\n\nFollowed playlists:\n\t[]"}
+  File 2: {"user":"melodicmind42","command":"printCurrentPage","timestamp":135,"message":"Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"}
+
+Diferență la timestampul 150:
+  File 1: {"command":"deleteUser","user":"beatblazer","timestamp":150,"message":"beatblazer can't be deleted."}
+  File 2: {"command":"search","user":"alice22","timestamp":190,"results":[],"message":"Search returned 0 results"}
+
+Diferență la timestampul 190:
+  File 1: {"command":"search","user":"alice22","timestamp":190,"message":"Search returned 1 results","results":["Beat Odyssey"]}
+  File 2: {"command":"select","user":"alice22","timestamp":280,"message":"The selected ID is too high."}
+
+Diferență la timestampul 280:
+  File 1: {"command":"select","user":"alice22","timestamp":280,"message":"Successfully selected Beat Odyssey."}
+  File 2: {"command":"load","user":"alice22","timestamp":285,"message":"Please select a source before attempting to load."}
+
+Diferență la timestampul 285:
+  File 1: {"command":"load","user":"alice22","timestamp":285,"message":"Playback loaded successfully."}
+  File 2: {"command":"prev","user":"alice22","timestamp":1159,"message":"Please load a source before returning to the previous track."}
+
+Diferență la timestampul 1158:
+  File 1: {"command":"deleteUser","user":"beatblazer","timestamp":1158,"message":"beatblazer can't be deleted."}
+  File 2: {"command":"search","user":"melodicmind42","timestamp":1385,"results":["Rapid Rhythms","Rapid Fire"],"message":"Search returned 2 results"}
+
+Diferență la timestampul 1159:
+  File 1: {"command":"prev","user":"alice22","timestamp":1159,"message":"Returned to previous track successfully. The current track is Melodic Motion."}
+  File 2: {"command":"select","user":"melodicmind42","timestamp":1390,"message":"Successfully selected Rapid Rhythms."}
+
+Diferență la timestampul 1380:
+  File 1: {"command":"deleteUser","user":"beatblazer","timestamp":1380,"message":"beatblazer was successfully deleted."}
+  File 2: {"command":"load","user":"melodicmind42","timestamp":1440,"message":"Playback loaded successfully."}
+
+Diferență la timestampul 1385:
+  File 1: {"command":"search","user":"melodicmind42","timestamp":1385,"message":"Search returned 1 results","results":["Rapid Rhythms"]}
+  File 2: {"command":"like","user":"melodicmind42","timestamp":1455,"message":"Like registered successfully."}
+
+Diferență la timestampul 1390:
+  File 1: {"command":"select","user":"melodicmind42","timestamp":1390,"message":"Successfully selected Rapid Rhythms."}
+  File 2: {"user":"melodicmind42","command":"printCurrentPage","timestamp":1480,"message":"Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"}
+
+Diferență la timestampul 1440:
+  File 1: {"command":"load","user":"melodicmind42","timestamp":1440,"message":"Playback loaded successfully."}
+  File 2: null
+
+Diferență la timestampul 1455:
+  File 1: {"command":"like","user":"melodicmind42","timestamp":1455,"message":"Like registered successfully."}
+  File 2: null
+
+Diferență la timestampul 1480:
+  File 1: {"user":"melodicmind42","command":"printCurrentPage","timestamp":1480,"message":"Liked songs:\n\t[Rapid Rhythms]\n\nFollowed playlists:\n\t[]"}
+  File 2: null
+

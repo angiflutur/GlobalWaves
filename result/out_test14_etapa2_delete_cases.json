@@ -39,6 +39,10 @@
   "timestamp" : 80,
   "message" : "The username musicmaven has been added successfully."
 }, {
+  "command" : "getAllUsers",
+  "timestamp" : 85,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "soundseeker21", "melodicwanderer", "sonicpainter", "echoexplorer", "rhythmweaver", "audiosage", "soundcurator", "musicmaven" ]
+}, {
   "command" : "createPlaylist",
   "user" : "melodicwanderer",
   "timestamp" : 305,
@@ -52,23 +56,23 @@
   "command" : "search",
   "user" : "melodicwanderer",
   "timestamp" : 315,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Aurora Harmony", "Azure Echoes" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "melodicwanderer",
   "timestamp" : 320,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Azure Echoes."
 }, {
   "command" : "load",
   "user" : "melodicwanderer",
   "timestamp" : 325,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "melodicwanderer",
   "timestamp" : 330,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -79,7 +83,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 340,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -126,10 +130,10 @@
   "command" : "repeat",
   "user" : "melodicwanderer",
   "timestamp" : 480,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat once."
 }, {
-  "command" : "printCurrentPage",
   "user" : "bob35",
+  "command" : "printCurrentPage",
   "timestamp" : 525,
   "message" : ""
 }, {
@@ -142,7 +146,7 @@
   "command" : "select",
   "user" : "soundseeker21",
   "timestamp" : 630,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -191,8 +195,8 @@
   "timestamp" : 7505,
   "message" : "Repeat mode changed to no repeat."
 }, {
-  "command" : "printCurrentPage",
   "user" : "bob35",
+  "command" : "printCurrentPage",
   "timestamp" : 7900,
   "message" : "Albums:\n\t[Colors of Sound]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 } ]

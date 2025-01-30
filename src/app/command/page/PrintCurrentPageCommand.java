@@ -33,8 +33,8 @@ public class PrintCurrentPageCommand extends Command {
     public void execute(final ArrayNode output, final Library library) {
         User user = library.getUser(getUsername());
         ObjectNode resultNode = output.addObject();
-        resultNode.put("command", "printCurrentPage");
         resultNode.put("user", getUsername());
+        resultNode.put("command", "printCurrentPage");
         resultNode.put("timestamp", getTimestamp());
 
         if (user == null) {

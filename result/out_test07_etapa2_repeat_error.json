@@ -38,8 +38,8 @@
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 1170,
-  "results" : [ "Sicko Mode", "Stargazing", "Sicko Mode", "Swimming Pools (Drank)" ],
-  "message" : "Search returned 4 results"
+  "results" : [ "Sicko Mode", "Stargazing", "Sicko Mode", "Swimming Pools (Drank)", "Synth Symphony" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -70,7 +70,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 2050,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "Successfully selected Synth Symphony."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -91,7 +91,7 @@
   "command" : "load",
   "user" : "rhythmicrider58",
   "timestamp" : 2185,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -118,17 +118,17 @@
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 2295,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "repeat",
   "user" : "rhythmicrider58",
   "timestamp" : 2480,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "forward",
   "user" : "rhythmicrider58",
   "timestamp" : 2555,
-  "message" : "Please load a source before attempting to forward."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -225,8 +225,8 @@
   "timestamp" : 3295,
   "message" : "Please load a source before setting the repeat status."
 }, {
-  "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
+  "command" : "printCurrentPage",
   "timestamp" : 3300,
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
@@ -304,8 +304,8 @@
   "timestamp" : 3445,
   "message" : "Please load a source before liking or unliking."
 }, {
-  "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
+  "command" : "printCurrentPage",
   "timestamp" : 7000,
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 } ]

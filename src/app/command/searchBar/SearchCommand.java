@@ -31,10 +31,7 @@ public class SearchCommand extends Command {
     private ArrayNode filterTags;
     private String filterOwner;
     private static final int MAX_FILTER_LENGTH = 5;
-    private static ArrayList<AudioFile> lastSearchResultsAudio = new ArrayList<>();
-    private static ArrayList<Playlist> lastSearchResultsPlaylists = new ArrayList<>();
-    private static ArrayList<String> lastSearchResultsArtists = new ArrayList<>();
-    private static boolean isSearching = false;
+
 
     /**
      * Constructor for the search command.
@@ -67,9 +64,8 @@ public class SearchCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
-        isSearching = true;
-
         Player player = PlayerManager.getPlayer(getUsername());
+        player.setIsSearching(true);
         User user = library.getUser(getUsername());
 
         if (user == null || !user.isConnectionStatus()) {
@@ -132,8 +128,18 @@ public class SearchCommand extends Command {
                 filteredSongs.retainAll(searchBar.searchSongsByLyrics(filterLyrics));
             }
             if (filterGenre != null) {
-                filteredSongs.retainAll(searchBar.searchSongsByGenre(filterGenre));
+                ArrayList<Song> genreFilteredSongs = new ArrayList<>();
+
+                for (Song song : filteredSongs) {
+                    if (song.getGenre().equalsIgnoreCase(filterGenre)) {
+                        genreFilteredSongs.add(song);
+                        System.out.println("Piesa găsită: " + song.getName() + " (Gen: " + song.getGenre() + ")");
+                    }
+                }
+
+                filteredSongs = genreFilteredSongs;
             }
+
             if (filterReleaseYear != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByReleaseYear(filterReleaseYear));
             }
@@ -174,7 +180,7 @@ public class SearchCommand extends Command {
         combinedResultsAudio = new ArrayList<>(combinedResultsAudio.subList(0,
                 Math.min(MAX_FILTER_LENGTH, combinedResultsAudio.size())));
 
-        updateLastSearchResults(combinedResultsAudio, combinedResultsPlaylists);
+        player.updateLastSearchResults(combinedResultsAudio, combinedResultsPlaylists);
 
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "search");
@@ -201,14 +207,12 @@ public class SearchCommand extends Command {
                         filteredArtists.add(artist.getUsername());
                     }
                 }
-                ArrayList<String> combinedResultsArtists = new ArrayList<>();
-                combinedResultsArtists.addAll(filteredArtists);
 
-                for (String artist : combinedResultsArtists) {
+                for (String artist : filteredArtists) {
                     resultsArray.add(artist);
                 }
 
-                lastSearchResultsArtists = new ArrayList<>(filteredArtists);
+                player.updateLastSearchArtists(filteredArtists);
             }
         }
 
@@ -217,51 +221,4 @@ public class SearchCommand extends Command {
         resultNode.put("message", "Search returned " + totalResults + " results");
     }
 
-    /**
-     * Update the last search results.
-     */
-    public static void updateLastSearchResults(final ArrayList<AudioFile> searchResultsAudio,
-                                               final ArrayList<Playlist> searchResultsPlaylists) {
-        lastSearchResultsAudio = searchResultsAudio;
-        lastSearchResultsPlaylists = searchResultsPlaylists;
-    }
-
-    /**
-     * Get the last search results for audio files.
-     */
-    public static ArrayList<AudioFile> getLastSearchResultsAudio() {
-        return lastSearchResultsAudio;
-    }
-
-    /**
-     * Get the last search results for playlists.
-     */
-    public static ArrayList<Playlist> getLastSearchResultsPlaylists() {
-        return lastSearchResultsPlaylists;
-    }
-    public static ArrayList<String> getLastSearchResultsArtists() {
-        return lastSearchResultsArtists;
-    }
-
-    /**
-     * Clear the last search results.
-     */
-    public static void clearLastSearchResults() {
-        lastSearchResultsAudio.clear();
-        lastSearchResultsPlaylists.clear();
-    }
-
-    /**
-     * Get the current search status.
-     */
-    public static boolean getIsSearching() {
-        return isSearching;
-    }
-
-    /**
-     * Set the search status.
-     */
-    public static void setIsSearching(final boolean isSearching) {
-        SearchCommand.isSearching = isSearching;
-    }
 }

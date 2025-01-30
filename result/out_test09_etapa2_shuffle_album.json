@@ -43,8 +43,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 270,
-  "results" : [ "Don't", "Delicate" ],
-  "message" : "Search returned 2 results"
+  "results" : [ "Don't", "Delicate", "Digital Dreams" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -55,7 +55,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 290,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -65,7 +65,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 320,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected melodymaster's page."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
@@ -91,7 +91,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 340,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected Digital Dreams."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
@@ -124,8 +124,8 @@
   "timestamp" : 430,
   "message" : "Successfully added to playlist."
 }, {
-  "command" : "printCurrentPage",
   "user" : "david27",
+  "command" : "printCurrentPage",
   "timestamp" : 430,
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!]"
 }, {
@@ -138,7 +138,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 432,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -246,8 +246,8 @@
   "timestamp" : 2450,
   "message" : "Successfully selected I Don't Wanna Live Forever."
 }, {
-  "command" : "printCurrentPage",
   "user" : "carol19",
+  "command" : "printCurrentPage",
   "timestamp" : 2455,
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
 }, {
@@ -389,8 +389,8 @@
     "paused" : false
   }
 }, {
-  "command" : "printCurrentPage",
   "user" : "david27",
+  "command" : "printCurrentPage",
   "timestamp" : 3900,
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
 }, {
@@ -437,8 +437,8 @@
   "timestamp" : 4360,
   "message" : "Shuffle function activated successfully."
 }, {
-  "command" : "printCurrentPage",
   "user" : "david27",
+  "command" : "printCurrentPage",
   "timestamp" : 4400,
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
 }, {
@@ -464,8 +464,8 @@
     "paused" : false
   }
 }, {
-  "command" : "printCurrentPage",
   "user" : "carol19",
+  "command" : "printCurrentPage",
   "timestamp" : 5000,
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
 }, {
@@ -485,7 +485,7 @@
   "timestamp" : 6000,
   "result" : [ {
     "name" : "My playlist",
-    "songs" : [ "Nothing Else Matters", "Retro Rhythms", "Elevate", "I Don't Wanna Live Forever", "Hustle Hard", "Begin Again" ],
+    "songs" : [ "Nothing Else Matters", "Digital Dreams", "Elevate", "I Don't Wanna Live Forever", "Hustle Hard", "Begin Again" ],
     "visibility" : "public",
     "followers" : 0
   } ]

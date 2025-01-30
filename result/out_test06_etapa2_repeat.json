@@ -34,7 +34,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 25,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected Retro Rhythms."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -119,7 +119,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 1007,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -229,7 +229,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1025,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My favourite songs."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -279,8 +279,8 @@
     "paused" : false
   }
 }, {
-  "command" : "printCurrentPage",
   "user" : "alice22",
+  "command" : "printCurrentPage",
   "timestamp" : 1038,
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
@@ -290,8 +290,8 @@
   "results" : [ ],
   "message" : "Search returned 0 results"
 }, {
-  "command" : "printCurrentPage",
   "user" : "carol19",
+  "command" : "printCurrentPage",
   "timestamp" : 1040,
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
@@ -309,7 +309,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 2100,
-  "message" : "Successfully selected melodymaster's page."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "repeat",
   "user" : "alice22",
@@ -359,8 +359,8 @@
     "paused" : false
   }
 }, {
-  "command" : "printCurrentPage",
   "user" : "carol19",
+  "command" : "printCurrentPage",
   "timestamp" : 2338,
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {

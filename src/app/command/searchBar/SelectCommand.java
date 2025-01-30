@@ -13,13 +13,14 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import java.util.ArrayList;
 
 /**
-* JAVADOC
-*/
+ * JAVADOC
+ */
 public class SelectCommand extends Command {
     private Integer itemNumber;
     private static AudioFile selectedAudioFile = null;
     private static Playlist selectedPlaylist = null;
     private static String selectedArtist = null;
+
     /**
      * JAVADOC
      */
@@ -27,6 +28,7 @@ public class SelectCommand extends Command {
         super(username, timestamp);
         this.itemNumber = itemNumber;
     }
+
     /**
      * JAVADOC
      */
@@ -43,20 +45,20 @@ public class SelectCommand extends Command {
             return;
         }
 
-        ArrayList<AudioFile> lastSearchResultsAudio = SearchCommand.getLastSearchResultsAudio();
-        ArrayList<Playlist> lastSearchResultsPlaylists
-                = SearchCommand.getLastSearchResultsPlaylists();
-        ArrayList<String> lastSearchResultsArtists = SearchCommand.getLastSearchResultsArtists();
+        Player player = PlayerManager.getPlayer(getUsername());
+
+        ArrayList<AudioFile> lastSearchResultsAudio = player.getLastSearchResultsAudio();
+        ArrayList<Playlist> lastSearchResultsPlaylists = player.getLastSearchResultsPlaylists();
+        ArrayList<String> lastSearchResultsArtists = player.getLastSearchResultsArtists();
 
         ArrayList<Object> combinedResults = new ArrayList<>();
         combinedResults.addAll(lastSearchResultsAudio);
         combinedResults.addAll(lastSearchResultsPlaylists);
         combinedResults.addAll(lastSearchResultsArtists);
 
-        Player player = PlayerManager.getPlayer(getUsername());
         player.setRepeatState(0);
 
-        if (!SearchCommand.getIsSearching()) {
+        if (!player.getIsSearching()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "select");
             resultNode.put("user", getUsername());
@@ -83,55 +85,64 @@ public class SelectCommand extends Command {
         if (selectedItem instanceof AudioFile) {
             selectedAudioFile = (AudioFile) selectedItem;
             resultNode.put("message", "Successfully selected " + selectedAudioFile.getName() + ".");
+            player.updateLastSearchResults(new ArrayList<AudioFile>() {{ add(selectedAudioFile); }}, new ArrayList<Playlist>());
         } else if (selectedItem instanceof Playlist) {
             selectedPlaylist = (Playlist) selectedItem;
             resultNode.put("message", "Successfully selected " + selectedPlaylist.getName() + ".");
+            player.updateLastSearchResults(new ArrayList<AudioFile>(), new ArrayList<Playlist>() {{ add(selectedPlaylist); }});
         } else if (selectedItem instanceof String) {
             selectedArtist = (String) selectedItem;
             resultNode.put("message", "Successfully selected " + selectedArtist + "'s page.");
+            player.updateLastSearchArtists(new ArrayList<String>() {{ add(selectedArtist); }});
         }
 
         player.setCurrentPlaylist(selectedItem instanceof Playlist
                 ? (Playlist) selectedItem : null);
 
-        SearchCommand.clearLastSearchResults();
-        SearchCommand.setIsSearching(false);
+        player.clearLastSearchResults();
+        player.setIsSearching(false);
     }
+
+
     /**
      * JAVADOC
      */
     public static void setSelectedAudioFile(final AudioFile audioFile) {
         selectedAudioFile = audioFile;
     }
+
     /**
      * JAVADOC
      */
     public static void setSelectedPlaylist(final Playlist playlist) {
         selectedPlaylist = playlist;
     }
+
     /**
      * JAVADOC
      */
     public static void setSelectedArtist(final String artist) {
         selectedArtist = artist;
     }
+
     /**
      * JAVADOC
      */
     public static AudioFile getSelectedAudioFile() {
         return selectedAudioFile;
     }
+
     /**
      * JAVADOC
      */
     public static Playlist getSelectedPlaylist() {
         return selectedPlaylist;
     }
+
     /**
      * JAVADOC
      */
     public static String getSelectedArtist() {
         return selectedArtist;
     }
-
 }

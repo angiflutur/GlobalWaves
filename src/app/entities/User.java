@@ -135,6 +135,9 @@ public class User {
     public boolean isArtist() {
         return isArtist;
     }
+    public boolean isHost() {
+        return "host".equalsIgnoreCase(userType);
+    }
     /**
      * JAVADOC
      */
@@ -238,7 +241,7 @@ public class User {
      */
     public boolean hasEvent(final String eventName) {
         for (List<String> event : events) {
-            if (event.get(0).equals(eventName)) { // Compară doar numele evenimentului
+            if (event.get(0).equals(eventName)) {
                 return true;
             }
         }
@@ -253,7 +256,7 @@ public class User {
         eventDetails.add(eventName);
         eventDetails.add(description);
         eventDetails.add(date);
-        events.add(eventDetails); // Adaugă lista de string-uri în lista principală
+        events.add(eventDetails); 
     }
 
     /**
