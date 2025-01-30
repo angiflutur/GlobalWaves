@@ -29,7 +29,13 @@ public class Player {
     private ArrayList<AudioFile> lastSearchResultsAudio = new ArrayList<>();
     private ArrayList<Playlist> lastSearchResultsPlaylists = new ArrayList<>();
     private ArrayList<String> lastSearchResultsArtists = new ArrayList<>();
-
+    public enum Page {
+        HOME_PAGE,
+        LIKED_CONTENT_PAGE,
+        ARTIST_PAGE,
+        HOST_PAGE
+    }
+    private Page currentPage;
     /**
      * JAVADOC
      */
@@ -44,6 +50,7 @@ public class Player {
         this.repeatState = 0;
         this.isShuffleActive = false;
         this.shuffleIndices = new ArrayList<>();
+        this.currentPage = Page.HOME_PAGE;
     }
 
     /**
@@ -533,4 +540,11 @@ public class Player {
         this.isSearching = isSearching;
     }
 
+    public Page getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(Page currentPage) {
+        this.currentPage = currentPage;
+    }
 }

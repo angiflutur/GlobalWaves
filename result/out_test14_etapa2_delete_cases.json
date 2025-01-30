@@ -135,7 +135,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 525,
-  "message" : ""
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos - melodicwanderer]"
 }, {
   "command" : "search",
   "user" : "soundseeker21",
@@ -198,5 +198,5 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 7900,
-  "message" : "Albums:\n\t[Colors of Sound]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos - melodicwanderer]"
 } ]

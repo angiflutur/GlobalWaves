@@ -40,7 +40,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 53,
-  "message" : ""
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -104,7 +104,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 90,
-  "message" : ""
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "playPause",
   "user" : "alice22",

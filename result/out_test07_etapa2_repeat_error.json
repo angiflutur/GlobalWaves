@@ -228,7 +228,7 @@
   "user" : "rhythmicrider58",
   "command" : "printCurrentPage",
   "timestamp" : 3300,
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -307,5 +307,5 @@
   "user" : "rhythmicrider58",
   "command" : "printCurrentPage",
   "timestamp" : 7000,
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[]"
 } ]

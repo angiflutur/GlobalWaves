@@ -133,7 +133,6 @@ public class SearchCommand extends Command {
                 for (Song song : filteredSongs) {
                     if (song.getGenre().equalsIgnoreCase(filterGenre)) {
                         genreFilteredSongs.add(song);
-                        System.out.println("Piesa găsită: " + song.getName() + " (Gen: " + song.getGenre() + ")");
                     }
                 }
 

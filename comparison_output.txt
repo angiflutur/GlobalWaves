@@ -1,7 +1,3 @@
-Diferență la timestampul 135:
-  File 1: {"user":"melodicmind42","command":"printCurrentPage","timestamp":135,"message":"Liked songs:\n\t[Rhythmic Revolution]\n\nFollowed playlists:\n\t[]"}
-  File 2: {"user":"melodicmind42","command":"printCurrentPage","timestamp":135,"message":"Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"}
-
 Diferență la timestampul 150:
   File 1: {"command":"deleteUser","user":"beatblazer","timestamp":150,"message":"beatblazer can't be deleted."}
   File 2: {"command":"search","user":"alice22","timestamp":190,"results":[],"message":"Search returned 0 results"}
@@ -36,7 +32,7 @@ Diferență la timestampul 1385:
 
 Diferență la timestampul 1390:
   File 1: {"command":"select","user":"melodicmind42","timestamp":1390,"message":"Successfully selected Rapid Rhythms."}
-  File 2: {"user":"melodicmind42","command":"printCurrentPage","timestamp":1480,"message":"Albums:\n\t[]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"}
+  File 2: {"user":"melodicmind42","command":"printCurrentPage","timestamp":1480,"message":"Liked songs:\n\t[Rhythmic Revolution, Rapid Rhythms]\n\nFollowed playlists:\n\t[]"}
 
 Diferență la timestampul 1440:
   File 1: {"command":"load","user":"melodicmind42","timestamp":1440,"message":"Playback loaded successfully."}

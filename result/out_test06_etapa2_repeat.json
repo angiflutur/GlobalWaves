@@ -282,7 +282,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 1038,
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -293,7 +293,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 1040,
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -362,7 +362,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 2338,
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"
 }, {
   "command" : "status",
   "user" : "alice22",

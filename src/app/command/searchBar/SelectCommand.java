@@ -93,6 +93,7 @@ public class SelectCommand extends Command {
         } else if (selectedItem instanceof String) {
             selectedArtist = (String) selectedItem;
             resultNode.put("message", "Successfully selected " + selectedArtist + "'s page.");
+            player.setCurrentPage(Player.Page.ARTIST_PAGE);
             player.updateLastSearchArtists(new ArrayList<String>() {{ add(selectedArtist); }});
         }
 
