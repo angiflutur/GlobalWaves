@@ -3,7 +3,7 @@ package main;
 import app.entities.PlayerManager;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
-import app.command.CommandParser;
+import app.CommandParser;
 import checker.Checker;
 import checker.CheckerConstants;
 import com.fasterxml.jackson.databind.JsonNode;

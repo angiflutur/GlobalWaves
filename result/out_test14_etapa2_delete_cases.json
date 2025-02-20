@@ -7,8 +7,8 @@
   "command" : "search",
   "user" : "melodicwanderer",
   "timestamp" : 315,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "message" : "melodicwanderer is offline.",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "melodicwanderer",
@@ -18,7 +18,7 @@
   "command" : "load",
   "user" : "melodicwanderer",
   "timestamp" : 325,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "melodicwanderer",
@@ -81,13 +81,13 @@
   "command" : "repeat",
   "user" : "melodicwanderer",
   "timestamp" : 480,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "search",
   "user" : "soundseeker21",
   "timestamp" : 625,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "message" : "soundseeker21 is offline.",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "soundseeker21",

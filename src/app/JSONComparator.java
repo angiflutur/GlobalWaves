@@ -1,4 +1,4 @@
-package app.command;
+package app;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -110,7 +110,7 @@ public class JSONComparator {
 
         comparator.clearOutputFile(outputFile);
 
-        String file = file4;
+        String file = file1;
         comparator.compareJsonFiles("ref/ref_" + file, "result/out_" + file, outputFile);
     }
 }

@@ -1,4 +1,4 @@
-package app.command;
+package app;
 
 import app.entities.Command;
 import com.fasterxml.jackson.databind.node.ArrayNode;

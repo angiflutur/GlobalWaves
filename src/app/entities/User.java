@@ -16,7 +16,7 @@ public class User {
     private ArrayList<Playlist> followedPlaylists = new ArrayList<>();
     private ArrayList<Song> likedSongs = new ArrayList<>();
     private Player player;
-
+    private boolean isOnline = true;
     /**
      * JAVADOC
      */
@@ -89,6 +89,14 @@ public class User {
      */
     public void unlikeSong(final Song song) {
         likedSongs.remove(song);
+    }
+
+    public boolean isOnline() {
+        return isOnline;
+    }
+
+    public void setOnline(boolean online) {
+        isOnline = online;
     }
 
     /**

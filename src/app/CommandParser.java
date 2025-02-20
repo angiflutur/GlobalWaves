@@ -1,15 +1,6 @@
-package app.command;
+package app;
 
-import app.command.player.BackwardCommand;
-import app.command.player.ForwardCommand;
-import app.command.player.LikeCommand;
-import app.command.player.LoadCommand;
-import app.command.player.NextCommand;
-import app.command.player.PlayPauseCommand;
-import app.command.player.PrevCommand;
-import app.command.player.RepeatCommand;
-import app.command.player.ShuffleCommand;
-import app.command.player.StatusCommand;
+import app.command.player.*;
 import app.command.playlist.AddRemoveInPlaylistCommand;
 import app.command.playlist.CreatePlaylistCommand;
 import app.command.playlist.FollowPlaylistCommand;
@@ -17,6 +8,7 @@ import app.command.playlist.ShowPlaylistsCommand;
 import app.command.playlist.SwitchVisibilityCommand;
 import app.command.searchBar.SearchCommand;
 import app.command.searchBar.SelectCommand;
+import app.command.stats.GetOnlineUsersCommand;
 import app.command.stats.GetTop5PlaylistsCommand;
 import app.command.stats.GetTop5SongsCommand;
 import app.command.stats.ShowPreferredSongsCommand;
@@ -114,6 +106,10 @@ public final class CommandParser {
                 return new GetTop5SongsCommand(timestamp);
             case "getTop5Playlists":
                 return new GetTop5PlaylistsCommand(timestamp);
+            case "switchConnectionStatus":
+                return new SwitchConnectionStatusCommand(username, timestamp);
+            case "getOnlineUsers":
+                return new GetOnlineUsersCommand(timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }
