@@ -49,14 +49,6 @@ public class FollowPlaylistCommand extends Command {
             return;
         }
 
-        if (!user.isConnectionStatus()) {
-            resultNode.put("command", "select");
-            resultNode.put("user", getUsername());
-            resultNode.put("timestamp", getTimestamp());
-            resultNode.put("message", getUsername() + " is offline.");
-            return;
-        }
-
         if (selectedPlaylist.getOwner() == null || selectedPlaylist.getOwner().equals(user)) {
             resultNode.put("message", "You cannot follow or unfollow your own playlist.");
             return;

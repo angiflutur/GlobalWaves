@@ -1,8 +1,5 @@
 package app.command;
 
-import app.command.stats.*;
-import app.command.user.artist.AddAlbumCommand;
-import app.command.user.admin.AddUserCommand;
 import app.command.player.BackwardCommand;
 import app.command.player.ForwardCommand;
 import app.command.player.LikeCommand;
@@ -10,9 +7,7 @@ import app.command.player.LoadCommand;
 import app.command.player.NextCommand;
 import app.command.player.PlayPauseCommand;
 import app.command.player.PrevCommand;
-import app.command.page.PrintCurrentPageCommand;
 import app.command.player.RepeatCommand;
-import app.command.user.admin.ShowAlbumsCommand;
 import app.command.player.ShuffleCommand;
 import app.command.player.StatusCommand;
 import app.command.playlist.AddRemoveInPlaylistCommand;
@@ -22,16 +17,12 @@ import app.command.playlist.ShowPlaylistsCommand;
 import app.command.playlist.SwitchVisibilityCommand;
 import app.command.searchBar.SearchCommand;
 import app.command.searchBar.SelectCommand;
-import app.command.user.artist.AddEventCommand;
-import app.command.user.artist.AddMerchCommand;
-import app.command.user.normal.SwitchConnectionStatusCommand;
+import app.command.stats.GetTop5PlaylistsCommand;
+import app.command.stats.GetTop5SongsCommand;
+import app.command.stats.ShowPreferredSongsCommand;
 import app.entities.Command;
-import app.entities.audio.file.Song;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * JAVADOC
@@ -123,73 +114,6 @@ public final class CommandParser {
                 return new GetTop5SongsCommand(timestamp);
             case "getTop5Playlists":
                 return new GetTop5PlaylistsCommand(timestamp);
-            case "switchConnectionStatus":
-                return new SwitchConnectionStatusCommand(username, timestamp);
-            case "getOnlineUsers":
-                return new GetOnlineUsersCommand(timestamp);
-            case "addUser":
-                String userType = jsonNode.get("type").asText();
-                Integer age = jsonNode.has("age") ? jsonNode.get("age").asInt() : null;
-                String city = jsonNode.has("city") ? jsonNode.get("city").asText() : null;
-                return new AddUserCommand(username, timestamp, userType, username, age, city);
-            case "addAlbum":
-                String albumName = jsonNode.has("name") ? jsonNode.get("name").asText() : null;
-                Integer releaseYear = jsonNode.has("releaseYear")
-                        ? jsonNode.get("releaseYear").asInt() : null;
-                String description = jsonNode.has("description")
-                        ? jsonNode.get("description").asText() : null;
-
-                List<Song> songs = new ArrayList<>();
-                if (jsonNode.has("songs") && jsonNode.get("songs").isArray()) {
-                    for (JsonNode songNode : jsonNode.get("songs")) {
-                        String songName = songNode.has("name")
-                                ? songNode.get("name").asText() : null;
-                        Integer duration = songNode.has("duration")
-                                ? songNode.get("duration").asInt() : null;
-                        String album = songNode.has("album")
-                                ? songNode.get("album").asText() : null;
-                        String artist = songNode.has("artist")
-                                ? songNode.get("artist").asText() : null;
-                        String lyrics = songNode.has("lyrics")
-                                ? songNode.get("lyrics").asText() : null;
-                        String genre = songNode.has("genre")
-                                ? songNode.get("genre").asText() : null;
-                        Integer songReleaseYear = songNode.has("releaseYear")
-                                ? songNode.get("releaseYear").asInt() : 0;
-
-                        ArrayList<String> tags = new ArrayList<>();
-                        if (songNode.has("tags") && songNode.get("tags").isArray()) {
-                            for (JsonNode tagNode : songNode.get("tags")) {
-                                tags.add(tagNode.asText());
-                            }
-                        }
-
-                        songs.add(new Song(songName, duration, album, tags,
-                                lyrics, genre, songReleaseYear, artist));
-                    }
-                }
-
-                return new AddAlbumCommand(username, timestamp, albumName,
-                        releaseYear, description, songs);
-            case "showAlbums":
-                return new ShowAlbumsCommand(username, timestamp);
-            case "printCurrentPage":
-                return new PrintCurrentPageCommand(username, timestamp);
-            case "addEvent":
-                String eventName = jsonNode.has("name") ? jsonNode.get("name").asText() : null;
-                String eventDescription = jsonNode.has("description")
-                        ? jsonNode.get("description").asText() : null;
-                String eventDate = jsonNode.has("date") ? jsonNode.get("date").asText() : null;
-                return new AddEventCommand(username, timestamp,
-                        eventName, eventDescription, eventDate);
-            case "addMerch":
-                String merchName = jsonNode.has("name") ? jsonNode.get("name").asText() : null;
-                description = jsonNode.has("description")
-                        ? jsonNode.get("description").asText() : null;
-                int price = jsonNode.has("price") ? jsonNode.get("price").asInt() : 0;
-                return new AddMerchCommand(username, timestamp, merchName, description, price);
-            case "getAllUsers":
-                return new GetAllUsersCommand(username, timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

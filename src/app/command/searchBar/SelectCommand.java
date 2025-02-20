@@ -2,7 +2,6 @@ package app.command.searchBar;
 
 import app.entities.Player;
 import app.entities.PlayerManager;
-import app.entities.User;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.AudioFile;
@@ -19,7 +18,6 @@ public class SelectCommand extends Command {
     private Integer itemNumber;
     private static AudioFile selectedAudioFile = null;
     private static Playlist selectedPlaylist = null;
-    private static String selectedArtist = null;
 
     /**
      * JAVADOC
@@ -34,31 +32,18 @@ public class SelectCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
-        User user = library.getUser(getUsername());
-
-        if (user == null || !user.isConnectionStatus()) {
-            ObjectNode resultNode = output.addObject();
-            resultNode.put("command", "select");
-            resultNode.put("user", getUsername());
-            resultNode.put("timestamp", getTimestamp());
-            resultNode.put("message", getUsername() + " is offline.");
-            return;
-        }
-
-        Player player = PlayerManager.getPlayer(getUsername());
-
-        ArrayList<AudioFile> lastSearchResultsAudio = player.getLastSearchResultsAudio();
-        ArrayList<Playlist> lastSearchResultsPlaylists = player.getLastSearchResultsPlaylists();
-        ArrayList<String> lastSearchResultsArtists = player.getLastSearchResultsArtists();
+        ArrayList<AudioFile> lastSearchResultsAudio = SearchCommand.getLastSearchResultsAudio();
+        ArrayList<Playlist> lastSearchResultsPlaylists =
+                SearchCommand.getLastSearchResultsPlaylists();
 
         ArrayList<Object> combinedResults = new ArrayList<>();
         combinedResults.addAll(lastSearchResultsAudio);
         combinedResults.addAll(lastSearchResultsPlaylists);
-        combinedResults.addAll(lastSearchResultsArtists);
 
+        Player player = PlayerManager.getPlayer(getUsername());
         player.setRepeatState(0);
 
-        if (!player.getIsSearching()) {
+        if (!SearchCommand.getIsSearching()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "select");
             resultNode.put("user", getUsername());
@@ -85,25 +70,17 @@ public class SelectCommand extends Command {
         if (selectedItem instanceof AudioFile) {
             selectedAudioFile = (AudioFile) selectedItem;
             resultNode.put("message", "Successfully selected " + selectedAudioFile.getName() + ".");
-            player.updateLastSearchResults(new ArrayList<AudioFile>() {{ add(selectedAudioFile); }}, new ArrayList<Playlist>());
         } else if (selectedItem instanceof Playlist) {
             selectedPlaylist = (Playlist) selectedItem;
             resultNode.put("message", "Successfully selected " + selectedPlaylist.getName() + ".");
-            player.updateLastSearchResults(new ArrayList<AudioFile>(), new ArrayList<Playlist>() {{ add(selectedPlaylist); }});
-        } else if (selectedItem instanceof String) {
-            selectedArtist = (String) selectedItem;
-            resultNode.put("message", "Successfully selected " + selectedArtist + "'s page.");
-            player.setCurrentPage(Player.Page.ARTIST_PAGE);
-            player.updateLastSearchArtists(new ArrayList<String>() {{ add(selectedArtist); }});
         }
 
         player.setCurrentPlaylist(selectedItem instanceof Playlist
                 ? (Playlist) selectedItem : null);
 
-        player.clearLastSearchResults();
-        player.setIsSearching(false);
+        SearchCommand.clearLastSearchResults();
+        SearchCommand.setIsSearching(false);
     }
-
 
     /**
      * JAVADOC
@@ -122,13 +99,6 @@ public class SelectCommand extends Command {
     /**
      * JAVADOC
      */
-    public static void setSelectedArtist(final String artist) {
-        selectedArtist = artist;
-    }
-
-    /**
-     * JAVADOC
-     */
     public static AudioFile getSelectedAudioFile() {
         return selectedAudioFile;
     }
@@ -138,12 +108,5 @@ public class SelectCommand extends Command {
      */
     public static Playlist getSelectedPlaylist() {
         return selectedPlaylist;
-    }
-
-    /**
-     * JAVADOC
-     */
-    public static String getSelectedArtist() {
-        return selectedArtist;
     }
 }

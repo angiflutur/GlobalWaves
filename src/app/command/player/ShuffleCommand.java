@@ -3,7 +3,6 @@ package app.command.player;
 import app.entities.Command;
 import app.entities.Player;
 import app.entities.PlayerManager;
-import app.entities.User;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.Song;
@@ -35,17 +34,6 @@ public class ShuffleCommand extends Command {
     @Override
     public void execute(final ArrayNode output, final Library library) {
         Player player = PlayerManager.getPlayer(getUsername());
-        User user = library.getUser(getUsername());
-
-        if (user == null || !user.isConnectionStatus()) {
-            ObjectNode resultNode = output.addObject();
-            resultNode.put("command", "select");
-            resultNode.put("user", getUsername());
-            resultNode.put("timestamp", getTimestamp());
-            resultNode.put("message", getUsername() + " is offline.");
-            return;
-        }
-
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "shuffle");
         resultNode.put("user", getUsername());

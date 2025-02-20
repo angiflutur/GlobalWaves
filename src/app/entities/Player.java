@@ -1,6 +1,5 @@
 package app.entities;
 
-import app.command.searchBar.SearchCommand;
 import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.AudioFile;
 import app.entities.audio.collection.Playlist;
@@ -25,17 +24,6 @@ public class Player {
     private boolean isShuffleActive;
     private ArrayList<Integer> shuffleIndices;
 
-    private boolean isSearching = false;
-    private ArrayList<AudioFile> lastSearchResultsAudio = new ArrayList<>();
-    private ArrayList<Playlist> lastSearchResultsPlaylists = new ArrayList<>();
-    private ArrayList<String> lastSearchResultsArtists = new ArrayList<>();
-    public enum Page {
-        HOME_PAGE,
-        LIKED_CONTENT_PAGE,
-        ARTIST_PAGE,
-        HOST_PAGE
-    }
-    private Page currentPage;
     /**
      * JAVADOC
      */
@@ -50,7 +38,6 @@ public class Player {
         this.repeatState = 0;
         this.isShuffleActive = false;
         this.shuffleIndices = new ArrayList<>();
-        this.currentPage = Page.HOME_PAGE;
     }
 
     /**
@@ -166,7 +153,6 @@ public class Player {
 
             lastUpdateTimestamp = currentTimestamp;
         }
-
     }
 
     /**
@@ -469,82 +455,5 @@ public class Player {
      */
     public void setCurrentAudio(final AudioFile currentAudio) {
         this.currentAudio = currentAudio;
-    }
-    /**
-     *
-     */
-    public void setLastSearchResultsAudio(ArrayList<AudioFile> lastSearchResultsAudio) {
-        this.lastSearchResultsAudio = lastSearchResultsAudio;
-    }
-    /**
-     *
-     */
-    public ArrayList<AudioFile> getLastSearchResultsAudio() {
-        return this.lastSearchResultsAudio;
-    }
-    /**
-     *
-     */
-    public ArrayList<Playlist> getLastSearchResultsPlaylists() {
-        return lastSearchResultsPlaylists;
-    }
-    /**
-     *
-     */
-    public void setLastSearchResultsPlaylists(ArrayList<Playlist> lastSearchResultsPlaylists) {
-        this.lastSearchResultsPlaylists = lastSearchResultsPlaylists;
-    }
-    /**
-     *
-     */
-    public ArrayList<String> getLastSearchResultsArtists() {
-        return lastSearchResultsArtists;
-    }
-    /**
-     *
-     */
-    public void setLastSearchResultsArtists(ArrayList<String> lastSearchResultsArtists) {
-        this.lastSearchResultsArtists = lastSearchResultsArtists;
-    }
-    /**
-     *
-     */
-    public void updateLastSearchResults(ArrayList<AudioFile> audioFiles, ArrayList<Playlist> playlists) {
-        this.lastSearchResultsAudio = audioFiles;
-        this.lastSearchResultsPlaylists = playlists;
-    }
-    /**
-     *
-     */
-    public void updateLastSearchArtists(ArrayList<String> artists) {
-        this.lastSearchResultsArtists = artists;
-    }
-    /**
-     *
-     */
-    public void clearLastSearchResults() {
-        this.lastSearchResultsAudio.clear();
-        this.lastSearchResultsPlaylists.clear();
-        this.lastSearchResultsArtists.clear();
-    }
-    /**
-     *
-     */
-    public boolean getIsSearching() {
-        return this.isSearching;
-    }
-    /**
-     *
-     */
-    public void setIsSearching(boolean isSearching) {
-        this.isSearching = isSearching;
-    }
-
-    public Page getCurrentPage() {
-        return currentPage;
-    }
-
-    public void setCurrentPage(Page currentPage) {
-        this.currentPage = currentPage;
     }
 }

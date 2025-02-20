@@ -157,14 +157,6 @@ public class Library {
     public Map<String, Playlist> getPlaylists() {
         return playlists;
     }
-    /**
-     * JAVADOC
-     */
-    public void addUser(final User user) {
-        if (getUser(user.getUsername()) == null) {
-            users.add(user);
-        }
-    }
 
     /**
      * JAVADOC

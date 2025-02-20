@@ -2,7 +2,6 @@ package app.command.player;
 
 import app.entities.Player;
 import app.entities.PlayerManager;
-import app.entities.User;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
 import app.entities.audio.collection.Podcast;
@@ -28,16 +27,7 @@ public class PrevCommand extends Command {
     @Override
     public void execute(final ArrayNode output, final Library library) {
         Player player = PlayerManager.getPlayer(getUsername());
-        User user = library.getUser(getUsername());
 
-        if (user == null || !user.isConnectionStatus()) {
-            ObjectNode resultNode = output.addObject();
-            resultNode.put("command", "select");
-            resultNode.put("user", getUsername());
-            resultNode.put("timestamp", getTimestamp());
-            resultNode.put("message", getUsername() + " is offline.");
-            return;
-        }
         if (!player.isLoaded()) {
             addMessage(output, "Please load a source before returning to the previous track.");
             return;

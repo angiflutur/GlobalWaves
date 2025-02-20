@@ -50,15 +50,6 @@ public class LikeCommand extends Command {
             return;
         }
 
-        if (!user.isConnectionStatus()) {
-            ObjectNode resultNode = output.addObject();
-            resultNode.put("command", "like");
-            resultNode.put("user", getUsername());
-            resultNode.put("timestamp", getTimestamp());
-            resultNode.put("message", getUsername() + " is offline.");
-            return;
-        }
-
         Song currentSong = (Song) currentAudio;
         boolean liked = user.getLikedSongs().contains(currentSong);
 
