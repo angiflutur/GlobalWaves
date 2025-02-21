@@ -55,7 +55,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 2050,
-  "message" : "The selected ID is too high."
+  "message" : "rhythmicrider58 is offline."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -76,7 +76,7 @@
   "command" : "load",
   "user" : "rhythmicrider58",
   "timestamp" : 2185,
-  "message" : "Please select a source before attempting to load."
+  "message" : "rhythmicrider58 is offline."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -103,17 +103,17 @@
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 2295,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "rhythmicrider58 is offline."
 }, {
   "command" : "repeat",
   "user" : "rhythmicrider58",
   "timestamp" : 2480,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "rhythmicrider58 is offline."
 }, {
   "command" : "forward",
   "user" : "rhythmicrider58",
   "timestamp" : 2555,
-  "message" : "Please load a source before attempting to forward."
+  "message" : "rhythmicrider58 is offline."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -177,7 +177,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 3225,
-  "message" : "The selected ID is too high."
+  "message" : "rhythmicrider58 is offline."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
@@ -195,10 +195,10 @@
   "timestamp" : 3270,
   "message" : "Please load a source before setting the repeat status."
 }, {
-  "command" : "follow",
+  "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 3285,
-  "message" : "Please select a source before following or unfollowing."
+  "message" : "rhythmicrider58 is offline."
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -257,7 +257,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 3410,
-  "message" : "The selected ID is too high."
+  "message" : "rhythmicrider58 is offline."
 }, {
   "command" : "repeat",
   "user" : "emily30",
@@ -277,10 +277,10 @@
   "command" : "load",
   "user" : "rhythmicrider58",
   "timestamp" : 3440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "rhythmicrider58 is offline."
 }, {
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 3445,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "rhythmicrider58 is offline."
 } ]

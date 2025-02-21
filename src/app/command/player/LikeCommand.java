@@ -27,11 +27,20 @@ public class LikeCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+
         Player player = PlayerManager.getPlayer(getUsername());
         player.updateRemainingTime(getTimestamp());
         AudioFile currentAudio = player.getCurrentAudio();
         User user = library.getUser(getUsername());
 
+        if (user == null || !user.isOnline()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "like");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            return;
+        }
         if (!player.isLoaded() || !(currentAudio instanceof Song)) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "like");

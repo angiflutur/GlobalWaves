@@ -2,6 +2,7 @@ package app.command.player;
 
 import app.entities.Player;
 import app.entities.PlayerManager;
+import app.entities.User;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -24,7 +25,16 @@ public class PlayPauseCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+        User user = library.getUser(getUsername());
 
+        if (user == null || !user.isOnline()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "playPause");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            return;
+        }
         Player player = PlayerManager.getPlayer(getUsername());
 
         if (!player.isLoaded()) {

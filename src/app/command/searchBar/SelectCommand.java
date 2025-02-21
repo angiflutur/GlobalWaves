@@ -2,6 +2,7 @@ package app.command.searchBar;
 
 import app.entities.Player;
 import app.entities.PlayerManager;
+import app.entities.User;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.AudioFile;
@@ -32,6 +33,16 @@ public class SelectCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+        User user = library.getUser(getUsername());
+
+        if (user == null || !user.isOnline()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "select");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            return;
+        }
         ArrayList<AudioFile> lastSearchResultsAudio = SearchCommand.getLastSearchResultsAudio();
         ArrayList<Playlist> lastSearchResultsPlaylists =
                 SearchCommand.getLastSearchResultsPlaylists();

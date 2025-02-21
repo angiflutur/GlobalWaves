@@ -13,12 +13,12 @@
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 70,
-  "message" : "The selected ID is too high."
+  "message" : "melodicmind42 is offline."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 75,
-  "message" : "Please select a source before attempting to load."
+  "message" : "melodicmind42 is offline."
 }, {
   "command" : "status",
   "user" : "melodicmind42",
@@ -34,7 +34,7 @@
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 120,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "melodicmind42 is offline."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -66,15 +66,15 @@
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 1390,
-  "message" : "The selected ID is too high."
+  "message" : "melodicmind42 is offline."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 1440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "melodicmind42 is offline."
 }, {
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 1455,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "melodicmind42 is offline."
 } ]

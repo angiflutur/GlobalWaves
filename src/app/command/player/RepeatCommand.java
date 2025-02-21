@@ -3,6 +3,7 @@ package app.command.player;
 import app.entities.Command;
 import app.entities.Player;
 import app.entities.PlayerManager;
+import app.entities.User;
 import app.entities.audio.collection.Library;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -20,6 +21,16 @@ public class RepeatCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+        User user = library.getUser(getUsername());
+
+        if (user == null || !user.isOnline()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "repeat");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            return;
+        }
         Player player = PlayerManager.getPlayer(getUsername());
         int currentTimestamp = getTimestamp();
         player.updateRemainingTime(currentTimestamp);

@@ -32,6 +32,17 @@ public class AddRemoveInPlaylistCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+        User user = library.getUser(getUsername());
+
+        if (user == null || !user.isOnline()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "addRemoveInPlaylist");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            return;
+        }
+
         Player player = PlayerManager.getPlayer(getUsername());
         AudioFile selectedAudio = SelectCommand.getSelectedAudioFile();
 
@@ -52,14 +63,6 @@ public class AddRemoveInPlaylistCommand extends Command {
             resultNode.put("timestamp", getTimestamp());
             resultNode.put("message", "The loaded source is not a song.");
             return;
-        }
-
-        User user = null;
-        for (User users : library.getUsers()) {
-            if (users.getUsername().equals(getUsername())) {
-                user = users;
-                break;
-            }
         }
 
         if (user == null) {

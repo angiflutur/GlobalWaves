@@ -2,7 +2,7 @@
   "command" : "createPlaylist",
   "user" : "melodicwanderer",
   "timestamp" : 305,
-  "message" : "User not found."
+  "message" : "melodicwanderer is offline."
 }, {
   "command" : "search",
   "user" : "melodicwanderer",
@@ -13,17 +13,17 @@
   "command" : "select",
   "user" : "melodicwanderer",
   "timestamp" : 320,
-  "message" : "The selected ID is too high."
+  "message" : "melodicwanderer is offline."
 }, {
   "command" : "load",
   "user" : "melodicwanderer",
   "timestamp" : 325,
-  "message" : "Playback loaded successfully."
+  "message" : "melodicwanderer is offline."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "melodicwanderer",
   "timestamp" : 330,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "melodicwanderer is offline."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -81,7 +81,7 @@
   "command" : "repeat",
   "user" : "melodicwanderer",
   "timestamp" : 480,
-  "message" : "Repeat mode changed to repeat all."
+  "message" : "melodicwanderer is offline."
 }, {
   "command" : "search",
   "user" : "soundseeker21",
@@ -92,7 +92,7 @@
   "command" : "select",
   "user" : "soundseeker21",
   "timestamp" : 630,
-  "message" : "The selected ID is too high."
+  "message" : "soundseeker21 is offline."
 }, {
   "command" : "search",
   "user" : "carol19",

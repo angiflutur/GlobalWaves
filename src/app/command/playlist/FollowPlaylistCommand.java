@@ -24,6 +24,17 @@ public class FollowPlaylistCommand extends Command {
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
+        User user = library.getUser(getUsername());
+
+        if (user == null || !user.isOnline()) {
+            ObjectNode resultNode = output.addObject();
+            resultNode.put("command", "select");
+            resultNode.put("user", getUsername());
+            resultNode.put("timestamp", getTimestamp());
+            resultNode.put("message", getUsername() + " is offline.");
+            return;
+        }
+
         Player player = PlayerManager.getPlayer(getUsername());
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "follow");
@@ -43,7 +54,6 @@ public class FollowPlaylistCommand extends Command {
             return;
         }
 
-        User user = library.getUser(getUsername());
         if (user == null) {
             resultNode.put("message", "User not found.");
             return;
