@@ -44,6 +44,11 @@
   "timestamp" : 305,
   "message" : "Playlist created successfully."
 }, {
+  "command" : "addAlbum",
+  "user" : "sonicpainter",
+  "timestamp" : 310,
+  "message" : "sonicpainter has added new album successfully."
+}, {
   "command" : "search",
   "user" : "melodicwanderer",
   "timestamp" : 315,

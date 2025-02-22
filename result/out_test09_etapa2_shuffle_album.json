@@ -15,6 +15,11 @@
   "user" : "melodymaster",
   "message" : "The username melodymaster has been added successfully."
 }, {
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 172,
+  "message" : "melodymaster has added new album successfully."
+}, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 190,

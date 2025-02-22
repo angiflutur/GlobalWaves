@@ -23,6 +23,11 @@
   "timestamp" : 25,
   "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "melodymaster", "rhythmrider", "beatblazer", "harmonichero" ]
 }, {
+  "command" : "addAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 35,
+  "message" : "melodymaster has added new album successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 65,

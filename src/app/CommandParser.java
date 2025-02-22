@@ -23,10 +23,14 @@ import app.command.stats.GetTop5PlaylistsCommand;
 import app.command.stats.GetTop5SongsCommand;
 import app.command.stats.ShowPreferredSongsCommand;
 import app.command.user.admin.AddUserCommand;
+import app.command.user.artist.AddAlbumCommand;
 import app.entities.Command;
 import app.entities.User;
+import app.entities.audio.file.Song;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+
+import java.util.ArrayList;
 
 /**
  * JAVADOC
@@ -129,6 +133,38 @@ public final class CommandParser {
                 Integer age = jsonNode.has("age") ? jsonNode.get("age").asInt() : null;
                 String city = jsonNode.has("city") ? jsonNode.get("city").asText() : null;
                 return new AddUserCommand(username, timestamp, userType, age, city);
+            case "addAlbum":
+                String albumName = jsonNode.has("name")
+                        ? jsonNode.get("name").asText() : null;
+                Integer releaseYear = jsonNode.has("releaseYear")
+                        ? jsonNode.get("releaseYear").asInt() : null;
+                String description = jsonNode.has("description")
+                        ? jsonNode.get("description").asText() : null;
+                ArrayList<Song> songs = new ArrayList<>();
+
+                if (jsonNode.has("songs")) {
+                    ArrayNode songsNode = (ArrayNode) jsonNode.get("songs");
+                    for (JsonNode songNode : songsNode) {
+                        Song song = new Song();
+                        song.setName(songNode.has("name")
+                                ? songNode.get("name").asText() : null);
+                        song.setDuration(songNode.has("duration")
+                                ? songNode.get("duration").asInt() : null);
+                        song.setAlbum(songNode.has("album")
+                                ? songNode.get("album").asText() : null);
+                        song.setGenre(songNode.has("genre")
+                                ? songNode.get("genre").asText() : null);
+                        song.setReleaseYear(songNode.has("releaseYear")
+                                ? songNode.get("releaseYear").asInt() : null);
+                        song.setArtist(songNode.has("artist")
+                                ? songNode.get("artist").asText() : null);
+
+                        songs.add(song);
+                    }
+                }
+
+                return new AddAlbumCommand(username, timestamp,
+                        albumName, releaseYear, description, songs);
 
             default:
                 return new UnknownCommand(username, timestamp);
