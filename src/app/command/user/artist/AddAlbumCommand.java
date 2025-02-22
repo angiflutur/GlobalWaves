@@ -11,7 +11,6 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
 /**
  * JAVADOC
  */
@@ -53,9 +52,10 @@ public class AddAlbumCommand extends Command {
             return;
         }
 
-        for (Album album : library.getAlbums()) {
-            if (album.getName().equals(albumName) && album.getArtist().equals(getUsername())) {
-                result.put("message", getUsername() + " has another album with the same name.");
+        for (Album album : user.getAlbums()) {
+            if (album.getName().equals(albumName)) {
+                result.put("message", getUsername()
+                        + " already has an album with this name.");
                 return;
             }
         }
@@ -70,7 +70,9 @@ public class AddAlbumCommand extends Command {
         }
 
         Album newAlbum = new Album(albumName, releaseYear, description, getUsername(), songs);
-        library.getAlbums().add(newAlbum);
+
+        user.addAlbum(newAlbum, library);
+
         result.put("message", getUsername() + " has added new album successfully.");
     }
 }

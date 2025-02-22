@@ -80,33 +80,33 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 440,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Vibrant Echoes" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 445,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Vibrant Echoes."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 446,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 450,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 480,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 216,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "search",

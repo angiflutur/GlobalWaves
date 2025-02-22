@@ -38,8 +38,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 270,
-  "results" : [ "Don't", "Delicate" ],
-  "message" : "Search returned 2 results"
+  "results" : [ "Don't", "Delicate", "Digital Dreams" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -70,28 +70,28 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 340,
-  "results" : [ "Radio Ga Ga" ],
-  "message" : "Search returned 1 results"
+  "results" : [ "Radio Ga Ga", "Retro Rhythms" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 340,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Retro Rhythms."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 340,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 340,
-  "message" : "The selected ID is too high."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 340,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -325,8 +325,8 @@
   "user" : "bob35",
   "timestamp" : 3250,
   "stats" : {
-    "name" : "Elevate",
-    "remainedTime" : 104,
+    "name" : "Hustle Hard",
+    "remainedTime" : 111,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -336,38 +336,38 @@
   "user" : "bob35",
   "timestamp" : 3600,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "I Don't Wanna Live Forever",
+    "remainedTime" : 231,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 3610,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 3660,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "I Don't Wanna Live Forever",
+    "remainedTime" : 171,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 4000,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Hustle Hard",
+    "remainedTime" : 63,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
@@ -417,8 +417,8 @@
   "user" : "bob35",
   "timestamp" : 4750,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 224,
+    "name" : "Elevate",
+    "remainedTime" : 217,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -429,7 +429,7 @@
   "timestamp" : 5100,
   "stats" : {
     "name" : "Begin Again",
-    "remainedTime" : 112,
+    "remainedTime" : 105,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -440,7 +440,7 @@
   "timestamp" : 6000,
   "result" : [ {
     "name" : "My playlist",
-    "songs" : [ "Nothing Else Matters", "Elevate", "I Don't Wanna Live Forever", "Hustle Hard", "Begin Again" ],
+    "songs" : [ "Nothing Else Matters", "Retro Rhythms", "Elevate", "I Don't Wanna Live Forever", "Hustle Hard", "Begin Again" ],
     "visibility" : "public",
     "followers" : 0
   } ]

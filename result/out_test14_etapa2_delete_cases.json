@@ -52,23 +52,23 @@
   "command" : "search",
   "user" : "melodicwanderer",
   "timestamp" : 315,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Aurora Harmony", "Azure Echoes" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "melodicwanderer",
   "timestamp" : 320,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Azure Echoes."
 }, {
   "command" : "load",
   "user" : "melodicwanderer",
   "timestamp" : 325,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "melodicwanderer",
   "timestamp" : 330,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -105,28 +105,28 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 365,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Aurora Harmony" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 370,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Aurora Harmony."
 }, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 375,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 380,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "repeat",
   "user" : "melodicwanderer",
   "timestamp" : 480,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "search",
   "user" : "soundseeker21",

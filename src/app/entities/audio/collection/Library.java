@@ -22,16 +22,11 @@ public class Library {
     private ArrayList<User> users;
     private Map<String, Playlist> playlists;
     private ArrayList<Album> albums;
-
     /**
      * JAVADOC
      */
     public Library() {
-        this.songs = new ArrayList<>();
-        this.podcasts = new ArrayList<>();
-        this.users = new ArrayList<>();
-        this.albums = new ArrayList<>();
-        this.playlists = new HashMap<>();
+        playlists = new HashMap<>();
     }
 
     /**
@@ -39,34 +34,13 @@ public class Library {
      */
     public Library(final ArrayList<Song> songs,
                    final ArrayList<Podcast> podcasts,
-                   final ArrayList<User> users,
-                   final ArrayList<Album> albums) {
+                   final ArrayList<User> users) {
         this.songs = songs;
         this.podcasts = podcasts;
         this.users = users;
-        this.albums = albums;
         this.playlists = new HashMap<>();
     }
-    /**
-     * JAVADOC
-     */
-    public ArrayList<Album> getAlbums() {
-        return albums;
-    }
 
-    /**
-     * JAVADOC
-     */
-    public void addAlbum(final Album album) {
-        albums.add(album);
-    }
-
-    /**
-     * JAVADOC
-     */
-    public void setAlbums(final ArrayList<Album> albums) {
-        this.albums = albums;
-    }
     /**
      * JAVADOC
      */
@@ -80,7 +54,15 @@ public class Library {
     public void setSongs(final ArrayList<Song> songs) {
         this.songs = songs;
     }
-
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Album> getAlbums() {
+        if (albums == null) {
+            albums = new ArrayList<>();
+        }
+        return albums;
+    }
     /**
      * JAVADOC
      */

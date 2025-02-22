@@ -1,13 +1,12 @@
 package app.entities;
 
+import app.entities.audio.collection.Album;
+import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.Song;
 
 import java.util.ArrayList;
 
-/**
- * JAVADOC
- */
 public class User {
     private String username;
     private Integer age;
@@ -17,9 +16,12 @@ public class User {
     private ArrayList<Song> likedSongs = new ArrayList<>();
     private Player player;
     private boolean isOnline = true;
+    private ArrayList<Album> albums = new ArrayList<>();
+
     public enum UserType {
         USER, ARTIST, HOST
     }
+
     private UserType type;
     /**
      * JAVADOC
@@ -27,11 +29,12 @@ public class User {
     public User() {
         this.player = Player.getInstance();
     }
-
     /**
      * JAVADOC
      */
-    public User(final String username, final Integer age, final String city,
+    public User(final String username,
+                final Integer age,
+                final String city,
                 final UserType type) {
         this.username = username;
         this.age = age;
@@ -40,35 +43,40 @@ public class User {
         this.player = Player.getInstance();
         this.type = type;
     }
-
+    /**
+     * JAVADOC
+     */
+    public void addAlbum(final Album album,
+                         final Library library) {
+        if (this.type == UserType.ARTIST) {
+            albums.add(album);
+            library.getAlbums().add(album);
+        }
+    }
     /**
      * JAVADOC
      */
     public String getUsername() {
         return username;
     }
-
     /**
      * JAVADOC
      */
     public void setUsername(final String username) {
         this.username = username;
     }
-
     /**
      * JAVADOC
      */
     public void setAge(final Integer age) {
         this.age = age;
     }
-
     /**
      * JAVADOC
      */
     public void setCity(final String city) {
         this.city = city;
     }
-
     /**
      * JAVADOC
      */
@@ -87,21 +95,24 @@ public class User {
     public void setType(final UserType type) {
         this.type = type;
     }
-
     /**
      * JAVADOC
      */
     public ArrayList<Playlist> getPlaylists() {
         return playlists;
     }
-
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Album> getAlbums() {
+        return albums;
+    }
     /**
      * JAVADOC
      */
     public void likeSong(final Song song) {
         likedSongs.add(song);
     }
-
     /**
      * JAVADOC
      */
@@ -120,14 +131,12 @@ public class User {
     public void setOnline(final boolean online) {
         isOnline = online;
     }
-
     /**
      * JAVADOC
      */
     public ArrayList<Song> getLikedSongs() {
         return likedSongs;
     }
-
     /**
      * JAVADOC
      */
@@ -136,37 +145,33 @@ public class User {
             followedPlaylists.add(playlist);
         }
     }
-
     /**
      * JAVADOC
      */
     public void unfollowPlaylist(final Playlist playlist) {
         followedPlaylists.remove(playlist);
     }
-
     /**
      * JAVADOC
      */
     public ArrayList<Playlist> getFollowedPlaylists() {
         return followedPlaylists;
     }
-
     /**
      * JAVADOC
      */
     public Player getPlayer() {
         return player;
     }
-
     /**
      * JAVADOC
      */
     @Override
     public String toString() {
         return "User{"
-                + "username='"
-                + username
-                + '\'' + ", age=" + age
-                + ", city='" + city + '\'' + '}';
+                + "username='" + username + '\''
+                + ", age=" + age
+                + ", city='" + city + '\''
+                + '}';
     }
 }

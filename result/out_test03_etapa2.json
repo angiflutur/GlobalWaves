@@ -28,6 +28,12 @@
   "timestamp" : 35,
   "message" : "melodymaster has added new album successfully."
 }, {
+  "command" : "showAlbums",
+  "user" : "beatblazer",
+  "timestamp" : 40,
+  "result" : [ ],
+  "message" : "No albums found for artist beatblazer."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 65,

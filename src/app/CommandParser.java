@@ -23,6 +23,7 @@ import app.command.stats.GetTop5PlaylistsCommand;
 import app.command.stats.GetTop5SongsCommand;
 import app.command.stats.ShowPreferredSongsCommand;
 import app.command.user.admin.AddUserCommand;
+import app.command.user.admin.ShowAlbumsCommand;
 import app.command.user.artist.AddAlbumCommand;
 import app.entities.Command;
 import app.entities.User;
@@ -162,10 +163,10 @@ public final class CommandParser {
                         songs.add(song);
                     }
                 }
-
                 return new AddAlbumCommand(username, timestamp,
                         albumName, releaseYear, description, songs);
-
+            case "showAlbums":
+                return new ShowAlbumsCommand(username, timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

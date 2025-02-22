@@ -52,8 +52,8 @@
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 60,
-  "results" : [ "Radio Ga Ga" ],
-  "message" : "Search returned 1 results"
+  "results" : [ "Radio Ga Ga", "Rhythm Rise", "Rhythmic Revolution" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -110,21 +110,21 @@
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 1385,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Rapid Rhythms", "Rapid Fire" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "melodicmind42",
   "timestamp" : 1390,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Rapid Rhythms."
 }, {
   "command" : "load",
   "user" : "melodicmind42",
   "timestamp" : 1440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "melodicmind42",
   "timestamp" : 1455,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 } ]
