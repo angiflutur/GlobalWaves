@@ -36,6 +36,16 @@
   "timestamp" : 280,
   "message" : "alice22 is offline."
 }, {
+  "command" : "addUser",
+  "timestamp" : 295,
+  "user" : "melodymaster",
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 380,
+  "user" : "alice22",
+  "message" : "The username alice22 is already taken."
+}, {
   "command" : "switchConnectionStatus",
   "user" : "alice22",
   "timestamp" : 390,

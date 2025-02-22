@@ -1,4 +1,129 @@
 [ {
+  "command" : "addUser",
+  "timestamp" : 100,
+  "user" : "jsimpson",
+  "message" : "The username jsimpson has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 101,
+  "user" : "barmstrong",
+  "message" : "The username barmstrong has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 102,
+  "user" : "mccarthyluis",
+  "message" : "The username mccarthyluis has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 103,
+  "user" : "mccarthyluis",
+  "message" : "The username mccarthyluis is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 104,
+  "user" : "charlesgarcia",
+  "message" : "The username charlesgarcia has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 105,
+  "user" : "glester",
+  "message" : "The username glester has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 106,
+  "user" : "john99",
+  "message" : "The username john99 has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 107,
+  "user" : "jenningsbeth",
+  "message" : "The username jenningsbeth has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 108,
+  "user" : "barmstrong",
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 109,
+  "user" : "mccarthyluis",
+  "message" : "The username mccarthyluis is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 110,
+  "user" : "barmstrong",
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 111,
+  "user" : "jsimpson",
+  "message" : "The username jsimpson is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 112,
+  "user" : "john99",
+  "message" : "The username john99 is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 113,
+  "user" : "barmstrong",
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 114,
+  "user" : "anthony22",
+  "message" : "The username anthony22 has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 115,
+  "user" : "fwebb",
+  "message" : "The username fwebb has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 116,
+  "user" : "jacobdean",
+  "message" : "The username jacobdean has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 117,
+  "user" : "anthony22",
+  "message" : "The username anthony22 is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 118,
+  "user" : "matthewporter",
+  "message" : "The username matthewporter has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 119,
+  "user" : "amanda16",
+  "message" : "The username amanda16 has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 120,
+  "user" : "barmstrong",
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 121,
+  "user" : "jacobdean",
+  "message" : "The username jacobdean is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 122,
+  "user" : "fwebb",
+  "message" : "The username fwebb is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 123,
+  "user" : "cbutler",
+  "message" : "The username cbutler has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 124,
+  "user" : "glester",
+  "message" : "The username glester is already taken."
+}, {
   "command" : "switchVisibility",
   "user" : "alice22",
   "timestamp" : 190,
@@ -4380,11 +4505,11 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 5420,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson has changed status successfully."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 5420,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "alice22",
@@ -4474,11 +4599,11 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 5731,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson has changed status successfully."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 5731,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "bob35",
@@ -4568,11 +4693,11 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6042,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson has changed status successfully."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6042,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "carol19",
@@ -4662,11 +4787,11 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6353,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson has changed status successfully."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6353,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "david27",
@@ -4756,11 +4881,11 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6664,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson has changed status successfully."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6664,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "emily30",
@@ -4850,11 +4975,11 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6975,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson has changed status successfully."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6975,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "frank21",
@@ -4944,11 +5069,11 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 7286,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson has changed status successfully."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7286,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "grace25",
@@ -5038,11 +5163,11 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 7597,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson has changed status successfully."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7597,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "henry26",
@@ -5132,11 +5257,11 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 7908,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson has changed status successfully."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7908,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "irene33",
@@ -5226,11 +5351,11 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 8219,
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson has changed status successfully."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 8219,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "jsimpson", "barmstrong", "mccarthyluis", "charlesgarcia", "glester", "john99", "jenningsbeth", "anthony22", "fwebb", "jacobdean", "matthewporter", "amanda16", "cbutler" ]
 }, {
   "command" : "shuffle",
   "user" : "jack29",

@@ -75,6 +75,12 @@ public class Library {
     public ArrayList<User> getUsers() {
         return users;
     }
+    /**
+     * JAVADOC
+     */
+    public void addUser(final User user) {
+        users.add(user);
+    }
 
     /**
      * JAVADOC

@@ -1,4 +1,9 @@
 [ {
+  "command" : "addUser",
+  "timestamp" : 1,
+  "user" : "melodymaster",
+  "message" : "The username melodymaster has been added successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 6,

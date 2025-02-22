@@ -10,6 +10,11 @@
   "results" : [ "Nothing Else Matters" ],
   "message" : "Search returned 1 results"
 }, {
+  "command" : "addUser",
+  "timestamp" : 171,
+  "user" : "melodymaster",
+  "message" : "The username melodymaster has been added successfully."
+}, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 190,

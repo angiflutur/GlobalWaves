@@ -17,6 +17,10 @@ public class User {
     private ArrayList<Song> likedSongs = new ArrayList<>();
     private Player player;
     private boolean isOnline = true;
+    public enum UserType {
+        USER, ARTIST, HOST
+    }
+    private UserType type;
     /**
      * JAVADOC
      */
@@ -27,12 +31,14 @@ public class User {
     /**
      * JAVADOC
      */
-    public User(final String username, final Integer age, final String city) {
+    public User(final String username, final Integer age, final String city,
+                final UserType type) {
         this.username = username;
         this.age = age;
         this.city = city;
         this.likedSongs = new ArrayList<>();
         this.player = Player.getInstance();
+        this.type = type;
     }
 
     /**
@@ -69,6 +75,18 @@ public class User {
     public void addPlaylist(final Playlist playlist) {
         playlists.add(playlist);
     }
+    /**
+     * JAVADOC
+     */
+    public UserType getType() {
+        return type;
+    }
+    /**
+     * JAVADOC
+     */
+    public void setType(final UserType type) {
+        this.type = type;
+    }
 
     /**
      * JAVADOC
@@ -90,12 +108,16 @@ public class User {
     public void unlikeSong(final Song song) {
         likedSongs.remove(song);
     }
-
+    /**
+     * JAVADOC
+     */
     public boolean isOnline() {
         return isOnline;
     }
-
-    public void setOnline(boolean online) {
+    /**
+     * JAVADOC
+     */
+    public void setOnline(final boolean online) {
         isOnline = online;
     }
 

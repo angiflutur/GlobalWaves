@@ -1,6 +1,16 @@
 package app;
 
-import app.command.player.*;
+import app.command.player.BackwardCommand;
+import app.command.player.ForwardCommand;
+import app.command.player.LikeCommand;
+import app.command.player.LoadCommand;
+import app.command.player.NextCommand;
+import app.command.player.PlayPauseCommand;
+import app.command.player.PrevCommand;
+import app.command.player.RepeatCommand;
+import app.command.player.ShuffleCommand;
+import app.command.player.StatusCommand;
+import app.command.player.SwitchConnectionStatusCommand;
 import app.command.playlist.AddRemoveInPlaylistCommand;
 import app.command.playlist.CreatePlaylistCommand;
 import app.command.playlist.FollowPlaylistCommand;
@@ -12,7 +22,9 @@ import app.command.stats.GetOnlineUsersCommand;
 import app.command.stats.GetTop5PlaylistsCommand;
 import app.command.stats.GetTop5SongsCommand;
 import app.command.stats.ShowPreferredSongsCommand;
+import app.command.user.admin.AddUserCommand;
 import app.entities.Command;
+import app.entities.User;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 
@@ -110,6 +122,14 @@ public final class CommandParser {
                 return new SwitchConnectionStatusCommand(username, timestamp);
             case "getOnlineUsers":
                 return new GetOnlineUsersCommand(timestamp);
+            case "addUser":
+                String userTypeString = jsonNode.has("type") ? jsonNode.get("type").asText() : null;
+                User.UserType userType = userTypeString != null
+                        ? User.UserType.valueOf(userTypeString.toUpperCase()) : null;
+                Integer age = jsonNode.has("age") ? jsonNode.get("age").asInt() : null;
+                String city = jsonNode.has("city") ? jsonNode.get("city").asText() : null;
+                return new AddUserCommand(username, timestamp, userType, age, city);
+
             default:
                 return new UnknownCommand(username, timestamp);
         }

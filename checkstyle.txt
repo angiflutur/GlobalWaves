@@ -1,12 +1,2 @@
 Starting audit...
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\player\StatusCommand.java:1: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:3:20: Using the '.*' form of import should be avoided - app.entities.*. [AvoidStarImport]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\stats\GetOnlineUsersCommand.java:7:8: Unused import - com.fasterxml.jackson.databind.node.ObjectNode. [UnusedImports]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\stats\GetOnlineUsersCommand.java:9:8: Unused import - java.util.List. [UnusedImports]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\stats\GetOnlineUsersCommand.java:10:8: Unused import - java.util.stream.Collectors. [UnusedImports]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\CommandParser.java:3:26: Using the '.*' form of import should be avoided - app.command.player.*. [AvoidStarImport]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\User.java:94:5: Class 'User' looks like designed for extension (can be subclassed), but the method 'isOnline' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'User' final or making the method 'isOnline' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\User.java:98:5: Class 'User' looks like designed for extension (can be subclassed), but the method 'setOnline' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'User' final or making the method 'setOnline' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\User.java:98:27: Parameter online should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 9 errors.

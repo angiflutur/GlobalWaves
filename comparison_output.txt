@@ -1,34 +1,30 @@
-Diferență la timestampul 295:
-  File 1: {"command":"addUser","user":"melodymaster","timestamp":295,"message":"The username melodymaster has been added successfully."}
-  File 2: {"command":"switchConnectionStatus","user":"alice22","timestamp":390,"message":"alice22 has changed status successfully."}
-
 Diferență la timestampul 305:
   File 1: {"command":"addAlbum","user":"melodymaster","timestamp":305,"message":"melodymaster has added new album successfully."}
-  File 2: {"command":"search","user":"alice22","timestamp":395,"results":["Radio Ga Ga"],"message":"Search returned 1 results"}
+  File 2: {"command":"addUser","timestamp":380,"user":"alice22","message":"The username alice22 is already taken."}
 
 Diferență la timestampul 350:
   File 1: {"command":"showAlbums","user":"melodymaster","timestamp":350,"result":[{"name":"Harmonic Horizons","songs":["Vibrant Echoes","Synth Symphony","Retro Rhythms","Digital Dreams","Night Pulse"]}]}
-  File 2: {"command":"search","user":"alice22","timestamp":420,"results":["Money Trees","Maps","Moves Like Jagger"],"message":"Search returned 3 results"}
+  File 2: {"command":"switchConnectionStatus","user":"alice22","timestamp":390,"message":"alice22 has changed status successfully."}
 
 Diferență la timestampul 380:
   File 1: {"command":"addUser","user":"alice22","timestamp":380,"message":"The username alice22 is already taken."}
-  File 2: {"command":"select","user":"alice22","timestamp":430,"message":"The selected ID is too high."}
+  File 2: {"command":"search","user":"alice22","timestamp":395,"results":["Radio Ga Ga"],"message":"Search returned 1 results"}
 
 Diferență la timestampul 390:
   File 1: {"command":"switchConnectionStatus","user":"alice22","timestamp":390,"message":"alice22 has changed status successfully."}
-  File 2: {"command":"load","user":"alice22","timestamp":440,"message":"Please select a source before attempting to load."}
+  File 2: {"command":"search","user":"alice22","timestamp":420,"results":["Money Trees","Maps","Moves Like Jagger"],"message":"Search returned 3 results"}
 
 Diferență la timestampul 395:
   File 1: {"command":"search","user":"alice22","timestamp":395,"message":"Search returned 2 results","results":["Radio Ga Ga","Retro Rhythms"]}
-  File 2: {"command":"like","user":"alice22","timestamp":460,"message":"Please load a source before liking or unliking."}
+  File 2: {"command":"select","user":"alice22","timestamp":430,"message":"The selected ID is too high."}
 
 Diferență la timestampul 400:
   File 1: {"command":"addAlbum","user":"melodymaster","timestamp":400,"message":"melodymaster has added new album successfully."}
-  File 2: null
+  File 2: {"command":"load","user":"alice22","timestamp":440,"message":"Please select a source before attempting to load."}
 
 Diferență la timestampul 420:
   File 1: {"command":"search","user":"alice22","timestamp":420,"message":"Search returned 4 results","results":["Money Trees","Maps","Moves Like Jagger","Melodic Mirage"]}
-  File 2: null
+  File 2: {"command":"like","user":"alice22","timestamp":460,"message":"Please load a source before liking or unliking."}
 
 Diferență la timestampul 430:
   File 1: {"command":"select","user":"alice22","timestamp":430,"message":"Successfully selected Melodic Mirage."}

@@ -1,6 +1,10 @@
 package app.command.searchBar;
 
-import app.entities.*;
+import app.entities.Command;
+import app.entities.Player;
+import app.entities.PlayerManager;
+import app.entities.SearchBar;
+import app.entities.User;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
 import app.entities.audio.collection.Podcast;

@@ -1,4 +1,14 @@
 [ {
+  "command" : "addUser",
+  "timestamp" : 1,
+  "user" : "melodymaster",
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 30,
+  "user" : "rhythmicrider58",
+  "message" : "The username rhythmicrider58 has been added successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1000,
@@ -23,8 +33,8 @@
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 1170,
-  "message" : "rhythmicrider58 is offline.",
-  "results" : [ ]
+  "results" : [ "Sicko Mode", "Stargazing", "Sicko Mode", "Swimming Pools (Drank)" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -55,7 +65,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 2050,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -76,7 +86,7 @@
   "command" : "load",
   "user" : "rhythmicrider58",
   "timestamp" : 2185,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -103,17 +113,17 @@
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 2295,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "repeat",
   "user" : "rhythmicrider58",
   "timestamp" : 2480,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "forward",
   "user" : "rhythmicrider58",
   "timestamp" : 2555,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "Please load a source before attempting to forward."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -150,39 +160,39 @@
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 3190,
-  "message" : "rhythmicrider58 is offline.",
-  "results" : [ ]
+  "results" : [ "My favourite songs" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3195,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 3200,
-  "message" : "Repeat mode changed to repeat once."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3220,
   "stats" : {
-    "name" : "99 Problems",
-    "remainedTime" : 209,
-    "repeat" : "Repeat Once",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 3225,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "Successfully selected My favourite songs."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 3240,
-  "message" : "Successfully added to playlist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -195,10 +205,10 @@
   "timestamp" : 3270,
   "message" : "Please load a source before setting the repeat status."
 }, {
-  "command" : "select",
+  "command" : "follow",
   "user" : "rhythmicrider58",
   "timestamp" : 3285,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "Please select a source before following or unfollowing."
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -229,14 +239,14 @@
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 3380,
-  "message" : "rhythmicrider58 is offline.",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "search",
   "user" : "rhythmicrider58",
   "timestamp" : 3395,
-  "message" : "rhythmicrider58 is offline.",
-  "results" : [ ]
+  "results" : [ "Shape of You" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -257,7 +267,7 @@
   "command" : "select",
   "user" : "rhythmicrider58",
   "timestamp" : 3410,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "repeat",
   "user" : "emily30",
@@ -269,7 +279,7 @@
   "timestamp" : 3438,
   "result" : [ {
     "name" : "My favourite songs",
-    "songs" : [ "99 Problems" ],
+    "songs" : [ ],
     "visibility" : "public",
     "followers" : 0
   } ]
@@ -277,10 +287,10 @@
   "command" : "load",
   "user" : "rhythmicrider58",
   "timestamp" : 3440,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 3445,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "Please load a source before liking or unliking."
 } ]
