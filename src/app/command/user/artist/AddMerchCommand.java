@@ -13,7 +13,7 @@ public class AddMerchCommand extends Command {
 
     private String merchName;
     private String merchDescription;
-    private Double merchPrice;
+    private int merchPrice;
     /**
      * JAVADOC
      */
@@ -21,7 +21,7 @@ public class AddMerchCommand extends Command {
                            final Integer timestamp,
                            final String merchName,
                            final String merchDescription,
-                           final Double merchPrice) {
+                           final int merchPrice) {
         super(username, timestamp);
         this.merchName = merchName;
         this.merchDescription = merchDescription;

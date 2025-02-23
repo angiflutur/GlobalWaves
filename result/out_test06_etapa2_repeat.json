@@ -279,11 +279,21 @@
     "paused" : false
   }
 }, {
+  "user" : "alice22",
+  "command" : "printCurrentPage",
+  "timestamp" : 1038,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1039,
   "results" : [ ],
   "message" : "Search returned 0 results"
+}, {
+  "user" : "carol19",
+  "command" : "printCurrentPage",
+  "timestamp" : 1040,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -348,6 +358,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "user" : "carol19",
+  "command" : "printCurrentPage",
+  "timestamp" : 2338,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"
 }, {
   "command" : "status",
   "user" : "alice22",

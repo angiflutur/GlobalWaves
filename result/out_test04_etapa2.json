@@ -86,6 +86,11 @@
   "timestamp" : 120,
   "message" : "Like registered successfully."
 }, {
+  "user" : "melodicmind42",
+  "command" : "printCurrentPage",
+  "timestamp" : 135,
+  "message" : "Liked songs:\n\t[Radio Ga Ga]\n\nFollowed playlists:\n\t[]"
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 190,
@@ -127,4 +132,9 @@
   "user" : "melodicmind42",
   "timestamp" : 1455,
   "message" : "Like registered successfully."
+}, {
+  "user" : "melodicmind42",
+  "command" : "printCurrentPage",
+  "timestamp" : 1480,
+  "message" : "Liked songs:\n\t[Radio Ga Ga, Rapid Rhythms]\n\nFollowed playlists:\n\t[]"
 } ]

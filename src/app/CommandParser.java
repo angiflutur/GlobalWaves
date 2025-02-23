@@ -1,5 +1,6 @@
 package app;
 
+import app.command.pages.PrintCurrentPageCommand;
 import app.command.player.BackwardCommand;
 import app.command.player.ForwardCommand;
 import app.command.player.LikeCommand;
@@ -185,12 +186,13 @@ public final class CommandParser {
                         ? jsonNode.get("name").asText() : null;
                 String merchDescription = jsonNode.has("description")
                         ? jsonNode.get("description").asText() : null;
-                Double merchPrice = jsonNode.has("price")
-                        ? jsonNode.get("price").asDouble() : null;
+                int merchPrice = jsonNode.has("price")
+                        ? jsonNode.get("price").asInt() : null;
 
                 return new AddMerchCommand(username, timestamp,
                         merchName, merchDescription, merchPrice);
-
+            case "printCurrentPage":
+                return new PrintCurrentPageCommand(username, timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

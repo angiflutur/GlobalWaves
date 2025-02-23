@@ -24,7 +24,13 @@ public class User {
     public enum UserType {
         USER, ARTIST, HOST
     }
-
+    public enum PageType {
+        HOME_PAGE,
+        ARTIST_PAGE,
+        LIKED_CONTENT_PAGE,
+        HOST_PAGE
+    }
+    private PageType currentPage = PageType.HOME_PAGE;
     private UserType type;
     /**
      * JAVADOC
@@ -49,15 +55,29 @@ public class User {
     /**
      * JAVADOC
      */
+    public void setCurrentPage(final PageType page) {
+        this.currentPage = page;
+    }
+
+    /**
+     * JAVADOC
+     */
+    public PageType getCurrentPage() {
+        return this.currentPage;
+    }
+    /**
+     * JAVADOC
+     */
     public void addMerch(final String name,
                          final String description,
-                         final Double price) {
+                         final int price) {
         List<String> merchItem = new ArrayList<>();
         merchItem.add(name);
         merchItem.add(description);
-        merchItem.add(price.toString());
+        merchItem.add(String.valueOf(price));
         merch.add(merchItem);
     }
+
     /**
      * JAVADOC
      */
@@ -68,10 +88,12 @@ public class User {
      * JAVADOC
      */
     public void addEvent(final String eventName,
-                         final String eventDate) {
+                         final String eventDate,
+                         final String description) {
         List<String> event = new ArrayList<>();
         event.add(eventName);
         event.add(eventDate);
+        event.add(description);
         this.events.add(event);
     }
 

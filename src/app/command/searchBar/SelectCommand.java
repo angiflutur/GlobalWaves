@@ -11,17 +11,26 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import java.util.ArrayList;
-
+/**
+ * JAVADOC
+ */
 public class SelectCommand extends Command {
     private Integer itemNumber;
     private static AudioFile selectedAudioFile = null;
     private static Playlist selectedPlaylist = null;
-
-    public SelectCommand(final String username, final Integer timestamp, final Integer itemNumber) {
+    private static User selectedArtist = null;
+    /**
+     * JAVADOC
+     */
+    public SelectCommand(final String username,
+                         final Integer timestamp,
+                         final Integer itemNumber) {
         super(username, timestamp);
         this.itemNumber = itemNumber;
     }
-
+    /**
+     * JAVADOC
+     */
     @Override
     public void execute(final ArrayNode output, final Library library) {
         User user = library.getUser(getUsername());
@@ -38,7 +47,7 @@ public class SelectCommand extends Command {
         ArrayList<Object> combinedResults = new ArrayList<>();
         combinedResults.addAll(SearchCommand.getLastSearchResultsAudio());
         combinedResults.addAll(SearchCommand.getLastSearchResultsPlaylists());
-        combinedResults.addAll(SearchCommand.getLastSearchResultsArtists());  // Add artists to the combined list
+        combinedResults.addAll(SearchCommand.getLastSearchResultsArtists());
 
         Player player = PlayerManager.getPlayer(getUsername());
         player.setRepeatState(0);
@@ -69,33 +78,64 @@ public class SelectCommand extends Command {
 
         if (selectedItem instanceof AudioFile) {
             selectedAudioFile = (AudioFile) selectedItem;
-            resultNode.put("message", "Successfully selected " + selectedAudioFile.getName() + ".");
+            resultNode.put("message", "Successfully selected "
+                    + selectedAudioFile.getName() + ".");
         } else if (selectedItem instanceof Playlist) {
             selectedPlaylist = (Playlist) selectedItem;
-            resultNode.put("message", "Successfully selected " + selectedPlaylist.getName() + ".");
+            resultNode.put("message", "Successfully selected "
+                    + selectedPlaylist.getName() + ".");
         } else if (selectedItem instanceof User) {
-            User selectedArtist = (User) selectedItem;
-            resultNode.put("message", "Successfully selected " + selectedArtist.getUsername() + "'s page.");
+            User selectedUser = (User) selectedItem;
+            resultNode.put("message", "Successfully selected "
+                    + selectedUser.getUsername() + "'s page.");
+            selectedArtist = selectedUser;
+            if (selectedUser.getType() == User.UserType.ARTIST) {
+                user.setCurrentPage(User.PageType.ARTIST_PAGE);
+            } else if (selectedUser.getType() == User.UserType.HOST) {
+                user.setCurrentPage(User.PageType.HOST_PAGE);
+            }
         }
 
-        player.setCurrentPlaylist(selectedItem instanceof Playlist ? (Playlist) selectedItem : null);
+        player.setCurrentPlaylist(selectedItem instanceof Playlist
+                ? (Playlist) selectedItem : null);
         SearchCommand.clearLastSearchResults();
         SearchCommand.setIsSearching(false);
     }
-
+    /**
+     * JAVADOC
+     */
     public static void setSelectedAudioFile(final AudioFile audioFile) {
         selectedAudioFile = audioFile;
     }
-
+    /**
+     * JAVADOC
+     */
     public static void setSelectedPlaylist(final Playlist playlist) {
         selectedPlaylist = playlist;
     }
-
+    /**
+     * JAVADOC
+     */
     public static AudioFile getSelectedAudioFile() {
         return selectedAudioFile;
     }
-
+    /**
+     * JAVADOC
+     */
     public static Playlist getSelectedPlaylist() {
         return selectedPlaylist;
     }
+    /**
+     * JAVADOC
+     */
+    public static User getSelectedArtist() {
+        return selectedArtist;
+    }
+    /**
+     * JAVADOC
+     */
+    public static void setSelectedArtist(final User artist) {
+        selectedArtist = artist;
+    }
+
 }

@@ -128,6 +128,11 @@
   "timestamp" : 480,
   "message" : "Repeat mode changed to repeat once."
 }, {
+  "user" : "bob35",
+  "command" : "printCurrentPage",
+  "timestamp" : 525,
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos - melodicwanderer]"
+}, {
   "command" : "search",
   "user" : "soundseeker21",
   "timestamp" : 625,
@@ -185,4 +190,9 @@
   "user" : "carol19",
   "timestamp" : 7505,
   "message" : "Repeat mode changed to no repeat."
+}, {
+  "user" : "bob35",
+  "command" : "printCurrentPage",
+  "timestamp" : 7900,
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos - melodicwanderer]"
 } ]
