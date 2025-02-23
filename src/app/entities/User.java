@@ -3,6 +3,7 @@ package app.entities;
 import app.entities.audio.collection.Album;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
+import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.Song;
 
 import java.util.ArrayList;
@@ -20,6 +21,7 @@ public class User {
     private ArrayList<Album> albums = new ArrayList<>();
     private List<List<String>> events = new ArrayList<>();
     private List<List<String>> merch = new ArrayList<>();
+    private ArrayList<Podcast> podcasts = new ArrayList<>();
 
     public enum UserType {
         USER, ARTIST, HOST
@@ -31,7 +33,7 @@ public class User {
         HOST_PAGE
     }
     private PageType currentPage = PageType.HOME_PAGE;
-    private UserType type;
+    private UserType type = UserType.USER;
     /**
      * JAVADOC
      */
@@ -51,6 +53,23 @@ public class User {
         this.likedSongs = new ArrayList<>();
         this.player = Player.getInstance();
         this.type = type;
+    }
+    /**
+     * JAVADOC
+     */
+    public void addPodcast(final Podcast podcast, final Library library) {
+        if (this.type == UserType.HOST) {
+            podcasts.add(podcast);
+            library.getPodcasts().add(podcast);
+        } else {
+            throw new IllegalStateException("Only users of type HOST can add podcasts.");
+        }
+    }
+    /**
+     * JAVADOC
+     */
+    public ArrayList<Podcast> getPodcasts() {
+        return podcasts;
     }
     /**
      * JAVADOC

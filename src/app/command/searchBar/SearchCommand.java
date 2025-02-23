@@ -67,7 +67,6 @@ public class SearchCommand extends Command {
         Player player = PlayerManager.getPlayer(getUsername());
         player.setIsSearching(true);
         User user = library.getUser(getUsername());
-
         if (user == null || !user.isOnline()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "search");
@@ -77,7 +76,6 @@ public class SearchCommand extends Command {
             ArrayNode resultsArray = resultNode.putArray("results");
             return;
         }
-
         if (player.isLoaded()) {
             if (player.getCurrentAudio() instanceof Podcast) {
                 player.updateRemainingTime(getTimestamp());
@@ -85,18 +83,14 @@ public class SearchCommand extends Command {
             player.setLoaded(false);
             player.setPaused(true);
         }
-
         SelectCommand.setSelectedAudioFile(null);
         SelectCommand.setSelectedPlaylist(null);
-
         SearchBar searchBar = new SearchBar(library);
         ArrayList<AudioFile> combinedResultsAudio = new ArrayList<>();
         ArrayList<Playlist> combinedResultsPlaylists = new ArrayList<>();
         ArrayList<String> filteredArtists = new ArrayList<>();
-
         if ("song".equals(type)) {
             ArrayList<Song> filteredSongs = new ArrayList<>(library.getSongs());
-
             if (filterName != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByName(filterName));
                 for (User albumOwner : library.getUsers()) {
@@ -111,7 +105,6 @@ public class SearchCommand extends Command {
                     }
                 }
             }
-
             if (filterAlbum != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByAlbum(filterAlbum));
             }
@@ -129,26 +122,21 @@ public class SearchCommand extends Command {
             }
             if (filterGenre != null) {
                 ArrayList<Song> genreFilteredSongs = new ArrayList<>();
-
                 for (Song song : filteredSongs) {
                     if (song.getGenre().equalsIgnoreCase(filterGenre)) {
                         genreFilteredSongs.add(song);
                     }
                 }
-
                 filteredSongs = genreFilteredSongs;
             }
-
             if (filterReleaseYear != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByReleaseYear(filterReleaseYear));
             }
             if (filterArtist != null) {
                 filteredSongs.removeIf(song -> !song.getArtist().equals(filterArtist));
             }
-
             combinedResultsAudio.addAll(filteredSongs);
         }
-
         if ("podcast".equals(type)) {
             ArrayList<Podcast> filteredPodcasts = new ArrayList<>();
             if (filterName != null) {
@@ -159,39 +147,30 @@ public class SearchCommand extends Command {
             }
             combinedResultsAudio.addAll(filteredPodcasts);
         }
-
         if ("playlist".equals(type)) {
             ArrayList<Playlist> filteredPlaylists
                     = new ArrayList<>(library.getPlaylists().values());
-
             if (filterName != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByName(filterName));
             }
             if (filterOwner != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByOwner(filterOwner));
             }
-
             filteredPlaylists.removeIf(playlist -> !playlist.isPublic()
                     && !playlist.getOwner().getUsername().equals(getUsername()));
             combinedResultsPlaylists.addAll(filteredPlaylists);
         }
-
         combinedResultsAudio = new ArrayList<>(combinedResultsAudio.subList(0,
                 Math.min(MAX_FILTER_LENGTH, combinedResultsAudio.size())));
-
         player.updateLastSearchResults(combinedResultsAudio, combinedResultsPlaylists);
-
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "search");
         resultNode.put("user", getUsername());
         resultNode.put("timestamp", getTimestamp());
-
         ArrayNode resultsArray = resultNode.putArray("results");
-
         for (AudioFile audioFile : combinedResultsAudio) {
             resultsArray.add(audioFile.getName());
         }
-
         if ("playlist".equals(type)) {
             for (Playlist playlist : combinedResultsPlaylists) {
                 resultsArray.add(playlist.getName());
@@ -202,7 +181,8 @@ public class SearchCommand extends Command {
                 for (User artist : library.getUsers()) {
                     if (artist.getType() == User.UserType.ARTIST
                             && artist.getUsername() != null
-                            && artist.getUsername().toLowerCase().startsWith(filterName.toLowerCase())) {
+                            && artist.getUsername().toLowerCase().
+                            startsWith(filterName.toLowerCase())) {
                         filteredArtists.add(artist.getUsername());
                     }
                 }
@@ -223,10 +203,10 @@ public class SearchCommand extends Command {
                     player.updateLastSearchArtists(filteredArtistUsers);
                 }
 
-                resultNode.put("message", "Search returned " + filteredArtistUsers.size() + " artists");
+                resultNode.put("message", "Search returned "
+                        + filteredArtistUsers.size() + " artists");
             }
         }
-
         int totalResults = combinedResultsAudio.size() + combinedResultsPlaylists.size()
                 + filteredArtists.size();
         resultNode.put("message", "Search returned " + totalResults + " results");

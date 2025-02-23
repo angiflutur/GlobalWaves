@@ -1,20 +1,4 @@
 Starting audit...
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:65:5: Method length is 177 lines (max allowed is 150). [MethodLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:204: Line is longer than 100 characters (found 116). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:207: Line is longer than 100 characters (found 105). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:208: Line is longer than 100 characters (found 117). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:215: Line is longer than 100 characters (found 115). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:232: Line is longer than 100 characters (found 104). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:234: Line is longer than 100 characters (found 103). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SelectCommand.java:88: Line is longer than 100 characters (found 128). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SelectCommand.java:93: Line is longer than 100 characters (found 127). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:467:43: Parameter lastSearchResultsAudio should be final. [FinalParameters]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:485:47: Parameter lastSearchResultsPlaylists should be final. [FinalParameters]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:497:45: Parameter lastSearchResultsArtists should be final. [FinalParameters]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:503: Line is longer than 100 characters (found 105). [LineLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:503:41: Parameter audioFiles should be final. [FinalParameters]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:503:74: Parameter playlists should be final. [FinalParameters]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:510:41: Parameter artists should be final. [FinalParameters]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:530:32: Parameter isSearching should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\CommandParser.java:56:5: Method length is 162 lines (max allowed is 150). [MethodLength]
 Audit done.
-Checkstyle ends with 17 errors.
+Checkstyle ends with 1 errors.

@@ -29,8 +29,10 @@ import app.command.user.admin.ShowAlbumsCommand;
 import app.command.user.artist.AddAlbumCommand;
 import app.command.user.artist.AddEventCommand;
 import app.command.user.artist.AddMerchCommand;
+import app.command.user.host.AddPodcastCommand;
 import app.entities.Command;
 import app.entities.User;
+import app.entities.audio.file.PodcastEpisode;
 import app.entities.audio.file.Song;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -60,7 +62,6 @@ public final class CommandParser {
             case "search":
                 String type = jsonNode.has("type") ? jsonNode.get("type").asText() : null;
                 JsonNode filtersNode = jsonNode.has("filters") ? jsonNode.get("filters") : null;
-
                 String filterName = filtersNode != null && filtersNode.has("name")
                         ? filtersNode.get("name").asText() : null;
                 String filterAlbum = filtersNode != null && filtersNode.has("album")
@@ -77,7 +78,6 @@ public final class CommandParser {
                         ? (ArrayNode) filtersNode.get("tags") : null;
                 String filterOwner = filtersNode != null && filtersNode.has("owner")
                         ? filtersNode.get("owner").asText() : null;
-
                 return new SearchCommand(username, timestamp, type, filterName,
                         filterAlbum, filterLyrics, filterGenre, filterReleaseYear,
                         filterArtist, filterTags, filterOwner);
@@ -146,7 +146,6 @@ public final class CommandParser {
                 String description = jsonNode.has("description")
                         ? jsonNode.get("description").asText() : null;
                 ArrayList<Song> songs = new ArrayList<>();
-
                 if (jsonNode.has("songs")) {
                     ArrayNode songsNode = (ArrayNode) jsonNode.get("songs");
                     for (JsonNode songNode : songsNode) {
@@ -163,7 +162,6 @@ public final class CommandParser {
                                 ? songNode.get("releaseYear").asInt() : null);
                         song.setArtist(songNode.has("artist")
                                 ? songNode.get("artist").asText() : null);
-
                         songs.add(song);
                     }
                 }
@@ -178,7 +176,6 @@ public final class CommandParser {
                         ? jsonNode.get("description").asText() : null;
                 String eventDate = jsonNode.has("date")
                         ? jsonNode.get("date").asText() : null;
-
                 return new AddEventCommand(username,
                         timestamp, eventName,
                         eventDescription, eventDate);
@@ -189,13 +186,31 @@ public final class CommandParser {
                         ? jsonNode.get("description").asText() : null;
                 int merchPrice = jsonNode.has("price")
                         ? jsonNode.get("price").asInt() : null;
-
                 return new AddMerchCommand(username, timestamp,
                         merchName, merchDescription, merchPrice);
             case "printCurrentPage":
                 return new PrintCurrentPageCommand(username, timestamp);
             case "getAllUsers":
                 return new GetAllUsersCommand(username, timestamp);
+            case "addPodcast":
+                String podcastName = jsonNode.has("name")
+                        ? jsonNode.get("name").asText() : null;
+                ArrayList<PodcastEpisode> episodes = new ArrayList<>();
+                if (jsonNode.has("episodes")) {
+                    ArrayNode episodesNode = (ArrayNode) jsonNode.get("episodes");
+                    for (JsonNode episodeNode : episodesNode) {
+                        String episodeName = episodeNode.has("name")
+                                ? episodeNode.get("name").asText() : null;
+                        Integer episodeDuration = episodeNode.has("duration")
+                                ? episodeNode.get("duration").asInt() : null;
+                        description = episodeNode.has("description")
+                                ? episodeNode.get("name").asText() : null;
+                        PodcastEpisode episode =
+                                new PodcastEpisode(episodeName, episodeDuration, description);
+                        episodes.add(episode);
+                    }
+                }
+                return new AddPodcastCommand(username, timestamp, podcastName, episodes);
             default:
                 return new UnknownCommand(username, timestamp);
         }

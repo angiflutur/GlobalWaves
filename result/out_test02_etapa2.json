@@ -104,7 +104,7 @@
   "command" : "addAlbum",
   "user" : "melodymaster",
   "timestamp" : 515,
-  "message" : "melodymaster already has an album with this name."
+  "message" : "melodymaster has another album with the same name."
 }, {
   "command" : "showAlbums",
   "user" : "melodymaster",

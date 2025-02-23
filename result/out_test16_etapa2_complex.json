@@ -16669,7 +16669,7 @@
   "command" : "addAlbum",
   "user" : "mccarthyluis",
   "timestamp" : 11850,
-  "message" : "mccarthyluis already has an album with this name."
+  "message" : "mccarthyluis has another album with the same name."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -18281,7 +18281,7 @@
   "command" : "addAlbum",
   "user" : "mccarthyluis",
   "timestamp" : 12370,
-  "message" : "mccarthyluis already has an album with this name."
+  "message" : "mccarthyluis has another album with the same name."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -19645,7 +19645,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12810,
-  "message" : "jacobdean already has an album with this name."
+  "message" : "jacobdean has another album with the same name."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -20203,7 +20203,7 @@
   "command" : "addAlbum",
   "user" : "glester",
   "timestamp" : 12990,
-  "message" : "glester already has an album with this name."
+  "message" : "glester has another album with the same name."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -20389,7 +20389,7 @@
   "command" : "addAlbum",
   "user" : "mccarthyluis",
   "timestamp" : 13050,
-  "message" : "mccarthyluis already has an album with this name."
+  "message" : "mccarthyluis has another album with the same name."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -20699,7 +20699,7 @@
   "command" : "addAlbum",
   "user" : "mccarthyluis",
   "timestamp" : 13150,
-  "message" : "mccarthyluis already has an album with this name."
+  "message" : "mccarthyluis has another album with the same name."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",

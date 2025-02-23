@@ -110,7 +110,7 @@ public class JSONComparator {
 
         comparator.clearOutputFile(outputFile);
 
-        String file = file4;
+        String file = file5;
         comparator.compareJsonFiles("ref/ref_" + file, "result/out_" + file, outputFile);
     }
 }

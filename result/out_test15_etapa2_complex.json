@@ -16965,7 +16965,7 @@
   "command" : "addAlbum",
   "user" : "leslie27",
   "timestamp" : 11919,
-  "message" : "leslie27 already has an album with this name."
+  "message" : "leslie27 has another album with the same name."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -17678,7 +17678,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12149,
-  "message" : "jacobdean already has an album with this name."
+  "message" : "jacobdean has another album with the same name."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -18174,7 +18174,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12309,
-  "message" : "matthewfernandez already has an album with this name."
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -18298,7 +18298,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12349,
-  "message" : "jacobdean already has an album with this name."
+  "message" : "jacobdean has another album with the same name."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -19228,7 +19228,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 12649,
-  "message" : "barmstrong already has an album with this name."
+  "message" : "barmstrong has another album with the same name."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -19445,7 +19445,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12719,
-  "message" : "jacobdean already has an album with this name."
+  "message" : "jacobdean has another album with the same name."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -19631,7 +19631,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12779,
-  "message" : "matthewfernandez already has an album with this name."
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -19662,7 +19662,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12789,
-  "message" : "matthewfernandez already has an album with this name."
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -19786,7 +19786,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12829,
-  "message" : "jacobdean already has an album with this name."
+  "message" : "jacobdean has another album with the same name."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -19941,7 +19941,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12879,
-  "message" : "matthewfernandez already has an album with this name."
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -20003,7 +20003,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 12899,
-  "message" : "jacobdean already has an album with this name."
+  "message" : "jacobdean has another album with the same name."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -20065,7 +20065,7 @@
   "command" : "addAlbum",
   "user" : "matthewfernandez",
   "timestamp" : 12919,
-  "message" : "matthewfernandez already has an album with this name."
+  "message" : "matthewfernandez has another album with the same name."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -20499,7 +20499,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 13059,
-  "message" : "jacobdean already has an album with this name."
+  "message" : "jacobdean has another album with the same name."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -20592,7 +20592,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 13089,
-  "message" : "barmstrong already has an album with this name."
+  "message" : "barmstrong has another album with the same name."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -20840,7 +20840,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 13169,
-  "message" : "jacobdean already has an album with this name."
+  "message" : "jacobdean has another album with the same name."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -20933,7 +20933,7 @@
   "command" : "addAlbum",
   "user" : "jacobdean",
   "timestamp" : 13199,
-  "message" : "jacobdean already has an album with this name."
+  "message" : "jacobdean has another album with the same name."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -21026,7 +21026,7 @@
   "command" : "addAlbum",
   "user" : "barmstrong",
   "timestamp" : 13229,
-  "message" : "barmstrong already has an album with this name."
+  "message" : "barmstrong has another album with the same name."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",

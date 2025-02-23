@@ -464,7 +464,7 @@ public class Player {
     /**
      *
      */
-    public void setLastSearchResultsAudio(ArrayList<AudioFile> lastSearchResultsAudio) {
+    public void setLastSearchResultsAudio(final ArrayList<AudioFile> lastSearchResultsAudio) {
         this.lastSearchResultsAudio = lastSearchResultsAudio;
     }
     /**
@@ -482,7 +482,8 @@ public class Player {
     /**
      *
      */
-    public void setLastSearchResultsPlaylists(ArrayList<Playlist> lastSearchResultsPlaylists) {
+    public void setLastSearchResultsPlaylists(final ArrayList<Playlist>
+                                                      lastSearchResultsPlaylists) {
         this.lastSearchResultsPlaylists = lastSearchResultsPlaylists;
     }
     /**
@@ -494,20 +495,21 @@ public class Player {
     /**
      *
      */
-    public void setLastSearchResultsArtists(ArrayList<User> lastSearchResultsArtists) {
+    public void setLastSearchResultsArtists(final ArrayList<User> lastSearchResultsArtists) {
         this.lastSearchResultsArtists = lastSearchResultsArtists;
     }
     /**
      *
      */
-    public void updateLastSearchResults(ArrayList<AudioFile> audioFiles, ArrayList<Playlist> playlists) {
+    public void updateLastSearchResults(final ArrayList<AudioFile> audioFiles,
+                                        final ArrayList<Playlist> playlists) {
         this.lastSearchResultsAudio = audioFiles;
         this.lastSearchResultsPlaylists = playlists;
     }
     /**
      *
      */
-    public void updateLastSearchArtists(ArrayList<User> artists) {
+    public void updateLastSearchArtists(final ArrayList<User> artists) {
         this.lastSearchResultsArtists = artists;
     }
     /**
@@ -527,7 +529,7 @@ public class Player {
     /**
      *
      */
-    public void setIsSearching(boolean isSearching) {
+    public void setIsSearching(final boolean isSearching) {
         this.isSearching = isSearching;
     }
 }

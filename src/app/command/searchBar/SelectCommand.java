@@ -85,12 +85,14 @@ public class SelectCommand extends Command {
             selectedAudioFile = (AudioFile) selectedItem;
             resultNode.put("message", "Successfully selected "
                     + selectedAudioFile.getName() + ".");
-            player.updateLastSearchResults(new ArrayList<AudioFile>() {{ add(selectedAudioFile); }}, new ArrayList<Playlist>());
+            player.updateLastSearchResults(new ArrayList<AudioFile>() {
+                { add(selectedAudioFile); }}, new ArrayList<Playlist>());
         } else if (selectedItem instanceof Playlist) {
             selectedPlaylist = (Playlist) selectedItem;
             resultNode.put("message", "Successfully selected "
                     + selectedPlaylist.getName() + ".");
-            player.updateLastSearchResults(new ArrayList<AudioFile>(), new ArrayList<Playlist>() {{ add(selectedPlaylist); }});
+            player.updateLastSearchResults(new ArrayList<AudioFile>(),
+                    new ArrayList<Playlist>() {{ add(selectedPlaylist); }});
         } else if (selectedItem instanceof User) {
             User selectedUser = (User) selectedItem;
             resultNode.put("message", "Successfully selected "

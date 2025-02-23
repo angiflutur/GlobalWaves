@@ -55,7 +55,7 @@ public class AddAlbumCommand extends Command {
         for (Album album : user.getAlbums()) {
             if (album.getName().equals(albumName)) {
                 result.put("message", getUsername()
-                        + " already has an album with this name.");
+                        + " has another album with the same name.");
                 return;
             }
         }
