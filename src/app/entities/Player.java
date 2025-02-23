@@ -28,6 +28,7 @@ public class Player {
     private ArrayList<AudioFile> lastSearchResultsAudio = new ArrayList<>();
     private ArrayList<Playlist> lastSearchResultsPlaylists = new ArrayList<>();
     private ArrayList<User> lastSearchResultsArtists = new ArrayList<>();
+    private ArrayList<User> lastSearchResultsHosts = new ArrayList<>();
 
     /**
      * JAVADOC
@@ -495,6 +496,15 @@ public class Player {
     /**
      *
      */
+    public void setLastSearchResultsHosts(final ArrayList<User> lastSearchResultsHosts) {
+        this.lastSearchResultsHosts = lastSearchResultsHosts;
+    }
+    public ArrayList<User> getLastSearchResultsHosts() {
+        return lastSearchResultsHosts;
+    }
+    /**
+     *
+     */
     public void setLastSearchResultsArtists(final ArrayList<User> lastSearchResultsArtists) {
         this.lastSearchResultsArtists = lastSearchResultsArtists;
     }
@@ -512,6 +522,9 @@ public class Player {
     public void updateLastSearchArtists(final ArrayList<User> artists) {
         this.lastSearchResultsArtists = artists;
     }
+    public void updateLastSearchHosts(final ArrayList<User> hosts) {
+        this.lastSearchResultsHosts = hosts;
+    }
     /**
      *
      */
@@ -519,6 +532,7 @@ public class Player {
         this.lastSearchResultsAudio.clear();
         this.lastSearchResultsPlaylists.clear();
         this.lastSearchResultsArtists.clear();
+        this.lastSearchResultsHosts.clear();
     }
     /**
      *

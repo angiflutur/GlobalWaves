@@ -29,6 +29,7 @@ import app.command.user.admin.ShowAlbumsCommand;
 import app.command.user.artist.AddAlbumCommand;
 import app.command.user.artist.AddEventCommand;
 import app.command.user.artist.AddMerchCommand;
+import app.command.user.host.AddAnnouncementCommand;
 import app.command.user.host.AddPodcastCommand;
 import app.entities.Command;
 import app.entities.User;
@@ -211,6 +212,13 @@ public final class CommandParser {
                     }
                 }
                 return new AddPodcastCommand(username, timestamp, podcastName, episodes);
+            case "addAnnouncement":
+                String announcementName = jsonNode.has("name")
+                        ? jsonNode.get("name").asText() : null;
+                String announcementDescription = jsonNode.has("description")
+                        ? jsonNode.get("description").asText() : null;
+                return new AddAnnouncementCommand(username, timestamp, announcementName, announcementDescription);
+
             default:
                 return new UnknownCommand(username, timestamp);
         }

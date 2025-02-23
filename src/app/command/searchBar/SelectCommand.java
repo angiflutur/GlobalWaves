@@ -19,6 +19,8 @@ public class SelectCommand extends Command {
     private static AudioFile selectedAudioFile = null;
     private static Playlist selectedPlaylist = null;
     private static User selectedArtist = null;
+    private static User selectedHost = null;
+
     /**
      * JAVADOC
      */
@@ -49,11 +51,13 @@ public class SelectCommand extends Command {
         ArrayList<AudioFile> lastSearchResultsAudio = player.getLastSearchResultsAudio();
         ArrayList<Playlist> lastSearchResultsPlaylists = player.getLastSearchResultsPlaylists();
         ArrayList<User> lastSearchResultsArtists = player.getLastSearchResultsArtists();
+        ArrayList<User> lastSearchResultsHosts = player.getLastSearchResultsHosts();
 
         ArrayList<Object> combinedResults = new ArrayList<>();
         combinedResults.addAll(lastSearchResultsAudio);
         combinedResults.addAll(lastSearchResultsPlaylists);
         combinedResults.addAll(lastSearchResultsArtists);
+        combinedResults.addAll(lastSearchResultsHosts);
 
         player.setRepeatState(0);
 
@@ -93,18 +97,28 @@ public class SelectCommand extends Command {
                     + selectedPlaylist.getName() + ".");
             player.updateLastSearchResults(new ArrayList<AudioFile>(),
                     new ArrayList<Playlist>() {{ add(selectedPlaylist); }});
-        } else if (selectedItem instanceof User) {
-            User selectedUser = (User) selectedItem;
-            resultNode.put("message", "Successfully selected "
-                    + selectedUser.getUsername() + "'s page.");
+         } else if (selectedItem instanceof User) {
+        User selectedUser = (User) selectedItem;
+        resultNode.put("message", "Successfully selected " + selectedUser.getUsername() + "'s page.");
+
+        if (selectedUser.getType() == User.UserType.ARTIST) {
+
             selectedArtist = selectedUser;
-            if (selectedUser.getType() == User.UserType.ARTIST) {
-                user.setCurrentPage(User.PageType.ARTIST_PAGE);
-            } else if (selectedUser.getType() == User.UserType.HOST) {
-                user.setCurrentPage(User.PageType.HOST_PAGE);
-            }
-            player.updateLastSearchArtists(new ArrayList<User>() {{ add(selectedArtist); }});
+            user.setCurrentPage(User.PageType.ARTIST_PAGE);
+            player.updateLastSearchArtists(new ArrayList<User>() {{
+                add(selectedArtist);
+            }});
+
+        } else if (selectedUser.getType() == User.UserType.HOST) {
+
+            selectedHost = selectedUser;
+            user.setCurrentPage(User.PageType.HOST_PAGE);
+
+            player.updateLastSearchHosts(new ArrayList<User>() {{
+                add(selectedHost);
+            }});
         }
+    }
 
         player.setCurrentPlaylist(selectedItem instanceof Playlist
                 ? (Playlist) selectedItem : null);

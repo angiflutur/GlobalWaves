@@ -22,6 +22,7 @@ public class User {
     private List<List<String>> events = new ArrayList<>();
     private List<List<String>> merch = new ArrayList<>();
     private ArrayList<Podcast> podcasts = new ArrayList<>();
+    private List<List<String>> announcements = new ArrayList<>();
 
     public enum UserType {
         USER, ARTIST, HOST
@@ -57,6 +58,20 @@ public class User {
     /**
      * JAVADOC
      */
+    public void addAnnouncement(final String name, final String description, final String date) {
+        if (this.type == UserType.HOST) {
+            List<String> announcement = new ArrayList<>();
+            announcement.add(name);
+            announcement.add(description);
+            announcement.add(date);
+            this.announcements.add(announcement);
+        } else {
+            throw new IllegalStateException("Only users of type HOST can add announcements.");
+        }
+    }
+    public List<List<String>> getAnnouncements() {
+        return this.announcements;
+    }
     public void addPodcast(final Podcast podcast, final Library library) {
         if (this.type == UserType.HOST) {
             podcasts.add(podcast);

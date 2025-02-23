@@ -1,5 +1,17 @@
 Starting audit...
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:65:5: Method length is 171 lines (max allowed is 150). [MethodLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\CommandParser.java:56:5: Method length is 162 lines (max allowed is 150). [MethodLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:65:5: Method length is 183 lines (max allowed is 150). [MethodLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:218: Line is longer than 100 characters (found 103). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:240: Line is longer than 100 characters (found 101). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SelectCommand.java:102: Line is longer than 100 characters (found 102). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\user\host\AddAnnouncementCommand.java:52: Line is longer than 100 characters (found 102). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\user\host\AddAnnouncementCommand.java:54: Line is longer than 100 characters (found 110). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\CommandParser.java:57:5: Method length is 169 lines (max allowed is 150). [MethodLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\CommandParser.java:220: Line is longer than 100 characters (found 114). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:502:5: Class 'Player' looks like designed for extension (can be subclassed), but the method 'getLastSearchResultsHosts' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Player' final or making the method 'getLastSearchResultsHosts' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:525:5: Class 'Player' looks like designed for extension (can be subclassed), but the method 'updateLastSearchHosts' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Player' final or making the method 'updateLastSearchHosts' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\Player.java:525:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\User.java:72:5: Class 'User' looks like designed for extension (can be subclassed), but the method 'getAnnouncements' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'User' final or making the method 'getAnnouncements' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\User.java:75:5: Class 'User' looks like designed for extension (can be subclassed), but the method 'addPodcast' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'User' final or making the method 'addPodcast' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\entities\User.java:75:5: Missing a Javadoc comment. [MissingJavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 14 errors.

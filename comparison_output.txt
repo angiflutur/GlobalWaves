@@ -1,130 +1,54 @@
-Diferență la timestampul 56:
-  File 1: {"command":"addAnnouncement","user":"soundseeker","timestamp":56,"message":"soundseeker has successfully added new announcement."}
-  File 2: {"command":"select","user":"alice22","timestamp":57,"message":"The selected ID is too high."}
-
-Diferență la timestampul 57:
-  File 1: {"command":"select","user":"alice22","timestamp":57,"message":"Successfully selected soundseeker's page."}
-  File 2: {"user":"alice22","command":"printCurrentPage","timestamp":58,"message":"Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"}
-
 Diferență la timestampul 58:
   File 1: {"user":"alice22","command":"printCurrentPage","timestamp":58,"message":"Podcasts:\n\t[Auditory Adventures:\n\t[Exploring Sonic Landscapes - Journey through the world's most unique auditory experiences., The Future of Music Technology - A look into the innovations shaping the future of music production and listening., Cultural Beats - An exploration of how different cultures influence music genres.]\n, Harmony & History:\n\t[The Roots of Blues - Tracing the origins and evolution of blues music., Classical Music's Modern Impact - Discussing how classical music continues to influence contemporary artists., Jazz Journeys - Exploring the rich history and vibrant present of jazz music., The Folk Revival - Examining the resurgence of folk music in modern times.]\n]\n\nAnnouncements:\n\t[Announcement1:\n\tPrimul anunt adaugat!\n]"}
-  File 2: {"command":"search","user":"alice22","timestamp":60,"results":["TED Radio Hour"],"message":"Search returned 1 results"}
-
-Diferență la timestampul 60:
-  File 1: {"command":"search","user":"alice22","timestamp":60,"message":"Search returned 1 results","results":["TED Radio Hour"]}
-  File 2: {"command":"select","user":"alice22","timestamp":65,"message":"Successfully selected TED Radio Hour."}
-
-Diferență la timestampul 65:
-  File 1: {"command":"select","user":"alice22","timestamp":65,"message":"Successfully selected TED Radio Hour."}
-  File 2: {"command":"load","user":"alice22","timestamp":70,"message":"Playback loaded successfully."}
-
-Diferență la timestampul 70:
-  File 1: {"command":"load","user":"alice22","timestamp":70,"message":"Playback loaded successfully."}
-  File 2: {"command":"status","user":"alice22","timestamp":73,"stats":{"name":"The Power of Design","remainedTime":3066,"repeat":"No Repeat","shuffle":false,"paused":false}}
-
-Diferență la timestampul 73:
-  File 1: {"command":"status","user":"alice22","timestamp":73,"stats":{"name":"The Power of Design","remainedTime":3066,"repeat":"No Repeat","shuffle":false,"paused":false}}
-  File 2: {"command":"search","user":"alice22","timestamp":75,"results":["Auditory Adventures"],"message":"Search returned 1 results"}
-
-Diferență la timestampul 75:
-  File 1: {"command":"search","user":"alice22","timestamp":75,"message":"Search returned 1 results","results":["Auditory Adventures"]}
-  File 2: {"command":"select","user":"alice22","timestamp":80,"message":"Successfully selected Auditory Adventures."}
-
-Diferență la timestampul 80:
-  File 1: {"command":"select","user":"alice22","timestamp":80,"message":"Successfully selected Auditory Adventures."}
-  File 2: {"command":"load","user":"alice22","timestamp":85,"message":"Playback loaded successfully."}
-
-Diferență la timestampul 85:
-  File 1: {"command":"load","user":"alice22","timestamp":85,"message":"Playback loaded successfully."}
-  File 2: {"command":"status","user":"alice22","timestamp":86,"stats":{"name":"The Future of Music Technology","remainedTime":3199,"repeat":"No Repeat","shuffle":false,"paused":false}}
+  File 2: {"user":"alice22","command":"printCurrentPage","timestamp":58,"message":"Invalid page."}
 
 Diferență la timestampul 86:
   File 1: {"command":"status","user":"alice22","timestamp":86,"stats":{"name":"Exploring Sonic Landscapes","remainedTime":2699,"repeat":"No Repeat","shuffle":false,"paused":false}}
-  File 2: {"command":"playPause","user":"alice22","timestamp":3200,"message":"Playback paused successfully."}
-
-Diferență la timestampul 3200:
-  File 1: {"command":"playPause","user":"alice22","timestamp":3200,"message":"Playback paused successfully."}
-  File 2: {"command":"status","user":"alice22","timestamp":3201,"stats":{"name":"The Future of Music Technology","remainedTime":85,"repeat":"No Repeat","shuffle":false,"paused":true}}
+  File 2: {"command":"status","user":"alice22","timestamp":86,"stats":{"name":"The Future of Music Technology","remainedTime":3199,"repeat":"No Repeat","shuffle":false,"paused":false}}
 
 Diferență la timestampul 3201:
   File 1: {"command":"status","user":"alice22","timestamp":3201,"stats":{"name":"The Future of Music Technology","remainedTime":2785,"repeat":"No Repeat","shuffle":false,"paused":true}}
-  File 2: {"command":"createPlaylist","user":"alice22","timestamp":3210,"message":"Playlist created successfully."}
-
-Diferență la timestampul 3210:
-  File 1: {"command":"createPlaylist","user":"alice22","timestamp":3210,"message":"Playlist created successfully."}
-  File 2: {"command":"search","user":"alice22","timestamp":3215,"results":["Freedom","Freedom"],"message":"Search returned 2 results"}
-
-Diferență la timestampul 3215:
-  File 1: {"command":"search","user":"alice22","timestamp":3215,"message":"Search returned 2 results","results":["Freedom","Freedom"]}
-  File 2: {"command":"select","user":"alice22","timestamp":3220,"message":"Successfully selected Freedom."}
-
-Diferență la timestampul 3220:
-  File 1: {"command":"select","user":"alice22","timestamp":3220,"message":"Successfully selected Freedom."}
-  File 2: {"command":"load","user":"alice22","timestamp":3225,"message":"Playback loaded successfully."}
-
-Diferență la timestampul 3225:
-  File 1: {"command":"load","user":"alice22","timestamp":3225,"message":"Playback loaded successfully."}
-  File 2: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":3230,"message":"Successfully added to playlist."}
-
-Diferență la timestampul 3226:
-  File 1: {"command":"addAnnouncement","user":"soundseeker","timestamp":3226,"message":"soundseeker has successfully added new announcement."}
-  File 2: {"command":"search","user":"alice22","timestamp":3235,"results":["Happier"],"message":"Search returned 1 results"}
-
-Diferență la timestampul 3230:
-  File 1: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":3230,"message":"Successfully added to playlist."}
-  File 2: {"command":"select","user":"alice22","timestamp":3240,"message":"Successfully selected Happier."}
-
-Diferență la timestampul 3235:
-  File 1: {"command":"search","user":"alice22","timestamp":3235,"message":"Search returned 1 results","results":["Happier"]}
-  File 2: {"command":"load","user":"alice22","timestamp":3245,"message":"Playback loaded successfully."}
-
-Diferență la timestampul 3240:
-  File 1: {"command":"select","user":"alice22","timestamp":3240,"message":"Successfully selected Happier."}
-  File 2: {"command":"addUser","timestamp":3247,"user":"magichost","message":"The username magichost has been added successfully."}
-
-Diferență la timestampul 3245:
-  File 1: {"command":"load","user":"alice22","timestamp":3245,"message":"Playback loaded successfully."}
-  File 2: {"command":"addUser","timestamp":3247,"user":"magichost","message":"The username magichost is already taken."}
+  File 2: {"command":"status","user":"alice22","timestamp":3201,"stats":{"name":"The Future of Music Technology","remainedTime":85,"repeat":"No Repeat","shuffle":false,"paused":true}}
 
 Diferență la timestampul 3246:
   File 1: {"command":"removeAnnouncement","user":"soundseeker","timestamp":3246,"message":"soundseeker has no announcement with the given name."}
-  File 2: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":3250,"message":"Successfully added to playlist."}
+  File 2: {"command":"addUser","timestamp":3247,"user":"magichost","message":"The username magichost has been added successfully."}
 
 Diferență la timestampul 3247:
   File 1: {"command":"addUser","user":"magichost","timestamp":3247,"message":"The username magichost has been added successfully."}
-  File 2: {"command":"search","user":"alice22","timestamp":3255,"results":["2010 hits"],"message":"Search returned 1 results"}
+  File 2: {"command":"addUser","timestamp":3247,"user":"magichost","message":"The username magichost is already taken."}
 
 Diferență la timestampul 3247:
   File 1: {"command":"addUser","user":"magichost","timestamp":3247,"message":"The username magichost is already taken."}
-  File 2: {"command":"select","user":"alice22","timestamp":3260,"message":"Successfully selected 2010 hits."}
+  File 2: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":3250,"message":"Successfully added to playlist."}
 
 Diferență la timestampul 3250:
   File 1: {"command":"showPodcasts","user":"soundseeker","timestamp":3250,"result":[{"name":"Auditory Adventures","episodes":["Exploring Sonic Landscapes","The Future of Music Technology","Cultural Beats"]},{"name":"Harmony & History","episodes":["The Roots of Blues","Classical Music's Modern Impact","Jazz Journeys","The Folk Revival"]}]}
-  File 2: {"command":"load","user":"alice22","timestamp":3265,"message":"Playback loaded successfully."}
+  File 2: {"command":"search","user":"alice22","timestamp":3255,"results":["2010 hits"],"message":"Search returned 1 results"}
 
 Diferență la timestampul 3250:
   File 1: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":3250,"message":"Successfully added to playlist."}
-  File 2: {"command":"status","user":"alice22","timestamp":3270,"stats":{"name":"Freedom","remainedTime":173,"repeat":"No Repeat","shuffle":false,"paused":false}}
+  File 2: {"command":"select","user":"alice22","timestamp":3260,"message":"Successfully selected 2010 hits."}
 
 Diferență la timestampul 3251:
   File 1: {"command":"removeAnnouncement","user":"soundseeker","timestamp":3251,"message":"soundseeker has successfully deleted the announcement."}
-  File 2: {"user":"alice22","command":"printCurrentPage","timestamp":3275,"message":"Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"}
+  File 2: {"command":"load","user":"alice22","timestamp":3265,"message":"Playback loaded successfully."}
 
 Diferență la timestampul 3255:
   File 1: {"command":"search","user":"alice22","timestamp":3255,"message":"Search returned 1 results","results":["2010 hits"]}
-  File 2: {"command":"status","user":"alice22","timestamp":3448,"stats":{"name":"Happier","remainedTime":202,"repeat":"No Repeat","shuffle":false,"paused":false}}
+  File 2: {"command":"status","user":"alice22","timestamp":3270,"stats":{"name":"Freedom","remainedTime":173,"repeat":"No Repeat","shuffle":false,"paused":false}}
 
 Diferență la timestampul 3260:
   File 1: {"command":"select","user":"alice22","timestamp":3260,"message":"Successfully selected 2010 hits."}
-  File 2: {"command":"status","user":"alice22","timestamp":4000,"stats":{"name":"","remainedTime":0,"repeat":"No Repeat","shuffle":false,"paused":true}}
+  File 2: {"user":"alice22","command":"printCurrentPage","timestamp":3275,"message":"Invalid page."}
 
 Diferență la timestampul 3265:
   File 1: {"command":"load","user":"alice22","timestamp":3265,"message":"Playback loaded successfully."}
-  File 2: null
+  File 2: {"command":"status","user":"alice22","timestamp":3448,"stats":{"name":"Happier","remainedTime":202,"repeat":"No Repeat","shuffle":false,"paused":false}}
 
 Diferență la timestampul 3270:
   File 1: {"command":"status","user":"alice22","timestamp":3270,"stats":{"name":"Freedom","remainedTime":173,"repeat":"No Repeat","shuffle":false,"paused":false}}
-  File 2: null
+  File 2: {"command":"status","user":"alice22","timestamp":4000,"stats":{"name":"","remainedTime":0,"repeat":"No Repeat","shuffle":false,"paused":true}}
 
 Diferență la timestampul 3275:
   File 1: {"user":"alice22","command":"printCurrentPage","timestamp":3275,"message":"Podcasts:\n\t[Auditory Adventures:\n\t[Exploring Sonic Landscapes - Journey through the world's most unique auditory experiences., The Future of Music Technology - A look into the innovations shaping the future of music production and listening., Cultural Beats - An exploration of how different cultures influence music genres.]\n, Harmony & History:\n\t[The Roots of Blues - Tracing the origins and evolution of blues music., Classical Music's Modern Impact - Discussing how classical music continues to influence contemporary artists., Jazz Journeys - Exploring the rich history and vibrant present of jazz music., The Folk Revival - Examining the resurgence of folk music in modern times.]\n]\n\nAnnouncements:\n\t[Announcement2:\n\tAl doilea anunt adaugat!\n]"}

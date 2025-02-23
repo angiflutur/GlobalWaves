@@ -171,7 +171,7 @@
   "command" : "select",
   "user" : "soundseeker21",
   "timestamp" : 630,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected audiosage's page."
 }, {
   "command" : "search",
   "user" : "carol19",
