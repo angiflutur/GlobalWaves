@@ -1,4 +1,5 @@
 Starting audit...
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:65:5: Method length is 171 lines (max allowed is 150). [MethodLength]
 [ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\CommandParser.java:56:5: Method length is 162 lines (max allowed is 150). [MethodLength]
 Audit done.
-Checkstyle ends with 1 errors.
+Checkstyle ends with 2 errors.

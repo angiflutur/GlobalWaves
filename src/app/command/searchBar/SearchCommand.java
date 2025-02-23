@@ -89,6 +89,7 @@ public class SearchCommand extends Command {
         ArrayList<AudioFile> combinedResultsAudio = new ArrayList<>();
         ArrayList<Playlist> combinedResultsPlaylists = new ArrayList<>();
         ArrayList<String> filteredArtists = new ArrayList<>();
+        ArrayList<User> filteredHosts = new ArrayList<>();
         if ("song".equals(type)) {
             ArrayList<Song> filteredSongs = new ArrayList<>(library.getSongs());
             if (filterName != null) {
@@ -207,8 +208,29 @@ public class SearchCommand extends Command {
                         + filteredArtistUsers.size() + " artists");
             }
         }
+        if ("host".equals(type)) {
+
+            if (filterName != null && !filterName.isEmpty()) {
+                for (User host : library.getUsers()) {
+                    if (host.getType() == User.UserType.HOST
+                            && host.getUsername() != null
+                            && host.getUsername().toLowerCase()
+                            .startsWith(filterName.toLowerCase())) {
+                        filteredHosts.add(host);
+                    }
+                }
+
+                for (User host : filteredHosts) {
+                    resultsArray.add(host.getUsername());
+                }
+
+                resultNode.put("message", "Search returned "
+                        + filteredHosts.size() + " hosts");
+            }
+        }
+
         int totalResults = combinedResultsAudio.size() + combinedResultsPlaylists.size()
-                + filteredArtists.size();
+                + filteredArtists.size() + filteredHosts.size();
         resultNode.put("message", "Search returned " + totalResults + " results");
     }
 

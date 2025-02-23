@@ -74,7 +74,6 @@ public class AddPodcastCommand extends Command {
         }
 
         Podcast newPodcast = new Podcast(podcastName, getUsername(), new ArrayList<>(episodes));
-        System.out.println(podcastName);
         user.addPodcast(newPodcast, library);
 
         result.put("message", getUsername() + " has added new podcast successfully.");

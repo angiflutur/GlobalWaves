@@ -54,8 +54,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 55,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "soundseeker" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",

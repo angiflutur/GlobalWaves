@@ -165,8 +165,8 @@
   "command" : "search",
   "user" : "soundseeker21",
   "timestamp" : 625,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "audiosage" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "soundseeker21",

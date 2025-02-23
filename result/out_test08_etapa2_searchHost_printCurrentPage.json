@@ -34,8 +34,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 50,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "soundseeker" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "addPodcast",
   "user" : "soundseeker",

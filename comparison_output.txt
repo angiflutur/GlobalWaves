@@ -1,7 +1,3 @@
-Diferență la timestampul 55:
-  File 1: {"command":"search","user":"alice22","timestamp":55,"message":"Search returned 1 results","results":["soundseeker"]}
-  File 2: {"command":"search","user":"alice22","timestamp":55,"results":[],"message":"Search returned 0 results"}
-
 Diferență la timestampul 56:
   File 1: {"command":"addAnnouncement","user":"soundseeker","timestamp":56,"message":"soundseeker has successfully added new announcement."}
   File 2: {"command":"select","user":"alice22","timestamp":57,"message":"The selected ID is too high."}
