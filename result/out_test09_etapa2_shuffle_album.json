@@ -20,6 +20,11 @@
   "timestamp" : 172,
   "message" : "melodymaster has added new album successfully."
 }, {
+  "command" : "addEvent",
+  "user" : "melodymaster",
+  "timestamp" : 185,
+  "message" : "melodymaster has added new event successfully."
+}, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 190,
@@ -104,6 +109,11 @@
   "timestamp" : 390,
   "message" : "Successfully selected Elevate."
 }, {
+  "command" : "addEvent",
+  "user" : "melodymaster",
+  "timestamp" : 395,
+  "message" : "melodymaster has added new event successfully."
+}, {
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 400,
@@ -129,6 +139,11 @@
   "user" : "bob35",
   "timestamp" : 433,
   "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "addMerch",
+  "user" : "melodymaster",
+  "timestamp" : 433,
+  "message" : "melodymaster has added new merchandise successfully."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -166,6 +181,11 @@
   "user" : "carol19",
   "timestamp" : 690,
   "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "addEvent",
+  "user" : "melodymaster",
+  "timestamp" : 785,
+  "message" : "melodymaster has another event with the same name."
 }, {
   "command" : "repeat",
   "user" : "carol19",

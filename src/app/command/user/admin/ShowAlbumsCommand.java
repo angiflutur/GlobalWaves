@@ -41,9 +41,6 @@ public class ShowAlbumsCommand extends Command {
                 album.getSongs().forEach(song -> songsNode.add(song.getName()));
             });
 
-            if (albumsNode.size() == 0) {
-                resultNode.put("message", "No albums found for artist " + username + ".");
-            }
         } else {
             resultNode.put("message", "The username " + username + " is not an artist.");
         }

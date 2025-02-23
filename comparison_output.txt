@@ -1,16 +1,56 @@
-Diferență la timestampul 480:
-  File 1: {"user":"alice22","command":"printCurrentPage","timestamp":480,"message":"Liked songs:\n\t[Melodic Mirage]\n\nFollowed playlists:\n\t[]"}
-  File 2: {"command":"addAlbum","user":"melodymaster","timestamp":515,"message":"melodymaster already has an album with this name."}
+Diferență la timestampul 65:
+  File 1: {"command":"search","user":"alice22","timestamp":65,"message":"Search returned 1 results","results":["melodymaster"]}
+  File 2: {"command":"search","user":"alice22","timestamp":65,"results":[],"message":"Search returned 0 results"}
 
-Diferență la timestampul 515:
-  File 1: {"command":"addAlbum","user":"melodymaster","timestamp":515,"message":"melodymaster has another album with the same name."}
-  File 2: {"command":"showAlbums","user":"melodymaster","timestamp":550,"result":[{"name":"Harmonic Horizons","songs":["Vibrant Echoes","Synth Symphony","Retro Rhythms","Digital Dreams","Night Pulse"]},{"name":"Echoes of Harmony","songs":["Melodic Mirage","Pop Serenade"]}]}
+Diferență la timestampul 70:
+  File 1: {"command":"select","user":"alice22","timestamp":70,"message":"Successfully selected melodymaster's page."}
+  File 2: {"command":"select","user":"alice22","timestamp":70,"message":"The selected ID is too high."}
 
-Diferență la timestampul 550:
-  File 1: {"command":"showAlbums","user":"melodymaster","timestamp":550,"result":[{"name":"Harmonic Horizons","songs":["Vibrant Echoes","Synth Symphony","Retro Rhythms","Digital Dreams","Night Pulse"]},{"name":"Echoes of Harmony","songs":["Melodic Mirage","Pop Serenade"]}]}
-  File 2: {"command":"addAlbum","user":"melodymaster","timestamp":560,"message":"melodymaster has the same song at least twice in this album."}
+Diferență la timestampul 75:
+  File 1: {"user":"alice22","command":"printCurrentPage","timestamp":75,"message":"Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance.]"}
+  File 2: {"command":"addMerch","user":"melodymaster","timestamp":80,"message":"melodymaster has added new merchandise successfully."}
 
-Diferență la timestampul 560:
-  File 1: {"command":"addAlbum","user":"melodymaster","timestamp":560,"message":"melodymaster has the same song at least twice in this album."}
+Diferență la timestampul 80:
+  File 1: {"command":"addMerch","user":"melodymaster","timestamp":80,"message":"melodymaster has added new merchandise successfully."}
+  File 2: {"command":"addMerch","user":"melodymaster","timestamp":85,"message":"melodymaster has added new merchandise successfully."}
+
+Diferență la timestampul 85:
+  File 1: {"command":"addMerch","user":"melodymaster","timestamp":85,"message":"melodymaster has added new merchandise successfully."}
+  File 2: {"command":"switchConnectionStatus","user":"alice22","timestamp":87,"message":"alice22 has changed status successfully."}
+
+Diferență la timestampul 87:
+  File 1: {"command":"switchConnectionStatus","user":"alice22","timestamp":87,"message":"alice22 has changed status successfully."}
+  File 2: {"command":"addMerch","user":"melodymaster","timestamp":90,"message":"Price for merchandise can not be negative."}
+
+Diferență la timestampul 90:
+  File 1: {"command":"addMerch","user":"melodymaster","timestamp":90,"message":"Price for merchandise can not be negative."}
+  File 2: {"command":"addMerch","user":"Melodic Hoodie","timestamp":95,"message":"The username Melodic Hoodie doesn't exist."}
+
+Diferență la timestampul 95:
+  File 1: {"command":"addMerch","user":"Melodic Hoodie","timestamp":95,"message":"The username Melodic Hoodie doesn't exist."}
+  File 2: {"command":"addMerch","user":"melodymaster","timestamp":100,"message":"melodymaster has merchandise with the same name."}
+
+Diferență la timestampul 100:
+  File 1: {"command":"addMerch","user":"melodymaster","timestamp":100,"message":"melodymaster has merchandise with the same name."}
+  File 2: {"command":"search","user":"alice22","timestamp":105,"message":"alice22 is offline.","results":[]}
+
+Diferență la timestampul 105:
+  File 1: {"command":"search","user":"alice22","timestamp":105,"message":"alice22 is offline.","results":[]}
+  File 2: {"command":"search","user":"bob35","timestamp":105,"results":[],"message":"Search returned 0 results"}
+
+Diferență la timestampul 105:
+  File 1: {"command":"search","user":"bob35","timestamp":105,"message":"Search returned 1 results","results":["melodymaster"]}
+  File 2: {"command":"select","user":"bob35","timestamp":110,"message":"The selected ID is too high."}
+
+Diferență la timestampul 110:
+  File 1: {"command":"select","user":"bob35","timestamp":110,"message":"Successfully selected melodymaster's page."}
+  File 2: null
+
+Diferență la timestampul 115:
+  File 1: {"user":"alice22","command":"printCurrentPage","timestamp":115,"message":"alice22 is offline."}
+  File 2: null
+
+Diferență la timestampul 120:
+  File 1: {"user":"bob35","command":"printCurrentPage","timestamp":120,"message":"Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork.]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance.]"}
   File 2: null
 

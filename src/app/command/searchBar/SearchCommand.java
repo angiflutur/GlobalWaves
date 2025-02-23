@@ -94,6 +94,11 @@ public class SearchCommand extends Command {
         ArrayList<AudioFile> combinedResultsAudio = new ArrayList<>();
         ArrayList<Playlist> combinedResultsPlaylists = new ArrayList<>();
 
+        ObjectNode resultNode = output.addObject();
+        resultNode.put("command", "search");
+        resultNode.put("user", getUsername());
+        resultNode.put("timestamp", getTimestamp());
+
         if ("song".equals(type)) {
             ArrayList<Song> filteredSongs = new ArrayList<>(library.getSongs());
 
@@ -184,16 +189,10 @@ public class SearchCommand extends Command {
             combinedResultsPlaylists.addAll(filteredPlaylists);
         }
 
-
         combinedResultsAudio = new ArrayList<>(combinedResultsAudio.subList(0,
                 Math.min(MAX_FILTER_LENGTH, combinedResultsAudio.size())));
 
         updateLastSearchResults(combinedResultsAudio, combinedResultsPlaylists);
-
-        ObjectNode resultNode = output.addObject();
-        resultNode.put("command", "search");
-        resultNode.put("user", getUsername());
-        resultNode.put("timestamp", getTimestamp());
 
         ArrayNode resultsArray = resultNode.putArray("results");
 

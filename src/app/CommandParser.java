@@ -25,6 +25,8 @@ import app.command.stats.ShowPreferredSongsCommand;
 import app.command.user.admin.AddUserCommand;
 import app.command.user.admin.ShowAlbumsCommand;
 import app.command.user.artist.AddAlbumCommand;
+import app.command.user.artist.AddEventCommand;
+import app.command.user.artist.AddMerchCommand;
 import app.entities.Command;
 import app.entities.User;
 import app.entities.audio.file.Song;
@@ -167,6 +169,28 @@ public final class CommandParser {
                         albumName, releaseYear, description, songs);
             case "showAlbums":
                 return new ShowAlbumsCommand(username, timestamp);
+            case "addEvent":
+                String eventName = jsonNode.has("name")
+                        ? jsonNode.get("name").asText() : null;
+                String eventDescription = jsonNode.has("description")
+                        ? jsonNode.get("description").asText() : null;
+                String eventDate = jsonNode.has("date")
+                        ? jsonNode.get("date").asText() : null;
+
+                return new AddEventCommand(username,
+                        timestamp, eventName,
+                        eventDescription, eventDate);
+            case "addMerch":
+                String merchName = jsonNode.has("name")
+                        ? jsonNode.get("name").asText() : null;
+                String merchDescription = jsonNode.has("description")
+                        ? jsonNode.get("description").asText() : null;
+                Double merchPrice = jsonNode.has("price")
+                        ? jsonNode.get("price").asDouble() : null;
+
+                return new AddMerchCommand(username, timestamp,
+                        merchName, merchDescription, merchPrice);
+
             default:
                 return new UnknownCommand(username, timestamp);
         }

@@ -25,7 +25,9 @@ public class GetOnlineUsersCommand extends Command {
         ArrayNode resultArray = output.objectNode().putArray("result");
 
         for (User user : library.getUsers()) {
-            if (user.isOnline()) {
+            if (user.getType() != User.UserType.ARTIST
+                    && user.getType() != User.UserType.HOST
+                    && user.isOnline()) {
                 resultArray.add(user.getUsername());
             }
         }

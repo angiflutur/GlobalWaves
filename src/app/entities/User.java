@@ -6,6 +6,7 @@ import app.entities.audio.collection.Playlist;
 import app.entities.audio.file.Song;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class User {
     private String username;
@@ -17,6 +18,8 @@ public class User {
     private Player player;
     private boolean isOnline = true;
     private ArrayList<Album> albums = new ArrayList<>();
+    private List<List<String>> events = new ArrayList<>();
+    private List<List<String>> merch = new ArrayList<>();
 
     public enum UserType {
         USER, ARTIST, HOST
@@ -42,6 +45,41 @@ public class User {
         this.likedSongs = new ArrayList<>();
         this.player = Player.getInstance();
         this.type = type;
+    }
+    /**
+     * JAVADOC
+     */
+    public void addMerch(final String name,
+                         final String description,
+                         final Double price) {
+        List<String> merchItem = new ArrayList<>();
+        merchItem.add(name);
+        merchItem.add(description);
+        merchItem.add(price.toString());
+        merch.add(merchItem);
+    }
+    /**
+     * JAVADOC
+     */
+    public List<List<String>> getMerch() {
+        return merch;
+    }
+    /**
+     * JAVADOC
+     */
+    public void addEvent(final String eventName,
+                         final String eventDate) {
+        List<String> event = new ArrayList<>();
+        event.add(eventName);
+        event.add(eventDate);
+        this.events.add(event);
+    }
+
+    /**
+     * JAVADOC
+     */
+    public List<List<String>> getEvents() {
+        return this.events;
     }
     /**
      * JAVADOC
