@@ -44,15 +44,20 @@ public class SelectCommand extends Command {
             return;
         }
 
-        ArrayList<Object> combinedResults = new ArrayList<>();
-        combinedResults.addAll(SearchCommand.getLastSearchResultsAudio());
-        combinedResults.addAll(SearchCommand.getLastSearchResultsPlaylists());
-        combinedResults.addAll(SearchCommand.getLastSearchResultsArtists());
-
         Player player = PlayerManager.getPlayer(getUsername());
+
+        ArrayList<AudioFile> lastSearchResultsAudio = player.getLastSearchResultsAudio();
+        ArrayList<Playlist> lastSearchResultsPlaylists = player.getLastSearchResultsPlaylists();
+        ArrayList<User> lastSearchResultsArtists = player.getLastSearchResultsArtists();
+
+        ArrayList<Object> combinedResults = new ArrayList<>();
+        combinedResults.addAll(lastSearchResultsAudio);
+        combinedResults.addAll(lastSearchResultsPlaylists);
+        combinedResults.addAll(lastSearchResultsArtists);
+
         player.setRepeatState(0);
 
-        if (!SearchCommand.getIsSearching()) {
+        if (!player.getIsSearching()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "select");
             resultNode.put("user", getUsername());
@@ -80,10 +85,12 @@ public class SelectCommand extends Command {
             selectedAudioFile = (AudioFile) selectedItem;
             resultNode.put("message", "Successfully selected "
                     + selectedAudioFile.getName() + ".");
+            player.updateLastSearchResults(new ArrayList<AudioFile>() {{ add(selectedAudioFile); }}, new ArrayList<Playlist>());
         } else if (selectedItem instanceof Playlist) {
             selectedPlaylist = (Playlist) selectedItem;
             resultNode.put("message", "Successfully selected "
                     + selectedPlaylist.getName() + ".");
+            player.updateLastSearchResults(new ArrayList<AudioFile>(), new ArrayList<Playlist>() {{ add(selectedPlaylist); }});
         } else if (selectedItem instanceof User) {
             User selectedUser = (User) selectedItem;
             resultNode.put("message", "Successfully selected "
@@ -94,12 +101,13 @@ public class SelectCommand extends Command {
             } else if (selectedUser.getType() == User.UserType.HOST) {
                 user.setCurrentPage(User.PageType.HOST_PAGE);
             }
+            player.updateLastSearchArtists(new ArrayList<User>() {{ add(selectedArtist); }});
         }
 
         player.setCurrentPlaylist(selectedItem instanceof Playlist
                 ? (Playlist) selectedItem : null);
-        SearchCommand.clearLastSearchResults();
-        SearchCommand.setIsSearching(false);
+        player.clearLastSearchResults();
+        player.setIsSearching(false);
     }
     /**
      * JAVADOC

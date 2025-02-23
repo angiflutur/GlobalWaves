@@ -3,8 +3,8 @@ package app.command.searchBar;
 import app.entities.Command;
 import app.entities.Player;
 import app.entities.PlayerManager;
-import app.entities.SearchBar;
 import app.entities.User;
+import app.entities.SearchBar;
 import app.entities.audio.collection.Album;
 import app.entities.audio.collection.Library;
 import app.entities.audio.collection.Playlist;
@@ -18,7 +18,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import java.util.ArrayList;
 
 /**
- * JAVADOC
+ * Handle the search command.
  */
 public class SearchCommand extends Command {
     private String type;
@@ -31,13 +31,10 @@ public class SearchCommand extends Command {
     private ArrayNode filterTags;
     private String filterOwner;
     private static final int MAX_FILTER_LENGTH = 5;
-    private static ArrayList<AudioFile> lastSearchResultsAudio = new ArrayList<>();
-    private static ArrayList<Playlist> lastSearchResultsPlaylists = new ArrayList<>();
-    private static ArrayList<User> lastSearchResultsArtists = new ArrayList<>();
-    private static boolean isSearching = false;
+
 
     /**
-     * JAVADOC
+     * Constructor for the search command.
      */
     public SearchCommand(final String username,
                          final int timestamp,
@@ -63,12 +60,14 @@ public class SearchCommand extends Command {
     }
 
     /**
-     * JAVADOC
+     * Execute the search command and update the output.
      */
     @Override
     public void execute(final ArrayNode output, final Library library) {
-        isSearching = true;
+        Player player = PlayerManager.getPlayer(getUsername());
+        player.setIsSearching(true);
         User user = library.getUser(getUsername());
+
         if (user == null || !user.isOnline()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "search");
@@ -78,7 +77,7 @@ public class SearchCommand extends Command {
             ArrayNode resultsArray = resultNode.putArray("results");
             return;
         }
-        Player player = PlayerManager.getPlayer(getUsername());
+
         if (player.isLoaded()) {
             if (player.getCurrentAudio() instanceof Podcast) {
                 player.updateRemainingTime(getTimestamp());
@@ -86,20 +85,18 @@ public class SearchCommand extends Command {
             player.setLoaded(false);
             player.setPaused(true);
         }
+
         SelectCommand.setSelectedAudioFile(null);
         SelectCommand.setSelectedPlaylist(null);
+
         SearchBar searchBar = new SearchBar(library);
         ArrayList<AudioFile> combinedResultsAudio = new ArrayList<>();
         ArrayList<Playlist> combinedResultsPlaylists = new ArrayList<>();
-
-        ObjectNode resultNode = output.addObject();
-        resultNode.put("command", "search");
-        resultNode.put("user", getUsername());
-        resultNode.put("timestamp", getTimestamp());
-        ArrayNode resultsArray = resultNode.putArray("results");
+        ArrayList<String> filteredArtists = new ArrayList<>();
 
         if ("song".equals(type)) {
             ArrayList<Song> filteredSongs = new ArrayList<>(library.getSongs());
+
             if (filterName != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByName(filterName));
                 for (User albumOwner : library.getUsers()) {
@@ -114,6 +111,7 @@ public class SearchCommand extends Command {
                     }
                 }
             }
+
             if (filterAlbum != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByAlbum(filterAlbum));
             }
@@ -137,16 +135,20 @@ public class SearchCommand extends Command {
                         genreFilteredSongs.add(song);
                     }
                 }
+
                 filteredSongs = genreFilteredSongs;
             }
+
             if (filterReleaseYear != null) {
                 filteredSongs.retainAll(searchBar.searchSongsByReleaseYear(filterReleaseYear));
             }
             if (filterArtist != null) {
                 filteredSongs.removeIf(song -> !song.getArtist().equals(filterArtist));
             }
+
             combinedResultsAudio.addAll(filteredSongs);
         }
+
         if ("podcast".equals(type)) {
             ArrayList<Podcast> filteredPodcasts = new ArrayList<>();
             if (filterName != null) {
@@ -159,108 +161,75 @@ public class SearchCommand extends Command {
         }
 
         if ("playlist".equals(type)) {
-            ArrayList<Playlist> filteredPlaylists =
-                    new ArrayList<>(library.getPlaylists().values());
+            ArrayList<Playlist> filteredPlaylists
+                    = new ArrayList<>(library.getPlaylists().values());
+
             if (filterName != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByName(filterName));
             }
             if (filterOwner != null) {
                 filteredPlaylists.retainAll(searchBar.searchPlaylistsByOwner(filterOwner));
             }
-            filteredPlaylists.removeIf(playlist -> {
-                return !playlist.isPublic()
-                        && !playlist.getOwner().getUsername().equals(getUsername());
-            });
-            filteredPlaylists.sort((p1, p2)
-                    -> Long.compare(p1.getCreationTime(), p2.getCreationTime()));
+
+            filteredPlaylists.removeIf(playlist -> !playlist.isPublic()
+                    && !playlist.getOwner().getUsername().equals(getUsername()));
             combinedResultsPlaylists.addAll(filteredPlaylists);
-            for (Playlist playlist : combinedResultsPlaylists) {
-                resultsArray.add(playlist.getName());
-            }
-        }
-
-        if ("artist".equals(type)) {
-            ArrayList<User> filteredArtists = new ArrayList<>();
-            for (User u : library.getUsers()) {
-                if (u.getType() == User.UserType.ARTIST
-                        && u.getUsername().toLowerCase().startsWith(filterName.toLowerCase())) {
-                    filteredArtists.add(u);
-                }
-            }
-            for (User artist : filteredArtists) {
-                resultsArray.add(artist.getUsername());
-            }
-            resultNode.put("message", "Search returned "
-                    + filteredArtists.size() + " artists");
-
-            lastSearchResultsArtists = new ArrayList<>(filteredArtists);
         }
 
         combinedResultsAudio = new ArrayList<>(combinedResultsAudio.subList(0,
                 Math.min(MAX_FILTER_LENGTH, combinedResultsAudio.size())));
 
-        updateLastSearchResults(combinedResultsAudio, combinedResultsPlaylists);
+        player.updateLastSearchResults(combinedResultsAudio, combinedResultsPlaylists);
+
+        ObjectNode resultNode = output.addObject();
+        resultNode.put("command", "search");
+        resultNode.put("user", getUsername());
+        resultNode.put("timestamp", getTimestamp());
+
+        ArrayNode resultsArray = resultNode.putArray("results");
 
         for (AudioFile audioFile : combinedResultsAudio) {
             resultsArray.add(audioFile.getName());
         }
 
-        int totalResults = combinedResultsAudio.size()
-                + combinedResultsPlaylists.size()
-                + lastSearchResultsArtists.size();
+        if ("playlist".equals(type)) {
+            for (Playlist playlist : combinedResultsPlaylists) {
+                resultsArray.add(playlist.getName());
+            }
+        }
+        if ("artist".equals(type)) {
+            if (filterName != null && !filterName.isEmpty()) {
+                for (User artist : library.getUsers()) {
+                    if (artist.getType() == User.UserType.ARTIST
+                            && artist.getUsername() != null
+                            && artist.getUsername().toLowerCase().startsWith(filterName.toLowerCase())) {
+                        filteredArtists.add(artist.getUsername());
+                    }
+                }
+
+                ArrayList<User> filteredArtistUsers = new ArrayList<>();
+                for (String artistUsername : filteredArtists) {
+                    User artist = library.getUser(artistUsername);
+                    if (artist != null) {
+                        filteredArtistUsers.add(artist);
+                    }
+                }
+
+                for (String artist : filteredArtists) {
+                    resultsArray.add(artist);
+                }
+
+                if (!filteredArtistUsers.isEmpty()) {
+                    player.updateLastSearchArtists(filteredArtistUsers);
+                }
+
+                resultNode.put("message", "Search returned " + filteredArtistUsers.size() + " artists");
+            }
+        }
+
+        int totalResults = combinedResultsAudio.size() + combinedResultsPlaylists.size()
+                + filteredArtists.size();
         resultNode.put("message", "Search returned " + totalResults + " results");
     }
 
-    /**
-     * JAVADOC
-     */
-    public static void updateLastSearchResults(final ArrayList<AudioFile> searchResultsAudio,
-                                               final ArrayList<Playlist> searchResultsPlaylists) {
-        lastSearchResultsAudio = searchResultsAudio;
-        lastSearchResultsPlaylists = searchResultsPlaylists;
-    }
-
-    /**
-     * JAVADOC
-     */
-    public static ArrayList<AudioFile> getLastSearchResultsAudio() {
-        return lastSearchResultsAudio;
-    }
-
-    /**
-     * JAVADOC
-     */
-    public static ArrayList<Playlist> getLastSearchResultsPlaylists() {
-        return lastSearchResultsPlaylists;
-    }
-
-    /**
-     * JAVADOC
-     */
-    public static ArrayList<User> getLastSearchResultsArtists() {
-        return lastSearchResultsArtists;
-    }
-
-    /**
-     * JAVADOC
-     */
-    public static void clearLastSearchResults() {
-        lastSearchResultsAudio.clear();
-        lastSearchResultsPlaylists.clear();
-        lastSearchResultsArtists.clear();
-    }
-
-    /**
-     * JAVADOC
-     */
-    public static boolean getIsSearching() {
-        return isSearching;
-    }
-
-    /**
-     * JAVADOC
-     */
-    public static void setIsSearching(final boolean isSearching) {
-        SearchCommand.isSearching = isSearching;
-    }
 }

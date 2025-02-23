@@ -24,6 +24,11 @@ public class Player {
     private boolean isShuffleActive;
     private ArrayList<Integer> shuffleIndices;
 
+    private boolean isSearching = false;
+    private ArrayList<AudioFile> lastSearchResultsAudio = new ArrayList<>();
+    private ArrayList<Playlist> lastSearchResultsPlaylists = new ArrayList<>();
+    private ArrayList<User> lastSearchResultsArtists = new ArrayList<>();
+
     /**
      * JAVADOC
      */
@@ -455,5 +460,74 @@ public class Player {
      */
     public void setCurrentAudio(final AudioFile currentAudio) {
         this.currentAudio = currentAudio;
+    }
+    /**
+     *
+     */
+    public void setLastSearchResultsAudio(ArrayList<AudioFile> lastSearchResultsAudio) {
+        this.lastSearchResultsAudio = lastSearchResultsAudio;
+    }
+    /**
+     *
+     */
+    public ArrayList<AudioFile> getLastSearchResultsAudio() {
+        return this.lastSearchResultsAudio;
+    }
+    /**
+     *
+     */
+    public ArrayList<Playlist> getLastSearchResultsPlaylists() {
+        return lastSearchResultsPlaylists;
+    }
+    /**
+     *
+     */
+    public void setLastSearchResultsPlaylists(ArrayList<Playlist> lastSearchResultsPlaylists) {
+        this.lastSearchResultsPlaylists = lastSearchResultsPlaylists;
+    }
+    /**
+     *
+     */
+    public ArrayList<User> getLastSearchResultsArtists() {
+        return lastSearchResultsArtists;
+    }
+    /**
+     *
+     */
+    public void setLastSearchResultsArtists(ArrayList<User> lastSearchResultsArtists) {
+        this.lastSearchResultsArtists = lastSearchResultsArtists;
+    }
+    /**
+     *
+     */
+    public void updateLastSearchResults(ArrayList<AudioFile> audioFiles, ArrayList<Playlist> playlists) {
+        this.lastSearchResultsAudio = audioFiles;
+        this.lastSearchResultsPlaylists = playlists;
+    }
+    /**
+     *
+     */
+    public void updateLastSearchArtists(ArrayList<User> artists) {
+        this.lastSearchResultsArtists = artists;
+    }
+    /**
+     *
+     */
+    public void clearLastSearchResults() {
+        this.lastSearchResultsAudio.clear();
+        this.lastSearchResultsPlaylists.clear();
+        this.lastSearchResultsArtists.clear();
+    }
+    /**
+     *
+     */
+    public boolean getIsSearching() {
+        return this.isSearching;
+    }
+    /**
+     *
+     */
+    public void setIsSearching(boolean isSearching) {
+        this.isSearching = isSearching;
     }
 }

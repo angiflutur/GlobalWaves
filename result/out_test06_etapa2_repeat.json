@@ -34,7 +34,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 25,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected Retro Rhythms."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -229,7 +229,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1025,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My favourite songs."
 }, {
   "command" : "search",
   "user" : "alice22",

@@ -6020,13 +6020,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 8729,
-  "results" : [ "Breezy Melodies Expedition #1", "Chill Tunes Safari #2" ],
+  "results" : [ "Chill Tunes Safari #2", "Breezy Melodies Expedition #1" ],
   "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 8730,
-  "message" : "Successfully selected Breezy Melodies Expedition #1."
+  "message" : "Successfully selected Chill Tunes Safari #2."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -6100,13 +6100,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8779,
-  "results" : [ "Chill Tunes Voyage #1", "Breezy Bangers Expedition #2" ],
+  "results" : [ "Breezy Bangers Expedition #2", "Chill Tunes Voyage #1" ],
   "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 8780,
-  "message" : "Successfully selected Chill Tunes Voyage #1."
+  "message" : "Successfully selected Breezy Bangers Expedition #2."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -6196,8 +6196,8 @@
   "user" : "emily30",
   "timestamp" : 8829,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 173,
+    "name" : "Begin Again",
+    "remainedTime" : 140,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6298,8 +6298,8 @@
   "user" : "jack29",
   "timestamp" : 8879,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 114,
+    "name" : "Don't",
+    "remainedTime" : 121,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6388,8 +6388,8 @@
   "user" : "emily30",
   "timestamp" : 8929,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 173,
+    "name" : "Begin Again",
+    "remainedTime" : 140,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6473,8 +6473,8 @@
   "user" : "jack29",
   "timestamp" : 8979,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 14,
+    "name" : "Don't",
+    "remainedTime" : 21,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6558,8 +6558,8 @@
   "user" : "emily30",
   "timestamp" : 9029,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 73,
+    "name" : "Begin Again",
+    "remainedTime" : 40,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6638,8 +6638,8 @@
   "user" : "jack29",
   "timestamp" : 9079,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 146,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 192,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6649,8 +6649,8 @@
   "user" : "jack29",
   "timestamp" : 9079,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 146,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 192,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6734,8 +6734,8 @@
   "user" : "emily30",
   "timestamp" : 9129,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 185,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 211,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6825,8 +6825,8 @@
   "user" : "jack29",
   "timestamp" : 9179,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 46,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6836,8 +6836,8 @@
   "user" : "jack29",
   "timestamp" : 9179,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 46,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6915,19 +6915,19 @@
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 9229,
-  "message" : "Returned to previous track successfully. The current track is Start Me Up."
+  "message" : "Returned to previous track successfully. The current track is Gimme Shelter."
 }, {
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 9229,
-  "message" : "Returned to previous track successfully. The current track is Gimme Shelter."
+  "message" : "Returned to previous track successfully. The current track is Begin Again."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9229,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 271,
+    "name" : "Begin Again",
+    "remainedTime" : 238,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7011,8 +7011,8 @@
   "user" : "jack29",
   "timestamp" : 9279,
   "stats" : {
-    "name" : "Paint It Black",
-    "remainedTime" : 148,
+    "name" : "Under Pressure",
+    "remainedTime" : 236,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7092,8 +7092,8 @@
   "user" : "emily30",
   "timestamp" : 9329,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 171,
+    "name" : "Begin Again",
+    "remainedTime" : 138,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7103,8 +7103,8 @@
   "user" : "emily30",
   "timestamp" : 9329,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 171,
+    "name" : "Begin Again",
+    "remainedTime" : 138,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7204,8 +7204,8 @@
   "user" : "jack29",
   "timestamp" : 9379,
   "stats" : {
-    "name" : "Paint It Black",
-    "remainedTime" : 48,
+    "name" : "Under Pressure",
+    "remainedTime" : 136,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7294,8 +7294,8 @@
   "user" : "emily30",
   "timestamp" : 9429,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 71,
+    "name" : "Begin Again",
+    "remainedTime" : 38,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7389,8 +7389,8 @@
   "user" : "jack29",
   "timestamp" : 9479,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 138,
+    "name" : "Under Pressure",
+    "remainedTime" : 36,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7485,8 +7485,8 @@
   "user" : "emily30",
   "timestamp" : 9529,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 242,
+    "name" : "Begin Again",
+    "remainedTime" : 176,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7567,7 +7567,7 @@
   "timestamp" : 9579,
   "stats" : {
     "name" : "The Man",
-    "remainedTime" : 38,
+    "remainedTime" : 126,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7578,7 +7578,7 @@
   "timestamp" : 9579,
   "stats" : {
     "name" : "The Man",
-    "remainedTime" : 38,
+    "remainedTime" : 126,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7662,8 +7662,8 @@
   "user" : "emily30",
   "timestamp" : 9629,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 142,
+    "name" : "Begin Again",
+    "remainedTime" : 76,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7748,8 +7748,8 @@
   "user" : "jack29",
   "timestamp" : 9679,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 169,
+    "name" : "The Man",
+    "remainedTime" : 26,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -7827,14 +7827,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 9729,
-  "message" : "Skipped to next track successfully. The current track is Start Me Up."
+  "message" : "Skipped to next track successfully. The current track is Delicate."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9729,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 212,
+    "name" : "Delicate",
+    "remainedTime" : 232,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7918,8 +7918,8 @@
   "user" : "jack29",
   "timestamp" : 9779,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 69,
+    "name" : "Start Me Up",
+    "remainedTime" : 138,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -7929,8 +7929,8 @@
   "user" : "jack29",
   "timestamp" : 9779,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 69,
+    "name" : "Start Me Up",
+    "remainedTime" : 138,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8020,8 +8020,8 @@
   "user" : "emily30",
   "timestamp" : 9829,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 112,
+    "name" : "Delicate",
+    "remainedTime" : 132,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8104,14 +8104,14 @@
   "command" : "prev",
   "user" : "jack29",
   "timestamp" : 9879,
-  "message" : "Returned to previous track successfully. The current track is Delicate."
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 9879,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8195,8 +8195,8 @@
   "user" : "emily30",
   "timestamp" : 9929,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 12,
+    "name" : "Delicate",
+    "remainedTime" : 32,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8275,8 +8275,8 @@
   "user" : "jack29",
   "timestamp" : 9979,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 132,
+    "name" : "Start Me Up",
+    "remainedTime" : 112,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8286,8 +8286,8 @@
   "user" : "jack29",
   "timestamp" : 9979,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 132,
+    "name" : "Start Me Up",
+    "remainedTime" : 112,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8370,14 +8370,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 10029,
-  "message" : "Skipped to next track successfully. The current track is Gimme Shelter."
+  "message" : "Skipped to next track successfully. The current track is Don't."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 10029,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 271,
+    "name" : "Don't",
+    "remainedTime" : 219,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8467,8 +8467,8 @@
   "user" : "jack29",
   "timestamp" : 10079,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 32,
+    "name" : "Start Me Up",
+    "remainedTime" : 12,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -8557,8 +8557,8 @@
   "user" : "emily30",
   "timestamp" : 10129,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 171,
+    "name" : "Don't",
+    "remainedTime" : 119,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -8653,8 +8653,8 @@
   "user" : "jack29",
   "timestamp" : 10179,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 319,
+    "name" : "Paint It Black",
+    "remainedTime" : 114,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -8738,8 +8738,8 @@
   "user" : "emily30",
   "timestamp" : 10229,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 171,
+    "name" : "Don't",
+    "remainedTime" : 119,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
@@ -8824,8 +8824,8 @@
   "user" : "jack29",
   "timestamp" : 10279,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 219,
+    "name" : "Paint It Black",
+    "remainedTime" : 14,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : true
@@ -9038,7 +9038,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9079,12 +9079,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9293,7 +9293,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10369,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9334,12 +9334,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10369,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10369,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -9548,7 +9548,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9589,12 +9589,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9803,7 +9803,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10469,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9844,12 +9844,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10469,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10469,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10058,7 +10058,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10099,12 +10099,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -10313,7 +10313,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10569,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10354,12 +10354,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10569,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10569,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10568,7 +10568,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10609,12 +10609,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -10823,7 +10823,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10669,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10864,12 +10864,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10669,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10669,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -11078,7 +11078,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11119,12 +11119,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -11333,7 +11333,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10769,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11374,12 +11374,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10769,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10769,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -11588,7 +11588,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11629,12 +11629,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -11843,7 +11843,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10869,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11884,12 +11884,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10869,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10869,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12098,7 +12098,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12139,12 +12139,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12353,7 +12353,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10969,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -12394,12 +12394,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10969,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10969,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12608,7 +12608,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12649,12 +12649,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12863,7 +12863,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11069,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -12904,12 +12904,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11069,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11069,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13118,7 +13118,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13159,12 +13159,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -13373,7 +13373,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11169,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13414,12 +13414,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11169,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11169,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13628,7 +13628,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13669,12 +13669,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -13883,7 +13883,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11269,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13924,12 +13924,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11269,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11269,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -14138,7 +14138,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14179,12 +14179,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -14393,7 +14393,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11369,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14434,12 +14434,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11369,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11369,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -14648,7 +14648,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14689,12 +14689,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -14903,7 +14903,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11469,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14944,12 +14944,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11469,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11469,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -15158,7 +15158,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15199,12 +15199,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -15413,7 +15413,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11569,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15454,12 +15454,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11569,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11569,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -15668,7 +15668,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15709,12 +15709,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -15923,7 +15923,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11669,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15964,12 +15964,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11669,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11669,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -16178,7 +16178,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16219,12 +16219,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -16433,7 +16433,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11769,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16474,12 +16474,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11769,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11769,
-  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21438,13 +21438,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13449,
-  "results" : [ "Chill Tunes Voyage #1", "Breezy Bangers Expedition #2" ],
+  "results" : [ "Breezy Bangers Expedition #2", "Chill Tunes Voyage #1" ],
   "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 13449,
-  "message" : "Successfully selected Breezy Bangers Expedition #2."
+  "message" : "Successfully selected Chill Tunes Voyage #1."
 }, {
   "command" : "follow",
   "user" : "jack29",
@@ -22238,13 +22238,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13949,
-  "results" : [ "Chill Tunes Voyage #1", "Breezy Bangers Expedition #2" ],
+  "results" : [ "Breezy Bangers Expedition #2", "Chill Tunes Voyage #1" ],
   "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 13949,
-  "message" : "Successfully selected Breezy Bangers Expedition #2."
+  "message" : "Successfully selected Chill Tunes Voyage #1."
 }, {
   "command" : "follow",
   "user" : "jack29",
@@ -22878,7 +22878,7 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 14349,
-  "results" : [ "Chill Tunes Voyage #1", "Breezy Bangers Expedition #2" ],
+  "results" : [ "Breezy Bangers Expedition #2", "Chill Tunes Voyage #1" ],
   "message" : "Search returned 2 results"
 }, {
   "command" : "select",
@@ -23629,7 +23629,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 14799,
-  "result" : [ "Start Me Up" ]
+  "result" : [ "Delicate" ]
 }, {
   "command" : "showPlaylists",
   "user" : "frank21",
@@ -23729,7 +23729,7 @@
   "command" : "showPreferredSongs",
   "user" : "jack29",
   "timestamp" : 14849,
-  "result" : [ "The Man", "Money Trees" ]
+  "result" : [ "Under Pressure", "Paint It Black" ]
 }, {
   "command" : "getAllUsers",
   "timestamp" : 14849,
@@ -23741,5 +23741,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 14849,
-  "result" : [ "Stairway to Heaven", "Money Trees", "Under Pressure", "Dream On", "Whatever You Need" ]
+  "result" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Whatever You Need", "Black Dog" ]
 } ]
