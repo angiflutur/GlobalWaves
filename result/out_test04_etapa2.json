@@ -39,6 +39,10 @@
   "user" : "irene33",
   "message" : "The username irene33 is already taken."
 }, {
+  "command" : "getAllUsers",
+  "timestamp" : 45,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "melodicmind42", "rhythmicrider58", "harmonyhunter73", "melodymaster", "rhythmrider", "beatblazer", "harmonichero" ]
+}, {
   "command" : "addAlbum",
   "user" : "rhythmrider",
   "timestamp" : 50,

@@ -19,6 +19,7 @@ import app.command.playlist.ShowPlaylistsCommand;
 import app.command.playlist.SwitchVisibilityCommand;
 import app.command.searchBar.SearchCommand;
 import app.command.searchBar.SelectCommand;
+import app.command.stats.GetAllUsersCommand;
 import app.command.stats.GetOnlineUsersCommand;
 import app.command.stats.GetTop5PlaylistsCommand;
 import app.command.stats.GetTop5SongsCommand;
@@ -193,6 +194,8 @@ public final class CommandParser {
                         merchName, merchDescription, merchPrice);
             case "printCurrentPage":
                 return new PrintCurrentPageCommand(username, timestamp);
+            case "getAllUsers":
+                return new GetAllUsersCommand(username, timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

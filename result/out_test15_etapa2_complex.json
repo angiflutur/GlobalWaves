@@ -23731,6 +23731,10 @@
   "timestamp" : 14849,
   "result" : [ "The Man", "Money Trees" ]
 }, {
+  "command" : "getAllUsers",
+  "timestamp" : 14849,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "matthewporter", "amanda16", "cbutler", "jacobdean", "matthewfernandez", "leslie27", "nancymontgomery", "conniealvarez", "jenningsbeth", "charlesgarcia" ]
+}, {
   "command" : "getTop5Playlists",
   "timestamp" : 14849,
   "result" : [ "Groovy Sounds Journey #1", "Dynamic Rhythms Escape #2", "Vibey Harmonies Odyssey #1", "Groovy Tracks Expedition #1", "Epic Vibes Voyage #2" ]
