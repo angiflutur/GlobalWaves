@@ -1,11 +1,3 @@
-Diferență la timestampul 65:
-  File 1: {"command":"search","user":"alice22","timestamp":65,"message":"Search returned 1 results","results":["melodymaster"]}
-  File 2: {"command":"search","user":"alice22","timestamp":65,"results":[],"message":"Search returned 0 results"}
-
-Diferență la timestampul 70:
-  File 1: {"command":"select","user":"alice22","timestamp":70,"message":"Successfully selected melodymaster's page."}
-  File 2: {"command":"select","user":"alice22","timestamp":70,"message":"The selected ID is too high."}
-
 Diferență la timestampul 75:
   File 1: {"user":"alice22","command":"printCurrentPage","timestamp":75,"message":"Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance.]"}
   File 2: {"command":"addMerch","user":"melodymaster","timestamp":80,"message":"melodymaster has added new merchandise successfully."}
@@ -36,11 +28,11 @@ Diferență la timestampul 100:
 
 Diferență la timestampul 105:
   File 1: {"command":"search","user":"alice22","timestamp":105,"message":"alice22 is offline.","results":[]}
-  File 2: {"command":"search","user":"bob35","timestamp":105,"results":[],"message":"Search returned 0 results"}
+  File 2: {"command":"search","user":"bob35","timestamp":105,"results":["melodymaster"],"message":"Search returned 1 results"}
 
 Diferență la timestampul 105:
   File 1: {"command":"search","user":"bob35","timestamp":105,"message":"Search returned 1 results","results":["melodymaster"]}
-  File 2: {"command":"select","user":"bob35","timestamp":110,"message":"The selected ID is too high."}
+  File 2: {"command":"select","user":"bob35","timestamp":110,"message":"Successfully selected melodymaster's page."}
 
 Diferență la timestampul 110:
   File 1: {"command":"select","user":"bob35","timestamp":110,"message":"Successfully selected melodymaster's page."}

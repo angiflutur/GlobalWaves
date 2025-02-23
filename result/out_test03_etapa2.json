@@ -56,13 +56,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 65,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "melodymaster" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 70,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected melodymaster's page."
 }, {
   "command" : "addMerch",
   "user" : "melodymaster",
@@ -103,11 +103,11 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 105,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "melodymaster" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 110,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected melodymaster's page."
 } ]

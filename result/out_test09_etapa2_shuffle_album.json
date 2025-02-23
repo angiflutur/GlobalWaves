@@ -49,13 +49,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 270,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "melodymaster" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 290,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected melodymaster's page."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -65,7 +65,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 320,
-  "message" : "The selected ID is too high."
+  "message" : "Please conduct a search before making a selection."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",

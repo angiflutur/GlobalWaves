@@ -14171,13 +14171,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11780,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11780,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -14219,13 +14219,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11810,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -14267,13 +14267,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11840,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jsimpson" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11840,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jsimpson's page."
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -14283,13 +14283,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11850,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -14315,13 +14315,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11870,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11870,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -14411,13 +14411,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11930,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -14427,13 +14427,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11940,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "anthony22" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11940,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected anthony22's page."
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -14443,13 +14443,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11950,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -14491,13 +14491,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11980,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11980,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -14523,13 +14523,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12000,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12000,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -14539,13 +14539,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12010,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -14555,13 +14555,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12020,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -14587,13 +14587,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12040,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12040,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -14619,13 +14619,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12060,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12060,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -14651,13 +14651,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12080,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12080,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -14667,13 +14667,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12090,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jsimpson" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12090,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jsimpson's page."
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -14699,13 +14699,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12110,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -14731,13 +14731,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12130,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -14763,13 +14763,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12150,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -14779,13 +14779,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12160,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12160,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -14827,13 +14827,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12190,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -14859,13 +14859,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12210,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -14923,13 +14923,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12250,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -14939,13 +14939,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12260,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "anthony22" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12260,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected anthony22's page."
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -14987,13 +14987,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12290,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12290,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -15019,13 +15019,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12310,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -15067,13 +15067,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12340,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12340,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -15115,13 +15115,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12370,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12370,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -15131,13 +15131,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12380,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12380,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -15179,13 +15179,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12410,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -15227,13 +15227,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12440,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12440,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -15275,13 +15275,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12470,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12470,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -15307,13 +15307,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12490,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12490,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -15323,13 +15323,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12500,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12500,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -15339,13 +15339,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12510,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -15403,13 +15403,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12550,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -15435,13 +15435,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12570,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12570,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -15451,13 +15451,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12580,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12580,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -15467,13 +15467,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12590,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12590,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -15483,13 +15483,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12600,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12600,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -15515,13 +15515,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12620,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -15595,13 +15595,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12670,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12670,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -15611,13 +15611,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12680,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12680,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -15627,13 +15627,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12690,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12690,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -15691,13 +15691,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12730,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -15755,13 +15755,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12770,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12770,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -15771,13 +15771,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12780,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "anthony22" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12780,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected anthony22's page."
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -15803,13 +15803,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12800,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12800,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -15819,13 +15819,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12810,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -15851,13 +15851,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12830,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -15867,13 +15867,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12840,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12840,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -15883,13 +15883,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12850,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -15915,13 +15915,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12870,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12870,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -15947,13 +15947,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12890,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12890,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -15979,13 +15979,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12910,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -16059,13 +16059,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12960,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jsimpson" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12960,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jsimpson's page."
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -16107,13 +16107,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12990,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12990,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -16123,13 +16123,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13000,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 13000,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -16155,13 +16155,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13020,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -16187,13 +16187,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13040,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 13040,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -16203,13 +16203,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 13050,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -16219,13 +16219,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13060,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 13060,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -16235,13 +16235,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 13070,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 13070,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -16267,13 +16267,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 13090,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 13090,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -16363,13 +16363,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 13150,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -16379,13 +16379,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13160,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "glester" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 13160,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected glester's page."
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -16411,13 +16411,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 13180,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "cbutler" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 13180,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -16443,13 +16443,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13200,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "mccarthyluis" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 13200,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected mccarthyluis's page."
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -16475,13 +16475,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13220,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "jacobdean" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected jacobdean's page."
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -16507,13 +16507,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13240,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "amanda16" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 13240,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected amanda16's page."
 }, {
   "command" : "addAlbum",
   "user" : "amanda16",
