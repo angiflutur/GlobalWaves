@@ -26,11 +26,13 @@ import app.command.stats.GetTop5SongsCommand;
 import app.command.stats.ShowPreferredSongsCommand;
 import app.command.user.admin.AddUserCommand;
 import app.command.user.admin.ShowAlbumsCommand;
+import app.command.user.admin.ShowPodcastsCommand;
 import app.command.user.artist.AddAlbumCommand;
 import app.command.user.artist.AddEventCommand;
 import app.command.user.artist.AddMerchCommand;
 import app.command.user.host.AddAnnouncementCommand;
 import app.command.user.host.AddPodcastCommand;
+import app.command.user.host.RemoveAnnouncementCommand;
 import app.entities.Command;
 import app.entities.User;
 import app.entities.audio.file.PodcastEpisode;
@@ -218,7 +220,11 @@ public final class CommandParser {
                 String announcementDescription = jsonNode.has("description")
                         ? jsonNode.get("description").asText() : null;
                 return new AddAnnouncementCommand(username, timestamp, announcementName, announcementDescription);
-
+            case "removeAnnouncement":
+                announcementName = jsonNode.has("name") ? jsonNode.get("name").asText() : null;
+                return new RemoveAnnouncementCommand(username, timestamp, announcementName);
+            case "showPodcasts":
+                return new ShowPodcastsCommand(username, timestamp);
             default:
                 return new UnknownCommand(username, timestamp);
         }

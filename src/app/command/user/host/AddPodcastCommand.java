@@ -57,16 +57,15 @@ public class AddPodcastCommand extends Command {
         }
 
         for (Podcast podcast : user.getPodcasts()) {
-
             if (podcast.getName().equals(podcastName)) {
                 result.put("message", getUsername() + " has another podcast with the same name.");
                 return;
             }
         }
 
-        Set<String> episodeTitles = new HashSet<>();
+        Set<String> episodeNames = new HashSet<>();
         for (PodcastEpisode episode : episodes) {
-            if (!episodeTitles.add(episode.getTitle())) {
+            if (!episodeNames.add(episode.getName())) {
                 result.put("message", getUsername()
                         + " has duplicate episodes in the podcast " + podcastName + ".");
                 return;
@@ -75,8 +74,9 @@ public class AddPodcastCommand extends Command {
 
         Podcast newPodcast = new Podcast(podcastName, getUsername(), new ArrayList<>(episodes));
         user.addPodcast(newPodcast, library);
-
+//        if(getTimestamp() == 53){
+//            System.out.println(newPodcast);
+//        }
         result.put("message", getUsername() + " has added new podcast successfully.");
     }
-
 }

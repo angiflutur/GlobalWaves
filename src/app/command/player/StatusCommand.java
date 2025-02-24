@@ -42,6 +42,7 @@ public class StatusCommand extends Command {
                 if (player.getCurrentAudio() != null) {
                     if (player.getCurrentAudio() instanceof Podcast) {
                         Podcast podcast = (Podcast) player.getCurrentAudio();
+
                         int currentEpisodeIndex = podcast.getCurrentEpisodeIndex();
                         if (currentEpisodeIndex >= 0 && currentEpisodeIndex
                                 < podcast.getEpisodes().size()) {
@@ -92,6 +93,7 @@ public class StatusCommand extends Command {
                 if (player.getCurrentAudio() instanceof Podcast) {
                     Podcast podcast = (Podcast) player.getCurrentAudio();
                     int currentEpisodeIndex = podcast.getCurrentEpisodeIndex();
+
                     if (currentEpisodeIndex >= 0 && currentEpisodeIndex
                             < podcast.getEpisodes().size()) {
                         PodcastEpisode currentEpisode

@@ -4,8 +4,6 @@ package app.entities.audio.file;
  * Clasa care reprezintă un episod de podcast.
  */
 public class PodcastEpisode extends AudioFile {
-    private String title;
-    private Integer duration;
     private String description;
 
     /**
@@ -17,38 +15,9 @@ public class PodcastEpisode extends AudioFile {
     /**
      * Constructor cu parametri pentru PodcastEpisode.
      */
-    public PodcastEpisode(final String title, final Integer duration, final String description) {
-        this.title = title;
-        this.duration = duration;
+    public PodcastEpisode(final String name, final Integer duration, final String description) {
+        super(name, duration);
         this.description = description;
-    }
-
-    /**
-     * Getter pentru titlul episodului.
-     */
-    public String getTitle() {
-        return title;
-    }
-
-    /**
-     * Setter pentru titlul episodului.
-     */
-    public void setTitle(final String title) {
-        this.title = title;
-    }
-
-    /**
-     * Getter pentru durata episodului.
-     */
-    public Integer getDuration() {
-        return duration;
-    }
-
-    /**
-     * Setter pentru durata episodului.
-     */
-    public void setDuration(final Integer duration) {
-        this.duration = duration;
     }
 
     /**
@@ -71,9 +40,9 @@ public class PodcastEpisode extends AudioFile {
     @Override
     public String toString() {
         return "PodcastEpisode{"
-                + "title='" + title + '\''
+                + "name='" + getName() + '\''
                 + ", description='" + description + '\''
-                + ", duration=" + duration
+                + ", duration=" + getDuration()
                 + '}';
     }
 }

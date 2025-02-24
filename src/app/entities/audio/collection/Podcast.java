@@ -11,7 +11,7 @@ public class Podcast extends AudioFile {
     private String name;
     private String owner;
     private ArrayList<PodcastEpisode> episodes;
-    private int currentEpisodeIndex;
+    private int currentEpisodeIndex = 0;
     private int currentEpisodeRemainingTime;
 
     /**
@@ -42,7 +42,11 @@ public class Podcast extends AudioFile {
         this.owner = owner;
         this.episodes = episodes;
         this.currentEpisodeIndex = 0;
-        this.currentEpisodeRemainingTime = 0;
+        if (episodes != null && !episodes.isEmpty()) {
+            this.currentEpisodeRemainingTime = episodes.get(0).getDuration();
+        } else {
+            this.currentEpisodeRemainingTime = 0;
+        }
     }
 
     /**

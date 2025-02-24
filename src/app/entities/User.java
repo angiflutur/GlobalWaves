@@ -69,6 +69,16 @@ public class User {
             throw new IllegalStateException("Only users of type HOST can add announcements.");
         }
     }
+    public boolean removeAnnouncement(final String name) {
+        for (int i = 0; i < announcements.size(); i++) {
+            if (announcements.get(i).get(0).equals(name)) {
+                announcements.remove(i);
+                return true;
+            }
+        }
+        return false;
+    }
+
     public List<List<String>> getAnnouncements() {
         return this.announcements;
     }

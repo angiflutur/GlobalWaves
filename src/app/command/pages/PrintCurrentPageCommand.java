@@ -117,19 +117,17 @@ public class PrintCurrentPageCommand extends Command {
             case HOST_PAGE:
                 User host = library.getUser(SelectCommand.getSelectedHost().getUsername());
                 List<Podcast> podcasts = host.getPodcasts();
-                System.out.println(podcasts);
                 pageContent.append("Podcasts:\n\t")
                         .append(podcasts.isEmpty() ? "[]" : "[" + podcasts.stream()
                                 .map(podcast -> podcast.getName() + ":\n\t[" +
                                         podcast.getEpisodes().stream()
-                                                .map(episode -> episode.getTitle() + " - " + episode.getDescription())
+                                                .map(episode -> episode.getName() + " - " + episode.getDescription())
                                                 .collect(Collectors.joining(", ")) + "]")
                                 .collect(Collectors.joining("\n, ")) + "\n]")
                         .append("\n\n");
 
 
                 List<List<String>> announcements = host.getAnnouncements();
-                System.out.println(announcements);
                 pageContent.append("Announcements:\n\t")
                         .append(announcements.isEmpty() ? "[]" : "[" + announcements.stream()
                                 .map(announcement -> announcement.get(0) + ":\n\t" + announcement.get(1))

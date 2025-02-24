@@ -52,6 +52,17 @@
   "timestamp" : 53,
   "message" : "soundseeker has added new podcast successfully."
 }, {
+  "command" : "showPodcasts",
+  "user" : "soundseeker",
+  "timestamp" : 53,
+  "result" : [ {
+    "name" : "Auditory Adventures",
+    "episodes" : [ "Exploring Sonic Landscapes", "The Future of Music Technology", "Cultural Beats" ]
+  }, {
+    "name" : "Harmony & History",
+    "episodes" : [ "The Roots of Blues", "Classical Music's Modern Impact", "Jazz Journeys", "The Folk Revival" ]
+  } ]
+}, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 53,
@@ -124,8 +135,8 @@
   "user" : "alice22",
   "timestamp" : 86,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 3199,
+    "name" : "Exploring Sonic Landscapes",
+    "remainedTime" : 2699,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -145,8 +156,8 @@
   "user" : "alice22",
   "timestamp" : 3201,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 85,
+    "name" : "The Future of Music Technology",
+    "remainedTime" : 2785,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -214,6 +225,17 @@
   "timestamp" : 3247,
   "user" : "magichost",
   "message" : "The username magichost is already taken."
+}, {
+  "command" : "showPodcasts",
+  "user" : "soundseeker",
+  "timestamp" : 3250,
+  "result" : [ {
+    "name" : "Auditory Adventures",
+    "episodes" : [ "Exploring Sonic Landscapes", "The Future of Music Technology", "Cultural Beats" ]
+  }, {
+    "name" : "Harmony & History",
+    "episodes" : [ "The Roots of Blues", "Classical Music's Modern Impact", "Jazz Journeys", "The Folk Revival" ]
+  } ]
 }, {
   "command" : "follow",
   "user" : "david27",
@@ -314,8 +336,8 @@
   "user" : "carol19",
   "timestamp" : 4500,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 1935,
+    "name" : "The Future of Music Technology",
+    "remainedTime" : 1735,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
