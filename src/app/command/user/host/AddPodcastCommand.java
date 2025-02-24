@@ -64,9 +64,9 @@ public class AddPodcastCommand extends Command {
             }
         }
 
-        Set<String> episodeNames = new HashSet<>();
+        Set<String> episodeTitles = new HashSet<>();
         for (PodcastEpisode episode : episodes) {
-            if (!episodeNames.add(episode.getName())) {
+            if (!episodeTitles.add(episode.getTitle())) {
                 result.put("message", getUsername()
                         + " has duplicate episodes in the podcast " + podcastName + ".");
                 return;

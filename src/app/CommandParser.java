@@ -205,7 +205,7 @@ public final class CommandParser {
                         Integer episodeDuration = episodeNode.has("duration")
                                 ? episodeNode.get("duration").asInt() : null;
                         description = episodeNode.has("description")
-                                ? episodeNode.get("name").asText() : null;
+                                ? episodeNode.get("description").asText() : null;
                         PodcastEpisode episode =
                                 new PodcastEpisode(episodeName, episodeDuration, description);
                         episodes.add(episode);

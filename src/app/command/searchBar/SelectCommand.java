@@ -155,6 +155,9 @@ public class SelectCommand extends Command {
     public static User getSelectedArtist() {
         return selectedArtist;
     }
+    public static User getSelectedHost() {
+        return selectedHost;
+    }
     /**
      * JAVADOC
      */

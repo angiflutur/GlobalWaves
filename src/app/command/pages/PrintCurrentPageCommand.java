@@ -5,6 +5,7 @@ import app.entities.Command;
 import app.entities.User;
 import app.entities.audio.collection.Album;
 import app.entities.audio.collection.Library;
+import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.Song;
 import app.entities.audio.collection.Playlist;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -113,6 +114,28 @@ public class PrintCurrentPageCommand extends Command {
                         .append(eventItems.isEmpty() ? "[]" : "["
                                 + String.join(", ", eventItems) + "]");
                 break;
+            case HOST_PAGE:
+                User host = library.getUser(SelectCommand.getSelectedHost().getUsername());
+                List<Podcast> podcasts = host.getPodcasts();
+                System.out.println(podcasts);
+                pageContent.append("Podcasts:\n\t")
+                        .append(podcasts.isEmpty() ? "[]" : "[" + podcasts.stream()
+                                .map(podcast -> podcast.getName() + ":\n\t[" +
+                                        podcast.getEpisodes().stream()
+                                                .map(episode -> episode.getTitle() + " - " + episode.getDescription())
+                                                .collect(Collectors.joining(", ")) + "]")
+                                .collect(Collectors.joining("\n, ")) + "\n]")
+                        .append("\n\n");
+
+
+                List<List<String>> announcements = host.getAnnouncements();
+                System.out.println(announcements);
+                pageContent.append("Announcements:\n\t")
+                        .append(announcements.isEmpty() ? "[]" : "[" + announcements.stream()
+                                .map(announcement -> announcement.get(0) + ":\n\t" + announcement.get(1))
+                                .collect(Collectors.joining("\n")) + "\n]");
+                break;
+
             default:
                 pageContent.append("Invalid page.");
         }

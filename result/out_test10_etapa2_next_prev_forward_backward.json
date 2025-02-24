@@ -219,7 +219,7 @@
   "user" : "bob35",
   "timestamp" : 1049,
   "stats" : {
-    "name" : "The Future of Music Technology",
+    "name" : "",
     "remainedTime" : 3051,
     "repeat" : "No Repeat",
     "shuffle" : false,
@@ -235,7 +235,7 @@
   "user" : "bob35",
   "timestamp" : 1051,
   "stats" : {
-    "name" : "The Future of Music Technology",
+    "name" : "",
     "remainedTime" : 2959,
     "repeat" : "No Repeat",
     "shuffle" : false,
@@ -262,7 +262,7 @@
   "user" : "bob35",
   "timestamp" : 1389,
   "stats" : {
-    "name" : "The Future of Music Technology",
+    "name" : "",
     "remainedTime" : 2623,
     "repeat" : "No Repeat",
     "shuffle" : false,
@@ -278,7 +278,7 @@
   "user" : "bob35",
   "timestamp" : 1391,
   "stats" : {
-    "name" : "The Future of Music Technology",
+    "name" : "",
     "remainedTime" : 2711,
     "repeat" : "No Repeat",
     "shuffle" : false,
