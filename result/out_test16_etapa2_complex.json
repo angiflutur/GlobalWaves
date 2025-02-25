@@ -5210,13 +5210,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 6634,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 6639,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -5304,13 +5304,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 6945,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dreams" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 6950,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -5398,13 +5398,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7256,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 7261,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -5586,13 +5586,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7878,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 7883,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -8811,8 +8811,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 10290,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -8822,7 +8822,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 10290,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -8862,8 +8862,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10300,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -8873,7 +8873,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 10300,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -8913,8 +8913,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10310,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Electric Funeral " ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -8924,7 +8924,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10310,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Funeral ."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -8964,8 +8964,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 10320,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -8975,7 +8975,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 10320,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -9015,8 +9015,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 10330,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Alone Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -9026,7 +9026,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 10330,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -9066,8 +9066,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10340,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -9077,7 +9077,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10340,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -9117,8 +9117,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10350,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dreams" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -9128,7 +9128,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10350,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -9219,8 +9219,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10370,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -9230,7 +9230,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10370,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -9423,8 +9423,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10410,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -9434,7 +9434,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10410,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Harmonies."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -9525,8 +9525,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 10430,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Breezy View" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -9536,7 +9536,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 10430,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -9627,8 +9627,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10450,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -9638,7 +9638,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10450,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Revolution."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -9729,8 +9729,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10470,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -9740,7 +9740,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10470,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -9882,8 +9882,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10500,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Electric View" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -9893,7 +9893,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 10500,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric View."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -9984,8 +9984,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 10520,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -9995,7 +9995,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 10520,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -10137,8 +10137,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10550,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -10148,7 +10148,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10550,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Revolution."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -10188,8 +10188,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10560,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Alone Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -10199,7 +10199,7 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10560,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -10239,8 +10239,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10570,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dreams" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -10250,7 +10250,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10570,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -10290,8 +10290,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10580,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Electric Funeral " ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -10301,7 +10301,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10580,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Funeral ."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -10341,8 +10341,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 10590,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -10352,7 +10352,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 10590,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -10443,8 +10443,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10610,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -10454,7 +10454,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10610,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -10596,8 +10596,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10640,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -10607,7 +10607,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10640,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -10698,8 +10698,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10660,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Electric Funeral " ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -10709,7 +10709,7 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10660,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Funeral ."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -10749,8 +10749,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10670,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Electric View" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -10760,7 +10760,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10670,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric View."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -10800,8 +10800,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10680,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -10811,7 +10811,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10680,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -11004,8 +11004,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 10720,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dreams" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -11015,7 +11015,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 10720,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -11106,8 +11106,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10740,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -11117,7 +11117,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10740,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -11157,8 +11157,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10750,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dreams" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -11168,7 +11168,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10750,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -11259,8 +11259,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10770,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -11270,7 +11270,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10770,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -11310,8 +11310,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10780,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dreams" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -11321,7 +11321,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10780,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -11361,8 +11361,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 10790,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Guide" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -11372,7 +11372,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 10790,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Guide."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -11463,8 +11463,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10810,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Blue Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -11474,7 +11474,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10810,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blue Technology."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -11514,8 +11514,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 10820,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -11525,7 +11525,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 10820,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -11616,8 +11616,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10840,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -11627,7 +11627,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10840,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -11667,8 +11667,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10850,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Alone Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -11678,7 +11678,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10850,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -11769,8 +11769,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10870,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -11780,7 +11780,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10870,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Harmonies."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -11820,8 +11820,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10880,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -11831,7 +11831,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 10880,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -11922,8 +11922,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 10900,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Breezy View" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -11933,7 +11933,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 10900,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -11973,8 +11973,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10910,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dreams" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -11984,7 +11984,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10910,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -12024,8 +12024,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 10920,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Electric View" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -12035,7 +12035,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 10920,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric View."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -12075,8 +12075,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 10930,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -12086,7 +12086,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 10930,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -12126,8 +12126,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 10940,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -12137,7 +12137,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 10940,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -12228,8 +12228,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10960,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dreams" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -12239,7 +12239,7 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10960,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -12279,8 +12279,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10970,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Electric Funeral " ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -12290,7 +12290,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10970,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Funeral ."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -12381,8 +12381,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 10990,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -12392,7 +12392,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 10990,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -12432,8 +12432,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11000,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -12443,7 +12443,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11000,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -12483,8 +12483,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11010,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Breezy View" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -12494,7 +12494,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11010,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -12534,8 +12534,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11020,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -12545,7 +12545,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11020,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -12585,8 +12585,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11030,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Alone Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -12596,7 +12596,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11030,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -12687,8 +12687,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11050,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -12698,7 +12698,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11050,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -12789,8 +12789,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11070,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -12800,7 +12800,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11070,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -12840,8 +12840,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11080,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Electric Funeral " ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -12851,7 +12851,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11080,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric Funeral ."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -12891,8 +12891,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11090,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -12902,7 +12902,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11090,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -12993,8 +12993,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11110,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -13004,7 +13004,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11110,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -13044,8 +13044,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11120,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -13055,7 +13055,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11120,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -13095,8 +13095,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11130,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Blue Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -13106,7 +13106,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11130,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blue Technology."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -13197,8 +13197,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11150,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Guide" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -13208,7 +13208,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11150,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Guide."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -13248,8 +13248,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11160,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -13259,7 +13259,7 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11160,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -13299,8 +13299,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11170,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Breezy View" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -13310,7 +13310,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11170,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -13401,8 +13401,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11190,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -13412,7 +13412,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -13503,8 +13503,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11210,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -13514,7 +13514,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11210,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -13554,8 +13554,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11220,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -13565,7 +13565,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11220,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -13656,8 +13656,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11240,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -13667,7 +13667,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11240,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -13758,8 +13758,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11260,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -13769,7 +13769,7 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11260,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -13809,8 +13809,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11270,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dreams" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -13820,7 +13820,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11270,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -13860,8 +13860,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11280,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -13871,7 +13871,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11280,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -13911,8 +13911,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11290,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -13922,7 +13922,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11290,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -13962,8 +13962,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11300,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -13973,7 +13973,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11300,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -14013,8 +14013,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11310,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Alone Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -14024,7 +14024,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11310,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -14064,8 +14064,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11320,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -14075,7 +14075,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11320,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -14115,8 +14115,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11330,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -14126,7 +14126,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11330,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -14166,8 +14166,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11340,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -14177,7 +14177,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11340,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -14217,8 +14217,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11350,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Electric View" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -14228,7 +14228,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11350,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Electric View."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -14268,8 +14268,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11360,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -14279,7 +14279,7 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11360,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -14319,8 +14319,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11370,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -14330,7 +14330,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11370,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dirt."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -14370,8 +14370,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11380,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -14381,7 +14381,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11380,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -14421,8 +14421,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11390,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Alone Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -14432,7 +14432,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11390,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -14472,8 +14472,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11400,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -14483,7 +14483,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11400,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -14523,8 +14523,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11410,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -14534,7 +14534,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11410,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -14574,8 +14574,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11420,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -14585,7 +14585,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11420,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -14625,8 +14625,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11430,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Guide" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -14636,7 +14636,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11430,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Guide."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -14676,8 +14676,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11440,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Guide" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -14687,7 +14687,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11440,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Guide."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -14727,8 +14727,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11450,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Breezy View" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -14738,7 +14738,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11450,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -14778,8 +14778,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11460,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -14789,7 +14789,7 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11460,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -14982,8 +14982,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11500,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -14993,7 +14993,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11500,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Revolution."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -15033,8 +15033,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11510,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Dreams" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -15044,7 +15044,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11510,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Dreams."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -15135,8 +15135,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11530,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -15146,7 +15146,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11530,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -15186,8 +15186,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11540,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -15197,7 +15197,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11540,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Technology."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -15237,8 +15237,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11550,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Blue Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -15248,7 +15248,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11550,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blue Technology."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -15288,8 +15288,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11560,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -15299,7 +15299,7 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11560,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -15339,8 +15339,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11570,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -15350,7 +15350,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11570,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Revolution."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -15390,8 +15390,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11580,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Breezy View" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -15401,7 +15401,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11580,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Breezy View."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -15441,8 +15441,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11590,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -15452,7 +15452,7 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11590,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -15492,8 +15492,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11600,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Bad Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -15503,7 +15503,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11600,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bad Revolution."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -15543,8 +15543,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11610,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Blue Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "david27",
@@ -15554,7 +15554,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11610,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blue Technology."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -15645,8 +15645,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11630,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Alone Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -15656,7 +15656,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11630,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Alone Hood."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -15696,8 +15696,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11640,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -15707,7 +15707,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11640,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Harmonies."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -15747,8 +15747,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11650,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Harmonies" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -15758,7 +15758,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11650,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Harmonies."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -15849,8 +15849,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11670,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Blue Technology" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -15860,7 +15860,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11670,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blue Technology."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -16002,8 +16002,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11700,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Groovy Hood" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -16013,7 +16013,7 @@
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11700,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Groovy Hood."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -16155,8 +16155,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11730,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Dynamic Dirt" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -16166,7 +16166,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11730,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dynamic Dirt."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -16206,8 +16206,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11740,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Guide" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -16217,7 +16217,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11740,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Guide."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -16257,8 +16257,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11750,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Teen Revolution" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -16268,7 +16268,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11750,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Teen Revolution."
 }, {
   "command" : "load",
   "user" : "henry26",

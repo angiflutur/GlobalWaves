@@ -132,13 +132,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 431,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Harmonic Horizons" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 432,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Harmonic Horizons."
 }, {
   "command" : "load",
   "user" : "bob35",

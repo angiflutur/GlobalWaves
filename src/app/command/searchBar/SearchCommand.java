@@ -32,7 +32,6 @@ public class SearchCommand extends Command {
     private String filterOwner;
     private static final int MAX_FILTER_LENGTH = 5;
 
-
     /**
      * Constructor for the search command.
      */
@@ -90,6 +89,13 @@ public class SearchCommand extends Command {
         ArrayList<Playlist> combinedResultsPlaylists = new ArrayList<>();
         ArrayList<String> filteredArtists = new ArrayList<>();
         ArrayList<String> filteredHosts = new ArrayList<>();
+        ArrayList<Album> filteredAlbums = new ArrayList<>();
+
+        ObjectNode resultNode = output.addObject();
+        resultNode.put("command", "search");
+        resultNode.put("user", getUsername());
+        resultNode.put("timestamp", getTimestamp());
+        ArrayNode resultsArray = resultNode.putArray("results");
 
         if ("song".equals(type)) {
             ArrayList<Song> filteredSongs = new ArrayList<>(library.getSongs());
@@ -162,14 +168,29 @@ public class SearchCommand extends Command {
                     && !playlist.getOwner().getUsername().equals(getUsername()));
             combinedResultsPlaylists.addAll(filteredPlaylists);
         }
+        if ("album".equals(type)) {
+            if (filterName != null) {
+                for (User albumOwner : library.getUsers()) {
+                    if (albumOwner.getType() == User.UserType.ARTIST) {
+                        for (Album album : albumOwner.getAlbums()) {
+                            if (album.getName().toLowerCase().startsWith(filterName.toLowerCase())) {
+                                System.out.println("Album Name: " + album.getName() + " " + filterName);
+                                filteredAlbums.add(album);
+                            }
+                        }
+                    }
+                }
+            }
+            player.updateLastSearchAlbums(filteredAlbums);
+            for (Album album : filteredAlbums) {
+                resultsArray.add(album.getName());
+            }
+        }
         combinedResultsAudio = new ArrayList<>(combinedResultsAudio.subList(0,
                 Math.min(MAX_FILTER_LENGTH, combinedResultsAudio.size())));
+
         player.updateLastSearchResults(combinedResultsAudio, combinedResultsPlaylists);
-        ObjectNode resultNode = output.addObject();
-        resultNode.put("command", "search");
-        resultNode.put("user", getUsername());
-        resultNode.put("timestamp", getTimestamp());
-        ArrayNode resultsArray = resultNode.putArray("results");
+
         for (AudioFile audioFile : combinedResultsAudio) {
             resultsArray.add(audioFile.getName());
         }
@@ -239,10 +260,8 @@ public class SearchCommand extends Command {
             }
         }
 
-
         int totalResults = combinedResultsAudio.size() + combinedResultsPlaylists.size()
-                + filteredArtists.size() + filteredHosts.size();
+                + filteredArtists.size() + filteredHosts.size() + filteredAlbums.size();
         resultNode.put("message", "Search returned " + totalResults + " results");
     }
-
 }

@@ -1,5 +1,6 @@
 package app.entities;
 
+import app.entities.audio.collection.Album;
 import app.entities.audio.collection.Podcast;
 import app.entities.audio.file.AudioFile;
 import app.entities.audio.collection.Playlist;
@@ -29,6 +30,7 @@ public class Player {
     private ArrayList<Playlist> lastSearchResultsPlaylists = new ArrayList<>();
     private ArrayList<User> lastSearchResultsArtists = new ArrayList<>();
     private ArrayList<User> lastSearchResultsHosts = new ArrayList<>();
+    private ArrayList<Album> lastSearchResultsAlbums = new ArrayList<>();
 
     /**
      * JAVADOC
@@ -533,6 +535,7 @@ public class Player {
         this.lastSearchResultsPlaylists.clear();
         this.lastSearchResultsArtists.clear();
         this.lastSearchResultsHosts.clear();
+        this.lastSearchResultsAlbums.clear();
     }
     /**
      *
@@ -546,4 +549,15 @@ public class Player {
     public void setIsSearching(final boolean isSearching) {
         this.isSearching = isSearching;
     }
+    public ArrayList<Album> getLastSearchResultsAlbums() {
+        return lastSearchResultsAlbums;
+    }
+
+    public void setLastSearchResultsAlbums(final ArrayList<Album> lastSearchResultsAlbums) {
+        this.lastSearchResultsAlbums = lastSearchResultsAlbums;
+    }
+    public void updateLastSearchAlbums(final ArrayList<Album> albums) {
+        this.lastSearchResultsAlbums = albums;
+    }
+
 }

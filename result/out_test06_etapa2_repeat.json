@@ -113,13 +113,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1006,
-  "results" : [ ],
-  "message" : "Search returned 0 results"
+  "results" : [ "Harmonic Horizons" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 1007,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Harmonic Horizons."
 }, {
   "command" : "load",
   "user" : "alice22",
