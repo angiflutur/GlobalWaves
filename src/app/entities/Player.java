@@ -15,6 +15,7 @@ import java.util.ArrayList;
 public class Player {
     private AudioFile currentAudio;
     private Playlist currentPlaylist;
+    private Album currentAlbum;
     private boolean isPaused;
     private boolean isLoaded;
     private int remainingTime;
@@ -66,7 +67,16 @@ public class Player {
 
         }
     }
-
+    /**
+     * JAVADOC
+     */
+    public void nextPrevAlbumLoad(final int index) {
+        if (currentAlbum != null && index >= 0 && index < currentAlbum.getSongs().size()) {
+            currentIndex = index;
+            currentAudio = currentAlbum.getSongs().get(index);
+            remainingTime = currentAudio.getDuration();
+        }
+    }
     /**
      * JAVADOC
      */
@@ -91,7 +101,29 @@ public class Player {
         this.isPaused = false;
         this.lastUpdateTimestamp = timestamp;
     }
+    /**
+     * JAVADOC
+     */
+    public void loadAlbum(final Album album, final int timestamp) {
+        if (album == null) {
+            throw new IllegalArgumentException("Album cannot be null");
+        }
 
+        this.currentAlbum = album;
+        this.currentIndex = 0;
+
+        if (currentAlbum.getSongs().size() > 0 && currentIndex < currentAlbum.getSongs().size()) {
+            this.currentAudio = currentAlbum.getSongs().get(currentIndex);
+            this.remainingTime = this.currentAudio.getDuration();
+        } else {
+            this.currentAudio = null;
+            this.remainingTime = 0;
+        }
+
+        this.isLoaded = true;
+        this.isPaused = false;
+        this.lastUpdateTimestamp = timestamp;
+    }
     /**
      * JAVADOC
      */
@@ -153,6 +185,8 @@ public class Player {
 
             if (currentPlaylist != null) {
                 updatePlaylistRemainingTime(timeElapsed);
+            } else if (currentAlbum != null) {
+                updateAlbumRemainingTime(timeElapsed);
             } else if (currentAudio instanceof Podcast) {
                 updatePodcastRemainingTime(timeElapsed);
             } else if (currentAudio instanceof Song) {
@@ -211,6 +245,65 @@ public class Player {
                 }
                 if (currentIndex >= 0 && currentIndex < currentPlaylist.getSongs().size()) {
                     currentAudio = currentPlaylist.getSongs().get(currentIndex);
+                    remainingTime += currentAudio.getDuration();
+                } else {
+                    currentAudio = null;
+                    remainingTime = 0;
+                    isLoaded = false;
+                    isPaused = false;
+                    return;
+                }
+            }
+        }
+    }
+    /**
+     * JAVADOC
+     */
+    private void updateAlbumRemainingTime(final int timeElapsed) {
+        remainingTime -= timeElapsed;
+
+        while (remainingTime <= 0) {
+            if (repeatState == 1) {
+                if (isShuffleActive && shuffleIndices.size() > 0) {
+                    int shuffledIndex = shuffleIndices.indexOf(currentIndex);
+                    if (shuffledIndex < shuffleIndices.size() - 1) {
+                        currentIndex = shuffleIndices.get(shuffledIndex + 1);
+                    } else {
+                        currentIndex = shuffleIndices.get(0);
+                    }
+                } else {
+                    currentIndex = (currentIndex + 1) % currentAlbum.getSongs().size();
+                }
+                currentAudio = currentAlbum.getSongs().get(currentIndex);
+                remainingTime += currentAudio.getDuration();
+            } else if (repeatState == 2) {
+                remainingTime += currentAudio.getDuration();
+            } else {
+                if (isShuffleActive && shuffleIndices.size() > 0) {
+                    int shuffledIndex = shuffleIndices.indexOf(currentIndex);
+                    if (shuffledIndex < shuffleIndices.size() - 1) {
+                        currentIndex = shuffleIndices.get(shuffledIndex + 1);
+                        currentAudio = currentAlbum.getSongs().get(currentIndex);
+                        remainingTime = currentAudio.getDuration();
+                    } else {
+                        currentAudio = null;
+                        remainingTime = 0;
+                        isLoaded = false;
+                        isPaused = false;
+                        return;
+                    }
+                } else {
+                    currentIndex++;
+                    if (currentIndex >= currentAlbum.getSongs().size()) {
+                        currentAudio = null;
+                        remainingTime = 0;
+                        isLoaded = false;
+                        isPaused = false;
+                        return;
+                    }
+                }
+                if (currentIndex >= 0 && currentIndex < currentAlbum.getSongs().size()) {
+                    currentAudio = currentAlbum.getSongs().get(currentIndex);
                     remainingTime += currentAudio.getDuration();
                 } else {
                     currentAudio = null;
@@ -352,7 +445,12 @@ public class Player {
     public Playlist getCurrentPlaylist() {
         return currentPlaylist;
     }
-
+    /**
+     * JAVADOC
+     */
+    public Album getCurrentAlbum() {
+        return currentAlbum;
+    }
     /**
      * JAVADOC
      */
@@ -457,7 +555,12 @@ public class Player {
     public void setCurrentPlaylist(final Playlist currentPlaylist) {
         this.currentPlaylist = currentPlaylist;
     }
-
+    /**
+     * JAVADOC
+     */
+    public void setCurrentAlbum(final Album album) {
+        this.currentAlbum = album;
+    }
     /**
      * JAVADOC
      */
@@ -501,6 +604,9 @@ public class Player {
     public void setLastSearchResultsHosts(final ArrayList<User> lastSearchResultsHosts) {
         this.lastSearchResultsHosts = lastSearchResultsHosts;
     }
+    /**
+     * JAVADOC
+     */
     public ArrayList<User> getLastSearchResultsHosts() {
         return lastSearchResultsHosts;
     }
@@ -524,6 +630,9 @@ public class Player {
     public void updateLastSearchArtists(final ArrayList<User> artists) {
         this.lastSearchResultsArtists = artists;
     }
+    /**
+     * JAVADOC
+     */
     public void updateLastSearchHosts(final ArrayList<User> hosts) {
         this.lastSearchResultsHosts = hosts;
     }
@@ -549,13 +658,21 @@ public class Player {
     public void setIsSearching(final boolean isSearching) {
         this.isSearching = isSearching;
     }
+    /**
+     * JAVADOC
+     */
     public ArrayList<Album> getLastSearchResultsAlbums() {
         return lastSearchResultsAlbums;
     }
-
+    /**
+     * JAVADOC
+     */
     public void setLastSearchResultsAlbums(final ArrayList<Album> lastSearchResultsAlbums) {
         this.lastSearchResultsAlbums = lastSearchResultsAlbums;
     }
+    /**
+     * JAVADOC
+     */
     public void updateLastSearchAlbums(final ArrayList<Album> albums) {
         this.lastSearchResultsAlbums = albums;
     }

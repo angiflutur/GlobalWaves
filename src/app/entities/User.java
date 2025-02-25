@@ -8,7 +8,9 @@ import app.entities.audio.file.Song;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * JAVADOC
+ */
 public class User {
     private String username;
     private Integer age;
@@ -69,6 +71,9 @@ public class User {
             throw new IllegalStateException("Only users of type HOST can add announcements.");
         }
     }
+    /**
+     * JAVADOC
+     */
     public boolean removeAnnouncement(final String name) {
         for (int i = 0; i < announcements.size(); i++) {
             if (announcements.get(i).get(0).equals(name)) {
@@ -78,10 +83,15 @@ public class User {
         }
         return false;
     }
-
+    /**
+     * JAVADOC
+     */
     public List<List<String>> getAnnouncements() {
         return this.announcements;
     }
+    /**
+     * JAVADOC
+     */
     public void addPodcast(final Podcast podcast, final Library library) {
         if (this.type == UserType.HOST) {
             podcasts.add(podcast);

@@ -173,8 +173,10 @@ public class SearchCommand extends Command {
                 for (User albumOwner : library.getUsers()) {
                     if (albumOwner.getType() == User.UserType.ARTIST) {
                         for (Album album : albumOwner.getAlbums()) {
-                            if (album.getName().toLowerCase().startsWith(filterName.toLowerCase())) {
-                                System.out.println("Album Name: " + album.getName() + " " + filterName);
+                            if (album.getName().toLowerCase().
+                                    startsWith(filterName.toLowerCase())) {
+                                System.out.println("Album Name: "
+                                        + album.getName() + " " + filterName);
                                 filteredAlbums.add(album);
                             }
                         }
@@ -235,7 +237,8 @@ public class SearchCommand extends Command {
                 for (User host : library.getUsers()) {
                     if (host.getType() == User.UserType.HOST
                             && host.getUsername() != null
-                            && host.getUsername().toLowerCase().startsWith(filterName.toLowerCase())) {
+                            && host.getUsername().toLowerCase().
+                            startsWith(filterName.toLowerCase())) {
                         filteredHosts.add(host.getUsername());
                     }
                 }
@@ -256,7 +259,8 @@ public class SearchCommand extends Command {
                     player.updateLastSearchHosts(filteredHostsUsers);
                 }
 
-                resultNode.put("message", "Search returned " + filteredHostsUsers.size() + " hosts");
+                resultNode.put("message", "Search returned "
+                        + filteredHostsUsers.size() + " hosts");
             }
         }
 

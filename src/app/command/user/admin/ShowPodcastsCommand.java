@@ -5,16 +5,22 @@ import app.entities.User;
 import app.entities.audio.collection.Library;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-
+/**
+ *
+ */
 public class ShowPodcastsCommand extends Command {
 
     private final String username;
-
+    /**
+     *
+     */
     public ShowPodcastsCommand(final String username, final Integer timestamp) {
         super(username, timestamp);
         this.username = username;
     }
-
+    /**
+     *
+     */
     @Override
     public void execute(final ArrayNode output, final Library library) {
         User user = library.getUser(username);

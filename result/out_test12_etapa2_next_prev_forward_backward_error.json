@@ -97,8 +97,8 @@
   "user" : "emily30",
   "timestamp" : 1220,
   "stats" : {
-    "name" : "Digital Dreams",
-    "remainedTime" : 235,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 225,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -165,28 +165,28 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 2200,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "forward",
   "user" : "emily30",
   "timestamp" : 3120,
-  "message" : "Please load a source before attempting to forward."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3220,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Digital Dreams",
+    "remainedTime" : 10,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "forward",
   "user" : "emily30",
   "timestamp" : 3520,
-  "message" : "Please load a source before attempting to forward."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "status",
   "user" : "emily30",

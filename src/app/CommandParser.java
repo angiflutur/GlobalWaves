@@ -219,7 +219,8 @@ public final class CommandParser {
                         ? jsonNode.get("name").asText() : null;
                 String announcementDescription = jsonNode.has("description")
                         ? jsonNode.get("description").asText() : null;
-                return new AddAnnouncementCommand(username, timestamp, announcementName, announcementDescription);
+                return new AddAnnouncementCommand(username, timestamp,
+                            announcementName, announcementDescription);
             case "removeAnnouncement":
                 announcementName = jsonNode.has("name") ? jsonNode.get("name").asText() : null;
                 return new RemoveAnnouncementCommand(username, timestamp, announcementName);

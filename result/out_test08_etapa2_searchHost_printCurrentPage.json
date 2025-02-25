@@ -19,8 +19,8 @@
   "user" : "alice22",
   "timestamp" : 49,
   "stats" : {
-    "name" : "The Power of Design",
-    "remainedTime" : 3075,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 221,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -103,8 +103,8 @@
   "user" : "alice22",
   "timestamp" : 73,
   "stats" : {
-    "name" : "The Power of Design",
-    "remainedTime" : 3061,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 247,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -135,8 +135,8 @@
   "user" : "alice22",
   "timestamp" : 86,
   "stats" : {
-    "name" : "Exploring Sonic Landscapes",
-    "remainedTime" : 2699,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 249,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -156,8 +156,8 @@
   "user" : "alice22",
   "timestamp" : 3201,
   "stats" : {
-    "name" : "The Future of Music Technology",
-    "remainedTime" : 2785,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -283,8 +283,8 @@
   "user" : "alice22",
   "timestamp" : 3270,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 202,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 245,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -299,8 +299,8 @@
   "user" : "alice22",
   "timestamp" : 3448,
   "stats" : {
-    "name" : "Happier",
-    "remainedTime" : 24,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 67,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -336,8 +336,8 @@
   "user" : "carol19",
   "timestamp" : 4500,
   "stats" : {
-    "name" : "The Future of Music Technology",
-    "remainedTime" : 1735,
+    "name" : "Night Pulse",
+    "remainedTime" : 220,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false

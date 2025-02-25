@@ -143,7 +143,7 @@
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 433,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addMerch",
   "user" : "melodymaster",
@@ -153,39 +153,39 @@
   "command" : "load",
   "user" : "carol19",
   "timestamp" : 434,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 434,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 249,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 440,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "The loaded source is not a playlist."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 446,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 237,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
   "user" : "carol19",
   "timestamp" : 690,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "addEvent",
   "user" : "melodymaster",
@@ -195,23 +195,23 @@
   "command" : "repeat",
   "user" : "carol19",
   "timestamp" : 950,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 1000,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Retro Rhythms",
+    "remainedTime" : 203,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 1115,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -249,7 +249,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 2455,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -328,8 +328,8 @@
   "user" : "bob35",
   "timestamp" : 2800,
   "stats" : {
-    "name" : "Nothing Else Matters",
-    "remainedTime" : 329,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 190,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -344,8 +344,8 @@
   "user" : "bob35",
   "timestamp" : 2900,
   "stats" : {
-    "name" : "Nothing Else Matters",
-    "remainedTime" : 229,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 90,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -355,8 +355,8 @@
   "user" : "bob35",
   "timestamp" : 3250,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 111,
+    "name" : "Elevate",
+    "remainedTime" : 197,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -367,7 +367,7 @@
   "timestamp" : 3600,
   "stats" : {
     "name" : "I Don't Wanna Live Forever",
-    "remainedTime" : 231,
+    "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -383,7 +383,7 @@
   "timestamp" : 3660,
   "stats" : {
     "name" : "I Don't Wanna Live Forever",
-    "remainedTime" : 171,
+    "remainedTime" : 32,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -398,8 +398,8 @@
   "user" : "bob35",
   "timestamp" : 4000,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 63,
+    "name" : "Begin Again",
+    "remainedTime" : 162,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -446,8 +446,8 @@
   "user" : "bob35",
   "timestamp" : 4410,
   "stats" : {
-    "name" : "Nothing Else Matters",
-    "remainedTime" : 332,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 193,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -458,7 +458,7 @@
   "timestamp" : 4750,
   "stats" : {
     "name" : "Elevate",
-    "remainedTime" : 217,
+    "remainedTime" : 78,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -467,14 +467,14 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 5000,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5100,
   "stats" : {
-    "name" : "Begin Again",
-    "remainedTime" : 105,
+    "name" : "I Don't Wanna Live Forever",
+    "remainedTime" : 211,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false

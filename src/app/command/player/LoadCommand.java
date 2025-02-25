@@ -4,6 +4,7 @@ import app.command.searchBar.SelectCommand;
 import app.entities.Player;
 import app.entities.PlayerManager;
 import app.entities.User;
+import app.entities.audio.collection.Album;
 import app.entities.audio.collection.Library;
 import app.entities.Command;
 import app.entities.audio.collection.Playlist;
@@ -38,11 +39,13 @@ public class LoadCommand extends Command {
             resultNode.put("message", getUsername() + " is offline.");
             return;
         }
+
         Player player = PlayerManager.getPlayer(getUsername());
         AudioFile selectedAudioFile = SelectCommand.getSelectedAudioFile();
         Playlist selectedPlaylist = SelectCommand.getSelectedPlaylist();
+        Album selectedAlbum = SelectCommand.getSelectedAlbum();
 
-        if (selectedAudioFile == null && selectedPlaylist == null) {
+        if (selectedAudioFile == null && selectedPlaylist == null && selectedAlbum == null) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "load");
             resultNode.put("user", getUsername());
@@ -51,7 +54,8 @@ public class LoadCommand extends Command {
             return;
         }
 
-        if (library.getSongs().isEmpty() && library.getPodcasts().isEmpty()) {
+        if (library.getSongs().isEmpty()
+                && library.getPodcasts().isEmpty() && library.getAlbums().isEmpty()) {
             ObjectNode resultNode = output.addObject();
             resultNode.put("command", "load");
             resultNode.put("user", getUsername());
@@ -77,12 +81,15 @@ public class LoadCommand extends Command {
             player.loadPlaylist(selectedPlaylist, getTimestamp());
         }
 
+        if (selectedAlbum != null) {
+            player.loadAlbum(selectedAlbum, getTimestamp());
+        }
+
         ObjectNode resultNode = output.addObject();
         resultNode.put("command", "load");
         resultNode.put("user", getUsername());
         resultNode.put("timestamp", getTimestamp());
         resultNode.put("message", "Playback loaded successfully.");
-
     }
 
 }

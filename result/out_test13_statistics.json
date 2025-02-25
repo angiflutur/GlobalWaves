@@ -43,12 +43,12 @@
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 200,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 205,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
@@ -105,7 +105,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 405,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -147,12 +147,12 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 805,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "showPreferredSongs",
   "user" : "carol19",
   "timestamp" : 1000,
-  "result" : [ "Bohemian Rhapsody" ]
+  "result" : [ "Vibrant Echoes" ]
 }, {
   "command" : "createPlaylist",
   "user" : "david27",
@@ -224,7 +224,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 2400,
-  "result" : [ "Bohemian Rhapsody" ]
+  "result" : [ "Vibrant Echoes" ]
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -285,14 +285,14 @@
   "command" : "showPreferredSongs",
   "user" : "bob35",
   "timestamp" : 3100,
-  "result" : [ ]
+  "result" : [ "Vibrant Echoes" ]
 }, {
   "command" : "showPreferredSongs",
   "user" : "carol19",
   "timestamp" : 3200,
-  "result" : [ "Bohemian Rhapsody" ]
+  "result" : [ "Vibrant Echoes" ]
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 3300,
-  "result" : [ "Bohemian Rhapsody", "Angie", "Shape of You", "Don't", "Stairway to Heaven" ]
+  "result" : [ "Shape of You", "Don't", "Stairway to Heaven", "Money Trees", "Under Pressure" ]
 } ]

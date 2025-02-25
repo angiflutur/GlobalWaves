@@ -45,8 +45,8 @@
   "user" : "emily30",
   "timestamp" : 1190,
   "stats" : {
-    "name" : "Night Pulse",
-    "remainedTime" : 170,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 180,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -76,17 +76,17 @@
   "user" : "emily30",
   "timestamp" : 2100,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 20,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 2135,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "load",
   "user" : "rhythmicrider58",
@@ -97,11 +97,11 @@
   "user" : "emily30",
   "timestamp" : 2200,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Synth Symphony",
+    "remainedTime" : 220,
+    "repeat" : "Repeat Once",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "search",
@@ -133,17 +133,17 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3000,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3100,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 150,
+    "repeat" : "Repeat Once",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "createPlaylist",
@@ -171,22 +171,22 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3195,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 3200,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3220,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 225,
+    "repeat" : "Repeat Once",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "select",
@@ -228,7 +228,7 @@
   "user" : "rhythmicrider58",
   "command" : "printCurrentPage",
   "timestamp" : 3300,
-  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Vibrant Echoes]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -297,15 +297,15 @@
   "command" : "load",
   "user" : "rhythmicrider58",
   "timestamp" : 3440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 3445,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Unlike registered successfully."
 }, {
   "user" : "rhythmicrider58",
   "command" : "printCurrentPage",
   "timestamp" : 7000,
-  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 } ]

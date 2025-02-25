@@ -119,9 +119,10 @@ public class PrintCurrentPageCommand extends Command {
                 List<Podcast> podcasts = host.getPodcasts();
                 pageContent.append("Podcasts:\n\t")
                         .append(podcasts.isEmpty() ? "[]" : "[" + podcasts.stream()
-                                .map(podcast -> podcast.getName() + ":\n\t[" +
-                                        podcast.getEpisodes().stream()
-                                                .map(episode -> episode.getName() + " - " + episode.getDescription())
+                                .map(podcast -> podcast.getName() + ":\n\t["
+                                        + podcast.getEpisodes().stream()
+                                                .map(episode -> episode.getName() + " - "
+                                                        + episode.getDescription())
                                                 .collect(Collectors.joining(", ")) + "]")
                                 .collect(Collectors.joining("\n, ")) + "\n]")
                         .append("\n\n");
@@ -130,7 +131,8 @@ public class PrintCurrentPageCommand extends Command {
                 List<List<String>> announcements = host.getAnnouncements();
                 pageContent.append("Announcements:\n\t")
                         .append(announcements.isEmpty() ? "[]" : "[" + announcements.stream()
-                                .map(announcement -> announcement.get(0) + ":\n\t" + announcement.get(1))
+                                .map(announcement -> announcement.get(0) + ":\n\t"
+                                        + announcement.get(1))
                                 .collect(Collectors.joining("\n")) + "\n]");
                 break;
 

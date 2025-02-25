@@ -49,9 +49,12 @@ public class AddAnnouncementCommand extends Command {
             }
 
             if (announcementExists) {
-                resultArray.add(getUsername() + " has already added an announcement with this name.");
+                resultArray.add(getUsername()
+                        + " has already added an announcement with this name.");
             } else {
-                user.addAnnouncement(this.announcementName, this.announcementDescription, getTimestamp().toString());
+                user.addAnnouncement(this.announcementName,
+                                     this.announcementDescription,
+                                     getTimestamp().toString());
                 resultArray.add(getUsername() + " has successfully added new announcement.");
             }
         }

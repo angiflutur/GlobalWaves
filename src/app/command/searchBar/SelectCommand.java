@@ -12,7 +12,9 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import java.util.ArrayList;
-
+/**
+ *
+ */
 public class SelectCommand extends Command {
     private Integer itemNumber;
     private static AudioFile selectedAudioFile = null;
@@ -20,14 +22,18 @@ public class SelectCommand extends Command {
     private static User selectedArtist = null;
     private static User selectedHost = null;
     private static Album selectedAlbum = null;
-
+    /**
+     *
+     */
     public SelectCommand(final String username,
                          final Integer timestamp,
                          final Integer itemNumber) {
         super(username, timestamp);
         this.itemNumber = itemNumber;
     }
-
+    /**
+     *
+     */
     @Override
     public void execute(final ArrayNode output, final Library library) {
         User user = library.getUser(getUsername());
@@ -96,7 +102,8 @@ public class SelectCommand extends Command {
             }});
         } else if (selectedItem instanceof User) {
             User selectedUser = (User) selectedItem;
-            resultNode.put("message", "Successfully selected " + selectedUser.getUsername() + "'s page.");
+            resultNode.put("message", "Successfully selected "
+                    + selectedUser.getUsername() + "'s page.");
             if (selectedUser.getType() == User.UserType.ARTIST) {
                 selectedArtist = selectedUser;
                 user.setCurrentPage(User.PageType.ARTIST_PAGE);
@@ -121,42 +128,63 @@ public class SelectCommand extends Command {
 
         player.setCurrentPlaylist(selectedItem instanceof Playlist
                 ? (Playlist) selectedItem : null);
+        player.setCurrentAlbum(selectedAlbum instanceof Album ? selectedAlbum : null);
+
         player.clearLastSearchResults();
         player.setIsSearching(false);
     }
 
+    /**
+     *
+     */
     public static void setSelectedAudioFile(final AudioFile audioFile) {
         selectedAudioFile = audioFile;
     }
-
+    /**
+     *
+     */
     public static void setSelectedPlaylist(final Playlist playlist) {
         selectedPlaylist = playlist;
     }
-
+    /**
+     *
+     */
     public static void setSelectedAlbum(final Album album) {
         selectedAlbum = album;
     }
-
+    /**
+     *
+     */
     public static AudioFile getSelectedAudioFile() {
         return selectedAudioFile;
     }
-
+    /**
+     *
+     */
     public static Playlist getSelectedPlaylist() {
         return selectedPlaylist;
     }
-
+    /**
+     *
+     */
     public static User getSelectedArtist() {
         return selectedArtist;
     }
-
+    /**
+     *
+     */
     public static User getSelectedHost() {
         return selectedHost;
     }
-
+    /**
+     *
+     */
     public static Album getSelectedAlbum() {
         return selectedAlbum;
     }
-
+    /**
+     *
+     */
     public static void setSelectedArtist(final User artist) {
         selectedArtist = artist;
     }

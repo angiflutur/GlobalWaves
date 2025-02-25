@@ -160,7 +160,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 525,
-  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos - melodicwanderer]"
+  "message" : "Liked songs:\n\t[Vibrant Echoes]\n\nFollowed playlists:\n\t[Playlist bengos - melodicwanderer]"
 }, {
   "command" : "search",
   "user" : "soundseeker21",
@@ -223,5 +223,5 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 7900,
-  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos - melodicwanderer]"
+  "message" : "Liked songs:\n\t[Vibrant Echoes]\n\nFollowed playlists:\n\t[Playlist bengos - melodicwanderer]"
 } ]
