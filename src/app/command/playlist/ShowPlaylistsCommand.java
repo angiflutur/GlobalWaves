@@ -55,5 +55,7 @@ public class ShowPlaylistsCommand extends Command {
         player.setCurrentAudio(null);
         SelectCommand.setSelectedAudioFile(null);
         SelectCommand.setSelectedPlaylist(null);
+        SelectCommand.setSelectedArtist(null);
+        SelectCommand.setSelectedAlbum(null);
     }
 }

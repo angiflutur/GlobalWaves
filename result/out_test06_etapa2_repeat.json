@@ -129,7 +129,12 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 1009,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "removeAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 1010,
+  "message" : "melodymaster can't delete this album."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -293,14 +298,14 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 1040,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]"
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 2099,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 7,
+    "name" : "Night Pulse",
+    "remainedTime" : 199,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -320,8 +325,8 @@
   "user" : "alice22",
   "timestamp" : 2101,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 5,
+    "name" : "Night Pulse",
+    "remainedTime" : 197,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -331,8 +336,8 @@
   "user" : "alice22",
   "timestamp" : 2334,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 4,
+    "name" : "Night Pulse",
+    "remainedTime" : 204,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -352,8 +357,8 @@
   "user" : "alice22",
   "timestamp" : 2336,
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 2,
+    "name" : "Night Pulse",
+    "remainedTime" : 202,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -362,7 +367,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 2338,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]"
 }, {
   "command" : "status",
   "user" : "alice22",

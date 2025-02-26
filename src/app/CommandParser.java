@@ -30,6 +30,7 @@ import app.command.user.admin.ShowPodcastsCommand;
 import app.command.user.artist.AddAlbumCommand;
 import app.command.user.artist.AddEventCommand;
 import app.command.user.artist.AddMerchCommand;
+import app.command.user.artist.RemoveAlbumCommand;
 import app.command.user.host.AddAnnouncementCommand;
 import app.command.user.host.AddPodcastCommand;
 import app.command.user.host.RemoveAnnouncementCommand;
@@ -226,6 +227,11 @@ public final class CommandParser {
                 return new RemoveAnnouncementCommand(username, timestamp, announcementName);
             case "showPodcasts":
                 return new ShowPodcastsCommand(username, timestamp);
+            case "removeAlbum":
+                albumName = jsonNode.has("name")
+                        ? jsonNode.get("name").asText() : null;
+                return new RemoveAlbumCommand(username, timestamp, albumName);
+
             default:
                 return new UnknownCommand(username, timestamp);
         }

@@ -65,8 +65,7 @@ public class PrintCurrentPageCommand extends Command {
                 pageContent.append("Followed playlists:\n\t")
                         .append(followedPlaylists.isEmpty() ? "[]" : "["
                                 + followedPlaylists.stream()
-                                .map(playlist -> playlist.getName() + " - "
-                                        + playlist.getOwner().getUsername())
+                                .map(playlist -> playlist.getName())
                                 .collect(Collectors.joining(", ")) + "]");
 
                 break;

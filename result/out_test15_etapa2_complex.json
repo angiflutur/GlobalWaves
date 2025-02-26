@@ -703,7 +703,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 429,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -787,7 +787,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 529,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -934,7 +934,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 704,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -1060,7 +1060,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 854,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -1081,7 +1081,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 879,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -1123,7 +1123,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 929,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -1228,7 +1228,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1054,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -1396,7 +1396,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1254,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -1417,7 +1417,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1279,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -1438,7 +1438,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1304,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -1480,7 +1480,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1354,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -1522,7 +1522,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1404,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1564,7 +1564,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1454,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1774,7 +1774,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1704,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1837,7 +1837,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1779,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1921,7 +1921,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "carol19",
   "timestamp" : 1879,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1963,7 +1963,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 1929,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2026,7 +2026,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2004,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2047,7 +2047,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2029,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2068,7 +2068,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2054,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2089,7 +2089,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2079,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2110,7 +2110,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2104,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2173,7 +2173,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2179,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2194,7 +2194,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2204,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2215,7 +2215,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2229,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2236,7 +2236,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2254,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2257,7 +2257,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 2279,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -2404,7 +2404,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2454,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -2488,7 +2488,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2554,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -2635,7 +2635,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2729,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -2698,7 +2698,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 2804,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -2803,7 +2803,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 2929,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2908,7 +2908,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3054,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -3034,7 +3034,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3204,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -3076,7 +3076,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3254,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -3097,7 +3097,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3279,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -3118,7 +3118,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "frank21",
   "timestamp" : 3304,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -3223,7 +3223,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3429,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -3244,7 +3244,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3454,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -3307,7 +3307,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3529,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -3391,7 +3391,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3629,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -3433,7 +3433,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3679,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -3454,7 +3454,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3704,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -3475,7 +3475,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3729,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -3496,7 +3496,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3754,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -3601,7 +3601,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3879,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3643,7 +3643,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 3929,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3727,7 +3727,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4029,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3769,7 +3769,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4079,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3895,7 +3895,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4229,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -3916,7 +3916,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 4254,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -4189,7 +4189,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4579,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -4231,7 +4231,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4629,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -4273,7 +4273,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4679,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -4336,7 +4336,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4754,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -4504,7 +4504,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 4954,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -4567,7 +4567,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "jack29",
   "timestamp" : 5029,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully removed all album songs from playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -4925,6 +4925,11 @@
   "timestamp" : 5429,
   "message" : "The loaded source is not a playlist."
 }, {
+  "command" : "removeAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 5433,
+  "message" : "jacobdean can't delete this album."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5434,
@@ -5018,6 +5023,11 @@
   "user" : "bob35",
   "timestamp" : 5740,
   "message" : "The loaded source is not a playlist."
+}, {
+  "command" : "removeAlbum",
+  "user" : "leslie27",
+  "timestamp" : 5744,
+  "message" : "leslie27 can't delete this album."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -5113,6 +5123,11 @@
   "timestamp" : 6051,
   "message" : "The loaded source is not a playlist."
 }, {
+  "command" : "removeAlbum",
+  "user" : "cbutler",
+  "timestamp" : 6055,
+  "message" : "cbutler can't delete this album."
+}, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6056,
@@ -5206,6 +5221,11 @@
   "user" : "david27",
   "timestamp" : 6362,
   "message" : "The loaded source is not a playlist."
+}, {
+  "command" : "removeAlbum",
+  "user" : "charlesgarcia",
+  "timestamp" : 6366,
+  "message" : "charlesgarcia is not an artist."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -5301,6 +5321,11 @@
   "timestamp" : 6673,
   "message" : "The loaded source is not a playlist."
 }, {
+  "command" : "removeAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 6677,
+  "message" : "jacobdean can't delete this album."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6678,
@@ -5394,6 +5419,11 @@
   "user" : "frank21",
   "timestamp" : 6984,
   "message" : "The loaded source is not a playlist."
+}, {
+  "command" : "removeAlbum",
+  "user" : "amanda16",
+  "timestamp" : 6988,
+  "message" : "amanda16 can't delete this album."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -5489,6 +5519,11 @@
   "timestamp" : 7295,
   "message" : "The loaded source is not a playlist."
 }, {
+  "command" : "removeAlbum",
+  "user" : "barmstrong",
+  "timestamp" : 7299,
+  "message" : "barmstrong can't delete this album."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7300,
@@ -5582,6 +5617,11 @@
   "user" : "henry26",
   "timestamp" : 7606,
   "message" : "The loaded source is not a playlist."
+}, {
+  "command" : "removeAlbum",
+  "user" : "amanda16",
+  "timestamp" : 7610,
+  "message" : "amanda16 can't delete this album."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -5677,6 +5717,11 @@
   "timestamp" : 7917,
   "message" : "The loaded source is not a playlist."
 }, {
+  "command" : "removeAlbum",
+  "user" : "jacobdean",
+  "timestamp" : 7921,
+  "message" : "jacobdean can't delete this album."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 7922,
@@ -5771,6 +5816,11 @@
   "timestamp" : 8228,
   "message" : "The loaded source is not a playlist."
 }, {
+  "command" : "removeAlbum",
+  "user" : "cbutler",
+  "timestamp" : 8232,
+  "message" : "cbutler can't delete this album."
+}, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8233,
@@ -5808,7 +5858,7 @@
   "timestamp" : 8589,
   "result" : [ {
     "name" : "Classic Vibes Odyssey #1",
-    "songs" : [ "Begin Again", "Don't", "The Man" ],
+    "songs" : [ "Begin Again", "Don't", "The Man", "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -5838,7 +5888,7 @@
   "timestamp" : 8609,
   "result" : [ {
     "name" : "Vibey Harmonies Odyssey #1",
-    "songs" : [ "Delicate", "Under Pressure" ],
+    "songs" : [ "Delicate", "Under Pressure", "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ],
     "visibility" : "public",
     "followers" : 0
   }, {
@@ -5858,7 +5908,7 @@
     "followers" : 0
   }, {
     "name" : "Classic Rhythms Odyssey #2",
-    "songs" : [ "Angie", "Whatever You Need", "Delicate" ],
+    "songs" : [ "Angie", "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse", "Whatever You Need", "Delicate" ],
     "visibility" : "public",
     "followers" : 0
   } ]
@@ -5903,7 +5953,7 @@
     "followers" : 0
   }, {
     "name" : "Epic Melodies Safari #2",
-    "songs" : [ "Dream On", "Under Pressure", "Black Dog", "Begin Again", "The Unforgiven", "The Man" ],
+    "songs" : [ "Dream On", "Under Pressure", "Black Dog", "Begin Again", "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse", "The Unforgiven", "The Man" ],
     "visibility" : "public",
     "followers" : 0
   } ]
@@ -5918,7 +5968,7 @@
     "followers" : 0
   }, {
     "name" : "Dynamic Rhythms Escape #2",
-    "songs" : [ "Angie", "Stairway to Heaven", "Delicate", "Paint It Black", "Begin Again" ],
+    "songs" : [ "Angie", "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse", "Stairway to Heaven", "Delicate", "Paint It Black", "Begin Again" ],
     "visibility" : "public",
     "followers" : 0
   } ]
@@ -6122,8 +6172,8 @@
   "user" : "alice22",
   "timestamp" : 8789,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Under Pressure",
+    "remainedTime" : 146,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6138,8 +6188,8 @@
   "user" : "bob35",
   "timestamp" : 8799,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Sad But True",
+    "remainedTime" : 226,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6169,19 +6219,19 @@
   "command" : "prev",
   "user" : "david27",
   "timestamp" : 8819,
-  "message" : "Returned to previous track successfully. The current track is Heart Bliss."
+  "message" : "Returned to previous track successfully. The current track is Black Dog."
 }, {
   "command" : "prev",
   "user" : "david27",
   "timestamp" : 8819,
-  "message" : "Returned to previous track successfully. The current track is Heart Bliss."
+  "message" : "Returned to previous track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 8819,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 182,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6196,8 +6246,8 @@
   "user" : "emily30",
   "timestamp" : 8829,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Begin Again",
+    "remainedTime" : 140,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6207,8 +6257,8 @@
   "user" : "frank21",
   "timestamp" : 8839,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Whatever You Need",
+    "remainedTime" : 112,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6218,8 +6268,8 @@
   "user" : "frank21",
   "timestamp" : 8839,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Whatever You Need",
+    "remainedTime" : 112,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6229,8 +6279,8 @@
   "user" : "grace25",
   "timestamp" : 8849,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Dream On",
+    "remainedTime" : 169,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6240,8 +6290,8 @@
   "user" : "grace25",
   "timestamp" : 8849,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Dream On",
+    "remainedTime" : 169,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6256,8 +6306,8 @@
   "user" : "henry26",
   "timestamp" : 8859,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Angie",
+    "remainedTime" : 175,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6298,8 +6348,8 @@
   "user" : "jack29",
   "timestamp" : 8879,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Don't",
+    "remainedTime" : 121,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6313,14 +6363,14 @@
   "command" : "prev",
   "user" : "alice22",
   "timestamp" : 8889,
-  "message" : "Returned to previous track successfully. The current track is Castle on the Hill."
+  "message" : "Returned to previous track successfully. The current track is Under Pressure."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 8889,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 261,
+    "name" : "Under Pressure",
+    "remainedTime" : 244,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6372,8 +6422,8 @@
   "user" : "david27",
   "timestamp" : 8919,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 82,
+    "name" : "Black Dog",
+    "remainedTime" : 194,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -6388,8 +6438,8 @@
   "user" : "emily30",
   "timestamp" : 8929,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Begin Again",
+    "remainedTime" : 140,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6404,8 +6454,8 @@
   "user" : "frank21",
   "timestamp" : 8939,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 466,
+    "name" : "Whatever You Need",
+    "remainedTime" : 12,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6420,8 +6470,8 @@
   "user" : "grace25",
   "timestamp" : 8949,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 228,
+    "name" : "Dream On",
+    "remainedTime" : 69,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -6441,8 +6491,8 @@
   "user" : "henry26",
   "timestamp" : 8959,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 84,
+    "name" : "Angie",
+    "remainedTime" : 175,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6467,14 +6517,14 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 8979,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8979,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 255,
+    "name" : "Don't",
+    "remainedTime" : 21,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6489,8 +6539,8 @@
   "user" : "alice22",
   "timestamp" : 8989,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 161,
+    "name" : "Under Pressure",
+    "remainedTime" : 144,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6542,10 +6592,10 @@
   "user" : "david27",
   "timestamp" : 9019,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Black Dog",
+    "remainedTime" : 94,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -6558,8 +6608,8 @@
   "user" : "emily30",
   "timestamp" : 9029,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 255,
+    "name" : "Begin Again",
+    "remainedTime" : 40,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6575,7 +6625,7 @@
   "timestamp" : 9039,
   "stats" : {
     "name" : "Stairway to Heaven",
-    "remainedTime" : 366,
+    "remainedTime" : 394,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6590,8 +6640,8 @@
   "user" : "grace25",
   "timestamp" : 9049,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 228,
+    "name" : "Dream On",
+    "remainedTime" : 69,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6600,14 +6650,14 @@
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 9059,
-  "message" : "Skipped to next track successfully. The current track is Delicate."
+  "message" : "Skipped to next track successfully. The current track is Vibrant Echoes."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9059,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 250,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6639,7 +6689,7 @@
   "timestamp" : 9079,
   "stats" : {
     "name" : "Gimme Shelter",
-    "remainedTime" : 155,
+    "remainedTime" : 192,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6650,7 +6700,7 @@
   "timestamp" : 9079,
   "stats" : {
     "name" : "Gimme Shelter",
-    "remainedTime" : 155,
+    "remainedTime" : 192,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6665,8 +6715,8 @@
   "user" : "alice22",
   "timestamp" : 9089,
   "stats" : {
-    "name" : "Castle on the Hill",
-    "remainedTime" : 61,
+    "name" : "Under Pressure",
+    "remainedTime" : 44,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6712,17 +6762,17 @@
   "command" : "prev",
   "user" : "david27",
   "timestamp" : 9119,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9119,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -6735,7 +6785,7 @@
   "timestamp" : 9129,
   "stats" : {
     "name" : "Gimme Shelter",
-    "remainedTime" : 155,
+    "remainedTime" : 211,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6751,7 +6801,7 @@
   "timestamp" : 9139,
   "stats" : {
     "name" : "Stairway to Heaven",
-    "remainedTime" : 266,
+    "remainedTime" : 294,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -6762,7 +6812,7 @@
   "timestamp" : 9149,
   "stats" : {
     "name" : "Under Pressure",
-    "remainedTime" : 128,
+    "remainedTime" : 213,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6773,7 +6823,7 @@
   "timestamp" : 9149,
   "stats" : {
     "name" : "Under Pressure",
-    "remainedTime" : 128,
+    "remainedTime" : 213,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6782,19 +6832,19 @@
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 9159,
-  "message" : "Returned to previous track successfully. The current track is Delicate."
+  "message" : "Returned to previous track successfully. The current track is Vibrant Echoes."
 }, {
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 9159,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Returned to previous track successfully. The current track is Angie."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9159,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 482,
+    "name" : "Angie",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6826,7 +6876,7 @@
   "timestamp" : 9179,
   "stats" : {
     "name" : "Gimme Shelter",
-    "remainedTime" : 55,
+    "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6837,7 +6887,7 @@
   "timestamp" : 9179,
   "stats" : {
     "name" : "Gimme Shelter",
-    "remainedTime" : 55,
+    "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6851,14 +6901,14 @@
   "command" : "prev",
   "user" : "alice22",
   "timestamp" : 9189,
-  "message" : "Returned to previous track successfully. The current track is Bohemian Rhapsody."
+  "message" : "Returned to previous track successfully. The current track is Castle on the Hill."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 9189,
   "stats" : {
-    "name" : "Bohemian Rhapsody",
-    "remainedTime" : 355,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 261,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6899,17 +6949,17 @@
   "command" : "repeat",
   "user" : "david27",
   "timestamp" : 9219,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9219,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Black Dog",
+    "remainedTime" : 194,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "prev",
@@ -6943,7 +6993,7 @@
   "timestamp" : 9239,
   "stats" : {
     "name" : "Stairway to Heaven",
-    "remainedTime" : 166,
+    "remainedTime" : 194,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6959,7 +7009,7 @@
   "timestamp" : 9249,
   "stats" : {
     "name" : "Under Pressure",
-    "remainedTime" : 28,
+    "remainedTime" : 113,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -6968,14 +7018,14 @@
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 9259,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Returned to previous track successfully. The current track is Angie."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9259,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 482,
+    "name" : "Angie",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7012,7 +7062,7 @@
   "timestamp" : 9279,
   "stats" : {
     "name" : "Under Pressure",
-    "remainedTime" : 199,
+    "remainedTime" : 236,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7021,14 +7071,14 @@
   "command" : "prev",
   "user" : "alice22",
   "timestamp" : 9289,
-  "message" : "Returned to previous track successfully. The current track is Bohemian Rhapsody."
+  "message" : "Returned to previous track successfully. The current track is Castle on the Hill."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 9289,
   "stats" : {
-    "name" : "Bohemian Rhapsody",
-    "remainedTime" : 355,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 261,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7075,17 +7125,17 @@
   "command" : "repeat",
   "user" : "david27",
   "timestamp" : 9319,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9319,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Black Dog",
+    "remainedTime" : 94,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "status",
@@ -7140,8 +7190,8 @@
   "user" : "grace25",
   "timestamp" : 9349,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 195,
+    "name" : "Under Pressure",
+    "remainedTime" : 13,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : true
@@ -7156,8 +7206,8 @@
   "user" : "henry26",
   "timestamp" : 9359,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 382,
+    "name" : "Angie",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7167,8 +7217,8 @@
   "user" : "henry26",
   "timestamp" : 9359,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 382,
+    "name" : "Angie",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7205,7 +7255,7 @@
   "timestamp" : 9379,
   "stats" : {
     "name" : "Under Pressure",
-    "remainedTime" : 99,
+    "remainedTime" : 136,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7220,8 +7270,8 @@
   "user" : "alice22",
   "timestamp" : 9389,
   "stats" : {
-    "name" : "Bohemian Rhapsody",
-    "remainedTime" : 255,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 161,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -7272,17 +7322,17 @@
   "command" : "repeat",
   "user" : "david27",
   "timestamp" : 9419,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9419,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Black Dog",
+    "remainedTime" : 288,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7331,8 +7381,8 @@
   "user" : "grace25",
   "timestamp" : 9449,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 195,
+    "name" : "Under Pressure",
+    "remainedTime" : 13,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : true
@@ -7341,14 +7391,14 @@
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 9459,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Returned to previous track successfully. The current track is Angie."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9459,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 482,
+    "name" : "Angie",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7389,8 +7439,8 @@
   "user" : "jack29",
   "timestamp" : 9479,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 189,
+    "name" : "Under Pressure",
+    "remainedTime" : 36,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7405,8 +7455,8 @@
   "user" : "alice22",
   "timestamp" : 9489,
   "stats" : {
-    "name" : "Bohemian Rhapsody",
-    "remainedTime" : 255,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 161,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -7458,22 +7508,22 @@
   "command" : "prev",
   "user" : "david27",
   "timestamp" : 9519,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Black Dog."
 }, {
   "command" : "prev",
   "user" : "david27",
   "timestamp" : 9519,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Angie."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9519,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Angie",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7517,14 +7567,14 @@
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 9549,
-  "message" : "Skipped to next track successfully. The current track is Black Dog."
+  "message" : "Skipped to next track successfully. The current track is Digital Dreams."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 9549,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 294,
+    "name" : "Digital Dreams",
+    "remainedTime" : 260,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -7539,8 +7589,8 @@
   "user" : "henry26",
   "timestamp" : 9559,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 382,
+    "name" : "Angie",
+    "remainedTime" : 173,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7567,7 +7617,7 @@
   "timestamp" : 9579,
   "stats" : {
     "name" : "The Man",
-    "remainedTime" : 89,
+    "remainedTime" : 126,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7578,7 +7628,7 @@
   "timestamp" : 9579,
   "stats" : {
     "name" : "The Man",
-    "remainedTime" : 89,
+    "remainedTime" : 126,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7592,14 +7642,14 @@
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 9589,
-  "message" : "Skipped to next track successfully. The current track is Delicate."
+  "message" : "Skipped to next track successfully. The current track is Bohemian Rhapsody."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 9589,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 355,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7640,23 +7690,23 @@
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 9619,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9619,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Angie",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 9629,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -7694,8 +7744,8 @@
   "user" : "grace25",
   "timestamp" : 9649,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 194,
+    "name" : "Digital Dreams",
+    "remainedTime" : 160,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7710,8 +7760,8 @@
   "user" : "henry26",
   "timestamp" : 9659,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 282,
+    "name" : "Angie",
+    "remainedTime" : 73,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7748,8 +7798,8 @@
   "user" : "jack29",
   "timestamp" : 9679,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 222,
+    "name" : "The Man",
+    "remainedTime" : 26,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -7764,8 +7814,8 @@
   "user" : "alice22",
   "timestamp" : 9689,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 132,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 255,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7806,17 +7856,17 @@
   "command" : "prev",
   "user" : "david27",
   "timestamp" : 9719,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Angie."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9719,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Angie",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -7870,8 +7920,8 @@
   "user" : "grace25",
   "timestamp" : 9749,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 94,
+    "name" : "Digital Dreams",
+    "remainedTime" : 60,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7891,8 +7941,8 @@
   "user" : "henry26",
   "timestamp" : 9759,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 182,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 223,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
@@ -7918,8 +7968,8 @@
   "user" : "jack29",
   "timestamp" : 9779,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 122,
+    "name" : "Start Me Up",
+    "remainedTime" : 138,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -7929,8 +7979,8 @@
   "user" : "jack29",
   "timestamp" : 9779,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 122,
+    "name" : "Start Me Up",
+    "remainedTime" : 138,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -7945,8 +7995,8 @@
   "user" : "alice22",
   "timestamp" : 9789,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 32,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 155,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -7998,17 +8048,17 @@
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 9819,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9819,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Angie",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -8062,8 +8112,8 @@
   "user" : "grace25",
   "timestamp" : 9849,
   "stats" : {
-    "name" : "Begin Again",
-    "remainedTime" : 232,
+    "name" : "Night Pulse",
+    "remainedTime" : 200,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8078,8 +8128,8 @@
   "user" : "henry26",
   "timestamp" : 9859,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 182,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 223,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : true
@@ -8104,14 +8154,14 @@
   "command" : "prev",
   "user" : "jack29",
   "timestamp" : 9879,
-  "message" : "Returned to previous track successfully. The current track is Shape of You."
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 9879,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 233,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8131,8 +8181,8 @@
   "user" : "alice22",
   "timestamp" : 9889,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 164,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 55,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : true
@@ -8173,17 +8223,17 @@
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 9919,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9919,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Angie",
+    "remainedTime" : 73,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
@@ -8221,19 +8271,19 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 9949,
-  "message" : "Returned to previous track successfully. The current track is Begin Again."
+  "message" : "Returned to previous track successfully. The current track is Night Pulse."
 }, {
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 9949,
-  "message" : "Returned to previous track successfully. The current track is Black Dog."
+  "message" : "Returned to previous track successfully. The current track is Digital Dreams."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 9949,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 294,
+    "name" : "Digital Dreams",
+    "remainedTime" : 260,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8242,14 +8292,14 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 9959,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9959,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 182,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 223,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : true
@@ -8275,8 +8325,8 @@
   "user" : "jack29",
   "timestamp" : 9979,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 133,
+    "name" : "Start Me Up",
+    "remainedTime" : 112,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8286,8 +8336,8 @@
   "user" : "jack29",
   "timestamp" : 9979,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 133,
+    "name" : "Start Me Up",
+    "remainedTime" : 112,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8296,14 +8346,14 @@
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 9989,
-  "message" : "Skipped to next track successfully. The current track is Delicate."
+  "message" : "Skipped to next track successfully. The current track is Bohemian Rhapsody."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 9989,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 132,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 255,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -8402,14 +8452,14 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 10049,
-  "message" : "Returned to previous track successfully. The current track is Black Dog."
+  "message" : "Returned to previous track successfully. The current track is Digital Dreams."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 10049,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 294,
+    "name" : "Digital Dreams",
+    "remainedTime" : 260,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8419,8 +8469,8 @@
   "user" : "henry26",
   "timestamp" : 10059,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 182,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 223,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : true
@@ -8430,8 +8480,8 @@
   "user" : "henry26",
   "timestamp" : 10059,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 182,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 223,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : true
@@ -8467,8 +8517,8 @@
   "user" : "jack29",
   "timestamp" : 10079,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 33,
+    "name" : "Start Me Up",
+    "remainedTime" : 12,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -8483,8 +8533,8 @@
   "user" : "alice22",
   "timestamp" : 10089,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 32,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 155,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -8588,19 +8638,19 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 10149,
-  "message" : "Returned to previous track successfully. The current track is Black Dog."
+  "message" : "Returned to previous track successfully. The current track is Digital Dreams."
 }, {
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 10149,
-  "message" : "Returned to previous track successfully. The current track is Under Pressure."
+  "message" : "Returned to previous track successfully. The current track is Retro Rhythms."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 10149,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 244,
+    "name" : "Retro Rhythms",
+    "remainedTime" : 220,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8609,14 +8659,14 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10159,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 10159,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 182,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 223,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : true
@@ -8647,14 +8697,14 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10179,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 10179,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 204,
+    "name" : "Paint It Black",
+    "remainedTime" : 114,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -8663,14 +8713,14 @@
   "command" : "prev",
   "user" : "alice22",
   "timestamp" : 10189,
-  "message" : "Returned to previous track successfully. The current track is Delicate."
+  "message" : "Returned to previous track successfully. The current track is Bohemian Rhapsody."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 10189,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 355,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -8770,14 +8820,14 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 10249,
-  "message" : "Returned to previous track successfully. The current track is Under Pressure."
+  "message" : "Returned to previous track successfully. The current track is Retro Rhythms."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 10249,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 244,
+    "name" : "Retro Rhythms",
+    "remainedTime" : 220,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8786,14 +8836,14 @@
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 10259,
-  "message" : "Skipped to next track successfully. The current track is Paint It Black."
+  "message" : "Skipped to next track successfully. The current track is Night Pulse."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 10259,
   "stats" : {
-    "name" : "Paint It Black",
-    "remainedTime" : 202,
+    "name" : "Night Pulse",
+    "remainedTime" : 240,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -8824,8 +8874,8 @@
   "user" : "jack29",
   "timestamp" : 10279,
   "stats" : {
-    "name" : "Gimme Shelter",
-    "remainedTime" : 104,
+    "name" : "Paint It Black",
+    "remainedTime" : 14,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : true
@@ -8845,7 +8895,7 @@
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 10279,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -8855,7 +8905,7 @@
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 10279,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
@@ -9038,7 +9088,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[Melody Sunset, Gimme Shelter, Begin Again, Delicate]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9074,17 +9124,17 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10319,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9140,7 +9190,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10339,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Digital Dreams]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9176,22 +9226,22 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10339,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10339,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Under Pressure]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10339,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Under Pressure]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10349,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9232,12 +9282,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10349,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10349,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -9293,7 +9343,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10369,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9334,12 +9384,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10369,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10369,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -9548,7 +9598,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9589,12 +9639,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9650,7 +9700,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10439,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Under Pressure]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9686,22 +9736,22 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10439,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10439,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10439,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10449,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9742,12 +9792,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10449,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10449,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -9803,7 +9853,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10469,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9844,12 +9894,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10469,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10469,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10058,7 +10108,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10099,12 +10149,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -10160,7 +10210,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10539,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -10201,17 +10251,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10539,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10539,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10549,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -10252,12 +10302,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10549,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10549,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -10313,7 +10363,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10569,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10354,12 +10404,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10569,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10569,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10568,7 +10618,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10609,12 +10659,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -10670,7 +10720,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10639,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -10711,17 +10761,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10639,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10639,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10649,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -10762,12 +10812,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10649,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10649,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -10823,7 +10873,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10669,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10864,12 +10914,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10669,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10669,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -11078,7 +11128,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11119,12 +11169,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -11180,7 +11230,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10739,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -11221,17 +11271,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10739,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10739,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10749,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -11272,12 +11322,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10749,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10749,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -11333,7 +11383,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10769,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11374,12 +11424,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10769,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10769,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -11588,7 +11638,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11629,12 +11679,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -11690,7 +11740,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10839,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -11731,17 +11781,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10839,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10839,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10849,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -11782,12 +11832,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10849,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10849,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -11843,7 +11893,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10869,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11884,12 +11934,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10869,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10869,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12098,7 +12148,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12139,12 +12189,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12200,7 +12250,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10939,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -12241,17 +12291,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10939,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10939,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10949,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -12292,12 +12342,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10949,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10949,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -12353,7 +12403,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10969,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Heart Bliss, The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -12379,7 +12429,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10969,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -12389,17 +12439,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10969,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10969,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10969,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12608,7 +12658,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12649,12 +12699,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12710,7 +12760,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11039,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -12751,17 +12801,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11039,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11039,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11049,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -12802,12 +12852,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11049,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11049,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -12863,7 +12913,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11069,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -12904,12 +12954,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11069,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11069,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13118,7 +13168,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13159,12 +13209,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -13220,7 +13270,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11139,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13261,17 +13311,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11139,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11139,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11149,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -13312,12 +13362,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11149,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11149,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13373,7 +13423,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11169,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13414,12 +13464,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11169,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11169,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13628,7 +13678,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13669,12 +13719,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -13730,7 +13780,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11239,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13771,17 +13821,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11239,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11239,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11249,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -13822,12 +13872,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11249,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11249,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13883,7 +13933,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11269,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13924,12 +13974,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11269,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11269,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -14138,7 +14188,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14179,12 +14229,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -14240,7 +14290,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11339,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14281,17 +14331,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11339,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11339,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11349,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14332,12 +14382,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11349,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11349,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -14393,7 +14443,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11369,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14419,7 +14469,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11369,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -14429,17 +14479,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11369,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11369,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11369,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -14648,7 +14698,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14689,12 +14739,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -14750,7 +14800,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11439,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14791,17 +14841,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11439,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11439,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11449,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14842,12 +14892,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11449,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11449,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -14903,7 +14953,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11469,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14929,7 +14979,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11469,
-  "message" : "Unlike registered successfully."
+  "message" : "Like registered successfully."
 }, {
   "command" : "next",
   "user" : "jack29",
@@ -14939,17 +14989,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11469,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11469,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11469,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -15158,7 +15208,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Serendipity Serendipity, Gimme Shelter]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15199,12 +15249,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Gimme Shelter, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Gimme Shelter, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -15260,7 +15310,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11539,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Ethereal Rapture, Under Pressure]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15301,17 +15351,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11539,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Under Pressure, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11539,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Under Pressure, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11549,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15352,12 +15402,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11549,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11549,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -15413,7 +15463,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11569,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15454,12 +15504,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11569,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11569,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -15668,7 +15718,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Gimme Shelter, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15709,12 +15759,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Gimme Shelter, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Gimme Shelter, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -15770,7 +15820,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11639,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Under Pressure, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15811,17 +15861,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11639,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Under Pressure, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11639,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Under Pressure, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11649,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15862,12 +15912,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11649,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11649,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -15923,7 +15973,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11669,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15964,12 +16014,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11669,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11669,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -16178,7 +16228,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Gimme Shelter, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16219,12 +16269,12 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Gimme Shelter, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[Melody Sunset, Begin Again, Delicate, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Melody Sunset, Delicate, Gimme Shelter, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -16280,7 +16330,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11739,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Under Pressure, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16321,17 +16371,17 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11739,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Under Pressure, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11739,
-  "message" : "Liked songs:\n\t[Soul Love, Dream On, Black Dog, Serendipity Serendipity, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Soul Love, Digital Dreams, Serendipity Serendipity, Under Pressure, Ethereal Rapture]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11749,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16372,12 +16422,12 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11749,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11749,
-  "message" : "Liked songs:\n\t[Bliss Rhythm, Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Bliss Rhythm, Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -16433,7 +16483,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11769,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16474,12 +16524,12 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11769,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11769,
-  "message" : "Liked songs:\n\t[Pinnacle Euphoria, The Man, Heart Bliss]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Pinnacle Euphoria, Under Pressure, Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -23536,7 +23586,7 @@
   "timestamp" : 14759,
   "result" : [ {
     "name" : "Classic Vibes Odyssey #1",
-    "songs" : [ "Begin Again", "Don't", "The Man" ],
+    "songs" : [ "Begin Again", "Don't", "The Man", "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ],
     "visibility" : "private",
     "followers" : 0
   }, {
@@ -23576,7 +23626,7 @@
   "timestamp" : 14779,
   "result" : [ {
     "name" : "Vibey Harmonies Odyssey #1",
-    "songs" : [ "Delicate", "Under Pressure" ],
+    "songs" : [ "Delicate", "Under Pressure", "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ],
     "visibility" : "public",
     "followers" : 2
   }, {
@@ -23601,7 +23651,7 @@
     "followers" : 0
   }, {
     "name" : "Classic Rhythms Odyssey #2",
-    "songs" : [ "Angie", "Whatever You Need", "Delicate" ],
+    "songs" : [ "Angie", "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse", "Whatever You Need", "Delicate" ],
     "visibility" : "private",
     "followers" : 0
   } ]
@@ -23629,7 +23679,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 14799,
-  "result" : [ "Melody Sunset", "Begin Again", "Delicate", "Serendipity Serendipity" ]
+  "result" : [ "Melody Sunset", "Delicate", "Gimme Shelter", "Serendipity Serendipity" ]
 }, {
   "command" : "showPlaylists",
   "user" : "frank21",
@@ -23661,7 +23711,7 @@
     "followers" : 2
   }, {
     "name" : "Epic Melodies Safari #2",
-    "songs" : [ "Dream On", "Under Pressure", "Black Dog", "Begin Again", "The Unforgiven", "The Man" ],
+    "songs" : [ "Dream On", "Under Pressure", "Black Dog", "Begin Again", "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse", "The Unforgiven", "The Man" ],
     "visibility" : "private",
     "followers" : 0
   } ]
@@ -23669,7 +23719,7 @@
   "command" : "showPreferredSongs",
   "user" : "grace25",
   "timestamp" : 14819,
-  "result" : [ "Soul Love", "Dream On", "Black Dog", "Serendipity Serendipity", "Ethereal Rapture" ]
+  "result" : [ "Soul Love", "Digital Dreams", "Serendipity Serendipity", "Under Pressure", "Ethereal Rapture" ]
 }, {
   "command" : "showPlaylists",
   "user" : "henry26",
@@ -23681,7 +23731,7 @@
     "followers" : 0
   }, {
     "name" : "Dynamic Rhythms Escape #2",
-    "songs" : [ "Angie", "Stairway to Heaven", "Delicate", "Paint It Black", "Begin Again" ],
+    "songs" : [ "Angie", "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse", "Stairway to Heaven", "Delicate", "Paint It Black", "Begin Again" ],
     "visibility" : "public",
     "followers" : 4
   } ]
@@ -23689,7 +23739,7 @@
   "command" : "showPreferredSongs",
   "user" : "henry26",
   "timestamp" : 14829,
-  "result" : [ "Bliss Rhythm", "Stairway to Heaven" ]
+  "result" : [ "Bliss Rhythm", "Angie" ]
 }, {
   "command" : "showPlaylists",
   "user" : "irene33",
@@ -23729,7 +23779,7 @@
   "command" : "showPreferredSongs",
   "user" : "jack29",
   "timestamp" : 14849,
-  "result" : [ "Pinnacle Euphoria", "The Man", "Heart Bliss" ]
+  "result" : [ "Pinnacle Euphoria", "Under Pressure", "Paint It Black" ]
 }, {
   "command" : "getAllUsers",
   "timestamp" : 14849,
@@ -23741,5 +23791,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 14849,
-  "result" : [ "Stairway to Heaven", "Black Dog", "Dream On", "Whatever You Need", "Sad But True" ]
+  "result" : [ "Stairway to Heaven", "Under Pressure", "Whatever You Need", "Black Dog", "Sad But True" ]
 } ]

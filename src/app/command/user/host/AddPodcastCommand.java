@@ -74,9 +74,7 @@ public class AddPodcastCommand extends Command {
 
         Podcast newPodcast = new Podcast(podcastName, getUsername(), new ArrayList<>(episodes));
         user.addPodcast(newPodcast, library);
-//        if(getTimestamp() == 53){
-//            System.out.println(newPodcast);
-//        }
+
         result.put("message", getUsername() + " has added new podcast successfully.");
     }
 }

@@ -1,5 +1,15 @@
 Starting audit...
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:64:5: Method length is 206 lines (max allowed is 150). [MethodLength]
-[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\CommandParser.java:59:5: Method length is 174 lines (max allowed is 150). [MethodLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\playlist\AddRemoveInPlaylistCommand.java:25:5: Class 'AddRemoveInPlaylistCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AddRemoveInPlaylistCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\playlist\AddRemoveInPlaylistCommand.java:39: Line is longer than 100 characters (found 109). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\playlist\AddRemoveInPlaylistCommand.java:62:39: Parameter playlist should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\playlist\AddRemoveInPlaylistCommand.java:62:58: Parameter song should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\playlist\AddRemoveInPlaylistCommand.java:72:40: Parameter playlist should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\playlist\AddRemoveInPlaylistCommand.java:72:59: Parameter album should be final. [FinalParameters]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\searchBar\SearchCommand.java:64:5: Method length is 204 lines (max allowed is 150). [MethodLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\user\artist\RemoveAlbumCommand.java:21: Line is longer than 100 characters (found 103). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\user\artist\RemoveAlbumCommand.java:26:5: Class 'RemoveAlbumCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RemoveAlbumCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\user\artist\RemoveAlbumCommand.java:59: Line is longer than 100 characters (found 106). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\command\user\artist\RemoveAlbumCommand.java:67: Line is longer than 100 characters (found 109). [LineLength]
+[ERROR] C:\Users\Angi\Desktop\GlobalWaves\.\src\app\CommandParser.java:60:5: Method length is 179 lines (max allowed is 150). [MethodLength]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 12 errors.

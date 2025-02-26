@@ -53,7 +53,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 240,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "createPlaylist",
   "user" : "carol19",

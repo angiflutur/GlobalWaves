@@ -197,7 +197,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 3240,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -289,7 +289,7 @@
   "timestamp" : 3438,
   "result" : [ {
     "name" : "My favourite songs",
-    "songs" : [ ],
+    "songs" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ],
     "visibility" : "public",
     "followers" : 0
   } ]
@@ -297,15 +297,15 @@
   "command" : "load",
   "user" : "rhythmicrider58",
   "timestamp" : 3440,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "rhythmicrider58",
   "timestamp" : 3445,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "user" : "rhythmicrider58",
   "command" : "printCurrentPage",
   "timestamp" : 7000,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Vibrant Echoes]\n\nFollowed playlists:\n\t[]"
 } ]

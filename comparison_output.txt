@@ -1,166 +1,34 @@
-Diferență la timestampul 1009:
-  File 1: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":1009,"message":"Successfully added to playlist."}
-  File 2: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":1009,"message":"Please load a source before adding to or removing from the playlist."}
-
-Diferență la timestampul 1010:
-  File 1: {"command":"removeAlbum","user":"melodymaster","timestamp":1010,"message":"melodymaster can't delete this album."}
-  File 2: {"command":"search","user":"alice22","timestamp":1010,"results":["Hustle Hard"],"message":"Search returned 1 results"}
-
-Diferență la timestampul 1010:
-  File 1: {"command":"search","user":"alice22","timestamp":1010,"message":"Search returned 1 results","results":["Hustle Hard"]}
-  File 2: {"command":"select","user":"alice22","timestamp":1011,"message":"Successfully selected Hustle Hard."}
-
-Diferență la timestampul 1011:
-  File 1: {"command":"select","user":"alice22","timestamp":1011,"message":"Successfully selected Hustle Hard."}
-  File 2: {"command":"load","user":"alice22","timestamp":1012,"message":"Playback loaded successfully."}
-
-Diferență la timestampul 1012:
-  File 1: {"command":"load","user":"alice22","timestamp":1012,"message":"Playback loaded successfully."}
-  File 2: {"command":"addRemoveInPlaylist","user":"bob35","timestamp":1012,"message":"Successfully added to playlist."}
-
-Diferență la timestampul 1012:
-  File 1: {"command":"addRemoveInPlaylist","user":"bob35","timestamp":1012,"message":"Successfully added to playlist."}
-  File 2: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":1013,"message":"Successfully added to playlist."}
-
-Diferență la timestampul 1013:
-  File 1: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":1013,"message":"Successfully added to playlist."}
-  File 2: {"command":"search","user":"alice22","timestamp":1014,"results":["Butterfly Effect"],"message":"Search returned 1 results"}
-
-Diferență la timestampul 1014:
-  File 1: {"command":"search","user":"alice22","timestamp":1014,"message":"Search returned 1 results","results":["Butterfly Effect"]}
-  File 2: {"command":"select","user":"alice22","timestamp":1015,"message":"Successfully selected Butterfly Effect."}
-
-Diferență la timestampul 1015:
-  File 1: {"command":"select","user":"alice22","timestamp":1015,"message":"Successfully selected Butterfly Effect."}
-  File 2: {"command":"load","user":"alice22","timestamp":1016,"message":"Playback loaded successfully."}
-
-Diferență la timestampul 1016:
-  File 1: {"command":"load","user":"alice22","timestamp":1016,"message":"Playback loaded successfully."}
-  File 2: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":1017,"message":"Successfully added to playlist."}
-
-Diferență la timestampul 1017:
-  File 1: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":1017,"message":"Successfully added to playlist."}
-  File 2: {"command":"search","user":"alice22","timestamp":1018,"results":["Moves Like Jagger"],"message":"Search returned 1 results"}
-
-Diferență la timestampul 1018:
-  File 1: {"command":"search","user":"alice22","timestamp":1018,"message":"Search returned 1 results","results":["Moves Like Jagger"]}
-  File 2: {"command":"select","user":"alice22","timestamp":1019,"message":"Successfully selected Moves Like Jagger."}
-
-Diferență la timestampul 1019:
-  File 1: {"command":"select","user":"alice22","timestamp":1019,"message":"Successfully selected Moves Like Jagger."}
-  File 2: {"command":"load","user":"alice22","timestamp":1020,"message":"Playback loaded successfully."}
-
-Diferență la timestampul 1020:
-  File 1: {"command":"load","user":"alice22","timestamp":1020,"message":"Playback loaded successfully."}
-  File 2: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":1021,"message":"Successfully added to playlist."}
-
-Diferență la timestampul 1021:
-  File 1: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":1021,"message":"Successfully added to playlist."}
-  File 2: {"command":"search","user":"carol19","timestamp":1021,"results":["My favourite songs"],"message":"Search returned 1 results"}
-
-Diferență la timestampul 1021:
-  File 1: {"command":"search","user":"carol19","timestamp":1021,"message":"Search returned 1 results","results":["My favourite songs"]}
-  File 2: {"command":"search","user":"alice22","timestamp":1022,"results":["Dream Chaser"],"message":"Search returned 1 results"}
-
-Diferență la timestampul 1022:
-  File 1: {"command":"search","user":"alice22","timestamp":1022,"message":"Search returned 1 results","results":["Dream Chaser"]}
-  File 2: {"command":"select","user":"alice22","timestamp":1023,"message":"Successfully selected Dream Chaser."}
-
-Diferență la timestampul 1023:
-  File 1: {"command":"select","user":"alice22","timestamp":1023,"message":"Successfully selected Dream Chaser."}
-  File 2: {"command":"load","user":"alice22","timestamp":1024,"message":"Playback loaded successfully."}
-
-Diferență la timestampul 1024:
-  File 1: {"command":"load","user":"alice22","timestamp":1024,"message":"Playback loaded successfully."}
-  File 2: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":1025,"message":"Successfully added to playlist."}
-
-Diferență la timestampul 1025:
-  File 1: {"command":"addRemoveInPlaylist","user":"alice22","timestamp":1025,"message":"Successfully added to playlist."}
-  File 2: {"command":"select","user":"carol19","timestamp":1025,"message":"Successfully selected My favourite songs."}
-
-Diferență la timestampul 1025:
-  File 1: {"command":"select","user":"carol19","timestamp":1025,"message":"Successfully selected My favourite songs."}
-  File 2: {"command":"search","user":"alice22","timestamp":1026,"results":["My favourite songs"],"message":"Search returned 1 results"}
-
-Diferență la timestampul 1026:
-  File 1: {"command":"search","user":"alice22","timestamp":1026,"message":"Search returned 1 results","results":["My favourite songs"]}
-  File 2: {"command":"select","user":"alice22","timestamp":1027,"message":"Successfully selected My favourite songs."}
-
-Diferență la timestampul 1027:
-  File 1: {"command":"select","user":"alice22","timestamp":1027,"message":"Successfully selected My favourite songs."}
-  File 2: {"command":"follow","user":"carol19","timestamp":1027,"message":"Playlist followed successfully."}
-
-Diferență la timestampul 1027:
-  File 1: {"command":"follow","user":"carol19","timestamp":1027,"message":"Playlist followed successfully."}
-  File 2: {"command":"load","user":"alice22","timestamp":1028,"message":"Playback loaded successfully."}
-
-Diferență la timestampul 1028:
-  File 1: {"command":"load","user":"alice22","timestamp":1028,"message":"Playback loaded successfully."}
-  File 2: {"command":"status","user":"alice22","timestamp":1035,"stats":{"name":"Vibrant Echoes","remainedTime":243,"repeat":"No Repeat","shuffle":false,"paused":false}}
-
-Diferență la timestampul 1035:
-  File 1: {"command":"status","user":"alice22","timestamp":1035,"stats":{"name":"Vibrant Echoes","remainedTime":243,"repeat":"No Repeat","shuffle":false,"paused":false}}
-  File 2: {"command":"repeat","user":"alice22","timestamp":1036,"message":"Repeat mode changed to repeat all."}
-
-Diferență la timestampul 1036:
-  File 1: {"command":"repeat","user":"alice22","timestamp":1036,"message":"Repeat mode changed to repeat all."}
-  File 2: {"command":"status","user":"alice22","timestamp":1037,"stats":{"name":"Vibrant Echoes","remainedTime":241,"repeat":"Repeat All","shuffle":false,"paused":false}}
-
-Diferență la timestampul 1037:
-  File 1: {"command":"status","user":"alice22","timestamp":1037,"stats":{"name":"Vibrant Echoes","remainedTime":241,"repeat":"Repeat All","shuffle":false,"paused":false}}
-  File 2: {"user":"alice22","command":"printCurrentPage","timestamp":1038,"message":"Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"}
-
-Diferență la timestampul 1038:
-  File 1: {"user":"alice22","command":"printCurrentPage","timestamp":1038,"message":"Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"}
-  File 2: {"command":"search","user":"carol19","timestamp":1039,"results":[],"message":"Search returned 0 results"}
-
-Diferență la timestampul 1039:
-  File 1: {"command":"search","user":"carol19","timestamp":1039,"message":"Search returned 0 results","results":[]}
-  File 2: {"user":"carol19","command":"printCurrentPage","timestamp":1040,"message":"Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"}
-
-Diferență la timestampul 1040:
-  File 1: {"user":"carol19","command":"printCurrentPage","timestamp":1040,"message":"Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]"}
-  File 2: {"command":"status","user":"alice22","timestamp":2099,"stats":{"name":"Hustle Hard","remainedTime":7,"repeat":"Repeat All","shuffle":false,"paused":false}}
-
 Diferență la timestampul 2099:
   File 1: {"command":"status","user":"alice22","timestamp":2099,"stats":{"name":"Dream Chaser","remainedTime":7,"repeat":"Repeat All","shuffle":false,"paused":false}}
-  File 2: {"command":"select","user":"carol19","timestamp":2100,"message":"The selected ID is too high."}
-
-Diferență la timestampul 2100:
-  File 1: {"command":"select","user":"carol19","timestamp":2100,"message":"The selected ID is too high."}
-  File 2: {"command":"repeat","user":"alice22","timestamp":2100,"message":"Repeat mode changed to repeat current song."}
-
-Diferență la timestampul 2100:
-  File 1: {"command":"repeat","user":"alice22","timestamp":2100,"message":"Repeat mode changed to repeat current song."}
-  File 2: {"command":"status","user":"alice22","timestamp":2101,"stats":{"name":"Hustle Hard","remainedTime":5,"repeat":"Repeat Current Song","shuffle":false,"paused":false}}
+  File 2: {"command":"status","user":"alice22","timestamp":2099,"stats":{"name":"Night Pulse","remainedTime":199,"repeat":"Repeat All","shuffle":false,"paused":false}}
 
 Diferență la timestampul 2101:
   File 1: {"command":"status","user":"alice22","timestamp":2101,"stats":{"name":"Dream Chaser","remainedTime":5,"repeat":"Repeat Current Song","shuffle":false,"paused":false}}
-  File 2: {"command":"status","user":"alice22","timestamp":2334,"stats":{"name":"Hustle Hard","remainedTime":4,"repeat":"Repeat Current Song","shuffle":false,"paused":false}}
+  File 2: {"command":"status","user":"alice22","timestamp":2101,"stats":{"name":"Night Pulse","remainedTime":197,"repeat":"Repeat Current Song","shuffle":false,"paused":false}}
 
 Diferență la timestampul 2102:
   File 1: {"command":"changePage","user":"carol19","timestamp":2102,"message":"carol19 accessed LikedContent successfully."}
-  File 2: {"command":"follow","user":"carol19","timestamp":2335,"message":"Please select a source before following or unfollowing."}
+  File 2: {"command":"status","user":"alice22","timestamp":2334,"stats":{"name":"Night Pulse","remainedTime":204,"repeat":"Repeat Current Song","shuffle":false,"paused":false}}
 
 Diferență la timestampul 2334:
   File 1: {"command":"status","user":"alice22","timestamp":2334,"stats":{"name":"Dream Chaser","remainedTime":182,"repeat":"Repeat Current Song","shuffle":false,"paused":false}}
-  File 2: {"command":"repeat","user":"alice22","timestamp":2335,"message":"Repeat mode changed to no repeat."}
+  File 2: {"command":"follow","user":"carol19","timestamp":2335,"message":"Please select a source before following or unfollowing."}
 
 Diferență la timestampul 2335:
   File 1: {"command":"follow","user":"carol19","timestamp":2335,"message":"Please select a source before following or unfollowing."}
-  File 2: {"command":"status","user":"alice22","timestamp":2336,"stats":{"name":"Hustle Hard","remainedTime":2,"repeat":"No Repeat","shuffle":false,"paused":false}}
+  File 2: {"command":"repeat","user":"alice22","timestamp":2335,"message":"Repeat mode changed to no repeat."}
 
 Diferență la timestampul 2335:
   File 1: {"command":"repeat","user":"alice22","timestamp":2335,"message":"Repeat mode changed to no repeat."}
-  File 2: {"user":"carol19","command":"printCurrentPage","timestamp":2338,"message":"Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"}
+  File 2: {"command":"status","user":"alice22","timestamp":2336,"stats":{"name":"Night Pulse","remainedTime":202,"repeat":"No Repeat","shuffle":false,"paused":false}}
 
 Diferență la timestampul 2336:
   File 1: {"command":"status","user":"alice22","timestamp":2336,"stats":{"name":"Dream Chaser","remainedTime":180,"repeat":"No Repeat","shuffle":false,"paused":false}}
-  File 2: {"command":"status","user":"alice22","timestamp":3600,"stats":{"name":"","remainedTime":0,"repeat":"No Repeat","shuffle":false,"paused":true}}
+  File 2: {"user":"carol19","command":"printCurrentPage","timestamp":2338,"message":"Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]"}
 
 Diferență la timestampul 2338:
   File 1: {"user":"carol19","command":"printCurrentPage","timestamp":2338,"message":"Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]"}
-  File 2: null
+  File 2: {"command":"status","user":"alice22","timestamp":3600,"stats":{"name":"","remainedTime":0,"repeat":"No Repeat","shuffle":false,"paused":true}}
 
 Diferență la timestampul 3600:
   File 1: {"command":"status","user":"alice22","timestamp":3600,"stats":{"name":"","remainedTime":0,"repeat":"No Repeat","shuffle":false,"paused":true}}

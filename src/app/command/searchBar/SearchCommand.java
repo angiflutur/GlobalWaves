@@ -175,8 +175,6 @@ public class SearchCommand extends Command {
                         for (Album album : albumOwner.getAlbums()) {
                             if (album.getName().toLowerCase().
                                     startsWith(filterName.toLowerCase())) {
-                                System.out.println("Album Name: "
-                                        + album.getName() + " " + filterName);
                                 filteredAlbums.add(album);
                             }
                         }

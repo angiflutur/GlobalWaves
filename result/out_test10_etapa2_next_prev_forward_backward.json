@@ -28,7 +28,7 @@
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 195,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
@@ -129,8 +129,8 @@
   "user" : "bob35",
   "timestamp" : 655,
   "stats" : {
-    "name" : "Vibrant Echoes",
-    "remainedTime" : 245,
+    "name" : "Shape of You",
+    "remainedTime" : 228,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -219,8 +219,8 @@
   "user" : "bob35",
   "timestamp" : 1049,
   "stats" : {
-    "name" : "Vibrant Echoes",
-    "remainedTime" : 101,
+    "name" : "Exploring Sonic Landscapes",
+    "remainedTime" : 2551,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -229,14 +229,14 @@
   "command" : "forward",
   "user" : "bob35",
   "timestamp" : 1050,
-  "message" : "The loaded source is not a podcast."
+  "message" : "Skipped forward successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 1051,
   "stats" : {
-    "name" : "Vibrant Echoes",
-    "remainedTime" : 99,
+    "name" : "Exploring Sonic Landscapes",
+    "remainedTime" : 2459,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -262,8 +262,8 @@
   "user" : "bob35",
   "timestamp" : 1389,
   "stats" : {
-    "name" : "Vibrant Echoes",
-    "remainedTime" : 61,
+    "name" : "Exploring Sonic Landscapes",
+    "remainedTime" : 2123,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -272,14 +272,14 @@
   "command" : "backward",
   "user" : "bob35",
   "timestamp" : 1390,
-  "message" : "The loaded source is not a podcast."
+  "message" : "Rewound successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 1391,
   "stats" : {
-    "name" : "Vibrant Echoes",
-    "remainedTime" : 59,
+    "name" : "Exploring Sonic Landscapes",
+    "remainedTime" : 2211,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
